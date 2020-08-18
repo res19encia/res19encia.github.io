@@ -531,6 +531,18 @@ b, strong {
   }
 }
 
+.mesh {
+  max-width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #fff;
+}
+
+.prx {
+    position: absolute;
+    overflow: hidden;
+}
 
 @media (max-width: 575.98px) {
   .embody[class^=pb-], .embody[class*=" pb-"] {
