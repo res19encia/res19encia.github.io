@@ -1,28 +1,63 @@
 let ico;
-let ICOSUBDIVISION = 1;
+const ICOSUBDIVISION = 1;
+const X = 0.525731112119133606;
+const Z = 0.850650808352039932;
+const VDATA = [
+  [ -X, 0.0, Z ],
+  [ X, 0.0, Z ],
+  [ -X, 0.0, -Z ],
+  [ X, 0.0, -Z ],
+  [ 0.0, Z, X ],
+  [ 0.0, Z, -X ],
+  [ 0.0, -Z, X ],
+  [ 0.0, -Z, -X ],
+  [ Z, X, 0.0 ],
+  [ -Z, X, 0.0 ],
+  [ Z, -X, 0.0 ],
+  [ -Z, -X, 0.0 ]
+];
+
+const TI = [
+  [ 0, 4, 1 ],
+  [ 0, 9, 4 ],
+  [ 9, 5, 4 ],
+  [ 4, 5, 8 ],
+  [ 4, 8, 1 ],
+  [ 8, 10, 1 ],
+  [ 8, 3, 10 ],
+  [ 5, 3, 8 ],
+  [ 5, 2, 3 ],
+  [ 2, 7, 3 ],
+  [ 7, 10, 3 ],
+  [ 7, 6, 10 ],
+  [ 7, 11, 6 ],
+  [ 11, 0, 6 ],
+  [ 0, 1, 6 ],
+  [ 6, 1, 10 ],
+  [ 9, 0, 11 ],
+  [ 9, 11, 2 ],
+  [ 9, 2, 5 ],
+  [ 7, 2, 11 ]
+];
 
 function setup() {
   const mCanvas = createCanvas(windowWidth, windowHeight, WEBGL);
+  smooth();
   ico = new Icosahedron();
-  noStroke();
-  fill(255, 0, 0);
 }
 
 function draw() {
-  let rx = frameCount / 800;
-  let ry = frameCount / 430;
   background(255);
+  noFill();
+  stroke(0);
 
-  fill(255, 0, 0);
   let f1 = createVector();
   let f2 = createVector();
   let f3 = createVector();
-  stroke(0);
 
   push();
-  //translate(width * 0.5, height * 0.5);
-  rotateX(rx);
-  rotateY(ry);
+  rotateX(frameCount / 800);
+  rotateY(frameCount / 420);
 
   for (let i = 0; i < ico.vertexList.length; i += 9) {
     f1.x = ico.vertexList[i] * 200;
@@ -35,7 +70,6 @@ function draw() {
     f3.y = ico.vertexList[i+7] * 200;
     f3.z = ico.vertexList[i+8] * 200;
 
-    noFill();
     beginShape();
     vertex(f1.x, f1.y, f1.z);
     vertex(f2.x, f2.y, f2.z);
@@ -49,69 +83,20 @@ class Icosahedron {
   constructor() {
     this.vertexNormalsList = [];
     this.vertexList = [];
-    this.texCoordsList = [];
-    this.indicesList = [];
 
-    const X = 0.525731112119133606;
-    const Z = 0.850650808352039932;
-
-    this.vdata = [ [ -X, 0.0, Z ], 
-                  [ X, 0.0, Z ], 
-                  [ -X, 0.0, -Z ], 
-                  [ X, 0.0, -Z ], 
-                  [ 0.0, Z, X ], 
-                  [ 0.0, Z, -X ], 
-                  [ 0.0, -Z, X ], 
-                  [ 0.0, -Z, -X ], 
-                  [ Z, X, 0.0 ], 
-                  [ -Z, X, 0.0 ], 
-                  [ Z, -X, 0.0 ], 
-                  [ -Z, -X, 0.0 ] 
-                 ];
-
-    this.tindices = [ [ 0, 4, 1 ],
-                     [ 0, 9, 4 ],
-                     [ 9, 5, 4 ],
-                     [ 4, 5, 8 ],
-                     [ 4, 8, 1 ],
-                     [ 8, 10, 1 ],
-                     [ 8, 3, 10 ],
-                     [ 5, 3, 8 ],
-                     [ 5, 2, 3 ],
-                     [ 2, 7, 3 ],
-                     [ 7, 10, 3 ],
-                     [ 7, 6, 10 ],
-                     [ 7, 11, 6 ],
-                     [ 11, 0, 6 ],
-                     [ 0, 1, 6 ],
-                     [ 6, 1, 10 ],
-                     [ 9, 0, 11 ],
-                     [ 9, 11, 2 ],
-                     [ 9, 2, 5 ],
-                     [ 7, 2, 11 ] ];
-
-    for (let i = 0; i < this.tindices.length; ++i) {
+    for (let i = 0; i < TI.length; ++i) {
       this.subdivide(
-        this.vdata[this.tindices[i][0]],
-        this.vdata[this.tindices[i][1]],
-        this.vdata[this.tindices[i][2]],
+        VDATA[TI[i][0]],
+        VDATA[TI[i][1]],
+        VDATA[TI[i][2]],
         ICOSUBDIVISION);
     }
   }
 
   norm(v){
-    let len = 0;
-
-    for(let i = 0; i < 3; ++i){
-      len += v[i] * v[i];
-    }
-
+    let len = (v[0] * v[0]) + (v[1] * v[1]) + (v[2] * v[2]);
     len = Math.sqrt(len);
-
-    for(let i = 0; i < 3; ++i){
-      v[i] /= len;
-    }
-    return v;
+    return [v[0] / len, v[1] / len, v[2] / len];
   }
 
   add(v) {
