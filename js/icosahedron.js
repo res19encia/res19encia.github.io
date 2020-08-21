@@ -2,7 +2,7 @@ let ico;
 let ICOSUBDIVISION = 2;
 
 function setup() {
-  createCanvas(800, 600, WEBGL);
+  const mCanvas = createCanvas(windowWidth, windowHeight, WEBGL);
   ico = new Icosahedron();
   noStroke();
   fill(255, 0, 0);
@@ -17,11 +17,10 @@ function draw() {
   let f1 = createVector();
   let f2 = createVector();
   let f3 = createVector();
-  let col = 0;
   stroke(0);
 
   push();
-  translate(width * 0.5, height * 0.5, 0);
+  //translate(width * 0.5, height * 0.5);
   rotateX(rx);
   rotateY(ry);
 
@@ -36,40 +35,23 @@ function draw() {
     f3.y = ico.vertexList[i+7] * 200;
     f3.z = ico.vertexList[i+8] * 200;
 
-    if (col == 0) {
-      fill(255,60,0);
-      col++;
-    } else if (col == 1) {
-      fill(100,255,0);
-      col++;
-    } else if (col == 2) {
-      fill(255,180,0);
-      col++;
-    } else {
-      fill(0,255,255);
-      col = 0;
-    }
-
+    fill(255);
     beginShape();
     vertex(f1.x, f1.y, f1.z);
     vertex(f2.x, f2.y, f2.z);
     vertex(f3.x, f3.y, f3.z);
     endShape(CLOSE);
-
   }
   pop();
-
-  fill(0,0,0);
-  text("icosahedron division: "+int(ICOSUBDIVISION),20,40);
-  text("vertices: "+int(ico.vertexList.length),20,60);
-  text("fps: "+int(frameRate),20,80);
-  text("press up & down to change division",20,100);
 }
 
 class Icosahedron {
   constructor() {
     this.vertexNormalsList = [];
     this.vertexList = [];
+    this.texCoordsList = [];
+    this.indicesList = [];
+
     const X = 0.525731112119133606;
     const Z = 0.850650808352039932;
 
@@ -108,11 +90,7 @@ class Icosahedron {
                      [ 9, 2, 5 ],
                      [ 7, 2, 11 ] ];
 
-    this.texCoordsList = [];
-    this.indicesList = [];
-
-    // Iterate over points
-    for (let i = 0; i < 20; ++i) {
+    for (let i = 0; i < this.tindices.length; ++i) {
       this.subdivide(
         this.vdata[this.tindices[i][0]],
         this.vdata[this.tindices[i][1]],
