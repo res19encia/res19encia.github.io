@@ -1,5 +1,5 @@
 let ico;
-let ICOSUBDIVISION = 2;
+let ICOSUBDIVISION = 1;
 
 function setup() {
   const mCanvas = createCanvas(windowWidth, windowHeight, WEBGL);
@@ -35,7 +35,7 @@ function draw() {
     f3.y = ico.vertexList[i+7] * 200;
     f3.z = ico.vertexList[i+8] * 200;
 
-    fill(255);
+    noFill();
     beginShape();
     vertex(f1.x, f1.y, f1.z);
     vertex(f2.x, f2.y, f2.z);
