@@ -41,13 +41,14 @@ const TI = [
 ];
 
 function setup() {
-  const mCanvas = createCanvas(windowWidth, windowHeight, WEBGL);
+  const mCanvas = createCanvas(500, 500, WEBGL);
+  mCanvas.parent('icosa');
   smooth();
   ico = new Icosahedron();
 }
 
 function draw() {
-  background(255);
+  background(255,255,255,0);
   noFill();
   stroke(0);
 
