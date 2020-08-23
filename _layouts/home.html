@@ -12,8 +12,10 @@
         <div class="home-subtitle">
           {{ page. subtitle }}
         </div>
+
         <div class="home-language-menu">
-          <a href="{{ site.baseurl }}/pt/">PT</a> | <a href="{{ site.baseurl }}/en/">EN</a>
+          <a href="{{ site.baseurl }}{{ page.url | replace: 'en','pt' }}">PT</a> | 
+          <a href="{{ site.baseurl }}{{ page.url | replace: 'pt','en' }}">EN</a>
         </div>
       </div>  
     </div>
