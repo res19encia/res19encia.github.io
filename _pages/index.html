@@ -1,10 +1,14 @@
+---
+layout: none
+permalink: /
+---
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" >
         <title>VIRUS-19</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="i/favicon.ico" type="image/x-icon">
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&amp;family=Roboto:wght@100;200;300;400;500;600;700;800;900&amp;subset=latin&amp;display=swap" rel="stylesheet">
         <!-- Bootstrap 4.5.0 CSS -->
@@ -46,8 +50,8 @@
                             </div>
                             <div class="col-lg-6 col-md-5 col-6 d-flex justify-content-end align-items-center">
                                 <a href="#" data-toggle="modal" data-target="#curatorsBalls">
-                                    <img src="i/menu.svg" class="w-40 vibrate slide-right" />
-                                    <img src="i/menu.svg" class="w-40 vibrate" />
+                                    <img src="{{ site.baseurl }}/i/menu.svg" class="w-40 vibrate slide-right" />
+                                    <img src="{{ site.baseurl }}/i/menu.svg" class="w-40 vibrate" />
                                 </a>
                             </div>
                         </div>
@@ -78,14 +82,14 @@
         <!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
         <!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
         <!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
         <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
         <!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
-        <script src="js/jquery.maskedinput.min.js"></script>
+        <script src="{{ site.baseurl }}/js/jquery.maskedinput.min.js"></script>
         <!-- Startup JS (Custom js for all blocks) -->
-        <script src="js/script.js"></script>
+        <script src="{{ site.baseurl }}/js/script.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.min.js"></script>
-        <script src="js/icosahedron.js"></script>
+        <script src="{{ site.baseurl }}/js/icosahedron.js"></script>
     </body>
 </html>

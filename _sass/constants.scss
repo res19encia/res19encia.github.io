@@ -1,0 +1,30 @@
+$FONT-TEXT: 'Open Sans', sans-serif;
+
+$SIZE-TITLE: 1.6rem;
+$SIZE-TEXT: 0.9rem;
+$SIZE-TITLE-MOBILE: 1.4rem;
+$SIZE-TEXT-MOBILE: 0.8rem;
+
+$COLOR-BACKGROUND: #fff;
+$COLOR-TEXT: #444;
+$COLOR-ACCENT: #E93A7D;
+
+$COLOR-LINK: $COLOR-ACCENT;
+$COLOR-LINK-HOVER: $COLOR-TEXT;
+
+$DESKTOP-WIDTH-SITE: 1280px;
+$COLUMN-WIDTH: $DESKTOP-WIDTH-SITE/4;
+
+$TRANSITION-PERIOD: 0.1s;
+
+$two_columns: 2 * $COLUMN-WIDTH;
+$three_columns: 3 * $COLUMN-WIDTH;
+
+@mixin media-query($canvas) {
+  @if $canvas == DESKTOP {
+   @media only screen and (min-width: $two_columns) { @content; }
+  }
+  @else if $canvas == LGDESKTOP {
+   @media only screen and (min-width: $three_columns) { @content; }
+  }
+}

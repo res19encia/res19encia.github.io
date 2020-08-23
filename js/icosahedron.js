@@ -44,13 +44,16 @@ const TI = [
 ];
 
 function setup() {
-  const mCanvas = createCanvas(windowWidth * 2, windowHeight, WEBGL);
+  const mCanvas = createCanvas(2 * windowWidth, windowHeight, WEBGL);
   mCanvas.parent('icosa');
   smooth();
   ico = new Icosahedron();
   rotataeXangle = 0;
   rotateYangle = 0;
   icoRadius = height / 2.5;
+}
+function windowResized() {
+  resizeCanvas(2 * windowWidth, windowHeight);
 }
 
 function draw() {
