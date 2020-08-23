@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Laboratório de Emergência | COVID 19
+title: VIRUS-19
 permalink: /
 ---
 
