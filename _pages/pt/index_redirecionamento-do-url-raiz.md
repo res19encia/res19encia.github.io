@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Laboratório de Emergência | COVID 19
-permalink: /aaaa
+permalink: /
 ---
 
 <!--
