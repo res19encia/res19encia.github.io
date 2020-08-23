@@ -4,16 +4,17 @@
 <html>
   <head>
     {% include head.html %}
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <div class="home-wrapper">
       <div id="icosa" class="home-background"></div>
       <div class="home-foreground">
-        <div class="home-subtitle">
+        <div class="home-subtitle" data-aos-duration="600" data-aos="fade-down" data-aos-delay="0">
           {{ page. subtitle }}
         </div>
 
-        <div class="home-language-menu">
+        <div class="home-language-menu" data-aos-duration="600" data-aos="fade-down" data-aos-delay="600">
           <a href="{{ site.baseurl }}{{ page.url | replace: 'en','pt' }}">PT</a> | 
           <a href="{{ site.baseurl }}{{ page.url | replace: 'pt','en' }}">EN</a>
         </div>
@@ -22,4 +23,5 @@
   </body>
   <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.min.js"></script>
   <script src="{{ site.baseurl }}/js/icosahedron.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 </html>

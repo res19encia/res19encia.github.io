@@ -2,6 +2,7 @@ let ico;
 let rotataeXangle, rotateYangle, icoRadius;
 
 const ICOSUBDIVISION = 1;
+const WIDTH_SCALE_TRANSLATE = 1.95;
 const X = 0.525731112119133606;
 const Z = 0.850650808352039932;
 
@@ -44,16 +45,18 @@ const TI = [
 ];
 
 function setup() {
-  const mCanvas = createCanvas(2 * windowWidth, windowHeight, WEBGL);
+  const mCanvas = createCanvas(WIDTH_SCALE_TRANSLATE * windowWidth, windowHeight, WEBGL);
   mCanvas.parent('icosa');
   smooth();
+  noLoop();
   ico = new Icosahedron();
-  rotataeXangle = 0;
-  rotateYangle = 0;
+  rotataeXangle = -0.2;
+  rotateYangle = -0.3;
   icoRadius = height / 2.5;
 }
+
 function windowResized() {
-  resizeCanvas(2 * windowWidth, windowHeight);
+  resizeCanvas(WIDTH_SCALE_TRANSLATE * windowWidth, windowHeight);
 }
 
 function draw() {
@@ -155,3 +158,8 @@ class Icosahedron {
     this.subdivide(v12, v23, v31, depth - 1);
   }
 }
+
+
+$(document).ready(function() {
+  AOS.init();
+});
