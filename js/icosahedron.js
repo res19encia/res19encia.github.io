@@ -46,6 +46,7 @@ const TI = [
 
 function setup() {
   const mCanvas = createCanvas(WIDTH_SCALE_TRANSLATE * windowWidth, windowHeight, WEBGL);
+  addScreenPositionFunction();
   mCanvas.parent('icosa');
   smooth();
   noLoop();
@@ -57,36 +58,28 @@ function setup() {
 
 function windowResized() {
   resizeCanvas(WIDTH_SCALE_TRANSLATE * windowWidth, windowHeight);
+  addScreenPositionFunction();
+  icoRadius = height / 2.5;
 }
 
 function draw() {
-  background(255,255,255,0);
+  background(255, 255, 255);
   noFill();
   stroke(0);
-
-  let f1 = createVector();
-  let f2 = createVector();
-  let f3 = createVector();
 
   push();
   rotateX(rotataeXangle);
   rotateY(rotateYangle);
 
-  for (let i = 0; i < ico.vertexList.length; i += 9) {
-    f1.x = ico.vertexList[i+0] * icoRadius;
-    f1.y = ico.vertexList[i+1] * icoRadius;
-    f1.z = ico.vertexList[i+2] * icoRadius;
-    f2.x = ico.vertexList[i+3] * icoRadius;
-    f2.y = ico.vertexList[i+4] * icoRadius;
-    f2.z = ico.vertexList[i+5] * icoRadius;
-    f3.x = ico.vertexList[i+6] * icoRadius;
-    f3.y = ico.vertexList[i+7] * icoRadius;
-    f3.z = ico.vertexList[i+8] * icoRadius;
+  for (let i = 0; i < ico.vertexList.length; i += 3) {
+    const f0 = p5.Vector.mult(ico.vertexList[i+0], icoRadius);
+    const f1 = p5.Vector.mult(ico.vertexList[i+1], icoRadius);
+    const f2 = p5.Vector.mult(ico.vertexList[i+2], icoRadius);
 
     beginShape();
+    vertex(f0.x, f0.y, f0.z);
     vertex(f1.x, f1.y, f1.z);
     vertex(f2.x, f2.y, f2.z);
-    vertex(f3.x, f3.y, f3.z);
     endShape(CLOSE);
   }
   pop();
@@ -110,55 +103,32 @@ class Icosahedron {
 
     for (let i = 0; i < TI.length; ++i) {
       this.subdivide(
-        VDATA[TI[i][0]],
-        VDATA[TI[i][1]],
-        VDATA[TI[i][2]],
-        ICOSUBDIVISION);
+        createVector(VDATA[TI[i][0]][0], VDATA[TI[i][0]][1], VDATA[TI[i][0]][2]),
+        createVector(VDATA[TI[i][1]][0], VDATA[TI[i][1]][1], VDATA[TI[i][1]][2]),
+        createVector(VDATA[TI[i][2]][0], VDATA[TI[i][2]][1], VDATA[TI[i][2]][2]),
+        ICOSUBDIVISION
+      );
     }
   }
 
-  norm(v){
-    let len = (v[0] * v[0]) + (v[1] * v[1]) + (v[2] * v[2]);
-    len = Math.sqrt(len);
-    return [v[0] / len, v[1] / len, v[2] / len];
-  }
-
-  add(v) {
-    for (let k = 0; k < 3; ++k) {
-      this.vertexList.push(v[k]);
-    }
-  }
-
-  subdivide(v1, v2, v3, depth) {
-
+  subdivide(v0, v1, v2, depth) {
     if (depth === 0) {
-      this.add(v1);
-      this.add(v2);
-      this.add(v3);
+      this.vertexList.push(v0);
+      this.vertexList.push(v1);
+      this.vertexList.push(v2);
       return;
     }
 
-    let v12 = [0, 0, 0];
-    let v23 = [0, 0, 0];
-    let v31 = [0, 0, 0];
+    const v01 = p5.Vector.add(v0, v1).mult(0.5).normalize();
+    const v12 = p5.Vector.add(v1, v2).mult(0.5).normalize();
+    const v20 = p5.Vector.add(v2, v0).mult(0.5).normalize();
 
-    for (let i = 0; i < 3; ++i) {
-      v12[i] = (v1[i] + v2[i]) / 2;
-      v23[i] = (v2[i] + v3[i]) / 2;
-      v31[i] = (v3[i] + v1[i]) / 2;
-    }
-
-    v12 = this.norm(v12);
-    v23 = this.norm(v23);
-    v31 = this.norm(v31);
-
-    this.subdivide(v1, v12, v31, depth - 1);
-    this.subdivide(v2, v23, v12, depth - 1);
-    this.subdivide(v3, v31, v23, depth - 1);
-    this.subdivide(v12, v23, v31, depth - 1);
+    this.subdivide(v0, v01, v20, depth - 1);
+    this.subdivide(v1, v12, v01, depth - 1);
+    this.subdivide(v2, v20, v12, depth - 1);
+    this.subdivide(v01, v12, v20, depth - 1);
   }
 }
-
 
 $(document).ready(function() {
   AOS.init();
