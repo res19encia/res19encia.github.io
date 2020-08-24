@@ -175,6 +175,7 @@ function drawMockButtons() {
   calculateButtonLocation();
   rectMode(CENTER);
   noStroke();
+
   for (let i = 0; i < button.length; i++) {
     fill('#E93A7D');
     rect(button[i].x, button[i].y+2, textWidth(button[i].label), FONT_SIZE + 4);
