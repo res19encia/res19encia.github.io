@@ -122,7 +122,7 @@ function draw() {
   }
 
   //drawVertexLabels();
-  drawMockButtons();
+  drawButtons();
 }
 
 function drawVertexLabels() {
@@ -171,16 +171,17 @@ function calculateButtonLocation() {
   }
 }
 
-function drawMockButtons() {
+function drawButtons() {
   calculateButtonLocation();
-  rectMode(CENTER);
-  noStroke();
+  document.getElementById('my-home-buttons').innerHTML = '';
 
   for (let i = 0; i < button.length; i++) {
-    fill('#E93A7D');
-    rect(button[i].x, button[i].y+2, textWidth(button[i].label), FONT_SIZE + 4);
-    fill(255);
-    text(button[i].label, button[i].x, button[i].y);
+    const be = document.createElement('div');
+    be.classList.add('home-button');
+    be.innerHTML = button[i].label;
+    be.style['top'] = `${button[i].y + height / 2}px`;
+    be.style['left'] = `${button[i].x + (width / 2) - (6 * button[i].label.length)}px`;
+    document.getElementById('my-home-buttons').appendChild(be);
   }
 }
 
