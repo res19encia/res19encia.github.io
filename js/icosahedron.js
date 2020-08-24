@@ -6,6 +6,8 @@ const WIDTH_SCALE_TRANSLATE = 1.95;
 const X = 0.525731112119133606;
 const Z = 0.850650808352039932;
 
+const FONT_SIZE = 28;
+
 const VERTEX = [
   [ -X, 0.0, Z ],
   [ X, 0.0, Z ],
@@ -44,6 +46,32 @@ const FACE_VERTICES = [
   [ 7, 2, 11 ]
 ];
 
+const indexed = {};
+
+const button = [
+  {
+    vertex: 3,
+    label: 'EMBODY'
+  },
+  {
+    vertex: 13,
+    label: 'FRAME'
+  },
+  {
+    vertex: 148,
+    label: 'INFOX'
+  },
+  {
+    vertex: 208,
+    label: 'FLUX'
+  }
+];
+
+let mFont;
+function preload() {
+  mFont = loadFont('../media/fonts/font.otf');
+}
+
 function setup() {
   const mCanvas = createCanvas(WIDTH_SCALE_TRANSLATE * windowWidth, windowHeight, WEBGL);
   addScreenPositionFunction();
@@ -56,6 +84,9 @@ function setup() {
   rotataeXangle = -0.2;
   rotateYangle = -0.3;
   icoRadius = height / 2.5;
+  textFont(mFont);
+  textSize(FONT_SIZE);
+  textAlign(CENTER, CENTER);
 }
 
 function windowResized() {
@@ -88,6 +119,67 @@ function draw() {
     vertex(p1.x, p1.y, 0);
     vertex(p2.x, p2.y, 0);
     endShape(CLOSE);
+  }
+
+  //drawVertexLabels();
+  drawMockButtons();
+}
+
+function drawVertexLabels() {
+  for (let i = 0; i < ico.vertexList.length; i += 3) {
+    push();
+    rotateX(rotataeXangle);
+    rotateY(rotateYangle);
+
+    const f0 = p5.Vector.mult(ico.vertexList[i+0], icoRadius);
+    const f1 = p5.Vector.mult(ico.vertexList[i+1], icoRadius);
+    const f2 = p5.Vector.mult(ico.vertexList[i+2], icoRadius);
+
+    const p0 = screenPosition(f0.x, f0.y, f0.z);
+    const p1 = screenPosition(f1.x, f1.y, f1.z);
+    const p2 = screenPosition(f2.x, f2.y, f2.z);
+    pop();
+
+    fill(255, 0, 0);
+    if (!(`${p0.x}x${p0.y}` in indexed)) {
+      indexed[`${p0.x}x${p0.y}`] = true;
+      text(`${i+0}`, p0.x, p0.y);
+    }
+    if (!(`${p1.x}x${p1.y}` in indexed)) {
+      indexed[`${p1.x}x${p1.y}`] = true;
+      text(`${i+1}`, p1.x, p1.y);
+    }
+    if (!(`${p2.x}x${p2.y}` in indexed)) {
+      indexed[`${p2.x}x${p2.y}`] = true;
+      text(`${i+2}`, p2.x, p2.y);
+    }
+  }
+}
+
+function calculateButtonLocation() {
+  for (let i = 0; i < button.length; i++) {
+    if(!('x' in button[i]) || !('y' in button[i])) {
+      push();
+      rotateX(rotataeXangle);
+      rotateY(rotateYangle);
+      const f = p5.Vector.mult(ico.vertexList[button[i].vertex], icoRadius);
+      const p = screenPosition(f.x, f.y, f.z);
+      pop();
+      button[i]['x'] = p.x;
+      button[i]['y'] = p.y;
+    }
+  }
+}
+
+function drawMockButtons() {
+  calculateButtonLocation();
+  rectMode(CENTER);
+  noStroke();
+  for (let i = 0; i < button.length; i++) {
+    fill(250,0,0);
+    rect(button[i].x, button[i].y+2, textWidth(button[i].label), FONT_SIZE + 4);
+    fill(255);
+    text(button[i].label, button[i].x, button[i].y);
   }
 }
 
