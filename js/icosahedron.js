@@ -6,7 +6,7 @@ const WIDTH_SCALE_TRANSLATE = 1.95;
 const X = 0.525731112119133606;
 const Z = 0.850650808352039932;
 
-const VDATA = [
+const VERTEX = [
   [ -X, 0.0, Z ],
   [ X, 0.0, Z ],
   [ -X, 0.0, -Z ],
@@ -21,7 +21,7 @@ const VDATA = [
   [ -Z, -X, 0.0 ]
 ];
 
-const TI = [
+const FACE_VERTICES = [
   [ 0, 4, 1 ],
   [ 0, 9, 4 ],
   [ 9, 5, 4 ],
@@ -51,6 +51,8 @@ function setup() {
   smooth();
   noLoop();
   ico = new Icosahedron();
+  rotataeXangle = 0;
+  rotateYangle = 0;
   rotataeXangle = -0.2;
   rotateYangle = -0.3;
   icoRadius = height / 2.5;
@@ -67,22 +69,26 @@ function draw() {
   noFill();
   stroke(0);
 
-  push();
-  rotateX(rotataeXangle);
-  rotateY(rotateYangle);
-
   for (let i = 0; i < ico.vertexList.length; i += 3) {
+    push();
+    rotateX(rotataeXangle);
+    rotateY(rotateYangle);
+
     const f0 = p5.Vector.mult(ico.vertexList[i+0], icoRadius);
     const f1 = p5.Vector.mult(ico.vertexList[i+1], icoRadius);
     const f2 = p5.Vector.mult(ico.vertexList[i+2], icoRadius);
 
+    const p0 = screenPosition(f0.x, f0.y, f0.z);
+    const p1 = screenPosition(f1.x, f1.y, f1.z);
+    const p2 = screenPosition(f2.x, f2.y, f2.z);
+    pop();
+
     beginShape();
-    vertex(f0.x, f0.y, f0.z);
-    vertex(f1.x, f1.y, f1.z);
-    vertex(f2.x, f2.y, f2.z);
+    vertex(p0.x, p0.y, 0);
+    vertex(p1.x, p1.y, 0);
+    vertex(p2.x, p2.y, 0);
     endShape(CLOSE);
   }
-  pop();
 }
 
 function keyPressed() {
@@ -101,11 +107,17 @@ class Icosahedron {
   constructor() {
     this.vertexList = [];
 
-    for (let i = 0; i < TI.length; ++i) {
+    for (let i = 0; i < FACE_VERTICES.length; ++i) {
       this.subdivide(
-        createVector(VDATA[TI[i][0]][0], VDATA[TI[i][0]][1], VDATA[TI[i][0]][2]),
-        createVector(VDATA[TI[i][1]][0], VDATA[TI[i][1]][1], VDATA[TI[i][1]][2]),
-        createVector(VDATA[TI[i][2]][0], VDATA[TI[i][2]][1], VDATA[TI[i][2]][2]),
+        createVector(VERTEX[FACE_VERTICES[i][0]][0],
+                     VERTEX[FACE_VERTICES[i][0]][1],
+                     VERTEX[FACE_VERTICES[i][0]][2]),
+        createVector(VERTEX[FACE_VERTICES[i][1]][0],
+                     VERTEX[FACE_VERTICES[i][1]][1],
+                     VERTEX[FACE_VERTICES[i][1]][2]),
+        createVector(VERTEX[FACE_VERTICES[i][2]][0],
+                     VERTEX[FACE_VERTICES[i][2]][1],
+                     VERTEX[FACE_VERTICES[i][2]][2]),
         ICOSUBDIVISION
       );
     }
