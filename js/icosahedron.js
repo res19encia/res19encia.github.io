@@ -176,7 +176,7 @@ function drawMockButtons() {
   rectMode(CENTER);
   noStroke();
   for (let i = 0; i < button.length; i++) {
-    fill(250,0,0);
+    fill('#E93A7D');
     rect(button[i].x, button[i].y+2, textWidth(button[i].label), FONT_SIZE + 4);
     fill(255);
     text(button[i].label, button[i].x, button[i].y);
