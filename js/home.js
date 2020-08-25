@@ -136,7 +136,6 @@ function draw() {
   }
 
   //drawVertexLabels();
-  //calculateButtonLocation();
   drawButtons();
 }
 
@@ -173,16 +172,14 @@ function drawVertexLabels() {
 
 function calculateButtonLocation() {
   for (let i = 0; i < button.length; i++) {
-    if(!('x' in button[i]) || !('y' in button[i])) {
-      push();
-      rotateX(rotataeXangle);
-      rotateY(rotateYangle);
-      const f = p5.Vector.mult(ico.vertexList[button[i].vertex], icoRadius);
-      const p = screenPosition(f.x, f.y, f.z);
-      pop();
-      button[i]['x'] = p.x;
-      button[i]['y'] = p.y;
-    }
+    push();
+    rotateX(rotataeXangle);
+    rotateY(rotateYangle);
+    const f = p5.Vector.mult(ico.vertexList[button[i].vertex], icoRadius);
+    const p = screenPosition(f.x, f.y, f.z);
+    pop();
+    button[i]['x'] = p.x;
+    button[i]['y'] = p.y;
   }
 }
 
