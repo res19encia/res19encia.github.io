@@ -104,6 +104,34 @@ a {
     width: 33%;
   }
 
+  .home-ball-menu {
+    width: 50%;
+    position: relative;
+
+    .home-ball {
+      position: absolute;
+      left: 80px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: $COLOR-ACCENT;
+      animation: ball 2s linear 0s infinite normal;
+    }
+
+    @keyframes ball {
+      0%   {left:80px; width:20px; height:20px;}
+      25%  {left:40px; width:16px; height:16px;}
+      50%  {left: 0px; width:20px; height:20px;}
+      75%  {left:40px; width:24px; height:24px;}
+      100% {left:80px; width:20px; height:20px;}
+    }
+
+    #home-ball-1 {
+      left: 0px;
+      animation-delay: -1s;
+    }
+  }
+
   .home-language-menu {
     width: 33%;
   }
