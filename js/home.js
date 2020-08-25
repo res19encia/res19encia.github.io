@@ -1,3 +1,7 @@
+---
+layout: none
+---
+
 let ico;
 let rotataeXangle, rotateYangle, icoRadius;
 
@@ -51,19 +55,27 @@ const indexed = {};
 const button = [
   {
     vertex: 3,
-    label: 'EMBODY'
+    label: 'EMBODY',
+    content_pt: '{{ site.data.strings["pt"]["embody"] }}',
+    content_en: '{{ site.data.strings["en"]["embody"] }}'
   },
   {
     vertex: 13,
-    label: 'FRAME'
+    label: 'FRAME',
+    content_pt: '{{site.data.strings["pt"]["frame"]}}',
+    content_en: '{{site.data.strings["en"]["frame"]}}'
   },
   {
     vertex: 148,
-    label: 'INFOX'
+    label: 'INFOX',
+    content_pt: '{{ site.data.strings["pt"]["infox"] }}',
+    content_en: '{{ site.data.strings["en"]["infox"] }}'
   },
   {
     vertex: 208,
-    label: 'FLUX'
+    label: 'FLUX',
+    content_pt: '{{ site.data.strings["pt"]["flux"] }}',
+    content_en: '{{ site.data.strings["en"]["flux"] }}'
   }
 ];
 
@@ -122,6 +134,7 @@ function draw() {
   }
 
   //drawVertexLabels();
+  //calculateButtonLocation();
   drawButtons();
 }
 
@@ -179,8 +192,22 @@ function drawButtons() {
     const be = document.createElement('div');
     be.classList.add('home-button');
     be.innerHTML = button[i].label;
+    be.style['left'] = `${button[i].x + width / 2 - (6 * button[i].label.length)}px`;
     be.style['top'] = `${button[i].y + height / 2}px`;
-    be.style['left'] = `${button[i].x + (width / 2) - (6 * button[i].label.length)}px`;
+
+    be.addEventListener('click', () => {
+      const lightboxOverlay = document.getElementById('my-home-lightbox-overlay');
+      const lightboxTitle = document.getElementById('my-home-lightbox-title');
+      const lightboxContent = document.getElementById('my-home-lightbox-content');
+      lightboxOverlay.classList.add('show');
+      lightboxTitle.innerHTML = button[i].label;
+
+      if (window.location.href.includes('pt')) {
+        lightboxContent.innerHTML = button[i]['content_pt'];
+      } else {
+        lightboxContent.innerHTML = button[i]['content_en'];
+      }
+    });
     document.getElementById('my-home-buttons').appendChild(be);
   }
 }
@@ -238,4 +265,15 @@ class Icosahedron {
 
 $(document).ready(function() {
   AOS.init();
+  const lightboxOverlay = document.getElementById('my-home-lightbox-overlay');
+  const lightboxContainer = document.getElementById('my-home-lightbox-container');
+
+  lightboxOverlay.addEventListener('click', () => {
+    lightboxOverlay.classList.remove('show');
+  });
+
+  lightboxContainer.addEventListener('click', (e) => {
+    const event = e || window.event;
+    event.stopPropagation();
+  });
 });
