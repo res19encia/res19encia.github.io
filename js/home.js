@@ -5,8 +5,9 @@ layout: none
 let ico;
 let rotataeXangle, rotateYangle, icoRadius;
 
-const ICOSUBDIVISION = 1;
-const WIDTH_SCALE_TRANSLATE = 1.95;
+const ICO_SUBDIVISION = 1;
+const ICO_RADIUS_SCALE = 1.7;
+const WIDTH_SCALE_TRANSLATE = 2;
 const X = 0.525731112119133606;
 const Z = 0.850650808352039932;
 
@@ -54,19 +55,19 @@ const indexed = {};
 
 const button = [
   {
-    vertex: 3,
+    vertex: 25,
     label: 'EMBODY',
     content_pt: '{{ site.data.strings["pt"]["embody"] }}',
     content_en: '{{ site.data.strings["en"]["embody"] }}'
   },
   {
-    vertex: 13,
+    vertex: 0,
     label: 'FRAME',
     content_pt: '{{site.data.strings["pt"]["frame"]}}',
     content_en: '{{site.data.strings["en"]["frame"]}}'
   },
   {
-    vertex: 148,
+    vertex: 160,
     label: 'INFOX',
     content_pt: '{{ site.data.strings["pt"]["infox"] }}',
     content_en: '{{ site.data.strings["en"]["infox"] }}'
@@ -95,7 +96,7 @@ function setup() {
   rotateYangle = 0;
   rotataeXangle = -0.2;
   rotateYangle = -0.3;
-  icoRadius = height / 2.5;
+  icoRadius = height / ICO_RADIUS_SCALE;
   textFont(mFont);
   textSize(FONT_SIZE);
   textAlign(CENTER, CENTER);
@@ -104,13 +105,14 @@ function setup() {
 function windowResized() {
   resizeCanvas(WIDTH_SCALE_TRANSLATE * windowWidth, windowHeight);
   addScreenPositionFunction();
-  icoRadius = height / 2.5;
+  icoRadius = height / ICO_RADIUS_SCALE;
 }
 
 function draw() {
   background(255, 255, 255);
   noFill();
   stroke(0);
+  strokeWeight(2);
 
   for (let i = 0; i < ico.vertexList.length; i += 3) {
     push();
@@ -239,7 +241,7 @@ class Icosahedron {
         createVector(VERTEX[FACE_VERTICES[i][2]][0],
                      VERTEX[FACE_VERTICES[i][2]][1],
                      VERTEX[FACE_VERTICES[i][2]][2]),
-        ICOSUBDIVISION
+        ICO_SUBDIVISION
       );
     }
   }
