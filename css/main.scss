@@ -90,11 +90,11 @@ a {
     left: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     width: 100vw;
     height: 100vh;
     z-index: 10;
-    padding: 0;
+    padding: 8% 0;
     padding-left: 16%;
     box-sizing: border-box;
     background-color: rgba(0,0,0,0);
@@ -106,7 +106,6 @@ a {
 
   .home-language-menu {
     width: 33%;
-    margin-top: 20px;
   }
 
   .home-lightbox-overlay {
