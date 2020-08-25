@@ -265,8 +265,24 @@ class Icosahedron {
 
 $(document).ready(function() {
   AOS.init();
+
   const lightboxOverlay = document.getElementById('my-home-lightbox-overlay');
   const lightboxContainer = document.getElementById('my-home-lightbox-container');
+  const lightboxTitle = document.getElementById('my-home-lightbox-title');
+  const lightboxContent = document.getElementById('my-home-lightbox-content');
+  const homeBallMenu = document.getElementById('my-home-ball-menu');
+
+  homeBallMenu.addEventListener('click', () => {
+    lightboxOverlay.classList.add('show');
+
+    if (window.location.href.includes('pt')) {
+      lightboxTitle.innerHTML = 'CURADORIA';
+      lightboxContent.innerHTML = '{{ site.data.strings["pt"]["curadoria"] }}';
+    } else {
+      lightboxTitle.innerHTML = 'CURATION';
+      lightboxContent.innerHTML = '{{ site.data.strings["en"]["curadoria"] }}';
+    }
+  });
 
   lightboxOverlay.addEventListener('click', () => {
     lightboxOverlay.classList.remove('show');

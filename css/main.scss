@@ -105,8 +105,10 @@ a {
   }
 
   .home-ball-menu {
-    width: 50%;
     position: relative;
+    width: 100px;
+    height: 24px;
+    cursor: pointer;
 
     .home-ball {
       position: absolute;
