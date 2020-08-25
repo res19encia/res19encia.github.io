@@ -55,7 +55,7 @@ const indexed = {};
 
 const button = [
   {
-    vertex: 25,
+    vertex: 15,
     label: 'EMBODY',
     content_pt: '{{ site.data.strings["pt"]["embody"] }}',
     content_en: '{{ site.data.strings["en"]["embody"] }}'
@@ -67,7 +67,7 @@ const button = [
     content_en: '{{site.data.strings["en"]["frame"]}}'
   },
   {
-    vertex: 160,
+    vertex: 157,
     label: 'INFOX',
     content_pt: '{{ site.data.strings["pt"]["infox"] }}',
     content_en: '{{ site.data.strings["en"]["infox"] }}'
@@ -94,8 +94,8 @@ function setup() {
   ico = new Icosahedron();
   rotataeXangle = 0;
   rotateYangle = 0;
-  rotataeXangle = -0.2;
-  rotateYangle = -0.3;
+  rotataeXangle = -0.05;
+  rotateYangle = -0.1;
   icoRadius = height / ICO_RADIUS_SCALE;
   textFont(mFont);
   textSize(FONT_SIZE);
