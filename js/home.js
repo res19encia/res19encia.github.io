@@ -55,26 +55,30 @@ const indexed = {};
 
 const button = [
   {
-    vertex: 15,
-    label: 'EMBODY',
+    vertex: 4,
+    label_pt: '{{ site.data.strings["pt"]["buttons"]["embody"] }}',
+    label_en: '{{ site.data.strings["en"]["buttons"]["embody"] }}',
     content_pt: '{{ site.data.strings["pt"]["embody"] }}',
     content_en: '{{ site.data.strings["en"]["embody"] }}'
   },
   {
-    vertex: 0,
-    label: 'FRAME',
+    vertex: 64,
+    label_pt: '{{ site.data.strings["pt"]["buttons"]["frame"] }}',
+    label_en: '{{ site.data.strings["en"]["buttons"]["frame"] }}',
     content_pt: '{{site.data.strings["pt"]["frame"]}}',
     content_en: '{{site.data.strings["en"]["frame"]}}'
   },
   {
-    vertex: 157,
-    label: 'INFOX',
+    vertex: 135,
+    label_pt: '{{ site.data.strings["pt"]["buttons"]["flood"] }}',
+    label_en: '{{ site.data.strings["en"]["buttons"]["flood"] }}',
     content_pt: '{{ site.data.strings["pt"]["infox"] }}',
     content_en: '{{ site.data.strings["en"]["infox"] }}'
   },
   {
-    vertex: 208,
-    label: 'FLUX',
+    vertex: 0,
+    label_pt: '{{ site.data.strings["pt"]["buttons"]["flux"] }}',
+    label_en: '{{ site.data.strings["en"]["buttons"]["flux"] }}',
     content_pt: '{{ site.data.strings["pt"]["flux"] }}',
     content_en: '{{ site.data.strings["en"]["flux"] }}'
   }
@@ -94,8 +98,8 @@ function setup() {
   ico = new Icosahedron();
   rotataeXangle = 0;
   rotateYangle = 0;
-  rotataeXangle = -0.05;
-  rotateYangle = -0.1;
+  rotataeXangle = -0.0;
+  rotateYangle = -2.27;
   icoRadius = height / ICO_RADIUS_SCALE;
   textFont(mFont);
   textSize(FONT_SIZE);
@@ -112,7 +116,7 @@ function draw() {
   background(255, 255, 255);
   noFill();
   stroke(0);
-  strokeWeight(2);
+  strokeWeight(3);
 
   for (let i = 0; i < ico.vertexList.length; i += 3) {
     push();
@@ -188,24 +192,29 @@ function drawButtons() {
   document.getElementById('my-home-buttons').innerHTML = '';
 
   for (let i = 0; i < button.length; i++) {
+    let bLabel;
+    let bContent;
+    if (window.location.href.includes('pt')) {
+      bLabel = button[i]['label_pt'];
+      bContent = button[i]['content_pt'];
+    } else {
+      bLabel = button[i]['label_en'];
+      bContent = button[i]['content_en'];
+    }
+
     const be = document.createElement('div');
     be.classList.add('home-button');
-    be.innerHTML = button[i].label;
-    be.style['left'] = `${button[i].x + width / 2 - (6 * button[i].label.length)}px`;
-    be.style['top'] = `${button[i].y + height / 2}px`;
+    be.innerHTML = bLabel;
+    be.style['left'] = `${button[i].x + width / 2 - (6 * bLabel.length)}px`;
+    be.style['top'] = `${button[i].y + height / 2 - 12}px`;
 
     be.addEventListener('click', () => {
       const lightboxOverlay = document.getElementById('my-home-lightbox-overlay');
       const lightboxTitle = document.getElementById('my-home-lightbox-title');
       const lightboxContent = document.getElementById('my-home-lightbox-content');
       lightboxOverlay.classList.add('show');
-      lightboxTitle.innerHTML = button[i].label;
-
-      if (window.location.href.includes('pt')) {
-        lightboxContent.innerHTML = button[i]['content_pt'];
-      } else {
-        lightboxContent.innerHTML = button[i]['content_en'];
-      }
+      lightboxTitle.innerHTML = bLabel;
+      lightboxContent.innerHTML = bContent;
     });
     document.getElementById('my-home-buttons').appendChild(be);
   }

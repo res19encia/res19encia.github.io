@@ -2,6 +2,7 @@
 ---
 
 @import 'constants';
+$SIZE-BALL: 10px;
 
 html {
   -webkit-font-smoothing: antialiased;
@@ -75,9 +76,12 @@ a {
       position: absolute;
       background-color: $COLOR-ACCENT;
       color: #fff;
-      padding: 6px 10px;
+      padding: 3px 6px;
       cursor: pointer;
       transition: background-color $TRANSITION-PERIOD linear;
+      text-transform: uppercase;
+      font-size: 15px;
+      font-weight: bold;
 
       &:hover {
         background-color: $COLOR-ACCENT-HOVER;
@@ -103,35 +107,37 @@ a {
 
   .home-subtitle {
     width: 33%;
+    font-weight: bold;
+    font-size: 13px;
   }
 
   .home-ball-menu {
     position: relative;
-    width: 100px;
-    height: 24px;
+    width: 40px;
+    height: 14px;
     cursor: pointer;
 
     .home-ball {
       position: absolute;
-      left: 80px;
-      width: 20px;
-      height: 20px;
+      left: 35px;
+      width: $SIZE-BALL;
+      height: $SIZE-BALL;
       border-radius: 50%;
       background-color: $COLOR-ACCENT;
-      animation: ball 2s linear 0s infinite normal;
+      animation: ball 2.75s linear 0s infinite normal;
     }
 
     @keyframes ball {
-      0%   {left:80px; width:20px; height:20px;}
-      25%  {left:40px; width:16px; height:16px;}
-      50%  {left: 0px; width:20px; height:20px;}
-      75%  {left:40px; width:24px; height:24px;}
-      100% {left:80px; width:20px; height:20px;}
+      0%   {left:35px; width:$SIZE-BALL; height:$SIZE-BALL;}
+      25%  {left:17px; width:8px; height:8px;}
+      50%  {left: 0px; width:$SIZE-BALL; height:$SIZE-BALL;}
+      75%  {left:17px; width:12px; height:12px;}
+      100% {left:35px; width:$SIZE-BALL; height:$SIZE-BALL;}
     }
 
     #home-ball-1 {
       left: 0px;
-      animation-delay: -1s;
+      animation-delay: -1.375s;
     }
   }
 
