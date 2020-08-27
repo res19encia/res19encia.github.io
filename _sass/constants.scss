@@ -13,22 +13,15 @@ $COLOR-ACCENT-HOVER: darken($COLOR-ACCENT, 10%);
 $COLOR-LINK: $COLOR-ACCENT;
 $COLOR-LINK-HOVER: $COLOR-ACCENT-HOVER;
 
-$DESKTOP-WIDTH-SITE: 1280px;
-$COLUMN-WIDTH: $DESKTOP-WIDTH-SITE/4;
-
 $TRANSITION-PERIOD: 0.1s;
 
 $ANIMATION-BALL-SIZE: 10px;
 $ANIMATION-BALL-PERIOD: 2.75s;
 
-$two_columns: 2 * $COLUMN-WIDTH;
-$three_columns: 3 * $COLUMN-WIDTH;
+$DESKTOP-WIDTH-MIN: 900px;
 
 @mixin media-query($canvas) {
-  @if $canvas == DESKTOP {
-   @media only screen and (min-width: $two_columns) { @content; }
-  }
-  @else if $canvas == LGDESKTOP {
-   @media only screen and (min-width: $three_columns) { @content; }
+  @if $canvas == MOBILE {
+    @media only screen and (max-width: $DESKTOP-WIDTH-MIN) { @content; }
   }
 }

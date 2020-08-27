@@ -17,12 +17,11 @@ body {
   padding: 0;
   width: 100%;
   background-color: $COLOR-BACKGROUND;
-
-  font: normal $SIZE-TEXT-MOBILE $FONT-TEXT;
   color: $COLOR-TEXT;
+  font: normal $SIZE-TEXT $FONT-TEXT;
 
-  @include media-query(DESKTOP) {
-    font: normal $SIZE-TEXT $FONT-TEXT;
+  @include media-query(MOBILE) {
+    font: normal $SIZE-TEXT-MOBILE $FONT-TEXT;
   }
 }
 
@@ -89,12 +88,10 @@ a {
   }
 
   .home-foreground {
-    position: absolute;
-    top: 0;
-    left: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
     width: 100vw;
     height: 100vh;
     z-index: 10;
@@ -102,10 +99,14 @@ a {
     padding-left: 16%;
     box-sizing: border-box;
     background-color: rgba(0,0,0,0);
+
+    @include media-query(MOBILE) {
+      flex-direction: row;
+      padding: 8% 8%;
+    }
   }
 
   .home-subtitle {
-    width: 33%;
     font-weight: bold;
     font-size: 13px;
   }
@@ -147,7 +148,6 @@ a {
   }
 
   .home-language-menu {
-    width: 33%;
     z-index: 10;
   }
 
@@ -172,6 +172,12 @@ a {
       margin: 30px auto 0;
       width: 50%;
       background-color: #fff;
+      border: 1px solid $COLOR-ACCENT;
+
+      @include media-query(MOBILE) {
+        width: auto;
+        margin: 30px 5% 0;
+      }
 
       .home-lightbox-title {
         width: 100%;
@@ -198,10 +204,10 @@ a {
 
   .swipebox {
     margin: 24px 5px 0;
-    width: 45%;
+    width: 48%;
 
-    @include media-query(DESKTOP) {
-      width: 48%;
+    @include media-query(MOBILE) {
+      width: 45%;
     }
 
     img {
