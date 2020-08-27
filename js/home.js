@@ -56,31 +56,31 @@ const indexed = {};
 const button = [
   {
     vertex: 4,
-    label_pt: '{{ site.data.strings["pt"]["buttons"]["embody"] }}',
-    label_en: '{{ site.data.strings["en"]["buttons"]["embody"] }}',
-    content_pt: '{{ site.data.strings["pt"]["embody"] }}',
-    content_en: '{{ site.data.strings["en"]["embody"] }}'
+    label_pt: '{{ site.data.home["pt"]["buttons"]["embody"] }}',
+    label_en: '{{ site.data.home["en"]["buttons"]["embody"] }}',
+    content_pt: '{{ site.data.home["pt"]["embody"] }}',
+    content_en: '{{ site.data.home["en"]["embody"] }}'
   },
   {
     vertex: 64,
-    label_pt: '{{ site.data.strings["pt"]["buttons"]["frame"] }}',
-    label_en: '{{ site.data.strings["en"]["buttons"]["frame"] }}',
-    content_pt: '{{site.data.strings["pt"]["frame"]}}',
-    content_en: '{{site.data.strings["en"]["frame"]}}'
+    label_pt: '{{ site.data.home["pt"]["buttons"]["frame"] }}',
+    label_en: '{{ site.data.home["en"]["buttons"]["frame"] }}',
+    content_pt: '{{site.data.home["pt"]["frame"]}}',
+    content_en: '{{site.data.home["en"]["frame"]}}'
   },
   {
     vertex: 135,
-    label_pt: '{{ site.data.strings["pt"]["buttons"]["flood"] }}',
-    label_en: '{{ site.data.strings["en"]["buttons"]["flood"] }}',
-    content_pt: '{{ site.data.strings["pt"]["infox"] }}',
-    content_en: '{{ site.data.strings["en"]["infox"] }}'
+    label_pt: '{{ site.data.home["pt"]["buttons"]["flood"] }}',
+    label_en: '{{ site.data.home["en"]["buttons"]["flood"] }}',
+    content_pt: '{{ site.data.home["pt"]["infox"] }}',
+    content_en: '{{ site.data.home["en"]["infox"] }}'
   },
   {
     vertex: 0,
-    label_pt: '{{ site.data.strings["pt"]["buttons"]["flux"] }}',
-    label_en: '{{ site.data.strings["en"]["buttons"]["flux"] }}',
-    content_pt: '{{ site.data.strings["pt"]["flux"] }}',
-    content_en: '{{ site.data.strings["en"]["flux"] }}'
+    label_pt: '{{ site.data.home["pt"]["buttons"]["flux"] }}',
+    label_en: '{{ site.data.home["en"]["buttons"]["flux"] }}',
+    content_pt: '{{ site.data.home["pt"]["flux"] }}',
+    content_en: '{{ site.data.home["en"]["flux"] }}'
   }
 ];
 
@@ -285,10 +285,10 @@ $(document).ready(function() {
 
     if (window.location.href.includes('pt')) {
       lightboxTitle.innerHTML = 'CURADORIA';
-      lightboxContent.innerHTML = '{{ site.data.strings["pt"]["curadoria"] }}';
+      lightboxContent.innerHTML = '{{ site.data.home["pt"]["curadoria"] }}';
     } else {
       lightboxTitle.innerHTML = 'CURATION';
-      lightboxContent.innerHTML = '{{ site.data.strings["en"]["curadoria"] }}';
+      lightboxContent.innerHTML = '{{ site.data.home["en"]["curadoria"] }}';
     }
   });
 
