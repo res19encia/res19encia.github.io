@@ -2,7 +2,6 @@
 ---
 
 @import 'constants';
-$SIZE-BALL: 10px;
 
 html {
   -webkit-font-smoothing: antialiased;
@@ -113,31 +112,35 @@ a {
 
   .home-ball-menu {
     position: relative;
-    width: 40px;
-    height: 14px;
+    width: 4.0 * $ANIMATION-BALL-SIZE;
+    height: 1.4 * $ANIMATION-BALL-SIZE;
     cursor: pointer;
 
     .home-ball {
       position: absolute;
-      left: 35px;
-      width: $SIZE-BALL;
-      height: $SIZE-BALL;
+      left: 3.5 * $ANIMATION-BALL-SIZE;
+      width: $ANIMATION-BALL-SIZE;
+      height: $ANIMATION-BALL-SIZE;
       border-radius: 50%;
       background-color: $COLOR-ACCENT;
-      animation: ball 2.75s linear 0s infinite normal;
+      animation: home-ball-frames 2.75s linear 0s infinite normal;
     }
 
-    @keyframes ball {
-      0%   {left:35px; width:$SIZE-BALL; height:$SIZE-BALL;}
-      25%  {left:17px; width:8px; height:8px;}
-      50%  {left: 0px; width:$SIZE-BALL; height:$SIZE-BALL;}
-      75%  {left:17px; width:12px; height:12px;}
-      100% {left:35px; width:$SIZE-BALL; height:$SIZE-BALL;}
+    @keyframes home-ball-frames {
+      0%   {left:3.5 * $ANIMATION-BALL-SIZE; width:1.0 * $ANIMATION-BALL-SIZE; height:1.0 * $ANIMATION-BALL-SIZE;}
+      8%   {left:3.2 * $ANIMATION-BALL-SIZE; width:0.9 * $ANIMATION-BALL-SIZE; height:0.9 * $ANIMATION-BALL-SIZE;}
+      25%  {left:1.7 * $ANIMATION-BALL-SIZE; width:0.8 * $ANIMATION-BALL-SIZE; height:0.8 * $ANIMATION-BALL-SIZE;}
+      42%  {left:0.3 * $ANIMATION-BALL-SIZE; width:0.9 * $ANIMATION-BALL-SIZE; height:0.9 * $ANIMATION-BALL-SIZE;}
+      50%  {left:0.0 * $ANIMATION-BALL-SIZE; width:1.0 * $ANIMATION-BALL-SIZE; height:1.0 * $ANIMATION-BALL-SIZE;}
+      58%  {left:0.3 * $ANIMATION-BALL-SIZE; width:1.1 * $ANIMATION-BALL-SIZE; height:1.1 * $ANIMATION-BALL-SIZE;}
+      75%  {left:1.7 * $ANIMATION-BALL-SIZE; width:1.2 * $ANIMATION-BALL-SIZE; height:1.2 * $ANIMATION-BALL-SIZE;}
+      92%  {left:3.2 * $ANIMATION-BALL-SIZE; width:1.1 * $ANIMATION-BALL-SIZE; height:1.1 * $ANIMATION-BALL-SIZE;}
+      100% {left:3.5 * $ANIMATION-BALL-SIZE; width:1.0 * $ANIMATION-BALL-SIZE; height:1.0 * $ANIMATION-BALL-SIZE;}
     }
 
     #home-ball-1 {
       left: 0px;
-      animation-delay: -1.375s;
+      animation-delay: -0.5 * $ANIMATION-BALL-PERIOD;
     }
   }
 
