@@ -56,31 +56,31 @@ const indexed = {};
 const button = [
   {
     vertex: 4,
-    label_pt: '{{ site.data.home["pt"]["buttons"]["embody"] }}',
-    label_en: '{{ site.data.home["en"]["buttons"]["embody"] }}',
-    content_pt: '{{ site.data.home["pt"]["embody"] }}',
-    content_en: '{{ site.data.home["en"]["embody"] }}'
+    label_pt: '{{ site.data.home["pt"]["button-labels"]["embody"] }}',
+    label_en: '{{ site.data.home["en"]["button-labels"]["embody"] }}',
+    content_pt: '{{ site.data.home["pt"]["descriptions"]["embody"] }}',
+    content_en: '{{ site.data.home["en"]["descriptions"]["embody"] }}'
   },
   {
     vertex: 64,
-    label_pt: '{{ site.data.home["pt"]["buttons"]["frame"] }}',
-    label_en: '{{ site.data.home["en"]["buttons"]["frame"] }}',
-    content_pt: '{{site.data.home["pt"]["frame"]}}',
-    content_en: '{{site.data.home["en"]["frame"]}}'
+    label_pt: '{{ site.data.home["pt"]["button-labels"]["frame"] }}',
+    label_en: '{{ site.data.home["en"]["button-labels"]["frame"] }}',
+    content_pt: '{{site.data.home["pt"]["descriptions"]["frame"]}}',
+    content_en: '{{site.data.home["en"]["descriptions"]["frame"]}}'
   },
   {
     vertex: 135,
-    label_pt: '{{ site.data.home["pt"]["buttons"]["flood"] }}',
-    label_en: '{{ site.data.home["en"]["buttons"]["flood"] }}',
-    content_pt: '{{ site.data.home["pt"]["infox"] }}',
-    content_en: '{{ site.data.home["en"]["infox"] }}'
+    label_pt: '{{ site.data.home["pt"]["button-labels"]["flood"] }}',
+    label_en: '{{ site.data.home["en"]["button-labels"]["flood"] }}',
+    content_pt: '{{ site.data.home["pt"]["descriptions"]["flood"] }}',
+    content_en: '{{ site.data.home["en"]["descriptions"]["flood"] }}'
   },
   {
     vertex: 0,
-    label_pt: '{{ site.data.home["pt"]["buttons"]["flux"] }}',
-    label_en: '{{ site.data.home["en"]["buttons"]["flux"] }}',
-    content_pt: '{{ site.data.home["pt"]["flux"] }}',
-    content_en: '{{ site.data.home["en"]["flux"] }}'
+    label_pt: '{{ site.data.home["pt"]["button-labels"]["flux"] }}',
+    label_en: '{{ site.data.home["en"]["button-labels"]["flux"] }}',
+    content_pt: '{{ site.data.home["pt"]["descriptions"]["flux"] }}',
+    content_en: '{{ site.data.home["en"]["descriptions"]["flux"] }}'
   }
 ];
 
@@ -284,11 +284,11 @@ $(document).ready(function() {
     lightboxOverlay.classList.add('show');
 
     if (window.location.href.includes('pt')) {
-      lightboxTitle.innerHTML = 'CURADORIA';
-      lightboxContent.innerHTML = '{{ site.data.home["pt"]["curadoria"] }}';
+      lightboxTitle.innerHTML = 'curadoria';
+      lightboxContent.innerHTML = '{{ site.data.home["pt"]["descriptions"]["curadoria"] }}';
     } else {
-      lightboxTitle.innerHTML = 'CURATION';
-      lightboxContent.innerHTML = '{{ site.data.home["en"]["curadoria"] }}';
+      lightboxTitle.innerHTML = 'curation';
+      lightboxContent.innerHTML = '{{ site.data.home["en"]["descriptions"]["curadoria"] }}';
     }
   });
 

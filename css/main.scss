@@ -115,6 +115,8 @@ a {
     width: 4.0 * $ANIMATION-BALL-SIZE;
     height: 1.4 * $ANIMATION-BALL-SIZE;
     cursor: pointer;
+    margin-left: 0%;
+    box-sizing: border-box;
 
     .home-ball {
       position: absolute;
@@ -172,11 +174,12 @@ a {
       background-color: #fff;
 
       .home-lightbox-title {
-        font-size: $SIZE-TEXT;
         width: 100%;
         padding: 16px 20px;
         box-sizing: border-box;
         border-bottom: 1px #aaa solid;
+        font-size: $SIZE-TEXT;
+        text-transform: uppercase;
       }
 
       .home-lightbox-content {
