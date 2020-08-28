@@ -127,7 +127,7 @@ a {
     width: 4.0 * $ANIMATION-BALL-SIZE;
     height: 1.4 * $ANIMATION-BALL-SIZE;
     margin-top: -2.2 * $ANIMATION-BALL-SIZE;
-    margin-left: 25%;
+    margin-left: calc((100% - 610px - #{4.0 * $ANIMATION-BALL-SIZE}) / 2) ;
     cursor: pointer;
     box-sizing: border-box;
 
