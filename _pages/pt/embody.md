@@ -1,5 +1,5 @@
 ---
-layout: more
-title: VIRUS-19
-permalink: /pt/embody
+layout: embody
+title: Vínculos
+permalink: /pt/vinculos/
 ---

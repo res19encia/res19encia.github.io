@@ -1,0 +1,63 @@
+- name: 'Anais-Karenin'
+  url: 'http://anaiskarenin.com'
+  image: 'media/images/embody/anais-karenin.jpg'
+  bio: 
+    en: 'bio anais en'
+    pt: 'Espero que um pouquinho antes do fim do mundo a gente se dê conta de que o mundo só acaba pra gente, mas continua existindo pro resto mundo.<br>Faz um tempo que penso em criar uma exposição com todos os trabalhos intitulados "sinto muito". Seria "sinto muito I", "sinto muito II", e assim por diante... O título da exposição seria "sinto muito, poderia ter nascido árvore". Isso resume o que sinto (muito, rs) sobre o agora e o fim do mundo. A gente acha que o mundo é pra gente e que a vida humana como entendemos é o máximo que podemos chegar. Mas será que o que estamos vivendo agora não é uma conspiração dos vírus que se uniram a outros microorganismos pra nos dar uma lição? Eles devem achar nosso corpo físico tão grande em relação ao micro tamanho do nosso corpo cósmico... risos.'
+
+- name: 'Thiago Hersan'
+  url: 'https://thiagohersan.com'
+  image: 'media/images/embody/thiago-hersan.jpg'
+  bio:
+    en: 'Used to be an integrated circuit designer. Today he works with art, education, digital culture and other things. He is a member of the <a href="https://astrovandalistas.cc" target="_blank">Astrovandalistas</a> collective, a group that explores the use of technology, art, activism and design to expand the possibilities of affective communication. In 2013 he received a VIDA15.0 award to develop the art and artificial intelligence project <a href="https://memememememememe.me" target="_blank">memememe</a>.'
+
+    pt: 'Foi designer de circuitos integrados. Hoje trabalha com arte, educação, cultura digital entre outras coisas. É integrante do coletivo <a href="https://astrovandalistas.cc" target="_blank">Astrovandalistas</a>, um grupo que explora o uso de tecnologia, arte, ativismo e design para ampliar as possibilidades da comunicação afetiva. Recebeu o prêmio VIDA15.0 em 2013 para desenvolver o projeto de arte e inteligência artificial <a href="https://memememememememe.me" target="_blank">memememe</a>.'
+
+- name: 'Mari Nagem'
+  url: 'https://marinagem.com'
+  image: 'media/images/embody/mari-nagem.jpg'
+  bio:
+    en: 'en mari bio'
+    pt: 'Interessada na artificialidade do mundo contemporâneo, nos pressupostos atuais de felicidade e nas questões existenciais entre homem e tecnologia, investigo as relações do ser com seu meio, ora criando instalações, objetos ou desenvolvendo conceitos. Se preciso definir um caminho estético, eu diria que me oriento no pop ácido minimalista.<br><br>Influenciada constantemente pelos meus deslocamentos, atuo como artista multimídia e como coordenadora criativa/produtora de eventos internacionais. Fugi do corona na Itália, passando pela Arábia Saudita, para enfrentar o vírus novamente no Brasil.<br><br>Com todos os jobs suspensos e as pretensões capitalistas adiadas, com a ausência de vida social e tempo abundante, antes do apocalipse  talvez eu possa me tornar aquele meu desejo mais íntimo e obscuro, ser uma artista conceitual fitness (e bronzeada).'
+
+- name: 'Lina Lopes'
+  url: 'https://www.linalopes.info'
+  image: 'media/images/embody/lina-lopes.jpg'
+  bio:
+    en: 'bio en lina'
+    pt: 'Tenho conversado muito com amigos durante este momento e particularmente gosto muito de uma boa teoria da conspiração… ops, de uma boa história. Eu sempre amei o teatro, a dramaturgia e acabei seguindo na linha de roteiro como pesquisa, no entanto, esta foi minha formação, mas minha ocupação é trabalhar com tecnologia.<br><br>Gosto de pensar que tecnologia é conhecimento aplicado. Acho que a questão fica por conta de encarar de onde vem este conhecimento. Sou uma fã do trabalho do Yuval Noah Harari e sua colocação sobre o que une os sapiens...'
+
+- name: 'Paulina Yeal Cho'
+  url: ''
+  image: 'media/images/embody/paulina-cho.jpg'
+  bio:
+    en: 'bio en paulina'
+    pt: 'Em tempos de confinamento, há muitas perguntas na minha cabeça e estou aqui para pensar em possíveis respostas e explorar elas.<br><br>E desde pequenininha sou louca por livros distópicos e apocalípticos! Meus favoritos: Fahrenheit 451 e Mão Esquerda da Escuridão.'
+
+- name: 'Artur Ched'
+  url: ''
+  image: 'media/images/embody/artur-ched.jpg'
+  bio:
+    en: 'bio en artur'
+    pt: 'Novas perspectivas de laços entre obra, público e artista são compreendidas entre a relação do afeto, humanização e da aproximação, no meu mundo "ideal" o indivíduo observa e aplica a obra como se fosse parte dele, e vice versa, a quebra do distanciamento desmembra antigas percepções e conceitos, produzindo assim uma catarse coletiva entre o mundo das artes e o mundo "normal".'
+
+- name: 'Eduardo Padilha'
+  url: ''
+  image: 'media/images/embody/eduardo-padilha.jpg'
+  bio:
+    en: 'bio en eduardo'
+    pt: 'Era uma vez um rato de laboratório que pulou da placa de Petri para ir dar uma volta numa galeria de arte. Entre método e caos, o ratinho percebeu que artigo científico e ensaio visual tinham muito mais em comum do que cientistas e artistas estavam acostumados a acreditar.<br><br>O ratinho percebeu que a única saída era unir forças.<br>Em laboratórios e ateliês.<br>Por pincéis e pipetas.'
+
+- name: 'Luccas Morais'
+  url: ''
+  image: 'media/images/embody/luccas-morais.jpg'
+  bio:
+    en: 'bio en luccas'
+    pt: 'Hoje mais do que nunca, tento encontrar as relações através da locomoção, sendo ele físico ou virtual, com o intuito de gerar interações entre as pessoas utilizando a imagem. Encontrando um suporte muitas das vezes na estamparia. A maior referência é a partir de conexões empíricas, materializando através de performances nas redes sociais, e a manipulação e reutilização de conteúdos em ambiente virtual.'
+
+- name: 'Fernando Tomé'
+  url: ''
+  image: 'media/images/embody/fernando-tome.jpg'
+  bio:
+    en: 'bio en fernando'
+    pt: 'bio pt fernando'
