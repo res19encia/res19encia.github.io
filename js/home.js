@@ -204,6 +204,7 @@ function drawButtons() {
 
     const be = document.createElement('div');
     be.classList.add('home-button');
+    be.classList.add('pink-style');
     be.innerHTML = bLabel;
     be.style['left'] = `${button[i].x + width / 2 - (6 * bLabel.length)}px`;
     be.style['top'] = `${button[i].y + height / 2 - 12}px`;
