@@ -258,6 +258,58 @@ a {
   }
 }
 
+.frame-wrapper {
+  padding: 0 12%;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  .art-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+    .artist-name {
+      font-size: 13px;
+      margin-left: 13px;
+    }
+  }
+
+  .art {
+    padding-bottom: 64px;
+  }
+
+  .art-description {
+    padding: 32px 50px;
+    font-size: 13px;
+  }
+
+  .curators-note-container {
+    width: 100%;
+    padding: 0 50px;
+    font-size: 13px;
+    box-sizing: border-box;
+
+    .curators-note-title {
+      text-transform: uppercase;
+      padding-bottom: 32px;
+    }
+
+    .swipebox {
+      display: block;
+      width: 55%;
+    }
+
+    .curators-note-image {
+      width: 100%;
+      padding-bottom: 56.25%;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+    }
+  }
+}
+
 .home-link {
   width: 100%;
   padding: 40px 0;

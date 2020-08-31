@@ -1,0 +1,47 @@
+{% include page-language.html %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    {% assign byline = "by" %}
+    {% assign cnotes = "curator's note in" %}
+    {% assign minutes = "minutes" %}
+
+    {% if PAGE_LANGUAGE == "pt" %}
+      {% assign byline = "por" %}
+      {% assign cnotes = "curator's note em" %}
+      {% assign minutes = "minutos" %}
+    {% endif %}
+
+    <div class="frame-wrapper">
+      {% include home-link.html %}
+      <div class="art-container">
+        {% assign arts = site.data.frame | sort: "artist" %}
+        {% for a in arts %}
+        <div class="art">
+          <div class="art-title">
+            <div class="art-name pink-style">{{ a.title }}</div>
+            <div class="artist-name">{{ byline }} {{ a.artist }}</div>
+          </div>
+
+          <div class="art-description">
+            {{ a.description[PAGE_LANGUAGE] }}
+          </div>
+
+          <div class="curators-note-container">
+            <div class="curators-note-title">{{ cnotes }} {{ a.note.minutes }} {{ minutes }}</div>
+            <a rel="{{ a.artist }}-curators-note" href="{{ site.baseurl }}/{{ a.note.image }}" class="swipebox">
+              <div class="curators-note-image" style="background-image: url({{ site.baseurl }}/{{ a.note.image }})"></div>
+            </a>
+          </div>
+
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </body>
+  <script src="{{ site.baseurl }}/js/swipebox.js"></script>
+</html>

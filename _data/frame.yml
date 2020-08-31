@@ -1,0 +1,83 @@
+- artist: 'Anais-Karenin'
+  title: 'O Grande Som'
+  medium:
+    pt: 'Arte sonora<br>Video arte<br>04m08s 1080px<br>2020'
+    en: 'Sound art<br>Video art<br>04m08s 1080px<br>2020'
+  description:
+    en: 'text anais en'
+    pt: 'texto anais pt'
+  note:
+    minutes: 'XX'
+    image: 'media/images/notes/anais-karenin.jpg'
+
+- artist: 'Thiago Hersan'
+  title: 'Outra.s'
+  medium:
+    pt: 'outra.s<br>Site, software customizado<br>Dimensões digitais<br>2020'
+    en: 'outra.s<br>Site, custom software<br>Digital dimensions<br>2020'
+  description:
+    en: 'text anais en'
+    pt: 'texto anais pt'
+  note:
+    minutes: '36'
+    image: 'media/images/notes/thiago-hersan.jpg'
+
+- artist: 'Artur Ched'
+  title: 'a(eferente)'
+  medium:
+    pt: 'Planta baixa 1<br>Desenho digital<br>7547 passos<br>2020'
+    en: 'Blue print 1<br>Digital Drawing<br>7547 steps<br>2020'
+  description:
+    en: 'text artur en'
+    pt: 'texto artur pt'
+  note:
+    minutes: 'XX'
+    image: 'media/images/notes/artur-ched.jpg'
+
+- artist: 'Eduardo Padilha'
+  title: 'Pesares Parasitas'
+  medium:
+    pt: 'Fotografia com celular<br>Vidrarias de laboratório, papel, arrependimentos, sequências genéticas do vírus Sars-Cov-2<br>2020'
+    en: 'Cellphone photography<br>Laboratory glassware, paper, regrets, genetic sequence of Sars-Cov-2 virus<br>2020'
+  description:
+    en: 'text padilha en'
+    pt: 'texto padilha pt'
+  note:
+    minutes: 'XX'
+    image: 'media/images/notes/eduardo-padilha.jpg'
+
+- artist: 'Fernando Tomé'
+  title: 'Entrevista com o morcego'
+  medium:
+    pt: 'Páginas de publicação digital<br>Publicação digital<br>123 páginas<br>2020'
+    en: 'Pages from digital publication<br>Digital Publication<br>123 pages<br>2020'
+  description:
+    en: 'text tomé en'
+    pt: 'texto tomé pt'
+  note:
+    minutes: 'XX'
+    image: 'media/images/notes/fernando-tome.jpg'
+
+- artist: 'Luccas Morais'
+  title: 'Live2020'
+  medium:
+    pt: 'LIVE2020<br>Print e gravação de trechos do ambiente digital<br>1024 x ... pixels<br>(constante atualização)'
+    en: 'LIVE2020<br>Print e pieces of recorded media from digital environments<br>1024 x ... pixels<br>(constant updates)'
+  description:
+    en: 'text luccas en'
+    pt: 'texto luccas pt'
+  note:
+    minutes: 'XX'
+    image: 'media/images/notes/luccas-morais.jpg'
+
+- artist: 'Paulina Yeal Cho'
+  title: 'Se vírus falasse'
+  medium:
+    pt: '606 minutos de áudio<br>10m16s de vídeo<br>gravação e mix de áudio usando Google Meet e Zoom<br>2020'
+    en: '606 minutes of audio<br>10m16s of video<br>audio recorded and mixed using Google Meet and Zoom<br>2020'
+  description:
+    en: 'text paulina en'
+    pt: 'texto paulina pt'
+  note:
+    minutes: 'XX'
+    image: 'media/images/notes/paulina-cho.jpg'
