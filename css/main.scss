@@ -44,6 +44,16 @@ a {
   }
 }
 
+::-moz-selection {
+  background: $COLOR-ACCENT;
+  color: #fff;
+}
+
+::selection {
+  background: $COLOR-ACCENT;
+  color: #fff;
+}
+
 .home-wrapper {
   position: relative;
 
@@ -84,10 +94,6 @@ a {
       position: absolute;
       cursor: pointer;
       transition: background-color $TRANSITION-PERIOD linear;
-
-      &:hover {
-        background-color: $COLOR-ACCENT-HOVER;
-      }
     }
   }
 
