@@ -1,0 +1,9 @@
+<div class="frame-showcase luccas-showcase">
+  {% assign lps = site.static_files |
+                  where_exp:"file","file.path contains 'frame'" |
+                  where_exp:"file","file.path contains 'luccas-morais_'" %}
+
+  {% for i in lps %}
+    <div class="showcase-sq-image" style="background-image: url({{ site.baseurl }}/{{ i.path }})"></div>
+  {% endfor %}
+</div>

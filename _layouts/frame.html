@@ -18,6 +18,7 @@
 
     <div class="frame-wrapper">
       {% include home-link.html %}
+
       <div class="art-container">
         {% assign arts = site.data.frame | sort: "artist" %}
         {% for a in arts %}
@@ -25,6 +26,11 @@
           <div class="art-title">
             <div class="art-name pink-style">{{ a.title }}</div>
             <div class="artist-name">{{ byline }} {{ a.artist }}</div>
+          </div>
+
+          <div class="frame-showcase-container">
+            {% include {{a.showcase }} %}
+            <div class="showcase-subtitle">{{ a.medium[PAGE_LANGUAGE] }}</div>
           </div>
 
           <div class="art-description">

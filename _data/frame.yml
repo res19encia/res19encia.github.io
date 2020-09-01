@@ -1,5 +1,6 @@
 - artist: 'Anais-Karenin'
   title: 'O Grande Som'
+  showcase: 'swipebox.html'
   medium:
     pt: 'Arte sonora / vídeo arte<br>04m08s<br>1080p<br>2020'
     en: 'Sound art / video art<br>04m08s<br>1080p<br>2020'
@@ -12,6 +13,7 @@
 
 - artist: 'Thiago Hersan'
   title: 'Outra.s'
+  showcase: 'swipebox.html'
   medium:
     pt: 'outra.s<br>Site, software customizado<br>Dimensões digitais<br>2020'
     en: 'outra.s<br>Site, custom software<br>Digital dimensions<br>2020'
@@ -25,6 +27,7 @@
 
 - artist: 'Artur Ched'
   title: 'a(eferente)'
+  showcase: 'swipebox.html'
   medium:
     pt: 'Planta baixa 1<br>Desenho digital<br>7547 passos<br>2020'
     en: 'Blue print 1<br>Digital Drawing<br>7547 steps<br>2020'
@@ -37,6 +40,7 @@
 
 - artist: 'Eduardo Padilha'
   title: 'Pesares Parasitas'
+  showcase: 'swipebox.html'
   medium:
     pt: 'Fotografia com celular<br>Vidrarias de laboratório, papel, arrependimentos, sequências genéticas do vírus Sars-Cov-2<br>2020'
     en: 'Cellphone photography<br>Laboratory glassware, paper, regrets, genetic sequence of Sars-Cov-2 virus<br>2020'
@@ -49,6 +53,7 @@
 
 - artist: 'Fernando Tomé'
   title: 'Entrevista com o morcego'
+  showcase: 'swipebox.html'
   medium:
     pt: 'Páginas de publicação digital<br>Publicação digital<br>123 páginas<br>2020'
     en: 'Pages from digital publication<br>Digital Publication<br>123 pages<br>2020'
@@ -61,6 +66,7 @@
 
 - artist: 'Luccas Morais'
   title: 'Live2020'
+  showcase: 'frame/luccas-morais.html'
   medium:
     pt: 'LIVE2020<br>Print e gravação de trechos do ambiente digital<br>1024 x ... px<br>(constante atualização)'
     en: 'LIVE2020<br>Print Screens and pieces of recorded media from digital environments<br>1024 x ... px<br>(constant updates)'
@@ -73,6 +79,7 @@
 
 - artist: 'Paulina Yeal Cho'
   title: 'Se vírus falasse'
+  showcase: 'swipebox.html'
   medium:
     pt: '606 minutos de áudio<br>10m16s de vídeo<br>gravação e mix de áudio usando Google Meet e Zoom<br>2020'
     en: '606 minutes of audio<br>10m16s of video<br>audio recorded and mixed using Google Meet and Zoom<br>2020'

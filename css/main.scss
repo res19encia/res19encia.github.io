@@ -285,8 +285,38 @@ a {
     padding-bottom: 64px;
   }
 
+  .frame-showcase-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 64px 0 0;
+
+    .frame-showcase {
+      width: 85%;
+      padding-left: 64px;
+    }
+
+    .luccas-showcase {
+      display: flex;
+      flex-direction: row;
+
+      .showcase-sq-image {
+        width: 33%;
+        padding-bottom: 33%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+
+    .showcase-subtitle {
+      width: 12.5%;
+      font-size: 13px;
+    }
+  }
+
   .art-description {
-    padding: 32px 64px;
+    padding: 50px 64px 32px;
     font-size: 13px;
     line-height: 1.5;
   }
