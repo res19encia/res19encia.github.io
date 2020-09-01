@@ -27,7 +27,7 @@ body {
 
 strong { font-weight: bold; }
 em { font-style: italic; }
-s { text-decoration:line-through; }
+s { text-decoration: line-through; }
 
 a {
   color: $COLOR-LINK;
@@ -45,12 +45,12 @@ a {
 }
 
 ::-moz-selection {
-  background: $COLOR-ACCENT;
+  background-color: $COLOR-ACCENT-BACKGROUND;
   color: #fff;
 }
 
 ::selection {
-  background: $COLOR-ACCENT;
+  background-color: $COLOR-ACCENT-BACKGROUND;
   color: #fff;
 }
 
