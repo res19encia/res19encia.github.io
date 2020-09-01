@@ -1,0 +1,12 @@
+<div class="frame-showcase thiago-hersan-showcase">
+  {% assign movs = site.static_files |
+                   where_exp:"file","file.path contains 'frame'" |
+                   where_exp:"file","file.path contains 'thiago-hersan_'" %}
+
+  <div class="video-container">
+    <video class="showcase-video" playsinline autoplay muted loop>
+      <source src="{{ site.baseurl }}/{{ movs[0].path }}" type="video/webm">
+    </video>
+  </div>
+  <div class="showcase-subtitle">{{ include.medium }}</div>
+</div>

@@ -12,7 +12,7 @@
 
     {% if PAGE_LANGUAGE == "pt" %}
       {% assign byline = "por" %}
-      {% assign cnotes = "curator's note em" %}
+      {% assign cnotes = "notas do curador em" %}
       {% assign minutes = "minutos" %}
     {% endif %}
 
@@ -22,29 +22,29 @@
       <div class="art-container">
         {% assign arts = site.data.frame | sort: "artist" %}
         {% for a in arts %}
-        <div class="art">
-          <div class="art-title">
-            <div class="art-name pink-style">{{ a.title }}</div>
-            <div class="artist-name">{{ byline }} {{ a.artist }}</div>
-          </div>
+          <div class="art">
+            <div class="art-title">
+              <div class="art-name pink-style">{{ a.title }}</div>
+              <div class="artist-name">{{ byline }} {{ a.artist }}</div>
+            </div>
 
-          <div class="frame-showcase-container">
-            {% include {{a.showcase }} %}
-            <div class="showcase-subtitle">{{ a.medium[PAGE_LANGUAGE] }}</div>
-          </div>
+            <div class="frame-showcase-container">
+              {% assign amedium = a.medium[PAGE_LANGUAGE] %}
+              {% include frame/{{a.slug }}.html medium=amedium %}
+            </div>
 
-          <div class="art-description">
-            {{ a.description[PAGE_LANGUAGE] }}
-          </div>
+            <div class="art-description">
+              {{ a.description[PAGE_LANGUAGE] }}
+            </div>
 
-          <div class="curators-note-container">
-            <div class="curators-note-title">{{ cnotes }} {{ a.note.minutes }} {{ minutes }}</div>
-            <a rel="{{ a.artist }}-curators-note" href="{{ site.baseurl }}/{{ a.note.image }}" class="swipebox">
-              <div class="curators-note-image" style="background-image: url({{ site.baseurl }}/{{ a.note.image }})"></div>
-            </a>
-          </div>
+            <div class="curators-note-container">
+              <div class="curators-note-title">{{ cnotes }} {{ a.note.minutes }} {{ minutes }}</div>
+              <a rel="{{ a.artist }}-curators-note" href="{{ site.baseurl }}/{{ a.note.image }}" class="swipebox">
+                <div class="curators-note-image" style="background-image: url({{ site.baseurl }}/{{ a.note.image }})"></div>
+              </a>
+            </div>
 
-        </div>
+          </div>
         {% endfor %}
       </div>
     </div>

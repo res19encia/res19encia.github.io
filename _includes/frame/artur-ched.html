@@ -1,0 +1,19 @@
+<div class="frame-showcase artur-ched-showcase">
+  {% assign imgs = site.static_files |
+                   where_exp:"file","file.path contains 'frame'" |
+                   where_exp:"file","file.path contains 'artur-ched_'" %}
+
+  <div class="showcase-main-image-container">
+    <div class="showcase-main-image" style="background-image: url({{ site.baseurl }}/{{ imgs[0].path }})"></div>
+    <div class="showcase-main-image" style="background-image: url({{ site.baseurl }}/{{ imgs[1].path }})"></div>
+  </div>
+  <div class="showcase-subtitle">{{ include.medium }}</div>
+
+  <div class="showcase-image-container">
+    {% for i in imgs limit:8 %}
+      {% if forloop.index > 2 %}
+        <div class="showcase-image" style="background-image: url({{ site.baseurl }}/{{ i.path }})"></div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

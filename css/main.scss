@@ -286,32 +286,15 @@ a {
   }
 
   .frame-showcase-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    padding: 64px 0 0;
-
     .frame-showcase {
-      width: 85%;
-      padding-left: 64px;
-    }
-
-    .luccas-showcase {
-      display: flex;
-      flex-direction: row;
-
-      .showcase-sq-image {
-        width: 33%;
-        padding-bottom: 33%;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
+      width: 100%;
+      padding: 0 64px;
+      box-sizing: border-box;
     }
 
     .showcase-subtitle {
-      width: 12.5%;
-      font-size: 13px;
+      width: 100%;
+      font-size: 12px;
     }
   }
 
@@ -343,6 +326,104 @@ a {
       background-repeat: no-repeat;
       background-position: center center;
       background-size: contain;
+    }
+  }
+}
+
+
+.luccas-morais-showcase {
+  .showcase-image-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .showcase-image {
+    width: 33%;
+    padding-bottom: 33%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.fernando-tome-showcase {
+  .showcase-image-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .showcase-image {
+    width: 33.33%;
+    padding-bottom: calc(.3333 * 153.75%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.eduardo-padilha-showcase {
+  .showcase-main-image {
+    padding-bottom: 55%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .showcase-image-container {
+    display: flex;
+    flex-direction: row;
+
+    .showcase-image {
+      width: 20%;
+      padding-bottom: calc(.20 * 65%);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .showcase-image + .showcase-image {
+      margin-left: 12px;
+    }
+  }
+}
+
+.artur-ched-showcase {
+  .showcase-main-image-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .showcase-main-image {
+    width: 50%;
+    padding-bottom: calc(.50 * 71%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .showcase-image-container {
+    display: flex;
+    flex-direction: row;
+
+    .showcase-image {
+      width: 16.66%;
+      padding-bottom: calc(.1666 * 71%);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
+
+.thiago-hersan-showcase {
+  .video-container {
+    width: 100%;
+  }
+
+  .showcase-video {
+    width: 100%;
+    &:focus {
+      outline:0;
     }
   }
 }
