@@ -23,7 +23,7 @@ curators:
 artists:
   - artist: 'Anais-Karenin'
     title: 'O Grande Som'
-    slug: 'luccas-morais'
+    slug: 'anais-karenin'
     medium:
       pt: 'Arte sonora / vídeo arte | 04m08s | 1080p | 2020'
       en: 'Sound art / video art | 04m08s | 1080p | 2020'
@@ -102,7 +102,7 @@ artists:
 
   - artist: 'Paulina Yeal Cho'
     title: 'Se vírus falasse'
-    slug: 'luccas-morais'
+    slug: 'paulina-cho'
     medium:
       pt: '606 minutos de áudio | 10m16s de vídeo | gravação e mix de áudio usando Google Meet e Zoom | 2020'
       en: '606 minutes of audio | 10m16s of video | audio recorded and mixed using Google Meet and Zoom | 2020'
