@@ -6,7 +6,7 @@
 
   {% assign movs = site.static_files |
                    where_exp:"file","file.path contains 'frame'" |
-                   where_exp:"file","file.path contains 'hersan_'" |
+                   where_exp:"file","file.path contains 'mari-nagem_'" |
                    where_exp:"file","file.path contains 'webm'" %}
 
   {% assign img-titles = site.data.frame.curators[0]['image-title'][PAGE_LANGUAGE] %}
@@ -16,7 +16,7 @@
       <source src="{{ site.baseurl }}/{{ movs[0].path }}" type="video/webm">
     </video>
     <div class="video-subtitle-container">
-      <div class="video-subtitle">artist's face analyzed at curator's screen</div>
+      <div class="video-subtitle video-subtitle-40">artist's face analyzed at curator's screen</div>
       <div class="video-subtitle">curator's face captured and analyzed by the camera</div>
     </div>
   </div>

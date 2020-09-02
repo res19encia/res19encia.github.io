@@ -467,8 +467,14 @@ a {
 
   .video-subtitle {
     width: 50%;
+    flex-grow: 1;
     font-size: 11px;
     text-align: right;
+  }
+
+  .video-subtitle-40 {
+    width: 47%;
+    flex-grow: 0;
   }
 
   .art-description {
