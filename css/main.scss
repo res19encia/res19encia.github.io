@@ -328,6 +328,25 @@ a {
       background-size: contain;
     }
   }
+
+  .curator-quote-container {
+    padding: 0 64px;
+
+    .curator-quote {
+      display: inline;
+      font-size: 28px;
+      line-height: 1.7;
+      background-color: #fff1e6;
+      box-shadow: 0 0 0 7px #fff1e6;
+    }
+    .curator-quote-credit {
+      display: inline;
+      padding-left: 64px;
+      font-size: 11px;
+      color: #000;
+      text-decoration: underline;
+    }
+  }
 }
 
 
@@ -425,6 +444,51 @@ a {
     &:focus {
       outline:0;
     }
+  }
+}
+
+.mari-nagem-showcase {
+  .video-container {
+    width: 100%;
+  }
+
+  .showcase-video {
+    width: 100%;
+    &:focus {
+      outline:0;
+    }
+  }
+
+  .video-subtitle-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .video-subtitle {
+    width: 50%;
+    font-size: 11px;
+    text-align: right;
+  }
+
+  .art-description {
+    padding: 50px 0 32px;
+  }
+
+  .showcase-image-title {
+    font-size: 13px;
+  }
+
+  .showcase-image {
+    width: 100%;
+    padding-bottom: 56.25%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .showcase-image-1, .showcase-image-2 {
+    padding-bottom: 30%;
   }
 }
 

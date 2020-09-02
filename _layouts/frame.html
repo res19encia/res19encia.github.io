@@ -9,6 +9,7 @@
     {% assign byline = "by" %}
     {% assign cnotes = "curator's note in" %}
     {% assign minutes = "minutes" %}
+    {% assign yuval = "It is crucial to remember that anger, joy, boredom and love are biological phenomena just like fever and a cough. The same technology that identifies coughs could also identify laughs." %}
 
     {% if PAGE_LANGUAGE == "pt" %}
       {% assign byline = "por" %}
@@ -46,6 +47,35 @@
 
           </div>
         {% endfor %}
+
+        <div class="art">
+          {% assign c = site.data.frame.curators[0] %}
+          <div class="art-title">
+            <div class="art-name pink-style">{{ c.title }}</div>
+            <div class="artist-name">{{ byline }} {{ c.artist }}</div>
+          </div>
+
+          <div class="curator-quote-container">
+            <div class="curator-quote">
+              {{ yuval }}
+            </div>
+            <div class="curator-quote-credit">
+               <a href="https://www.ft.com/content/19d90308-6858-11ea-a3c9-1fe6fedcca75" target="_blank">
+                 Yuval Harari
+              </a>
+            </div>
+          </div>
+
+          <div class="art-description">
+            {{ c.description[PAGE_LANGUAGE] }}
+          </div>
+
+          <div class="frame-showcase-container">
+            {% assign amedium = c.medium[PAGE_LANGUAGE] %}
+            {% include frame/{{c.slug }}.html medium=amedium %}
+          </div>
+
+        </div>
       </div>
     </div>
   </body>

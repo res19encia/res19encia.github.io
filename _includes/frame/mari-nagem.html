@@ -1,0 +1,47 @@
+<div class="frame-showcase mari-nagem-showcase">
+  {% assign imgs = site.static_files |
+                   where_exp:"file","file.path contains 'frame'" |
+                   where_exp:"file","file.path contains 'mari-nagem_'" |
+                   where_exp:"file","file.path contains 'jpg'" %}
+
+  {% assign movs = site.static_files |
+                   where_exp:"file","file.path contains 'frame'" |
+                   where_exp:"file","file.path contains 'hersan_'" |
+                   where_exp:"file","file.path contains 'webm'" %}
+
+  {% assign img-titles = site.data.frame.curators[0]['image-title'][PAGE_LANGUAGE] %}
+
+  <div class="video-container">
+    <video class="showcase-video" playsinline autoplay muted loop>
+      <source src="{{ site.baseurl }}/{{ movs[0].path }}" type="video/webm">
+    </video>
+    <div class="video-subtitle-container">
+      <div class="video-subtitle">artist's face analyzed at curator's screen</div>
+      <div class="video-subtitle">curator's face captured and analyzed by the camera</div>
+    </div>
+  </div>
+
+  <div class="art-description">
+    The fluctuation of each feeling generated computer graphics, presenting the intensity of each emotion (identified by the current technology) in relation to the time of analysis (respectively duration of each call); in both artist and curator practices.
+  </div>
+
+    {% for i in imgs %}
+      <div class="showcase-image-title">{{ img-titles[forloop.index0] }}</div>
+      <div class="showcase-image showcase-image-{{ forloop.index0 }}" style="background-image: url({{ site.baseurl }}/{{ i.path }})"></div>
+      {% if forloop.index0 == 0 %}
+      <div class="video-subtitle-container">
+        <div class="video-subtitle"></div>
+        <div class="video-subtitle">
+          x= time of emotion analyses per minute (104 minutes) y = intensity of emotions (% of happiness)
+        </div>
+      </div>
+      {% endif %}
+      {% if forloop.last %}
+        <div class="showcase-subtitle">{{ include.medium }}</div>
+      {% endif %}
+    {% endfor %}
+
+  <div class="art-description">
+    These gradually expire according to the diminishing number of deaths by Covid-19 in Brazil and the increase in presence reality.
+  </div>
+</div>
