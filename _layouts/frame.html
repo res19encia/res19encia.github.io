@@ -20,7 +20,7 @@
       {% include home-link.html %}
 
       <div class="art-container">
-        {% assign arts = site.data.frame | sort: "artist" %}
+        {% assign arts = site.data.frame.artists | sort: "artist" %}
         {% for a in arts %}
           <div class="art">
             <div class="art-title">
