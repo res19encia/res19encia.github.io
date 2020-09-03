@@ -15,6 +15,7 @@
       {% assign byline = "por" %}
       {% assign cnotes = "notas do curador em" %}
       {% assign minutes = "minutos" %}
+      {% assign yuval = "É crucial lembrar que raiva, alegria, tédio e amor são fenômenos biológicos assim como febre e tosse. A mesma tecnologia que identifica tosse pode também identificar risos." %}
     {% endif %}
 
     <div class="frame-wrapper">
@@ -51,7 +52,7 @@
         <div class="art">
           {% assign c = site.data.frame.curators[0] %}
           <div class="art-title">
-            <div class="art-name pink-style">{{ c.title }}</div>
+            <div class="art-name pink-style">{{ c.title[PAGE_LANGUAGE] }}</div>
             <div class="artist-name">{{ byline }} {{ c.artist }}</div>
           </div>
 
@@ -67,7 +68,7 @@
           </div>
 
           <div class="art-description">
-            {{ c.description[PAGE_LANGUAGE] }}
+            {{ c.description[PAGE_LANGUAGE][0] }}
           </div>
 
           <div class="frame-showcase-container">

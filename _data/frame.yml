@@ -1,9 +1,11 @@
 curators:
   - artist: 'Mari Nagem'
-    title: 'O Grande Som'
+    title:
+      en: 'Curator''s Note'
+      pt: 'Notas do Curador'
     slug: 'mari-nagem'
     medium:
-      pt: 'Curator''s Note | Desenho digital por software customizado | 3568 x 2008 px'
+      pt: 'Notas do Curador | Desenho digital por software customizado | 3568 x 2008 px'
       en: 'Curator''s Note | Digital drawing using custom software | 3568 x 2008 px'
     image-title:
       en:
@@ -12,13 +14,28 @@ curators:
         - 'The curator''s responsiveness was interpolated with a consistent surface to evoke materiality to a transaction utterly experienced online.'
         - 'Artists'' and curator''s biometric representations were intercalated and spined to generate Curator''s Notes.'
       pt:
-        - 'The assessment for each artist is presented in a 2D (X,Y) graphic focusing on happiness:'
-        - 'Conversely, the curator''s emotions are presented in a 3D graphic (X, Y, Z).'
-        - 'The curator''s responsiveness was interpolated with a consistent surface to evoke materiality to a transaction utterly experienced online.'
-        - 'Artists'' and curator''s biometric representations were intercalated and spined to generate Curator''s Notes.'
+        - 'A avaliação de cada artista é apresentada em um gráfico 2D (X, Y) com foco na felicidade:'
+        - 'Em contrapartida, as emoções do curador são apresentadas em um gráfico 3D (X, Y, Z)'
+        - 'As emoções do curador foram interpoladas com uma textura para evocar materialidade em uma experiente totalmente online.'
+        - 'As representações biométricas de cada artista e curador  foram intercaladas e rotacionadas para gerar  "Notas do Curador".'
+    video-title:
+      en:
+        - 'artist''s face analyzed at curator''s screen'
+        - 'curator''s face captured and analyzed by the camera'
+        - 'x = time of emotion analyses (in minutes) y = intensity of emotions (% of happiness)'
+      pt:
+        - 'rosto do artista analizado na tela do curador'
+        - 'rosto do curador capturado e analizado pela camera'
+        - 'x = momento da análise (em minutos) y = intensidade da emoção (% de felicidade)'
     description:
-      en: 'As a variation of the Happy App analyses, Curator''s Note is a machine-assisted, emotion-driven graphical note about creative development during the Virus-19 Online Residency in partnership with the artist Thiago Hersan.<br><br>The Happy App is a computer app that measures users'' happiness as it varies according to content viewed on their own computer and is part of a research that unfolds into various imaginative manifestations. The app triggers the computer''s camera every minute and simultaneously captures a screenshot. The images provided by the camera (usually the user''s face) are analyzed using emotion-recognition technology through physiological signals (micro facial expressions) quantifying basic emotions like happiness, sadness, surprise, fear, disgust and anger.<br><br>Along a cycle of online mentorship sessions through "Zoom", the Happy App was activated to measure curator and artists mental states throughout video calls. None of the artists were aware of their monitoring.'
-      pt: 'texto mari pt'
+      en:
+        - 'As a variation of the Happy App analyses, Curator''s Note is a machine-assisted, emotion-driven graphical note about creative development during the Virus-19 Online Residency in partnership with the artist Thiago Hersan.<br><br>The Happy App is a computer app that measures users'' happiness as it varies according to content viewed on their own computer and is part of a research that unfolds into various imaginative manifestations. The app triggers the computer''s camera every minute and simultaneously captures a screenshot. The images provided by the camera (usually the user''s face) are analyzed using emotion-recognition technology through physiological signals (micro facial expressions) quantifying basic emotions like happiness, sadness, surprise, fear, disgust and anger.<br><br>Along a cycle of online mentorship sessions through "Zoom", the Happy App was activated to measure curator and artists mental states throughout video calls. None of the artists were aware of their monitoring.'
+        - 'The fluctuation of each feeling generated computer graphics, presenting the intensity of each emotion (identified by the current technology) in relation to the time of analysis (respectively duration of each call); in both artist and curator practices.'
+        - 'These gradually expire according to the diminishing number of deaths by Covid-19 in Brazil and the increase in presence reality.'
+      pt:
+        - 'Como uma extensão do Happy App, Notas do Curador é uma representação gráfica de uma categoria de emoções humanas interpretadas por algoritmos, sobre o processo criativo vivido durante a Residência online Virus-19, realizado em parceria com o artista Thiago Hersan.<br><br>Happy App é um aplicativo que mede a felicidade do usuário de acordo com o conteúdo visualizado em seu próprio computador e desdobra em diversas manifestações artísticas. O aplicativo aciona a câmera do computador a cada minuto e simultaneamente realizada uma captura de tela. As imagens fornecidas pela câmera (geralmente o rosto do usuário) são analisadas através da tecnologia de reconhecimento de emoções por  meio das micro expressões faciais, quantificando emoções básicas como felicidade, tristeza, surpresa, medo, nojo e raiva.<br><br>Ao longo de um ciclo de sessões de mentoria online através do "Zoom", o Happy App foi ativado para medir os estados mentais do curador e dos artistas ao longo das chamadas de vídeo. Nenhum dos artistas estava ciente de seu monitoramento.'
+        - 'A flutuação de cada sentimento gerou gráficos computacionais, apresentando a intensidade de cada emoção em relação à duração de cada ligação; tanto nas práticas dos artistas quanto do curador.'
+        - 'Estas expiram gradativamente de acordo com a diminuição do número de mortes por Covid-19 no Brasil e o aumento da realidade presencial.'
 
 artists:
   - artist: 'Anais-Karenin'
