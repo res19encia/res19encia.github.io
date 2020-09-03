@@ -1,0 +1,23 @@
+{% include page-language.html %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="frame-wrapper">
+      {% include home-link.html %}
+
+      <div class="art-container">
+          <div class="art">
+            <div class="art-title">
+              <div class="art-name pink-style">{{ page.title }}</div>
+              <div class="artist-name"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="{{ site.baseurl }}/js/swipebox.js"></script>
+</html>
