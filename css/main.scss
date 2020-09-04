@@ -264,7 +264,7 @@ a {
   }
 }
 
-.frame-wrapper {
+.frame-wrapper, .flood-wrapper {
   padding: 0 12%;
   margin: 0 auto;
   box-sizing: border-box;
@@ -348,7 +348,6 @@ a {
     }
   }
 }
-
 
 .luccas-morais-showcase {
   .showcase-image-container {
@@ -498,29 +497,70 @@ a {
   }
 }
 
-.flood-showcase {
-  .showcase-main-image {
-    padding-bottom: 61.7%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.flood-wrapper {
+  .flood-showcase {
+    .flood-image {
+      cursor: pointer;
+    }
 
-  .showcase-image-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-    .showcase-image {
-      width: 19%;
-      padding-bottom: calc(.19 * 61.7%);
+    .showcase-main-image {
+      padding-bottom: 61.7%;
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
     }
 
-    .showcase-image + .showcase-image {
-      margin-left: 1%;
+    .showcase-image-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      .showcase-image {
+        width: 19%;
+        margin: .5%;
+        padding-bottom: calc(.19 * 61.7%);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+      }
+    }
+  }
+
+  .flood-lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: opacity $TRANSITION-PERIOD linear;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 20;
+
+    &.show {
+      pointer-events: inherit;
+      opacity: 1;
+    }
+
+    .flood-lightbox-container {
+      width: 92%;
+      max-width: 1000px;
+    }
+
+    .flood-lightbox-image {
+      width: 100%;
+      padding-bottom: 61.72%;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   }
 }
@@ -589,7 +629,7 @@ a {
 
 .video-wrapper {
   position: relative;
-  margin: 1rem auto;
+  margin: 0 auto;
   height: 0;
   overflow: hidden;
 
