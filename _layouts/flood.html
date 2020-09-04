@@ -16,6 +16,25 @@
               <div class="artist-name"></div>
             </div>
         </div>
+        <div class="frame-showcase-container">
+          <div class="frame-showcase flood-showcase">
+            {% assign imgs = site.static_files |
+                             where_exp:"file","file.path contains 'flood'" |
+                             where_exp:"file","file.path contains 'flood_'" %}
+
+            <div class="showcase-main-image-container">
+              <div class="showcase-main-image" style="background-image: url({{ site.baseurl }}/{{ imgs[0].path }})"></div>
+            </div>
+
+            <div class="showcase-image-container">
+              {% for i in imgs %}
+                {% unless forloop.first == true %}
+                  <div class="showcase-image" style="background-image: url({{ site.baseurl }}/{{ i.path }})"></div>
+                {% endunless %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

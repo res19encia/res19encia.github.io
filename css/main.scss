@@ -498,6 +498,33 @@ a {
   }
 }
 
+.flood-showcase {
+  .showcase-main-image {
+    padding-bottom: 61.7%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .showcase-image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .showcase-image {
+      width: 19%;
+      padding-bottom: calc(.19 * 61.7%);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .showcase-image + .showcase-image {
+      margin-left: 1%;
+    }
+  }
+}
+
 .home-link {
   width: 100%;
   padding: 40px 0;
