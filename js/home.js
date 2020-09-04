@@ -285,11 +285,11 @@ $(document).ready(function() {
     lightboxOverlay.classList.add('show');
 
     if (window.location.href.includes('pt')) {
-      lightboxTitle.innerHTML = 'curadoria';
-      lightboxContent.innerHTML = '{{ site.data.home["pt"]["descriptions"]["curadoria"] }}';
+      lightboxTitle.innerHTML = 'sistemas';
+      lightboxContent.innerHTML = '{{ site.data.home["pt"]["descriptions"]["system"] }}';
     } else {
-      lightboxTitle.innerHTML = 'curation';
-      lightboxContent.innerHTML = '{{ site.data.home["en"]["descriptions"]["curadoria"] }}';
+      lightboxTitle.innerHTML = 'system';
+      lightboxContent.innerHTML = '{{ site.data.home["en"]["descriptions"]["system"] }}';
     }
   });
 
