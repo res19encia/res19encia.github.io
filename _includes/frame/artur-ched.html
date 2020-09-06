@@ -4,16 +4,22 @@
                    where_exp:"file","file.path contains 'artur-ched_'" %}
 
   <div class="showcase-main-image-container">
-    <div class="showcase-main-image" style="background-image: url({{ site.baseurl }}/{{ imgs[0].path }})"></div>
-    <div class="showcase-main-image" style="background-image: url({{ site.baseurl }}/{{ imgs[1].path }})"></div>
+    <div id="artur-ched-showcase-main-image-0"
+         class="showcase-main-image"
+         style="background-image: url({{ site.baseurl }}/{{ imgs[0].path }})"></div>
+    <div id="artur-ched-showcase-main-image-1"
+         class="showcase-main-image"
+         style="background-image: url({{ site.baseurl }}/{{ imgs[1].path }})"></div>
   </div>
   <div class="showcase-subtitle">{{ include.medium }}</div>
 
   <div class="showcase-image-container">
-    {% for i in imgs limit:8 %}
-      {% if forloop.index > 2 %}
-        <div class="showcase-image" style="background-image: url({{ site.baseurl }}/{{ i.path }})"></div>
-      {% endif %}
+    {% for i in imgs offset:2 %}
+      {% capture mcycle %}{% cycle "drawing", "text" %}{% endcapture %}
+
+      <div id="artur-ched-showcase-image-{{ forloop.index0 }}"
+           class="showcase-image showcase-image-{{ mcycle }} artur-ched-showcase-image"
+           style="background-image: url({{ site.baseurl }}/{{ i.path }})"></div>
     {% endfor %}
   </div>
 </div>
