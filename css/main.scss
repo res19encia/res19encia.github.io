@@ -271,6 +271,7 @@ a {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-end;
+    padding-bottom: 20px;
 
     .artist-name {
       font-size: 13px;
@@ -292,6 +293,7 @@ a {
     .showcase-subtitle {
       width: 100%;
       font-size: 12px;
+      padding: .5em 0 2em;
     }
   }
 
@@ -323,18 +325,25 @@ a {
   }
 
   .curator-quote-container {
+    position: relative;
     padding: 0 64px;
+    box-sizing: border-box;
 
-    .curator-quote {
-      display: inline;
-      font-size: 28px;
-      line-height: 1.7;
-      background-color: #fff1e6;
-      box-shadow: 0 0 0 7px #fff1e6;
+    .curator-quote-image {
+      width: 100%;
+      padding-bottom: calc(1 * 13.95%);
+      background-image: url({{ site.baseurl }}/media/images/frame/mari-nagem/yuval-quote.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: contain;
+      box-sizing: border-box;
     }
+
     .curator-quote-credit {
-      display: inline;
-      padding-left: 64px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding-left: 50%;
       font-size: 11px;
       color: #000;
       text-decoration: underline;
@@ -480,11 +489,17 @@ a {
   }
 
   .art-description {
-    padding: 50px 0 32px;
+    padding: 20px 0;
   }
 
   .showcase-image-title {
     font-size: 13px;
+    padding-bottom: .5em;
+  }
+
+  .showcase-image + .showcase-image-title,
+  .video-subtitle-container + .showcase-image-title {
+    padding-top: 2em;
   }
 
   .showcase-image {
