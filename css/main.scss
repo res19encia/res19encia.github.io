@@ -410,11 +410,15 @@ a {
   .showcase-main-image-container {
     display: flex;
     flex-direction: row;
+
+    .swipebox {
+      width: 50%;
+    }
   }
 
   .showcase-main-image {
-    width: 50%;
-    padding-bottom: calc(.50 * 71%);
+    width: 100%;
+    padding-bottom: 71%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

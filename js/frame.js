@@ -27,6 +27,7 @@ $(document).ready(function() {
 
     mainImageArtur.forEach((e, i) => {
       e.style.backgroundImage = pairImageUrl[i];
+      e.parentElement.setAttribute('href', pairImageUrl[i].match(/url\(\"(.*)\"\)/)[1]);
     });
     
     pairImage.forEach((e, i) => {

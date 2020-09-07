@@ -4,12 +4,16 @@
                    where_exp:"file","file.path contains 'artur-ched_'" %}
 
   <div class="showcase-main-image-container">
-    <div id="artur-ched-showcase-main-image-0"
-         class="showcase-main-image"
-         style="background-image: url({{ site.baseurl }}/{{ imgs[0].path }})"></div>
-    <div id="artur-ched-showcase-main-image-1"
-         class="showcase-main-image"
-         style="background-image: url({{ site.baseurl }}/{{ imgs[1].path }})"></div>
+    <a rel="artur-ched-showcase" href="{{ site.baseurl }}/{{ imgs[0].path }}" class="swipebox">
+      <div id="artur-ched-showcase-main-image-0"
+           class="showcase-main-image"
+           style="background-image: url({{ site.baseurl }}/{{ imgs[0].path }})"></div>
+    </a>
+    <a rel="artur-ched-showcase" href="{{ site.baseurl }}/{{ imgs[1].path }}" class="swipebox">
+      <div id="artur-ched-showcase-main-image-1"
+           class="showcase-main-image"
+           style="background-image: url({{ site.baseurl }}/{{ imgs[1].path }})"></div>
+    </a>
   </div>
   <div class="showcase-subtitle">{{ include.medium }}</div>
 
