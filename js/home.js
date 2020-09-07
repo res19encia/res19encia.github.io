@@ -273,8 +273,6 @@ class Icosahedron {
 }
 
 $(document).ready(function() {
-  AOS.init();
-
   const lightboxOverlay = document.getElementById('my-home-lightbox-overlay');
   const lightboxContainer = document.getElementById('my-home-lightbox-container');
   const lightboxTitle = document.getElementById('my-home-lightbox-title');
