@@ -3,7 +3,7 @@ $(document).ready(function() {
   const lightboxContainer = document.getElementById('my-embody-lightbox-container');
   const lightboxImage = document.getElementById('my-embody-lightbox-image');
 
-  $('.artist-image').on('click', function(event){
+  $('.artist-image').on('click', (event) => {
     event.stopPropagation();
     event.stopImmediatePropagation();
     lightboxOverlay.classList.add('show');

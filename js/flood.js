@@ -4,7 +4,7 @@ $(document).ready(function() {
   const lightboxImage = document.getElementById('my-flood-lightbox-image');
 
 
-  $(".flood-image").on('click', function(event){
+  $(".flood-image").on('click', (event) => {
     event.stopPropagation();
     event.stopImmediatePropagation();
     lightboxOverlay.classList.add('show');
