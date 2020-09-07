@@ -2,28 +2,38 @@
   {% assign imgs = site.static_files |
                    where_exp:"file","file.path contains 'frame'" |
                    where_exp:"file","file.path contains 'artur-ched_'" %}
+  {% assign msteps = '7547,0,0,0,20156,0,3756,0,16037,0,2507,0,12287,0' | split: ',' %}
 
   <div class="showcase-main-image-container">
     <a rel="artur-ched-showcase" href="{{ site.baseurl }}/{{ imgs[0].path }}" class="swipebox">
       <div id="artur-ched-showcase-main-image-0"
+           data-steps="{{ msteps[0] }}"
+           data-blueprint-index="1"
            class="showcase-main-image"
            style="background-image: url({{ site.baseurl }}/{{ imgs[0].path }})"></div>
     </a>
     <a rel="artur-ched-showcase" href="{{ site.baseurl }}/{{ imgs[1].path }}" class="swipebox">
       <div id="artur-ched-showcase-main-image-1"
+           data-steps="{{ msteps[1] }}"
+           data-blueprint-index="1"
            class="showcase-main-image"
            style="background-image: url({{ site.baseurl }}/{{ imgs[1].path }})"></div>
     </a>
   </div>
-  <div class="showcase-subtitle">{{ include.medium }}</div>
+  <div id="artur-ched-showcase-subtitle" class="showcase-subtitle">{{ include.medium }}</div>
 
   <div class="showcase-image-container">
-    {% for i in imgs offset:2 %}
-      {% capture mcycle %}{% cycle "drawing", "text" %}{% endcapture %}
+    {% for i in imgs %}
+      {% if forloop.index0 > 1 %}
+        {% capture mcycle %}{% cycle "drawing", "text" %}{% endcapture %}
+        {% capture bpi %}{{ forloop.index0 | plus: 2 | divided_by: 2 | floor }}{% endcapture %}
 
-      <div id="artur-ched-showcase-image-{{ forloop.index0 }}"
-           class="showcase-image showcase-image-{{ mcycle }} artur-ched-showcase-image"
-           style="background-image: url({{ site.baseurl }}/{{ i.path }})"></div>
+        <div id="artur-ched-showcase-image-{{ forloop.index0 }}"
+             data-steps="{{ msteps[forloop.index0] }}"
+             data-blueprint-index="{{ bpi }}"
+             class="showcase-image showcase-image-{{ mcycle }} artur-ched-showcase-image"
+             style="background-image: url({{ site.baseurl }}/{{ i.path }})"></div>
+      {% endif %}
     {% endfor %}
   </div>
 </div>
