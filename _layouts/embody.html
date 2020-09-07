@@ -14,9 +14,7 @@
         <div class="artist">
           <div class="artist-name pink-style">{{ a.name }}</div>
           <div class="artist-content">
-            <a rel="{{ a.name }}-desktop" href="{{ site.baseurl }}/{{ a.image }}" class="swipebox">
-              <div class="artist-image" style="background-image: url({{ site.baseurl }}/{{ a.image }})"></div>
-            </a>
+            <div class="artist-image" style="background-image: url({{ site.baseurl }}/{{ a.image }})"></div>
             <div class="artist-bio-wrapper">
               <div class="artist-bio">{{ a.bio[PAGE_LANGUAGE] }}</div>
               <a class="artist-link" href="{{ a.url }}" target="_blank">{{ a.url }}</a>
@@ -25,7 +23,13 @@
         </div>
         {% endfor %}
       </div>
+
+      <div id="my-embody-lightbox-overlay" class="embody-lightbox-overlay">
+        <div id="my-embody-lightbox-container" class="embody-lightbox-container">
+          <div id="my-embody-lightbox-image" class="embody-lightbox-image"></div>
+        </div>
+      </div>
     </div>
   </body>
-  <script src="{{ site.baseurl }}/js/swipebox.js"></script>
+  <script src="{{ site.baseurl }}/js/embody.js"></script>
 </html>

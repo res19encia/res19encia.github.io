@@ -236,16 +236,13 @@ a {
 
       --image-width: 40%;
 
-      .swipebox {
-        width: var(--image-width);
-      }
-
       .artist-image {
-        width: 100%;
-        padding-bottom: 62.5%;
+        width: var(--image-width);
+        padding-bottom: calc(0.4 * 62.5%);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: contain;
+        cursor: pointer;
       }
 
       .artist-bio-wrapper {
@@ -536,42 +533,46 @@ a {
       }
     }
   }
+}
 
-  .flood-lightbox-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.3);
-    transition: opacity $TRANSITION-PERIOD linear;
-    pointer-events: none;
-    opacity: 0;
-    z-index: 20;
+.flood-lightbox-overlay, .embody-lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: opacity $TRANSITION-PERIOD linear;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 20;
 
-    &.show {
-      pointer-events: inherit;
-      opacity: 1;
-    }
+  &.show {
+    pointer-events: inherit;
+    opacity: 1;
+  }
 
-    .flood-lightbox-container {
-      width: 92%;
-      max-width: 1000px;
-    }
+  .flood-lightbox-container, .embody-lightbox-container {
+    width: 92%;
+    max-width: 1000px;
+  }
 
-    .flood-lightbox-image {
-      width: 100%;
-      padding-bottom: 61.72%;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
+  .flood-lightbox-image, .embody-lightbox-image {
+    width: 100%;
+    padding-bottom: 61.72%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .embody-lightbox-image {
+    background-size: contain;
   }
 }
 
