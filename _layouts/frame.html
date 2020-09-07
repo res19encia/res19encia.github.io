@@ -41,9 +41,7 @@
 
             <div class="curators-note-container">
               <div class="curators-note-title">{{ cnotes }} {{ a.note.minutes }} {{ minutes }}</div>
-              <a rel="{{ a.artist }}-curators-note" href="{{ site.baseurl }}/{{ a.note.image }}" class="swipebox">
-                <div class="curators-note-image" style="background-image: url({{ site.baseurl }}/{{ a.note.image }})"></div>
-              </a>
+              <div class="curators-note-image" style="background-image: url({{ site.baseurl }}/{{ a.note.image }})"></div>
             </div>
 
           </div>
@@ -76,6 +74,12 @@
             {% include frame/{{c.slug }}.html medium=amedium %}
           </div>
 
+        </div>
+      </div>
+
+      <div id="my-frame-lightbox-overlay" class="frame-lightbox-overlay">
+        <div id="my-frame-lightbox-container" class="frame-lightbox-container">
+          <div id="my-frame-lightbox-image" class="frame-lightbox-image"></div>
         </div>
       </div>
     </div>

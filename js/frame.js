@@ -1,9 +1,29 @@
 $(document).ready(function() {
+  const lightboxOverlay = document.getElementById('my-frame-lightbox-overlay');
+  const lightboxContainer = document.getElementById('my-frame-lightbox-container');
+  const lightboxImage = document.getElementById('my-frame-lightbox-image');
+
   const mainImagePadilha = document.getElementById('eduardo-padilha-showcase-main-image');
   const mainImageArtur = [
     document.getElementById('artur-ched-showcase-main-image-0'),
     document.getElementById('artur-ched-showcase-main-image-1')
   ];
+
+  lightboxOverlay.addEventListener('click', () => {
+    lightboxOverlay.classList.remove('show');
+  });
+
+  lightboxContainer.addEventListener('click', (e) => {
+    const event = e || window.event;
+    event.stopPropagation();
+  });
+
+  $('.curators-note-image').on('click', (event) => {
+    event.stopPropagation();
+    event.stopImmediatePropagation();
+    lightboxOverlay.classList.add('show');
+    lightboxImage.style.backgroundImage = event.target.style.backgroundImage;
+  });
 
   $(".eduardo-padilha-showcase-image").on('click', (event) => {
     event.stopPropagation();

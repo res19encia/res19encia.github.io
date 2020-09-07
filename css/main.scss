@@ -312,17 +312,13 @@ a {
       padding-bottom: 32px;
     }
 
-    .swipebox {
-      display: block;
-      width: 55%;
-    }
-
     .curators-note-image {
-      width: 100%;
-      padding-bottom: 56.25%;
+      width: 55%;
+      padding-bottom: calc(.55 * 56.25%);
       background-repeat: no-repeat;
       background-position: center center;
       background-size: contain;
+      cursor: pointer;
     }
   }
 
@@ -535,7 +531,7 @@ a {
   }
 }
 
-.flood-lightbox-overlay, .embody-lightbox-overlay {
+.flood-lightbox-overlay, .embody-lightbox-overlay, .frame-lightbox-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -558,20 +554,30 @@ a {
     opacity: 1;
   }
 
-  .flood-lightbox-container, .embody-lightbox-container {
+  .flood-lightbox-container, .embody-lightbox-container, .frame-lightbox-container {
     width: 92%;
     max-width: 1000px;
+    box-sizing: border-box;
+  }
+  .frame-lightbox-container {
+    max-width: 1200px;
   }
 
-  .flood-lightbox-image, .embody-lightbox-image {
+  .flood-lightbox-image, .embody-lightbox-image, .frame-lightbox-image {
     width: 100%;
     padding-bottom: 61.72%;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
   }
 
   .embody-lightbox-image {
+    background-size: contain;
+  }
+
+  .frame-lightbox-image {
+    padding-bottom: 56.25;
     background-size: contain;
   }
 }
