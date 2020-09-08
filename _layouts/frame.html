@@ -37,10 +37,12 @@
               {{ a.description[PAGE_LANGUAGE] }}
             </div>
 
-            <div class="curators-note-container">
-              <div class="curators-note-title">{{ cnotes }} {{ a.note.minutes }} {{ minutes }}</div>
-              <div class="curators-note-image" style="background-image: url({{ site.baseurl }}/{{ a.note.image }})"></div>
-            </div>
+            {% if a.note %}
+              <div class="curators-note-container">
+                <div class="curators-note-title">{{ cnotes }} {{ a.note.minutes }} {{ minutes }}</div>
+                <div class="curators-note-image" style="background-image: url({{ site.baseurl }}/{{ a.note.image }})"></div>
+              </div>
+            {% endif %}
 
           </div>
         {% endfor %}
