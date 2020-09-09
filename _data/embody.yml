@@ -61,3 +61,17 @@
   bio:
     en: 'bio en fernando'
     pt: 'bio pt fernando'
+
+- name: 'Nichollas Alem'
+  url: ''
+  image: 'media/images/embody/nichollas-alem.jpg'
+  bio:
+    pt: 'Bacharel e Doutorando em Direito Econômico pela USP. Fundador e Presidente do Instituto de Direito, Economia Criativa e Artes. Especialista em Direito do Entretenimento. Consultor da UNESCO em equipamentos culturais. Atuou na construção do Programa Municipal de Economia Criativa de São Bernardo do Campo. Membro da Associação Brasileira de Propriedade Intelectual (ABPI) e certificado pelo CopyrightX de Harvard.'
+    en: 'bio en nichollas'
+
+- name: 'Rafael Nepô'
+  url: ''
+  image: 'media/images/embody/rafael-nepo.jpg'
+  bio:
+    pt: 'bio nepô pt'
+    en: 'bio en nepô'
