@@ -474,6 +474,7 @@ a {
 
 .mari-nagem-showcase {
   .video-container {
+    margin-top: 19px;
     width: 100%;
   }
 
@@ -482,6 +483,10 @@ a {
     &:focus {
       outline:0;
     }
+  }
+
+  .showcase-image + .video-subtitle-container {
+    padding-top: 4px;
   }
 
   .video-subtitle-container {
@@ -494,11 +499,11 @@ a {
     width: 50%;
     flex-grow: 1;
     font-size: 11px;
-    text-align: right;
+    text-align: left;
   }
 
   .video-subtitle-40 {
-    width: 47%;
+    width: 48%;
     flex-grow: 0;
   }
 
@@ -508,12 +513,12 @@ a {
 
   .showcase-image-title {
     font-size: 13px;
-    padding-bottom: .5em;
+    padding-bottom: 2em;
   }
 
   .showcase-image + .showcase-image-title,
   .video-subtitle-container + .showcase-image-title {
-    padding-top: 2em;
+    padding: 2em 0;
   }
 
   .showcase-image {

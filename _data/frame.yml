@@ -5,8 +5,8 @@ curators:
       pt: 'Notas do Curador'
     slug: 'mari-nagem'
     medium:
-      pt: 'Notas do Curador | Desenho digital por software customizado | 3568 x 2008 px'
-      en: 'Curator''s Note | Digital drawing using custom software | 3568 x 2008 px'
+      pt: 'Desenho digital por software customizado | 3568 x 2008 px'
+      en: 'Digital drawing using custom software | 3568 x 2008 px'
     image-title:
       en:
         - 'The assessment for each artist is presented in a 2D (X,Y) graphic focusing on happiness:'
@@ -15,26 +15,26 @@ curators:
         - 'Artists'' and curator''s biometric representations were intercalated and spined to generate Curator''s Notes.'
       pt:
         - 'A avaliação de cada artista é apresentada em um gráfico 2D (X, Y) com foco na felicidade:'
-        - 'Em contrapartida, as emoções do curador são apresentadas em um gráfico 3D (X, Y, Z)'
-        - 'As emoções do curador foram interpoladas com uma textura para evocar materialidade em uma experiente totalmente online.'
-        - 'As representações biométricas de cada artista e curador  foram intercaladas e rotacionadas para gerar  "Notas do Curador".'
+        - 'Em contrapartida, as emoções da curadora são apresentadas em um gráfico 3D (X, Y, Z)'
+        - 'As emoções da curadora foram interpoladas com uma textura para evocar materialidade em uma experiência totalmente online.'
+        - 'As representações biométricas de cada artista e curadora foram intercaladas e rotacionadas para gerar  "Notas do Curador".'
     video-title:
       en:
         - 'artist''s face analyzed at curator''s screen'
         - 'curator''s face captured and analyzed by the camera'
         - 'x = time of emotion analyses (in minutes) y = intensity of emotions (% of happiness)'
       pt:
-        - 'rosto do artista analizado na tela do curador'
-        - 'rosto do curador capturado e analizado pela camera'
-        - 'x = momento da análise (em minutos) y = intensidade da emoção (% de felicidade)'
+        - 'Rosto do artista analizado na tela da curadora'
+        - 'Rosto da curadora capturado e analizado pela camera'
+        - 'X = momento da análise (em minutos) Y = intensidade da emoção (% de felicidade)'
     description:
       en:
-        - 'As a variation of the Happy App analyses, Curator''s Note is a machine-assisted, emotion-driven graphical note about creative development during the Virus-19 Online Residency in partnership with the artist Thiago Hersan.<br><br>The Happy App is a computer app that measures users'' happiness as it varies according to content viewed on their own computer and is part of a research that unfolds into various imaginative manifestations. The app triggers the computer''s camera every minute and simultaneously captures a screenshot. The images provided by the camera (usually the user''s face) are analyzed using emotion-recognition technology through physiological signals (micro facial expressions) quantifying basic emotions like happiness, sadness, surprise, fear, disgust and anger.<br><br>Along a cycle of online mentorship sessions through "Zoom", the Happy App was activated to measure curator and artists mental states throughout video calls. None of the artists were aware of their monitoring.'
+        - 'As a variation of the Happy App analyses, Curator''s Note is a machine-assisted, emotion-driven graphical note about creative development during the Virus-19 Online Residency in partnership with the artist Thiago Hersan.<br><br><a href="https://thehappyapp.art" target="_blank">The Happy App</a> is a computer app that measures users'' happiness as it varies according to content viewed on their own computer and is part of a research that unfolds into various imaginative manifestations. The app triggers the computer''s camera every minute and simultaneously captures a screenshot. The images provided by the camera (usually the user''s face) are analyzed using emotion-recognition technology through physiological signals (micro facial expressions) quantifying basic emotions like happiness, sadness, surprise, fear, disgust and anger.<br><br>Along a cycle of online mentorship sessions through "Zoom", the Happy App was activated to measure curator and artists mental states throughout video calls. None of the artists were aware of their monitoring.'
         - 'The fluctuation of each feeling generated computer graphics, presenting the intensity of each emotion (identified by the current technology) in relation to the time of analysis (respectively duration of each call); in both artist and curator practices.'
         - 'These gradually expire according to the diminishing number of deaths by Covid-19 in Brazil and the increase in presence reality.'
       pt:
-        - 'Como uma extensão do Happy App, Notas do Curador é uma representação gráfica de uma categoria de emoções humanas interpretadas por algoritmos, sobre o processo criativo vivido durante a Residência online Virus-19, realizado em parceria com o artista Thiago Hersan.<br><br>Happy App é um aplicativo que mede a felicidade do usuário de acordo com o conteúdo visualizado em seu próprio computador e desdobra em diversas manifestações artísticas. O aplicativo aciona a câmera do computador a cada minuto e simultaneamente realizada uma captura de tela. As imagens fornecidas pela câmera (geralmente o rosto do usuário) são analisadas através da tecnologia de reconhecimento de emoções por  meio das micro expressões faciais, quantificando emoções básicas como felicidade, tristeza, surpresa, medo, nojo e raiva.<br><br>Ao longo de um ciclo de sessões de mentoria online através do "Zoom", o Happy App foi ativado para medir os estados mentais do curador e dos artistas ao longo das chamadas de vídeo. Nenhum dos artistas estava ciente de seu monitoramento.'
-        - 'A flutuação de cada sentimento gerou gráficos computacionais, apresentando a intensidade de cada emoção em relação à duração de cada ligação; tanto nas práticas dos artistas quanto do curador.'
+        - 'Como uma extensão do Happy App, Notas do Curador é uma representação gráfica de uma categoria de emoções humanas interpretadas por algoritmos, sobre o processo criativo vivido durante a Residência online Virus-19, realizado em parceria com o artista Thiago Hersan.<br><br><a href="https://thehappyapp.art" target="_blank">Happy App</a> é um aplicativo que mede a felicidade do usuário de acordo com o conteúdo visualizado em seu próprio computador e desdobra em diversas manifestações artísticas. O aplicativo aciona a câmera do computador a cada minuto e simultaneamente realizada uma captura de tela. As imagens fornecidas pela câmera (geralmente o rosto do usuário) são analisadas através da tecnologia de reconhecimento de emoções por  meio das micro expressões faciais, quantificando emoções básicas como felicidade, tristeza, surpresa, medo, nojo e raiva.<br><br>Ao longo de um ciclo de sessões de mentoria online através do "Zoom", o Happy App foi ativado para medir os estados mentais da curadora e dos artistas ao longo das chamadas de vídeo. Nenhum dos artistas estava ciente de seu monitoramento.'
+        - 'A flutuação de cada sentimento gerou gráficos computacionais, apresentando a intensidade de cada emoção em relação à duração de cada ligação; tanto nas práticas dos artistas quanto da curadora.'
         - 'Estas expiram gradativamente de acordo com a diminuição do número de mortes por Covid-19 no Brasil e o aumento da realidade presencial.'
 
 artists:
@@ -58,8 +58,8 @@ artists:
       text: 'clique aqui para acessar o site OUTRA.S'
       url: 'https://outras.ml'
     medium:
-      pt: 'outra.s | Site, software customizado | Dimensões digitais | 2020'
-      en: 'outra.s | Site, custom software | Digital dimensions | 2020'
+      pt: 'Site, software customizado | Dimensões digitais | 2020'
+      en: 'Site, custom software | Digital dimensions | 2020'
     description:
       en: 'Given the complexities of our hybrid and hyper-connected world, it is necessary to rethink how we want to connect, create and live within networks. In a world where a virus is not merely a biological issue, it is impossible to try to understand our situation without recognizing the networks and signals that cross and connect us. It is impossible to ignore the trans-corporal and trans-specific developments of this reality, which was already underway, but which now affects us explicitly on a daily basis.<br><br>It is important to know how to experience a world where the ontological divisions between humans / non-humans, natural / cultural, bodies / machines, subjects / objects no longer make much sense. We need to learn to guide ourselves "by the pleasure in the confusion of boundaries and the responsibility in creating these temporary, provisional, problematic connections" (Haraway).<br><br>Our current state of perennial quarantine has re-sensitized us to the importance of daily rituals and metaphysical beliefs for the maintenance of our mental, emotional and physical health.<br><br><a href="https://outras.ml" target="_blank">outra.s</a> is a project developed in social isolation. It’s an eCommerce platform for the commercialization of sculptures that promote a hybrid wellbeing that considers all the people in our networks, not just human ones.<br><br>The project promotes the creation of objects and rituals to explicitly and consciously integrate electromagnetic emissions into our wellness rituals. These signals already pass through us and make us reverberate, but our lack of sensitivity to them makes us even more passive within these networks.<br><br>The pyramids of the Algotypes collection, for example, act as 2.4GHz network purifiers. Each pyramid is programmed with a different algorithm and is able to reorganize packets of information before relaying them on its own network.<br><br>The rings in the other collections are wearable antennas made of copper and sized according to the shapes and sizes of parts of my body. When used, the wearer''s body becomes sensitive to the same frequencies that my body is naturally sensitive to.<br><br>The prices of the objects on the website are determined dynamically and in collaboration with the objects themselves. They are influenced not only by the availability of the internet, where the unavailability of signal causes prices to fall, but are also indexed to my own body temperature and heart rate in a type of hedging where a potential virus infection could bring me material profit.'
 
@@ -130,11 +130,11 @@ artists:
     title: 'Se vírus falasse'
     slug: 'paulina-cho'
     medium:
-      pt: '606 minutos de áudio | 10m16s de vídeo | gravação e mix de áudio usando Google Meet e Zoom | 2020'
-      en: '606 minutes of audio | 10m16s of video | audio recorded and mixed using Google Meet and Zoom | 2020'
+      pt: '606 minutos de áudio | 10m16s de vídeo | Gravação e mix de áudio usando Google Meet e Zoom | 2020'
+      en: '606 minutes of audio | 10m16s of video | Audio recorded and mixed using Google Meet and Zoom | 2020'
     description:
       en: 'text paulina en'
-      pt: 'Os vírus não são considerados organismos pois necessitam do ambiente intracelular de um organismo vivo para se reproduzir, mas representam a maior diversidade biológica do planeta (sendo mais diversos que bactérias, plantas, fungos e animais juntos). Os vírus não possuem neurônios, mas são mais inteligentes do que a tecnologia mais avançada que o ser humano conseguiu criar. Os vírus não possuem ouvidos, olhos e boca, mas percebem o ambiente - são "conscientes" do ambiente e vida em seu entorno e são capazes de resolver problemas. <br><br>"Organisms don’t have to show their human equivalence (as conscious agents, intentional communicators, or ethical subjects) to count", (Anna Tsing).<br><br>Apesar da pergunta que guia a minha investigação ser direcionado aos vírus, quem responde é o próprio ser humano. Funcionando, assim, como um mecanismo para capturar a atual percepção social sobre esse ser microscópico que tem causado tantos problemas no universo criado pelo humano - a pequenez do ser humano perante a enormidade dos seres invisíveis. E, assim, convidar o participante a repensar a relação do humano com o entorno, uma relação que deixe de ser exploratória e passe a ser de troca (dar e receber).<br><br>"I believe random selection is no longer the dominant force of human evolution. Our political, economic, and technological policies may determine our future, for better or worse. (...) When we irresponsibly exploit the Earth, disease, famine, and ecological collapse result. We face the possibility of being rejected by the biosphere as a virulent organism", (Paul Stamets).'
+      pt: 'Os vírus não são considerados organismos pois necessitam do ambiente intracelular de um organismo vivo para se reproduzir, mas representam a maior diversidade biológica do planeta (sendo mais diversos que bactérias, plantas, fungos e animais juntos). Os vírus não possuem neurônios, mas são mais inteligentes do que a tecnologia mais avançada que o ser humano conseguiu criar. Os vírus não possuem ouvidos, olhos e boca, mas percebem o ambiente - são "conscientes" do ambiente e vida em seu entorno e são capazes de resolver problemas. <br><br>"Organisms don’t have to show their human equivalence (as conscious agents, intentional communicators, or ethical subjects) to count." (Anna Tsing)<br><br>Apesar da pergunta que guia a minha investigação ser direcionado aos vírus, quem responde é o próprio ser humano. Funcionando, assim, como um mecanismo para capturar a atual percepção social sobre esse ser microscópico que tem causado tantos problemas no universo criado pelo humano - a pequenez do ser humano perante a enormidade dos seres invisíveis. E, assim, convidar o participante a repensar a relação do humano com o entorno, uma relação que deixe de ser exploratória e passe a ser de troca (dar e receber).<br><br>"I believe random selection is no longer the dominant force of human evolution. Our political, economic, and technological policies may determine our future, for better or worse. (...) When we irresponsibly exploit the Earth, disease, famine, and ecological collapse result. We face the possibility of being rejected by the biosphere as a virulent organism." (Paul Stamets)'
     note:
       minutes: '20'
       image: 'media/images/notes/paulina-cho.jpg'
