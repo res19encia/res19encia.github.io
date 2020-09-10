@@ -5,19 +5,19 @@
   {% assign msteps = '7547,0,0,0,20156,0,3756,0,16037,0,2507,0,12287,0' | split: ',' %}
 
   <div class="showcase-main-image-container">
-    <a rel="artur-ched-showcase" href="{{ site.baseurl }}/{{ imgs[0].path }}" class="swipebox">
+    <a rel="artur-ched-showcase" href="{{ site.baseurl }}{{ imgs[0].path }}" class="swipebox">
       <div id="artur-ched-showcase-main-image-0"
            data-steps="{{ msteps[0] }}"
            data-blueprint-index="1"
            class="showcase-main-image"
-           style="background-image: url({{ site.baseurl }}/{{ imgs[0].path }})"></div>
+           style="background-image: url({{ site.baseurl }}{{ imgs[0].path }})"></div>
     </a>
-    <a rel="artur-ched-showcase" href="{{ site.baseurl }}/{{ imgs[1].path }}" class="swipebox">
+    <a rel="artur-ched-showcase" href="{{ site.baseurl }}{{ imgs[1].path }}" class="swipebox">
       <div id="artur-ched-showcase-main-image-1"
            data-steps="{{ msteps[1] }}"
            data-blueprint-index="1"
            class="showcase-main-image"
-           style="background-image: url({{ site.baseurl }}/{{ imgs[1].path }})"></div>
+           style="background-image: url({{ site.baseurl }}{{ imgs[1].path }})"></div>
     </a>
   </div>
   <div id="artur-ched-showcase-subtitle" class="showcase-subtitle">{{ include.medium }}</div>
@@ -32,7 +32,7 @@
              data-steps="{{ msteps[forloop.index0] }}"
              data-blueprint-index="{{ bpi }}"
              class="showcase-image showcase-image-{{ mcycle }} artur-ched-showcase-image"
-             style="background-image: url({{ site.baseurl }}/{{ i.path }})"></div>
+             style="background-image: url({{ site.baseurl }}{{ i.path }})"></div>
       {% endif %}
     {% endfor %}
   </div>

@@ -5,7 +5,7 @@
 
   <div class="showcase-image-container">
     {% for i in imgs %}
-      <div class="showcase-image" style="background-image: url({{ site.baseurl }}/{{ i.path }})"></div>
+      <div class="showcase-image" style="background-image: url({{ site.baseurl }}{{ i.path }})"></div>
     {% endfor %}
   </div>
 

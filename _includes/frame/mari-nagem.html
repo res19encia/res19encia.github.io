@@ -15,7 +15,7 @@
 
   <div class="video-container">
     <video class="showcase-video" playsinline autoplay muted loop>
-      <source src="{{ site.baseurl }}/{{ movs[0].path }}" type="video/webm">
+      <source src="{{ site.baseurl }}{{ movs[0].path }}" type="video/webm">
     </video>
     <div class="video-subtitle-container">
       <div class="video-subtitle video-subtitle-40">{{ video-titles[0] }}</div>
@@ -27,7 +27,7 @@
 
     {% for i in imgs %}
       <div class="showcase-image-title">{{ img-titles[forloop.index0] }}</div>
-      <div class="showcase-image showcase-image-{{ forloop.index0 }}" style="background-image: url({{ site.baseurl }}/{{ i.path }})"></div>
+      <div class="showcase-image showcase-image-{{ forloop.index0 }}" style="background-image: url({{ site.baseurl }}{{ i.path }})"></div>
       {% if forloop.index0 == 0 %}
       <div class="video-subtitle-container">
         <div class="video-subtitle"></div>

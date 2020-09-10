@@ -6,7 +6,7 @@
   <div class="showcase-main-image-container">
     <div id="eduardo-padilha-showcase-main-image"
          class="showcase-main-image"
-         style="background-image: url({{ site.baseurl }}/{{ imgs[0].path }})"></div>
+         style="background-image: url({{ site.baseurl }}{{ imgs[0].path }})"></div>
     <div class="showcase-subtitle">{{ include.medium }}</div>
   </div>
 
@@ -15,7 +15,7 @@
       {% unless forloop.first == true %}
         <div id="eduardo-padilha-showcase-image-{{ forloop.index0 }}"
              class="showcase-image eduardo-padilha-showcase-image"
-             style="background-image: url({{ site.baseurl }}/{{ i.path }})"></div>
+             style="background-image: url({{ site.baseurl }}{{ i.path }})"></div>
       {% endunless %}
     {% endfor %}
   </div>
