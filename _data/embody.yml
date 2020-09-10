@@ -60,7 +60,7 @@
   image: 'media/images/embody/fernando-tome.jpg'
   bio:
     en: 'bio en fernando'
-    pt: 'bio pt fernando'
+    pt: 'Trabalha com desenho de Jornadas de Inovação para demandas de empresas, governos e entidades a partir de premissas e objetivos de inteligência social e digital: mais de 50 hackathons realizados e outras ações baseadas em tecnologia e inovação no formato de competição ou colaboração em todas regiões do Brasil.<br><br>Envolvido com a Criação, Curadoria, Gestão e Realização de ações de identificação e engajamento de talentos com metodologias consagradas ou feitas para demandas específicas: metodologias ativas, uso otimizado e desenvolvimento de tecnologia, inovação aberta e empreendedorismo digital: hackathons, meetups, talks, palestras, workshops, treinamento, co-criação com base em Design Thinking, Service Design e Design Sprint.'
 
 - name: 'Nichollas Alem'
   url: ''
@@ -73,5 +73,19 @@
   url: ''
   image: 'media/images/embody/rafael-nepo.jpg'
   bio:
-    pt: 'bio nepô pt'
+    pt: 'Modularidade é sua palavra favorita. Descobriu que o passado é muito mais interessante que o presente e fica frustrado que sua visão de futuro ainda não é uma realidade. Trabalha todos os dias no Mee para tornar isso possível. Organização, curadoria, comunicação e apresentação são coisas do dia a dia. Ler, cozinhar e jogar video game complementam a vida. Já trabalhou com empresas e eventos internacionais que moldam a vida das pessoas.'
     en: 'bio en nepô'
+
+- name: 'Giovanna Graziosi Casimiro'
+  url: ''
+  image: 'media/images/embody/giovanna-casimiro.jpg'
+  bio:
+    pt: 'bio gio pt'
+    en: 'Multi task professional, with experience as digital project manager and producer. Working in the digital design, with experience in multiple platforms and XR industry. I have had experiences working and teaching in several locations, including Asia, North America, South America and Europe. I aim to be always a forward thinker, committed, dedicated and a supportive of collective processes.<br><br>I am a PhD candidate at the Faculty of Architecture and Urbanism of the University of São Paulo, with research on digital memory and contemporary heritage. My main contribution is the concept of Open Source Heritage. Master thesis on augmented and mixed inside museum and exhibition spaces.'
+
+- name: 'Marcele Guerra'
+  url: ''
+  image: 'media/images/embody/marcele-guerra.jpg'
+  bio:
+    en: 'bio guerra en'
+    pt: 'Atualmente me sinto e me vejo no mundo experimentando cada vez mais a beleza e possibilidades da convivência. Tenho pressentido que a gente vem pra esse planeta pra testar formas disso... Esses tempos me trouxeram a clareza de que essa nossa existência é sobre com quem escolhemos passar nossos dias, horas, minutos. Nosso tempo aqui. Com quem? O como a gente inventa junto :) <br><br>Sou Facilitadora, guiando liberdades e potenciais de grupos. Mediadora e moderadora em processos de dar sentidos e de fazer sentir(es). Guia turística de paisagens internas, atuo com design de caminhos (ou trilhas mesmo, do tipo íngremes, gosto de subir uma montanha) design de interiores (humanos, especialmente o coração) e design interétnico e diversidade (atualmente incluindo máquinas como uma etnia também).'
