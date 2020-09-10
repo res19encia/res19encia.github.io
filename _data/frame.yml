@@ -54,6 +54,9 @@ artists:
   - artist: 'Thiago Hersan'
     title: 'Outra.s'
     slug: 'thiago-hersan'
+    link:
+      text: 'clique aqui para acessar o site OUTRA.S'
+      url: 'https://outras.ml'
     medium:
       pt: 'outra.s | Site, software customizado | Dimensões digitais | 2020'
       en: 'outra.s | Site, custom software | Digital dimensions | 2020'
@@ -94,6 +97,9 @@ artists:
   - artist: 'Fernando Tomé'
     title: 'Entrevista com o morcego'
     slug: 'fernando-tome'
+    link:
+      text: 'clique aqui para baixar o livro'
+      url: 'https://virus19.ml/media/images/frame/fernando-tome/tome-fernando__entrevista-com-o-morcego__09Jul2020.pdf'
     medium:
       pt: 'Livro digital | 123 páginas | 2020'
       en: 'Digital Book | 123 pages | 2020'
@@ -107,12 +113,15 @@ artists:
   - artist: 'Luccas Morais'
     title: 'Live2020'
     slug: 'luccas-morais'
+    link:
+      text: 'clique aqui para acessar o site LIVE2020'
+      url: 'https://lumorais.hotglue.me/?LIVE+'
     medium:
       pt: 'LIVE2020 | Print e gravação de trechos do ambiente digital | 1024 x ... px | (constante atualização)'
       en: 'LIVE2020 | Print Screens and pieces of recorded media from digital environments | 1024 x ... px | (constant updates)'
     description:
       en: 'text luccas en'
-      pt: 'Fragmentos capturados durante o consumo das lives e reuniões em quarentena. Os vínculos feitos praticamente têm a principal característica da distância entre os usuários nesse ponto; na análise de quarentena, o conteúdo compartilhado visa gerar uma conexão com outra pessoa em busca de interação social. seus relacionamentos associativos permanecem ativos, mesmo quando os indivíduos não estão online, permitindo que eles procurem informações propagadas durante sua ausência.<br><br>As possibilidades imaginárias de reproduzir e reutilizar fragmentos de momentos virtuais usando ferramentas em aplicativos móveis tornam-se uma maneira democrática de pensar sobre participação e produção de arte em um ambiente digital.<br><br>Os fragmentos são caracterizados como um conjunto de práticas artísticas que não se destinam a seguir padrões estéticos de criação ou qualidade técnica, introduzindo uma nova versão em vários padrões de conexão.<br><br>"Todas as pessoas vivem em um mundo de reuniões sociais que lhes interessam, seja em contato pessoal ou em mediação com outros participantes", (GOFFMAN, 2012, p. 13).'
+      pt: 'Fragmentos capturados durante o consumo das lives e reuniões em quarentena. Os vínculos feitos praticamente têm a principal característica da distância entre os usuários nesse ponto; na análise de quarentena, o conteúdo compartilhado visa gerar uma conexão com outra pessoa em busca de interação social. seus relacionamentos associativos permanecem ativos, mesmo quando os indivíduos não estão online, permitindo que eles procurem informações propagadas durante sua ausência.<br><br>As possibilidades imaginárias de reproduzir e reutilizar fragmentos de momentos virtuais usando ferramentas em aplicativos móveis tornam-se uma maneira democrática de pensar sobre participação e produção de arte em um ambiente digital.<br><br>Os fragmentos são caracterizados como um conjunto de práticas artísticas que não se destinam a seguir padrões estéticos de criação ou qualidade técnica, introduzindo uma nova versão em vários padrões de conexão.<br><br>"Todas as pessoas vivem em um mundo de reuniões sociais que lhes interessam, seja em contato pessoal ou em mediação com outros participantes." <br>(GOFFMAN, 2012)'
     note:
       minutes: '24'
       image: 'media/images/notes/luccas-morais.jpg'
@@ -134,8 +143,8 @@ artists:
     title: 'e-ATable'
     slug: 'lina-lopes'
     medium:
-      pt: 'pt | 2020'
-      en: 'en | 2020'
+      pt: 'Fungos, cúrcuma e carvão | 2020'
+      en: 'Fungi, turmeric and coal | 2020'
     description:
       en: 'text lina en'
       pt: '<u>Ingredientes</u>:<br>Papel a base de cogumelos<br>Tinta aquarela de carvão ativado<br><br><u>Modo de preparo</u>:<br>Escrever um diário com todas as memórias, desejos e medos.<br>Comer cada pedaço das próprias expectativas e frustrações.<br>Retroalimentar a fome de vontades.<br>Digerir e filtrar as mágoas.<br>Evacuar argumentos.<br>Executar uma arqueologia bioquímica buscando os afetos iniciais.<br><br><u>Rendimento</u>:<br>Algumas linhas sobre plano.<br>Uma dor de barriga.<br><br><u>Observação</u>:<br>Deixar esfriar antes de servir.<br><br><br><u>Rastro, memória afetiva, arqueologia bioquímica, história, pré história, escrita, ponto e linha sobre plano</u><br><br>Aos cinco anos recebi um papel com letras “a” cursivas escritas uma na sequência da outra. Em dado momento da sequência elas se tornam letras “a” pontilhadas. A instrução era para eu observar as primeiras letras completas e desenhar sobre as letras pontilhadas e seguir fazendo minhas próprias letras “a” usando um lápis sobre aquele papel branco.<br><br>Aos dez anos lembro da aula inicial de história geral. O que separava a pré-história da história era a escrita. No início pequenos símbolos eram gravados em pedras ou incisões eram feitas em barro. Também usavam pele de animal como suporte para escrever. Até que o papel, portátil, maleável e acessível ganhou hegemonia como suporte para a escrita. Nesta época, lembro de percorrer fascinada os corredores da biblioteca que pareciam imensos e imaginar se seria possível ler tudo que já foi escrito.<br><br>“eureka” é a expressão famosa para aquele momento do encontro de uma descoberta, de uma ideia, daquela faísca que antecede à criação.<br>Mas este lampejo faz parte de um mundo virtual, interior e único. Para vir a fazer parte do mundo, é necessário materializá-lo: falar, escrever, desenhar, dançar ou modelar.<br>Parir ideias necessitam suportes.'

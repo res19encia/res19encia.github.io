@@ -34,6 +34,11 @@
             </div>
 
             <div class="art-description">
+              {% if a.link %}
+                <div class="art-link-container">
+                  <a class="art-link" href="{{ a.link.url }}" target="_blank">{{ a.link.text }}</a>
+                </div>
+              {% endif %}
               {{ a.description[PAGE_LANGUAGE] }}
             </div>
 

@@ -294,25 +294,34 @@ a {
     .showcase-subtitle {
       width: 100%;
       font-size: 12px;
-      padding: .5em 0 2em;
+      padding: 12px 0 0;
     }
   }
 
   .art-description {
-    padding: 50px 64px 32px;
+    padding: 12px 64px 0;
     font-size: 13px;
     line-height: 1.5;
+
+    .art-link-container {
+      margin: 0 0 12px;
+    }
   }
 
   .curators-note-container {
     width: 100%;
-    padding: 0 64px;
+    padding: 32px 64px 0;
     font-size: 13px;
     box-sizing: border-box;
 
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: baseline;
+
     .curators-note-title {
       text-transform: uppercase;
-      padding-bottom: 32px;
+      margin-left: 32px;
     }
 
     .curators-note-image {
@@ -371,14 +380,16 @@ a {
   .showcase-image-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .showcase-image {
-    width: 33.33%;
-    padding-bottom: calc(.3333 * 153.75%);
+    width: 30%;
+    padding-bottom: calc(.30 * 153.75%);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid #000;
   }
 }
 
@@ -393,6 +404,7 @@ a {
   .showcase-image-container {
     display: flex;
     flex-direction: row;
+    padding-top: 12px;
 
     .showcase-image {
       width: 20%;
@@ -430,6 +442,7 @@ a {
   .showcase-image-container {
     display: flex;
     flex-direction: row;
+    padding-top: 12px;
 
     .showcase-image {
       width: 16.66%;
