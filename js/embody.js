@@ -14,7 +14,7 @@ $(document).ready(function() {
     lightboxOverlay.classList.remove('show');
   });
 
-  lightboxContainer.addEventListener('click', (e) => {
+  lightboxImage.addEventListener('click', (e) => {
     const event = e || window.event;
     event.stopPropagation();
   });

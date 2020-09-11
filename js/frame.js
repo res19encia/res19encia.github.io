@@ -15,19 +15,30 @@ $(document).ready(function() {
     lightboxOverlay.classList.remove('show');
   });
 
-  lightboxContainer.addEventListener('click', (e) => {
+  lightboxImage.addEventListener('click', (e) => {
     const event = e || window.event;
     event.stopPropagation();
   });
 
-  $('.curators-note-image').on('click', (event) => {
+  $('.frame-lightbox-thumbnail').on('click', (event) => {
     event.stopPropagation();
     event.stopImmediatePropagation();
     lightboxOverlay.classList.add('show');
     lightboxImage.style.backgroundImage = event.target.style.backgroundImage;
+    lightboxImage.style.paddingBottom = event.target.style.paddingBottom;
+
+    if(event.target.offsetWidth > event.target.offsetHeight) {
+      lightboxImage.style.width = '100%';
+      lightboxImage.style.paddingBottom = event.target.style.paddingBottom;
+    } else {
+      const mRatio = event.target.offsetWidth / event.target.offsetHeight;
+      lightboxImage.style.paddingBottom = '0px';
+      lightboxImage.style.height = '95vh';
+      lightboxImage.style.width = `${95 * mRatio}vh`;
+    }
   });
 
-  $(".eduardo-padilha-showcase-image").on('click', (event) => {
+  $('.eduardo-padilha-showcase-image').on('click', (event) => {
     event.stopPropagation();
     event.stopImmediatePropagation();
 
@@ -36,7 +47,7 @@ $(document).ready(function() {
     event.target.style.backgroundImage = mainImageUrl;
   });
 
-  $(".artur-ched-showcase-image").on('click', (event) => {
+  $('.artur-ched-showcase-image').on('click', (event) => {
     event.stopPropagation();
     event.stopImmediatePropagation();
 

@@ -390,6 +390,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     border: 1px solid #000;
+    cursor: pointer;
   }
 }
 
@@ -611,7 +612,8 @@ a {
   }
 
   .frame-lightbox-image {
-    padding-bottom: 56.25;
+    margin: 0 auto;
+    padding-bottom: 56.25%;
     background-size: contain;
   }
 }

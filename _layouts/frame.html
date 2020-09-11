@@ -44,7 +44,7 @@
 
             {% if a.note %}
               <div class="curators-note-container">
-                <div class="curators-note-image" style="background-image: url({{ site.baseurl }}/{{ a.note.image }})"></div>
+                <div class="curators-note-image frame-lightbox-thumbnail" style="background-image: url({{ site.baseurl }}/{{ a.note.image }})"></div>
                 <div class="curators-note-title">{{ cnotes }} {{ a.note.minutes }} {{ minutes }}</div>
               </div>
             {% endif %}
