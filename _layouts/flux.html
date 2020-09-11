@@ -1,0 +1,41 @@
+{% include page-language.html %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="flood-wrapper">
+      {% include home-link.html %}
+
+      <div class="art-container">
+        <div class="art">
+          <div class="art-title">
+            <div class="art-name pink-style">{{ page.title }}</div>
+            <div class="artist-name"></div>
+          </div>
+
+          <div class="art-description">
+            144.793 segundos de videochamadas<br>
+            136.086 segundos de audios trocados<br>
+            9.707 segundos de SILÊNCIO<br>
+            121.467 segundos de cameras ligadas<br>
+            23.326 segundos de cameras DESLIGADAS<br>
+            1.887 pacotes de audios perdidos<br>
+            518 pacotes de video perdidos<br>
+            7,48 GBytes de audio<br>
+            555,94 GBytes de video<br>
+          </div>
+        </div>
+      </div>
+
+      <div id="my-flood-lightbox-overlay" class="flood-lightbox-overlay">
+        <div id="my-flood-lightbox-container" class="flood-lightbox-container">
+          <div id="my-flood-lightbox-image" class="flood-lightbox-image"></div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
