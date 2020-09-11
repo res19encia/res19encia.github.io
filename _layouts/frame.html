@@ -29,14 +29,14 @@
             </div>
 
             <div class="frame-showcase-container">
-              {% assign amedium = a.medium[PAGE_LANGUAGE] %}
+              {% assign amedium = a.title | append: ' | ' | append: a.medium[PAGE_LANGUAGE] %}
               {% include frame/{{a.slug }}.html medium=amedium %}
             </div>
 
             <div class="art-description">
               {% if a.link %}
                 <div class="art-link-container">
-                  <a class="art-link" href="{{ a.link.url }}" target="_blank">{{ a.link.text }}</a>
+                  <a class="art-link" href="{{ a.link.url }}" target="_blank">{{ a.link.text[PAGE_LANGUAGE] }}</a>
                 </div>
               {% endif %}
               {{ a.description[PAGE_LANGUAGE] }}
@@ -73,8 +73,8 @@
           </div>
 
           <div class="frame-showcase-container">
-            {% assign amedium = c.medium[PAGE_LANGUAGE] %}
-            {% include frame/{{c.slug }}.html medium=amedium %}
+            {% assign cmedium = c.title[PAGE_LANGUAGE] | append: ' | ' | append: c.medium[PAGE_LANGUAGE] %}
+            {% include frame/{{c.slug }}.html medium=cmedium %}
           </div>
 
         </div>

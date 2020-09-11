@@ -52,10 +52,12 @@ artists:
       image: 'media/images/notes/anais-karenin.jpg'
 
   - artist: 'Thiago Hersan'
-    title: 'Outra.s'
+    title: 'outra.s'
     slug: 'thiago-hersan'
     link:
-      text: 'clique aqui para acessar o site OUTRA.S'
+      text:
+        pt: 'clique aqui para acessar o site OUTRA.S'
+        en: 'click here to access the OUTRA.S website'
       url: 'https://outras.ml'
     medium:
       pt: 'Site, software customizado | Dimensões digitais | 2020'
@@ -98,7 +100,9 @@ artists:
     title: 'Entrevista com o morcego'
     slug: 'fernando-tome'
     link:
-      text: 'clique aqui para baixar o livro'
+      text:
+        pt: 'clique aqui para baixar o livro'
+        en: 'click here to download the book'
       url: 'https://virus19.ml/media/images/frame/fernando-tome/tome-fernando__entrevista-com-o-morcego__09Jul2020.pdf'
     medium:
       pt: 'Livro digital | 123 páginas | 2020'
@@ -111,14 +115,16 @@ artists:
       image: 'media/images/notes/fernando-tome.jpg'
 
   - artist: 'Luccas Morais'
-    title: 'Live2020'
+    title: 'LIVE2020'
     slug: 'luccas-morais'
     link:
-      text: 'clique aqui para acessar o site LIVE2020'
+      text:
+        pt: 'clique aqui para acessar o site LIVE2020'
+        en: 'click here to access the LIVE2020 website'
       url: 'https://lumorais.hotglue.me/?LIVE+'
     medium:
-      pt: 'LIVE2020 | Print e gravação de trechos do ambiente digital | 1024 x ... px | (constante atualização)'
-      en: 'LIVE2020 | Print Screens and pieces of recorded media from digital environments | 1024 x ... px | (constant updates)'
+      pt: 'Print e gravação de trechos do ambiente digital | 1024 x ... px | (atualização constante)'
+      en: 'Print Screens and pieces of recorded media from digital environments | 1024 x ... px | (constant updates)'
     description:
       en: 'text luccas en'
       pt: 'Fragmentos capturados durante o consumo das lives e reuniões em quarentena. Os vínculos feitos praticamente têm a principal característica da distância entre os usuários nesse ponto; na análise de quarentena, o conteúdo compartilhado visa gerar uma conexão com outra pessoa em busca de interação social. seus relacionamentos associativos permanecem ativos, mesmo quando os indivíduos não estão online, permitindo que eles procurem informações propagadas durante sua ausência.<br><br>As possibilidades imaginárias de reproduzir e reutilizar fragmentos de momentos virtuais usando ferramentas em aplicativos móveis tornam-se uma maneira democrática de pensar sobre participação e produção de arte em um ambiente digital.<br><br>Os fragmentos são caracterizados como um conjunto de práticas artísticas que não se destinam a seguir padrões estéticos de criação ou qualidade técnica, introduzindo uma nova versão em vários padrões de conexão.<br><br>"Todas as pessoas vivem em um mundo de reuniões sociais que lhes interessam, seja em contato pessoal ou em mediação com outros participantes." <br>(GOFFMAN, 2012)'
