@@ -182,7 +182,7 @@ a {
     height: 100%;
     padding: 0 30%;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     transition: opacity $TRANSITION-PERIOD linear;
     pointer-events: none;
     opacity: 0;
@@ -214,6 +214,13 @@ a {
         padding: 16px 20px;
         line-height: 1.7;
         font-size: 14px;
+
+        a {
+          padding: 0 4px 2px;
+          background-color: $COLOR-ACCENT;
+          color: #fff;
+          font-weight: bold;
+        }
       }
     }
   }
@@ -578,7 +585,7 @@ a {
   height: 100vh;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   transition: opacity $TRANSITION-PERIOD linear;
   pointer-events: none;
   opacity: 0;
