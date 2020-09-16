@@ -10,36 +10,17 @@
       {% include home-link.html %}
       <div class="artists-container">
         {% assign artists = site.data.embody | sort: "name" %}
-        {% assign curators = site.data.embody |
-                             where_exp:"a","a.name contains 'opes' or a.name contains 'agem'" |
-                             sort: "name" %}
-
-        {% for a in curators %}
-          <div class="artist">
-            <div class="artist-name pink-style">{{ a.name }}</div>
-            <div class="artist-content">
-              <div class="artist-image" style="background-image: url({{ site.baseurl }}/{{ a.image }})"></div>
-              <div class="artist-bio-wrapper">
-                <div class="artist-bio">{{ a.bio[PAGE_LANGUAGE] }}</div>
-                <a class="artist-link" href="{{ a.url }}" target="_blank">{{ a.url }}</a>
-              </div>
+        {% for a in artists %}
+        <div class="artist">
+          <div class="artist-name pink-style">{{ a.name }}</div>
+          <div class="artist-content">
+            <div class="artist-image" style="background-image: url({{ site.baseurl }}/{{ a.image }})"></div>
+            <div class="artist-bio-wrapper">
+              <div class="artist-bio">{{ a.bio[PAGE_LANGUAGE] }}</div>
+              <a class="artist-link" href="{{ a.url }}" target="_blank">{{ a.url }}</a>
             </div>
           </div>
-        {% endfor %}
-
-        {% for a in artists %}
-          {% unless a.name contains 'opes' or a.name contains 'agem' %}
-            <div class="artist">
-              <div class="artist-name pink-style">{{ a.name }}</div>
-              <div class="artist-content">
-                <div class="artist-image" style="background-image: url({{ site.baseurl }}/{{ a.image }})"></div>
-                <div class="artist-bio-wrapper">
-                  <div class="artist-bio">{{ a.bio[PAGE_LANGUAGE] }}</div>
-                  <a class="artist-link" href="{{ a.url }}" target="_blank">{{ a.url }}</a>
-                </div>
-              </div>
-            </div>
-          {% endunless %}
+        </div>
         {% endfor %}
       </div>
 
