@@ -10,6 +10,7 @@
       {% include home-link.html %}
       <div class="artists-container">
         {% assign artists = site.data.embody | sort: "name" %}
+        {% assign curators = site.data.embody | where_exp:"a","a.name contains 'opes' or a.name contains 'agem'" | sort: "name" %}
 
         {% for a in artists %}
           {% unless a.name contains 'opes' or a.name contains 'agem' %}
