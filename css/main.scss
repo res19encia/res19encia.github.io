@@ -228,8 +228,7 @@ a {
   .home-intro-overlay {
     background-color: rgba(0, 0, 0, 0);
     box-sizing: border-box;
-    padding: 8%;
-    padding-left: 10%;
+    padding: 12% 8% 6% 10%;
 
     &.show {
       pointer-events: inherit;
@@ -248,7 +247,7 @@ a {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      width: 35%;
+      width: 33.33%;
       background-color: #efefef;
       color: $COLOR-ACCENT;
       box-sizing: border-box;

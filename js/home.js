@@ -286,7 +286,6 @@ $(document).ready(function() {
   const lastVisitSeconds = localStorage.getItem('lastVisit') || 0;
   const thisVisitSeconds = Math.floor(Date.now() / 1000);
   const threeMonthSeconds = 90 * 24 * 60 * 60;
-  console.log(lastVisitSeconds + ' x ' + thisVisitSeconds);
 
   if ((thisVisitSeconds - lastVisitSeconds) > threeMonthSeconds) {
     introOverlay.classList.add('show');
