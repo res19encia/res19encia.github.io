@@ -224,6 +224,61 @@ a {
       }
     }
   }
+
+  .home-intro-overlay {
+    background-color: rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    padding: 8%;
+    padding-left: 10%;
+
+    &.show {
+      pointer-events: inherit;
+      opacity: 1;
+    }
+
+    .home-intro-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .home-intro-text-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 35%;
+      background-color: #efefef;
+      color: $COLOR-ACCENT;
+      box-sizing: border-box;
+      font-size: 22px;
+      padding: 1.5em;
+      padding-top: 1.2em;
+      font-weight: bold;
+      line-height: 1.2em;
+    }
+
+    .home-intro-text-container + .home-intro-text-container {
+      margin-left: 20px;
+    }
+
+    --ball-width: 18px;
+    .home-intro-ball {
+      width: var(--ball-width);
+      height: var(--ball-width);
+      margin: 0 auto;
+      border-radius: 50%;
+      background-color: $COLOR-ACCENT;
+      cursor: pointer;
+      pointer-events: all;
+    }
+
+    .home-intro-text {
+      font-size: 22px;
+      padding: 1.5em 0 0;
+    }
+  }
 }
 
 .embody-wrapper {

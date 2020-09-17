@@ -279,6 +279,10 @@ $(document).ready(function() {
   const lightboxContent = document.getElementById('my-home-lightbox-content');
   const homeBallMenu = document.getElementById('my-home-ball-menu');
 
+  const introOverlay = document.getElementById('my-home-intro-overlay');
+  const introContainer = document.getElementById('my-home-intro-container');
+  const introBalls = [].slice.call(document.getElementsByClassName('home-intro-ball'));
+
   homeBallMenu.addEventListener('click', () => {
     lightboxOverlay.classList.add('show');
 
@@ -299,4 +303,19 @@ $(document).ready(function() {
     const event = e || window.event;
     event.stopPropagation();
   });
+
+  introOverlay.addEventListener('click', () => {
+    introOverlay.classList.remove('show');
+  });
+
+  introContainer.addEventListener('click', (e) => {
+    const event = e || window.event;
+    event.stopPropagation();
+  });
+
+  introBalls.forEach(bel => {
+    bel.addEventListener('click', () => {
+      introOverlay.classList.remove('show');
+    });
+  })
 });

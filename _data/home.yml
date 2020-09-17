@@ -1,5 +1,6 @@
 pt:
   subtitle: 'Isto não é uma exposição.<br>Isto não é um processo.<br>Isto é uma situação.'
+  intro: 'No dia 26 de fevereiro de 2020, o Brasil teve seu primeiro caso de COVID confirmado. Neste mesmo dia de 2021, este site estará contaminado. Enquanto há tempo, veja aqui os efeitos da residência criativa Virus-19.'
 
   button-labels:
     frame: 'molduras'
@@ -22,6 +23,7 @@ pt:
 
 en:
   subtitle: 'This is not an exhibition.<br>This is not a process.<br>This is a situation.'
+  intro: 'On February 26 2020, Brazil had its first COVID case confirmed. On the same day in 2021, this site will be contaminated. While there is still time, see here the effects of the creative residency Virus-19.'
 
   button-labels:
     frame: 'frame'
