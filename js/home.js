@@ -283,6 +283,16 @@ $(document).ready(function() {
   const introContainer = document.getElementById('my-home-intro-container');
   const introBalls = [].slice.call(document.getElementsByClassName('home-intro-ball'));
 
+  const lastVisitSeconds = localStorage.getItem('lastVisit') || 0;
+  const thisVisitSeconds = Math.floor(Date.now() / 1000);
+  const threeMonthSeconds = 90 * 24 * 60 * 60;
+  console.log(lastVisitSeconds + ' x ' + thisVisitSeconds);
+
+  if ((thisVisitSeconds - lastVisitSeconds) > threeMonthSeconds) {
+    introOverlay.classList.add('show');
+    localStorage.setItem('lastVisit', thisVisitSeconds);
+  }
+
   homeBallMenu.addEventListener('click', () => {
     lightboxOverlay.classList.add('show');
 
