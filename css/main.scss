@@ -251,18 +251,18 @@ a {
       background-color: #efefef;
       color: $COLOR-ACCENT;
       box-sizing: border-box;
-      font-size: 22px;
+      font-size: 18px;
       padding: 1.5em;
       padding-top: 1.2em;
       font-weight: bold;
-      line-height: 1.2em;
+      line-height: 1.33em;
     }
 
     .home-intro-text-container + .home-intro-text-container {
       margin-left: 20px;
     }
 
-    --ball-width: 18px;
+    --ball-width: 16px;
     .home-intro-ball {
       width: var(--ball-width);
       height: var(--ball-width);
@@ -274,8 +274,7 @@ a {
     }
 
     .home-intro-text {
-      font-size: 22px;
-      padding: 1.5em 0 0;
+      padding: 1.8em 0 0;
     }
   }
 }
