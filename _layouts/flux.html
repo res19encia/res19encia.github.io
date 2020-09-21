@@ -6,7 +6,7 @@
     {% include head.html %}
   </head>
   <body>
-    <div class="flood-wrapper">
+    <div class="flux-wrapper">
       {% include home-link.html %}
 
       <div class="art-container">
@@ -17,17 +17,20 @@
           </div>
 
           <div class="art-description">
-            {{ site.data.flux[PAGE_LANGUAGE] }}
+            <div class="flux-stats-container">
+              {% for s in site.data.flux[PAGE_LANGUAGE].stats %}
+                <div class="flux-stat-container">
+                  <div class="flux-stat-title"><div class="flux-stat-title-color">{{ s.title }}</div></div>
+                  <div class="flux-stat-content"><div class="flux-stat-content-color">{{ s.content }}</div></div>
+                </div>
+              {% endfor %}
+            </div>
+            <div class="flux-conclusion-container">
+              {{ site.data.flux[PAGE_LANGUAGE].conclusion }}
+            </div>
           </div>
         </div>
       </div>
-
-      <div id="my-flood-lightbox-overlay" class="flood-lightbox-overlay">
-        <div id="my-flood-lightbox-container" class="flood-lightbox-container">
-          <div id="my-flood-lightbox-image" class="flood-lightbox-image"></div>
-        </div>
-      </div>
-
     </div>
   </body>
 </html>

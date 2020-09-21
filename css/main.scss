@@ -322,7 +322,7 @@ a {
   }
 }
 
-.frame-wrapper, .flood-wrapper {
+.frame-wrapper, .flood-wrapper, .flux-wrapper {
   padding: 0 12%;
   margin: 0 auto;
   box-sizing: border-box;
@@ -678,9 +678,83 @@ a {
   }
 }
 
-.flux-supscript {
-  vertical-align: super;
-  font-size: 0.8em;
+.flux-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+
+  .art-container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: $COLOR-TEXT;
+
+    .art {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      flex-grow: 1;
+    }
+  }
+
+  .art-description {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .flux-stats-container {
+    width: 45%;
+    align-self: center;
+
+    .flux-stat-container + .flux-stat-container {
+      margin-top: 20px;
+    }
+
+    .flux-stat-title {
+      margin: 8px 0;
+      .flux-stat-title-color {
+        display: inline;
+        padding: .3em 0;
+        box-shadow: -.5em 0 0 $COLOR-ACCENT, .5em 0 0 $COLOR-ACCENT;
+        background-color: $COLOR-ACCENT;
+        color: $COLOR-BACKGROUND;
+      }
+    }
+
+    .flux-stat-content {
+      .flux-stat-content-color {
+        display: inline;
+        padding: .15em 0;
+        box-shadow: -.5em 0 0 $COLOR-BACKGROUND, .5em 0 0 $COLOR-BACKGROUND;
+        background-color: $COLOR-BACKGROUND;
+        color: $COLOR-TEXT;
+      }
+    }
+  }
+
+  .flux-conclusion-container {
+    width: 25%;
+    padding: 12px;
+    box-sizing: border-box;
+    align-self: flex-end;
+    background-color: $COLOR-ACCENT;
+    color: $COLOR-BACKGROUND;
+  }
+
+  .flux-supscript {
+    vertical-align: super;
+    font-size: 0.8em;
+    a {
+      color: $COLOR-BACKGROUND;
+    }
+  }
 }
 
 .home-link {
