@@ -24,12 +24,17 @@
         {% for a in arts %}
           <div class="art">
             <div class="art-title">
-              <div class="art-name pink-style">{{ a.title }}</div>
+              {% if a.title.pt %}
+                {% assign amedium = a.title[PAGE_LANGUAGE] | append: ' | ' | append: a.medium[PAGE_LANGUAGE] %}
+                <div class="art-name pink-style">{{ a.title[PAGE_LANGUAGE] }}</div>
+              {% else %}
+                {% assign amedium = a.title | append: ' | ' | append: a.medium[PAGE_LANGUAGE] %}
+                <div class="art-name pink-style">{{ a.title }}</div>
+              {% endif %}
               <div class="artist-name">{{ byline }} {{ a.artist }}</div>
             </div>
 
             <div class="frame-showcase-container">
-              {% assign amedium = a.title | append: ' | ' | append: a.medium[PAGE_LANGUAGE] %}
               {% include frame/{{a.slug }}.html medium=amedium %}
             </div>
 
