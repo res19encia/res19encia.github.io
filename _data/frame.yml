@@ -87,8 +87,8 @@ artists:
     title: 'Pesares Parasitas'
     slug: 'eduardo-padilha'
     medium:
-      pt: 'Fotografia com celular | Vidrarias de laboratório, papel, arrependimentos, sequências genéticas do vírus Sars-Cov-2 | 2020'
-      en: 'Cellphone photography | Laboratory glassware, paper, regrets, genetic sequence of Sars-Cov-2 virus | 2020'
+      pt: 'Fotografia com celular | Vidrarias de laboratório, papel, arrependimentos, sequências proteicas do vírus Sars-Cov-2 | 2020'
+      en: 'Cellphone photography | Laboratory glassware, paper, regrets, protein sequence of Sars-Cov-2 virus | 2020'
     description:
       en: 'text padilha en'
       pt: 'vírus. entidades biológicas.<br>pessoas. entidades biopsicológicas.<br>como representar o impacto da entidade Sars-Cov-2 para além do domínio do orgânico? como explicitar as implicações do vírus no domínio psíquico da entidades humanas? do genético, material, sobre o impalpável, imaterial?<br><br>pesares parasitas é experimentação pandêmica. num momento em que muito da esperança humana recai sobre laboratórios, o universo imagético de elementos científicos se mistura de maneira codificada a elementos da alma, arrependimentos. a representação de código genético emerge como recurso estético para fundir a essência do vírus com a essência do humano.'
@@ -97,7 +97,9 @@ artists:
       image: 'media/images/notes/eduardo-padilha.jpg'
 
   - artist: 'Fernando Tomé'
-    title: 'Entrevista com o morcego'
+    title:
+      pt: 'Entrevista com o morcego'
+      en: 'The bat chronicles'
     slug: 'fernando-tome'
     link:
       text:
