@@ -291,6 +291,7 @@ $(document).ready(function() {
     introOverlay.classList.add('show');
     localStorage.setItem('lastVisit', thisVisitSeconds);
   }
+  introOverlay.classList.add('show');
 
   homeBallMenu.addEventListener('click', () => {
     lightboxOverlay.classList.add('show');
