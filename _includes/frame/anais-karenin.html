@@ -1,6 +1,10 @@
 <div class="frame-showcase">
   <div class="video-wrapper video-wrapper-16x10">
-    <iframe src="https://www.youtube-nocookie.com/embed/Uf1PgLx3j3Q" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+    {% if PAGE_LANGUAGE == 'pt' %}
+      <iframe src="https://www.youtube-nocookie.com/embed/Uf1PgLx3j3Q" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+    {% else %}
+      <iframe src="https://www.youtube-nocookie.com/embed/Uf1PgLx3j3Q" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+    {% endif %}
   </div>
   <div class="showcase-subtitle">{{ include.medium }}</div>
 </div>
