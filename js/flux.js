@@ -11,5 +11,5 @@ $(document).ready(function() {
       }
     }
     backgroundText.innerHTML = backgroundText.innerHTML.replace(/^\s*([0-9]+,[ ]?){10}/,'');
-  }, 50);
+  }, 75);
 });
