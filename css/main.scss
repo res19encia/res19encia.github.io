@@ -683,19 +683,38 @@ a {
   flex-direction: column;
   min-height: 100vh;
   height: 100%;
+  padding: 0;
 
   .art-container {
+    position: relative;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     background-color: $COLOR-TEXT;
+    overflow: hidden;
+    z-index: 1;
+    box-sizing: border-box;
 
     .art {
       display: flex;
       flex-direction: column;
       height: 100%;
       flex-grow: 1;
+      box-sizing: border-box;
     }
+  }
+
+  .flux-background-text {
+    position: absolute;
+    bottom: -1.7em;
+    padding: 12px 20px;
+    color: $COLOR-BACKGROUND;
+    z-index: -1;
+    font-family: monospace;
+    color: rgba(255,255,255,.8);
+    word-break: break-all;
+    box-sizing: border-box;
+    font-size: 17px;
   }
 
   .art-description {

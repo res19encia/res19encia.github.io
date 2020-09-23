@@ -10,9 +10,13 @@
       {% include home-link.html %}
 
       <div class="art-container">
+        <div id= "flux-background-text" class="flux-background-text">
+          {% for i in (1..1500) %}{{ i }},{% endfor %}
+        </div>
+
         <div class="art">
           <div class="art-title">
-            <div class="art-name pink-style">{{ page.title }}</div>
+            <div class="art-name"></div>
             <div class="artist-name"></div>
           </div>
 
@@ -33,4 +37,5 @@
       </div>
     </div>
   </body>
+  <script src="{{ site.baseurl }}/js/flux.js"></script>
 </html>
