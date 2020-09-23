@@ -216,10 +216,15 @@ a {
         font-size: 14px;
 
         a {
+          text-decoration: underline;
+        }
+
+        .home-lightbox-link {
           padding: 0 4px 2px;
           background-color: $COLOR-ACCENT;
-          color: #fff;
+          color: $COLOR-BACKGROUND;
           font-weight: bold;
+          text-decoration: none;
         }
       }
     }
@@ -239,7 +244,7 @@ a {
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
-      width: 100%;
+      width: 66%;
       box-sizing: border-box;
     }
 
@@ -247,7 +252,7 @@ a {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      width: 33.33%;
+      width: 50%;
       background-color: #efefef;
       color: $COLOR-ACCENT;
       box-sizing: border-box;
