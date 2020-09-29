@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  localStorage.setItem('fromMenu', true);
+
   const lightboxOverlay = document.getElementById('my-embody-lightbox-overlay');
   const lightboxContainer = document.getElementById('my-embody-lightbox-container');
   const lightboxImage = document.getElementById('my-embody-lightbox-image');

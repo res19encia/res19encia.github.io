@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  localStorage.setItem('fromMenu', true);
+
   const backgroundText = document.getElementById('flux-background-text');
   let v = 1501;
 

@@ -1,4 +1,6 @@
 $(document).ready(function() {
+  localStorage.setItem('fromMenu', true);
+
   const lightboxOverlay = document.getElementById('my-flood-lightbox-overlay');
   const lightboxContainer = document.getElementById('my-flood-lightbox-container');
   const lightboxImage = document.getElementById('my-flood-lightbox-image');

@@ -284,6 +284,7 @@ $(document).ready(function() {
   const introBalls = [].slice.call(document.getElementsByClassName('home-intro-ball'));
 
   const lastVisitSeconds = localStorage.getItem('lastVisit') || 0;
+  const fromMenu = localStorage.getItem('fromMenu') || false;
   const thisVisitSeconds = Math.floor(Date.now() / 1000);
   const threeMonthSeconds = 90 * 24 * 60 * 60;
 
@@ -291,7 +292,12 @@ $(document).ready(function() {
     introOverlay.classList.add('show');
     localStorage.setItem('lastVisit', thisVisitSeconds);
   }
-  introOverlay.classList.add('show');
+
+  if (fromMenu) {
+    localStorage.removeItem('fromMenu');
+  } else {
+    introOverlay.classList.add('show');
+  }
 
   homeBallMenu.addEventListener('click', () => {
     lightboxOverlay.classList.add('show');
