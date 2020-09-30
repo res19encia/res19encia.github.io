@@ -281,7 +281,7 @@ $(document).ready(function() {
 
   const introOverlay = document.getElementById('my-home-intro-overlay');
   const introContainer = document.getElementById('my-home-intro-container');
-  const introBalls = [].slice.call(document.getElementsByClassName('home-intro-ball'));
+  const introClose = [].slice.call(document.getElementsByClassName('home-intro-close'));
 
   const lastVisitSeconds = localStorage.getItem('lastVisit') || 0;
   const fromMenu = localStorage.getItem('fromMenu') || false;
@@ -329,7 +329,7 @@ $(document).ready(function() {
     event.stopPropagation();
   });
 
-  introBalls.forEach(bel => {
+  introClose.forEach(bel => {
     bel.addEventListener('click', () => {
       introOverlay.classList.remove('show');
     });
