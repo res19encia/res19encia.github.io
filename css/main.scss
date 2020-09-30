@@ -169,6 +169,14 @@ a {
     a {
       font-size: 13px;
     }
+
+    .home-contact {
+      display: inline-block;
+      font-size: 13px;
+      margin-left: 20px;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
   }
 
   .home-lightbox-overlay {

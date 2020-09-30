@@ -277,7 +277,8 @@ $(document).ready(function() {
   const lightboxContainer = document.getElementById('my-home-lightbox-container');
   const lightboxTitle = document.getElementById('my-home-lightbox-title');
   const lightboxContent = document.getElementById('my-home-lightbox-content');
-  const homeBallMenu = document.getElementById('my-home-ball-menu');
+  const homeSystemBalls = document.getElementById('my-home-ball-menu');
+  const homeContact = document.getElementById('my-home-contact');
 
   const introOverlay = document.getElementById('my-home-intro-overlay');
   const introContainer = document.getElementById('my-home-intro-container');
@@ -299,7 +300,19 @@ $(document).ready(function() {
     introOverlay.classList.add('show');
   }
 
-  homeBallMenu.addEventListener('click', () => {
+  homeContact.addEventListener('click', () => {
+    lightboxOverlay.classList.add('show');
+
+    if (window.location.href.includes('pt')) {
+      lightboxTitle.innerHTML = '{{ site.data.home["pt"]["contact"]["title"] }}';
+      lightboxContent.innerHTML = '{{ site.data.home["pt"]["contact"]["content"] }}';
+    } else {
+      lightboxTitle.innerHTML = '{{ site.data.home["en"]["contact"]["title"] }}';
+    lightboxContent.innerHTML = '{{ site.data.home["en"]["contact"]["content"] }}';
+    }
+  });
+
+  homeSystemBalls.addEventListener('click', () => {
     lightboxOverlay.classList.add('show');
 
     if (window.location.href.includes('pt')) {
