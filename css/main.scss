@@ -242,9 +242,10 @@ a {
     background-color: rgba(0, 0, 0, 0);
     box-sizing: border-box;
     padding: 8% 8% 6% 10%;
+    display: none;
 
     &.show {
-      pointer-events: inherit;
+      display: inherit;
       opacity: 1;
     }
 
@@ -274,7 +275,7 @@ a {
       margin-left: 20px;
     }
 
-    .home-intro-close {
+    .home-intro-close-container {
       width: 100%;
       padding: 0;
       padding-top: 1em;
@@ -282,13 +283,19 @@ a {
       margin: 0;
       box-sizing: border-box;
       text-align: right;
-      cursor: pointer;
-      pointer-events: all;
-      color: $COLOR-TEXT;
-      font-weight: bold;
 
-      &::before {
-        content: 'X';
+      .home-intro-close {
+        display: inline;
+        margin: 0;
+        box-sizing: border-box;
+        cursor: pointer;
+        pointer-events: all;
+        color: $COLOR-TEXT;
+        font-weight: bold;
+
+        &::before {
+          content: 'X';
+        }
       }
     }
 
