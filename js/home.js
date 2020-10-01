@@ -302,13 +302,13 @@ $(document).ready(function() {
 
   homeContact.addEventListener('click', () => {
     lightboxOverlay.classList.add('show');
+    lightboxContent.innerHTML = '<div class="home-contact-image"></div>';
 
     if (window.location.href.includes('pt')) {
-      lightboxTitle.innerHTML = '{{ site.data.home["pt"]["contact"]["title"] }}';
-      lightboxContent.innerHTML = '{{ site.data.home["pt"]["contact"]["content"] }}';
+      lightboxTitle.innerHTML = '{{ site.data.home["pt"]["contact"] }}';
+
     } else {
-      lightboxTitle.innerHTML = '{{ site.data.home["en"]["contact"]["title"] }}';
-    lightboxContent.innerHTML = '{{ site.data.home["en"]["contact"]["content"] }}';
+      lightboxTitle.innerHTML = '{{ site.data.home["en"]["contact"] }}';
     }
   });
 

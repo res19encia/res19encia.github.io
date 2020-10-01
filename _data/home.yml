@@ -1,9 +1,7 @@
 pt:
   subtitle: 'Isto não é uma exposição.<br>Isto não é um processo.<br>Isto é uma situação.'
   intro: 'A gente não achou que esta situação iria durar tanto. Março, 2020. Optamos por esperar juntas enquanto construíamos a residência criativa aqui situada.<br><br>Fizemos tudo isso digitalmente atravessando o virtual. Ao contrário do que imaginávamos, o virtual não é o oposto do real, e sim uma outra maneira de estar presente e construir uma identidade. Há linguagem, processos e formas próprias. Assim já dizia Pierre Levy,  “A virtualização não é uma desrealização, mas uma mutação de identidade. (…) “A virtualização é um dos principais vetores da criação de realidade.”<br><br>Este é o nosso atual, tangível dentro do seu próprio sistema de possibilidades.<br><br>Mari e Lina | São Paulo, 2020'
-  contact:
-    title: 'contato'
-    content: 'oi'
+  contact: 'contato'
 
   button-labels:
     frame: 'molduras'
@@ -25,9 +23,7 @@ pt:
 en:
   subtitle: 'This is not an exhibition.<br>This is not a process.<br>This is a situation.'
   intro: 'We didn''t think this situation would last this long. March, 2020. We chose to wait together while building the creative residency situated here.<br><br>We did this digitally across the virtual. Contrary to what we imagined, the virtual is not the opposite of the real, but another way of being present and building an identity. It has a language, processes and forms of its own. As Pierre Levy said, “Virtualization is not a un-realization, but a mutation of identity. (…) “Virtualization is one of the main vectors of creating reality.”<br><br>This is our current situation, tangible within its own system of possibilities.<br><br>Mari e Lina | São Paulo, 2020'
-  contact:
-    title: 'contact'
-    content: 'hi'
+  contact: 'contact'
 
   button-labels:
     frame: 'frame'

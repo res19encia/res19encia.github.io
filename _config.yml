@@ -8,6 +8,8 @@ url: 'https://virus19.ml'
 baseurl: ''
 include: ['_pages']
 
+email: 'info@virus19.ml'
+
 # Build settings
 markdown: kramdown
 port: 6864

@@ -179,6 +179,15 @@ a {
     }
   }
 
+  .home-contact-image {
+    width: 100px;
+    height: 15px;
+    background-image: url({{ site.baseurl }}/media/images/contact.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+
   .home-lightbox-overlay {
     position: absolute;
     top: 0;
