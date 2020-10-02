@@ -277,6 +277,10 @@ a {
       justify-content: flex-start;
       width: 40%;
       box-sizing: border-box;
+
+      @include media-query(MOBILE) {
+        width: 100%;
+      }
     }
 
     .home-intro-text-container {
@@ -396,6 +400,10 @@ a {
       width: 100%;
       padding: 0 64px;
       box-sizing: border-box;
+
+      @include media-query(MOBILE) {
+        padding: 0;
+      }
     }
 
     .showcase-subtitle {
@@ -409,6 +417,10 @@ a {
     padding: 12px 64px 0;
     font-size: 13px;
     line-height: 1.5;
+
+    @include media-query(MOBILE) {
+      padding: 12px 0 0;
+    }
 
     .art-link-container {
       margin: 0 0 12px;
