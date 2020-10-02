@@ -278,7 +278,6 @@ $(document).ready(function() {
   const lightboxTitle = document.getElementById('my-home-lightbox-title');
   const lightboxContent = document.getElementById('my-home-lightbox-content');
   const homeSystemBalls = document.getElementById('my-home-ball-menu');
-  const homeContact = document.getElementById('my-home-contact');
 
   const introOverlay = document.getElementById('my-home-intro-overlay');
   const introContainer = document.getElementById('my-home-intro-container');
@@ -299,18 +298,6 @@ $(document).ready(function() {
   } else {
     introOverlay.classList.add('show');
   }
-
-  homeContact.addEventListener('click', () => {
-    lightboxOverlay.classList.add('show');
-    lightboxContent.innerHTML = '<div class="home-contact-image"></div>';
-
-    if (window.location.href.includes('pt')) {
-      lightboxTitle.innerHTML = '{{ site.data.home["pt"]["contact"] }}';
-
-    } else {
-      lightboxTitle.innerHTML = '{{ site.data.home["en"]["contact"] }}';
-    }
-  });
 
   homeSystemBalls.addEventListener('click', () => {
     lightboxOverlay.classList.add('show');

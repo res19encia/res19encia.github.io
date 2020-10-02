@@ -177,6 +177,12 @@ a {
       text-transform: uppercase;
       cursor: pointer;
     }
+
+    .home-contact-image {
+      display: inline-block;
+      margin-left: 20px;
+      margin-bottom: -3px;
+    }
   }
 
   .home-contact-image {
@@ -186,6 +192,13 @@ a {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
+  }
+
+  .home-contact-text {
+    display: inline-block;
+    margin: 0 0 0 20px;
+    font-size: 13px;
+    font-weight: bold;
   }
 
   .home-lightbox-overlay {
@@ -274,7 +287,7 @@ a {
       background-color: #efefef;
       color: $COLOR-ACCENT;
       box-sizing: border-box;
-      font-size: 15px;
+      font-size: 14px;
       padding: 0;
       line-height: 1.33em;
     }
