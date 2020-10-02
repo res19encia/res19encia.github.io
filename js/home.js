@@ -317,10 +317,10 @@ $(document).ready(function() {
 
     if (window.location.href.includes('pt')) {
       lightboxTitle.innerHTML = 'sistemas';
-      lightboxContent.innerHTML = '{{ site.data.home["pt"]["descriptions"]["system"] }}';
+      lightboxContent.innerHTML = '{{ site.data.home["pt"]["descriptions"]["systems"] }}';
     } else {
-      lightboxTitle.innerHTML = 'system';
-      lightboxContent.innerHTML = '{{ site.data.home["en"]["descriptions"]["system"] }}';
+      lightboxTitle.innerHTML = 'systems';
+      lightboxContent.innerHTML = '{{ site.data.home["en"]["descriptions"]["systems"] }}';
     }
   });
 
