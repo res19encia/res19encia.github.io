@@ -45,13 +45,13 @@ a {
 }
 
 ::-moz-selection {
-  background-color: $COLOR-ACCENT-BACKGROUND;
-  color: #fff;
+  background-color: $COLOR-TEXT;
+  color: $COLOR-BACKGROUND;
 }
 
 ::selection {
-  background-color: $COLOR-ACCENT-BACKGROUND;
-  color: #fff;
+  background-color: $COLOR-TEXT;
+  color: $COLOR-BACKGROUND;
 }
 
 .home-wrapper {
