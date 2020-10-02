@@ -1,10 +1,12 @@
 <div class="frame-showcase">
-  <div class="video-wrapper video-wrapper-16x10">
-    {% if PAGE_LANGUAGE == 'pt' %}
+  {% if PAGE_LANGUAGE == 'pt' %}
+    <div class="video-wrapper video-wrapper-16x10">
       <iframe src="https://player.vimeo.com/video/447218045?title=0&byline=0&portrait=0" width="640" height="399" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    {% else %}
+    </div>
+  {% else %}
+    <div class="video-wrapper video-wrapper-16x9">
       <iframe src="https://player.vimeo.com/video/462392984?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    {% endif %}
-  </div>
+    </div>
+  {% endif %}  
   <div class="showcase-subtitle">{{ include.medium }}</div>
 </div>
