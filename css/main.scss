@@ -261,6 +261,10 @@ a {
         line-height: 1.7;
         font-size: 14px;
 
+        @include media-query(MOBILE) {
+          font-size: 12px;
+        }
+
         a {
           text-decoration: underline;
         }
@@ -473,9 +477,20 @@ a {
     justify-content: flex-start;
     align-items: baseline;
 
+    @include media-query(MOBILE) {
+      margin-top: 16px;
+      padding: 0;
+      flex-direction: column;
+    }
+
     .curators-note-title {
       text-transform: uppercase;
       margin-left: 32px;
+
+      @include media-query(MOBILE) {
+        margin-top: 8px;
+        margin-left: 0;
+      }
     }
 
     .curators-note-image {
@@ -492,6 +507,10 @@ a {
     position: relative;
     padding: 0 64px;
     box-sizing: border-box;
+
+    @include media-query(MOBILE) {
+      padding: 0;
+    }
 
     .curator-quote-image {
       width: 100%;
@@ -511,6 +530,18 @@ a {
       font-size: 11px;
       color: #000;
       text-decoration: underline;
+
+      @include media-query(MOBILE) {
+        display: none;
+      }
+    }
+
+    .curator-quote-credit-mobile {
+      display: none;
+
+      @include media-query(MOBILE) {
+        display: block;
+      }
     }
   }
 }
