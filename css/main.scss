@@ -123,7 +123,7 @@ a {
     z-index: 10;
 
     @include media-query(MOBILE) {
-      width: 50%;
+      width: 66%;
     }
   }
 
@@ -173,7 +173,7 @@ a {
     z-index: 10;
 
     @include media-query(MOBILE) {
-      width: 50%;
+      width: 33%;
       text-align: right;
     }
 
@@ -210,6 +210,11 @@ a {
     margin: 0 0 0 20px;
     font-size: 13px;
     font-weight: bold;
+
+    @include media-query(MOBILE) {
+      margin: 0;
+      display: block;
+    }
   }
 
   .home-lightbox-overlay {
