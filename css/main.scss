@@ -805,11 +805,22 @@ a {
     box-sizing: border-box;
     justify-content: space-between;
     align-items: baseline;
+
+    @include media-query(MOBILE) {
+      flex-direction: column;
+    }
   }
 
   .flux-stats-container {
     width: 45%;
     align-self: center;
+
+    @include media-query(MOBILE) {
+      width: 90%;
+      margin: 0 20px;
+      box-sizing: border-box;
+      align-self: flex-start;
+    }
 
     .flux-stat-container + .flux-stat-container {
       margin-top: 20px;
@@ -844,6 +855,12 @@ a {
     align-self: flex-end;
     background-color: $COLOR-ACCENT;
     color: $COLOR-BACKGROUND;
+
+    @include media-query(MOBILE) {
+      width: 90%;
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
   }
 
   .flux-supscript {
