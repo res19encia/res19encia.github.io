@@ -208,9 +208,9 @@ function drawButtons() {
     be.innerHTML = bLabel;
 
     const mLeft = Math.min(window.innerWidth,
-                           Math.max(0, button[i].x + width / 2 - (6 * bLabel.length)));
+                           Math.max(10, button[i].x + width / 2 - (6 * bLabel.length)));
     const mTop = Math.min(window.innerHeight,
-                          Math.max(0, button[i].y + height / 2 - 12));
+                          Math.max(10, button[i].y + height / 2 - 12));
 
     be.style['left'] = `${mLeft}px`;
     be.style['top'] = `${mTop}px`;

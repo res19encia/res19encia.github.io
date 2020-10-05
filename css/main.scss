@@ -68,7 +68,7 @@ a {
 
     @include media-query(MOBILE) {
       padding-top: 100px;
-      // display: none;
+      display: none;
     }
   }
 
