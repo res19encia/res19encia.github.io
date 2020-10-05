@@ -364,6 +364,12 @@ a {
 
       --image-width: 40%;
 
+      @include media-query(MOBILE) {
+        flex-direction: column;
+        padding: 30px 0 50px;
+        --image-width: 100%;
+      }
+
       .artist-image {
         width: var(--image-width);
         padding-bottom: calc(0.4 * 62.5%);
@@ -371,6 +377,10 @@ a {
         background-position: center center;
         background-size: contain;
         cursor: pointer;
+
+        @include media-query(MOBILE) {
+          padding-bottom: calc(1.0 * 62.5%);
+        }
       }
 
       .artist-bio-wrapper {
@@ -380,6 +390,11 @@ a {
         width: calc(1.2 * var(--image-width));
         font-size: 13px;
         line-height: 1.5;
+
+        @include media-query(MOBILE) {
+          width: calc(1.0 * var(--image-width));
+          padding-top: 12px;
+        }
 
         .artist-link {
           margin-top: 20px;
