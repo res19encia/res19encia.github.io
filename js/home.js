@@ -321,7 +321,7 @@ $(document).ready(function() {
   });
 
   introOverlay.addEventListener('click', () => {
-    introOverlay.classList.remove('show');
+    //introOverlay.classList.remove('show');
   });
 
   introContainer.addEventListener('click', (e) => {
