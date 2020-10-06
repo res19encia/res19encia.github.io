@@ -1,0 +1,43 @@
+embody:
+  'Anais-Karenin':
+    url: 'http://anaiskarenin.com'
+    image: 'media/images/embody/anais-karenin.jpg'
+  'Thiago Hersan':
+    url: 'https://thiagohersan.com'
+    image: 'media/images/embody/thiago-hersan.jpg'
+  'Mari Nagem':
+    url: 'https://marinagem.com'
+    image: 'media/images/embody/mari-nagem.jpg'
+  'Lina Lopes':
+    url: 'https://www.linalopes.info'
+    image: 'media/images/embody/lina-lopes.jpg'
+  'Paulina Yeal Cho':
+    url: ''
+    image: 'media/images/embody/paulina-cho.jpg'
+  'Artur Ched':
+    url: ''
+    image: 'media/images/embody/artur-ched.jpg'
+  'Eduardo Padilha':
+    url: ''
+    image: 'media/images/embody/eduardo-padilha.jpg'
+  'Luccas Morais':
+    url: 'https://lumorais.hotglue.me/'
+    image: 'media/images/embody/luccas-morais.jpg'
+  'Fernando Tomé':
+    url: ''
+    image: 'media/images/embody/fernando-tome.jpg'
+  'Nichollas Alem':
+    url: ''
+    image: 'media/images/embody/nichollas-alem.jpg'
+  'Rafael Nepô':
+    url: ''
+    image: 'media/images/embody/rafael-nepo.jpg'
+  'Giovanna Graziosi Casimiro':
+    url: 'https://ggcasimiro.com'
+    image: 'media/images/embody/giovanna-casimiro.jpg'
+  'Marcele Guerra':
+    url: ''
+    image: 'media/images/embody/marcele-guerra.jpg'
+  'Cesar Baio':
+    url: ''
+    image: 'media/images/embody/cesar-baio.jpg'

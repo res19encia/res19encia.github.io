@@ -1,98 +1,70 @@
 - name: 'Anais-Karenin'
-  url: 'http://anaiskarenin.com'
-  image: 'media/images/embody/anais-karenin.jpg'
   bio:
     en: 'Artist and researcher. The main subject of her work is the symbiotic relationship between nature and artificial materials. She mainly creates installations, objects, sculptures and videos. Holds a master''s degree in Contemporary Art and Culture from PPGArtes / UERJ, has studied medicinal plants for 8 years and is a doctoral student in Visual Poetics at PPGAV / USP. Has exhibited at several institutions, including an individual in Tokyo, at the HPop Gallery in 2019.'
     pt: 'Artista e pesquisadora. O principal assunto de seu trabalho é a relação simbiótica entre natureza e materiais artificiais. Cria principalmente instalações, objetos, esculturas e vídeos. É  mestre em Arte e Cultura Contemporânea pelo PPGArtes/UERJ, estuda plantas medicinais há 8 anos e é doutoranda em Poéticas Visuais na PPGAV/USP. Já expôs em diversas instituições, incluindo uma individual em Tóquio, na HPop Gallery, em 2019.'
 
 - name: 'Thiago Hersan'
-  url: 'https://thiagohersan.com'
-  image: 'media/images/embody/thiago-hersan.jpg'
   bio:
     en: 'Used to be an integrated circuit designer. Today he works with art, education, digital culture and other things. He is a member of the <a href="https://astrovandalistas.cc" target="_blank">Astrovandalistas</a> collective, a group that explores the use of technology, art, activism and design to expand the possibilities of affective communication. In 2013 he received a VIDA15.0 award to develop the art and artificial intelligence project <a href="https://memememememememe.me" target="_blank">memememe</a>.<br><br>Was creative technical consultant for this site.'
 
     pt: 'Foi designer de circuitos integrados. Hoje trabalha com arte, educação, cultura digital entre outras coisas. É integrante do coletivo <a href="https://astrovandalistas.cc" target="_blank">Astrovandalistas</a>, um grupo que explora o uso de tecnologia, arte, ativismo e design para ampliar as possibilidades da comunicação afetiva. Recebeu o prêmio VIDA15.0 em 2013 para desenvolver o projeto de arte e inteligência artificial <a href="https://memememememememe.me" target="_blank">memememe</a>.<br><br>Foi consultor técnico criativo deste site.'
 
 - name: 'Mari Nagem'
-  url: 'https://marinagem.com'
-  image: 'media/images/embody/mari-nagem.jpg'
   bio:
     en: 'Multimedia artist interested in the artificiality of the contemporary world, in the current notions of <a href="https://thehappyapp.art" target="_blank">happiness</a>, she investigates emotional states in the digital age and the tensions between humans and technology. Master in Visual Arts by Haute École d''Art et Design de Genéve, has exhibited at The Wrong Digital Art Biennale, at the Museum of Image and Sound of São Paulo, and participated in festivals such as File, Artmov, Cineop and Athens Digital Arts Festival. Mari also works as a creative coordinator at international events.<br><br>She was co-founder, curator and designer of this residency.'
     pt: 'Artista multimedia interessada na artificialidade do mundo contemporâneo, nos pressupostos atuais de <a href="https://thehappyapp.art" target="_blank">felicidade</a>, explora os estados emocionais na era digital e questões existenciais entre homem e tecnologia. Mestre em Artes Visuais pela Haute École d''Art et Design de Genéve, expôs na The Wrong Digital Art Biennale, no Museu da Imagem e do Som de São Paulo, além de de festivais como o File, Artmov, Cineop, Athens Digital Arts Festival. Além de artista, atua como coordenadora criativa em eventos internacionais.<br><br>Foi co-fundadora, curadora e designer da residência aqui situada.'
 
 - name: 'Lina Lopes'
-  url: 'https://www.linalopes.info'
-  image: 'media/images/embody/lina-lopes.jpg'
   bio:
     en: 'An enthusiast for experimentation, collaboration and improvisation. She finds it strange to write about herself in the third person. She has extensive experience in projects, working with parametric and generative design, video mapping, interactivity, programming with Arduino, wearables, internet of things, biomaterials, among others. Is a speaker on innovation and mentors bootcamps. She also runs <a href="https://www.lilo.zone" target="_blank">LILO.ZONE</a>, a space dedicated to the creative use of technology and is at the forefront of the LILO.THINK initiative, a methodology focused on immersive processes.<br><br>She was the founder and mediator of this residency.'
     pt: 'É entusiasta da experimentação, da colaboração e da improvisação. Acha estranho escrever sobre si mesma em terceira pessoa. Possui ampla experiência em projetos, trabalhando nas temáticas de design paramétrico e generativo, video mapping, interatividade, programação com Arduino, wearables, internet das coisas, biomateriais, entre outros. É palestrante sobre inovação e mentora de bootcamps. Dirige o <a href="https://www.lilo.zone" target="_blank">LILO.ZONE</a>, espaço voltado ao uso criativo de tecnologia e está à frente da iniciativa LILO.THINK, uma metodologia voltada à processos imersivos.<br><br>Foi fundadora e mediadora da residência aqui situada.'
 
 - name: 'Paulina Yeal Cho'
-  url: ''
-  image: 'media/images/embody/paulina-cho.jpg'
   bio:
     en: 'Currently lost in the world. Presently in South Korea and with plans to move to Turkey later this year. If she could have a superpower it would be time travel, revealing the past and understanding the possible futures of humanity.'
     pt: 'Costumava estar perdida entre a Faria Lima e a Vila Buarque, mas atualmente está perdida no mundo. Atualmente na Coreia do Sul e com planos de se mudar para Turquia no fim do ano. Se pudesse ter um super poder seria viajar no tempo, revelar passados e entender os possíveis futuros da humanidade. Não sabe falar de si e não sabe como terminar essa mini-bio. Então beijos de luz!'
 
 - name: 'Artur Ched'
-  url: ''
-  image: 'media/images/embody/artur-ched.jpg'
   bio:
     en: 'Between art and advertising the need has always been communication. With that he never stopped researching and experimenting with different languages of graphic designe, ceramics ... mixing materials and concepts. He has participated in group exhibitions in Brazil and China. Currently researching the relations of memory and its physical and emotional interferences in the creative process and in the exploration of the appearance of the image through the analysis of biometric data.'
     pt: 'Entre a arte e a publicidade a necessidade sempre foi a comunicação, com isso nunca parou de pesquisar e experimentar diversas linguagens do designer gráfico a cerâmica...  misturando materiais e conceitos. Participou de algumas exposições coletivas no Brasil e na China. Atualmente "TCC" pesquisando as relações da memória e suas interferências físicas e emocionais em seu processo criativo e na exploração do surgimento da imagem através da análise de dados biométricos.'
 
 - name: 'Eduardo Padilha'
-  url: ''
-  image: 'media/images/embody/eduardo-padilha.jpg'
   bio:
     en: 'Pharmacy-Biochemistry researcher, initially researching DNA repair and cancer, today also explores the relationships between science, art, design and philosophy. He has lectured and presented his work in Brazil, Chile, China and the United States, and won Estudar Foundation''s Outstanding Youth Award in 2014.'
     pt: 'Acadêmico de Farmácia-Bioquímica, inicialmente pesquisando Reparo de DNA e câncer, hoje explora também as relações entre ciência, arte, design e filosofia. Já palestrou e apresentou seu trabalho no Brasil, Chile, China e Estados Unidos, e ganhou o Prêmio Jovens Fora de Série da Fundação Estudar em 2014.'
 
 - name: 'Luccas Morais'
-  url: 'https://lumorais.hotglue.me/'
-  image: 'media/images/embody/luccas-morais.jpg'
   bio:
     en: 'Transdisciplinary artist. Bringing a post-internet aesthetic where it merges digital languages, seeking a new interpretation of the memories acquired during the empirical process of locomotion, either physically, or through the internet. Member of the INSERTO collective that unites art, design and fashion. Invited by Centro Cultural SP in the project Trama Affetiva, to rethink the use of textile waste in industries. At this moment, seeking self-care, in a process of family understanding.'
     pt: 'Artista transdisciplinar. Trazendo uma estética pós internet onde mescla a linguagem digital, buscando uma nova interpretação das memórias adquiridas durante o processo empírico da locomoção, seja fisicamente, ou através da internet.  Membro do coletivo INSERTO que une a arte, design e moda. Convidado pelo Centro Cultural SP no projeto Trama afetiva, para repensar o uso de resíduos têxteis nas indústrias. Nesse momento buscando o autocuidado, em um processo de entendimento familiar.'
 
 - name: 'Fernando Tomé'
-  url: ''
-  image: 'media/images/embody/fernando-tome.jpg'
   bio:
     en: 'Has loved books since before he learned to read. Hundreds of books later he has been a consultant for foreign trade, innovation, event design, idea modeling and business planning for startups, and will probably continue to consult in different areas, including some that may not yet exist. During the pandemic, decided to dust off a supposed artist''s soul and take his first startup idea out of the drawer: digital books of contemporary and urban stories for people who don''t read or want to learn to enjoy reading.'
     pt: 'Ama livros desde antes de aprender a ler. Centenas de leituras depois foi consultor de comércio exterior, inovação, design de eventos  modelagem de ideia e negócios para startups e provavelmente continuará sendo em áreas que talvez ainda nem existam. Veio a pandemia e resolveu desempoeirar uma suposta alma de artista e tirar da gaveta, ainda que pontualmente, a sua primeira ideia de startup: livros digitais de histórias contemporâneas e urbanas para pessoas que nunca leram ou que querem aprender a gostar de ler.'
 
 - name: 'Nichollas Alem'
-  url: ''
-  image: 'media/images/embody/nichollas-alem.jpg'
   bio:
     en: 'Bachelor and PhD student in Economic Law at USP. Founder and President of the Institute of Law, Creative Economy and Arts. Specialist in Entertainment Law. UNESCO consultant on cultural equipment. Worked on the construction of the São Bernardo do Campo Municipal Creative Economy Program. Member of the Brazilian Intellectual Property Association (ABPI) and certified by Harvard''s CopyrightX.'
     pt: 'Bacharel e Doutorando em Direito Econômico pela USP. Fundador e Presidente do Instituto de Direito, Economia Criativa e Artes. Especialista em Direito do Entretenimento. Consultor da UNESCO em equipamentos culturais. Atuou na construção do Programa Municipal de Economia Criativa de São Bernardo do Campo. Membro da Associação Brasileira de Propriedade Intelectual (ABPI) e certificado pelo CopyrightX de Harvard.<br><br>Convidado para discutir questões do direito digital em um dos encontros da residência.'
 
 - name: 'Rafael Nepô'
-  url: ''
-  image: 'media/images/embody/rafael-nepo.jpg'
   bio:
     en: 'An unschooled questioner whose favorite word is modularity. He discovered that the past is much more interesting than the present and is frustrated that his vision of the future is not yet a reality. He founded Mee to rethink the way we research and transmit knowledge. Organization, curation, communication and presentation are everyday things. Reading, cooking and playing video games complement life. He has worked with major companies such as Gartner, GVT, Blizzard Entertainment at international events either producing them or as a speaker.<br><br>Invited to speak about information architecture in one of the meetings of the residency.'
     pt: 'Um desescolarizado questionador em que modularidade é sua palavra favorita. Descobriu que o passado é muito mais interessante que o presente e fica frustrado que sua visão de futuro ainda não é uma realidade. Fundou o Mee para repensar a forma como pesquisamos e transmitimos conhecimento. Organização, curadoria, comunicação e apresentação são coisas do dia a dia. Ler, cozinhar e jogar video game complementam a vida. Já trabalhou com grandes empresas como Gartner, GVT, Blizzard Entertainment em eventos internacionais na produção e/ou como palestrante.<br><br>Convidado para falar sobre arquitetura de informação em um dos encontros da residência.'
 
 - name: 'Giovanna Graziosi Casimiro'
-  url: 'https://ggcasimiro.com'
-  image: 'media/images/embody/giovanna-casimiro.jpg'
   bio:
     pt: 'Profissional multitarefa, com experiência como gerente e produtora de projetos digitais. Atuando na área de design digital, com experiência em múltiplas plataformas e indústria de XR. Tive experiências de trabalho e ensino em vários locais, incluindo Ásia, América do Norte, América do Sul e Europa. Pretendo ser sempre uma pensadora inovadora, comprometida, dedicada e solidária dos processos coletivos.<br><br>Sou doutoranda na Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo, com pesquisas sobre memória digital e patrimônio contemporâneo. Minha principal contribuição é o conceito de Open Source Heritage.<br><br>Convidada para apresentar projetos de realidade mista em um dos encontros da residência.'
     en: 'Multi task professional, with experience as digital project manager and producer. Working in the digital design, with experience in multiple platforms and XR industry. I have had experiences working and teaching in several locations, including Asia, North America, South America and Europe. I aim to be always a forward thinker, committed, dedicated and a supportive of collective processes.<br><br>I am a PhD candidate at the Faculty of Architecture and Urbanism of the University of São Paulo, with research on digital memory and contemporary heritage. My main contribution is the concept of Open Source Heritage.<br><br>Invited to present about mixed reality projects in one of the meetings of the residency.'
 
 - name: 'Marcele Guerra'
-  url: ''
-  image: 'media/images/embody/marcele-guerra.jpg'
   bio:
     en: 'I am a Facilitator, realizing group potential. Mediator and moderator in processes for giving meaning and making sense(s). Tour guide of internal landscapes, I work with path design (or even actual steep trails, I like to climb mountains) interior design (human, especially the heart) and interethnic and diversity design (currently including machines as an ethnic group too).<br><br>Invited to discuss and propose dinamics for online engagements during one of the meetings of the residency.'
     pt: 'Sou Facilitadora, guiando liberdades e potenciais de grupos. Mediadora e moderadora em processos de dar sentidos e de fazer sentir(es). Guia turística de paisagens internas, atuo com design de caminhos (ou trilhas mesmo, do tipo íngremes, gosto de subir uma montanha) design de interiores (humanos, especialmente o coração) e design interétnico e diversidade (atualmente incluindo máquinas como uma etnia também).<br><br>Convidada para discutir e propor dinâmicas de engajamento online em um dos encontros da residência.'
 
 - name: 'Cesar Baio'
-  url: ''
-  image: 'media/images/embody/cesar-baio.jpg'
   bio:
     en: 'Cesar Baio has a Doctor''s and a Master''s degree in Communication and Semiotics from PUC/SP, with research in the areas of cinema, video, digital media and visual arts. In his artistic work he is interested in the logic disruption of the functioning of systems of power and control through procedures of subversion of autonomous systems of surveillance, personal data cquisition and social control. Through the collective Cesar & Lois, he has worked on the creation of "biohybrid" works (biological and computational) formed by the integration of living microorganisms, digital networks and artificial intelligence.<br><br>Invited to present projects about bioart and fungi in one of the meetings of the residency.'
     pt: 'Doutor e mestre em Comunicação e Semiótica pela PUC/SP, com pesquisas nas áreas de cinema, vídeo, mídias digitais e artes visuais. Em seu trabalho artístico se interessa pela disrupção da lógica de funcionamento dos sistemas de poder e controle através de procedimentos de subversão de sistemas autônomos de vigilância, de aquisição de dados pessoais e de controle social. Através do coletivo Cesar & Lois, tem atuado na criação de obras "biohíbridas" (biológicas e computacionais) formados pela integração de micro-organismos vivos, redes digitais e inteligência artificial.<br><br>Convidado para apresentar projetos de bioarte e fungos em um dos encontros da residência.'
