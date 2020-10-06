@@ -41,3 +41,9 @@ embody:
   'Cesar Baio':
     url: ''
     image: 'media/images/embody/cesar-baio.jpg'
+
+flux:
+    - '<span class="flux-supscript"><a href="https://www.emergeinteractive.com/insights/detail/does-irresponsible-web-development-contribute-to-global-warming/#:~:text=According%20to%20the%20American%20Council,dioxide%20for%20every%20kWh%20generated" target="_blank">[1]</a><a href="https://www.aceee.org/files/proceedings/2012/data/papers/0193-000409.pdf" target="_blank">[2]</a></span>'
+    - '<span class="flux-supscript"><a href="https://www.rensmart.com/Calculators/KWH-to-CO2" target="_blank">[3]</a><a href="https://www.eia.gov/tools/faqs/faq.php?id=74&t=11" target="_blank">[4]</a></span>'
+    - '<span class="flux-supscript"><a href="https://www.icao.int/environmental-protection/Carbonoffset/Pages/default.aspx" target="_blank">[5]</a></span>'
+    - ''

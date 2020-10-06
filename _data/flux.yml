@@ -6,7 +6,11 @@ pt:
       content: '1.887 pacotes de áudios,<br>518 pacotes de vídeo.'
     - title: 'Mas também trocamos:'
       content: '3,45 GBytes de compartilhamento de tela,<br>7,48 GBytes de áudio,<br>555,94 GBytes de vídeo.'
-  conclusion: 'Criamos memórias em máquinas e descobrimos o tele-abraço.<br><br>Porém, cada uma de nós consumiu aproximadamente 2.830 kWh de energia<span class="flux-supscript"><a href="https://www.emergeinteractive.com/insights/detail/does-irresponsible-web-development-contribute-to-global-warming/#:~:text=According%20to%20the%20American%20Council,dioxide%20for%20every%20kWh%20generated" target="_blank">[1]</a><a href="https://www.aceee.org/files/proceedings/2012/data/papers/0193-000409.pdf" target="_blank">[2]</a></span>, liberando 900 kg de CO2<span class="flux-supscript"><a href="https://www.rensmart.com/Calculators/KWH-to-CO2" target="_blank">[3]</a><a href="https://www.eia.gov/tools/faqs/faq.php?id=74&t=11" target="_blank">[4]</a></span> para o efeito estufa.<br><br>Ou seja, o equivalente a uma viagem de São Paulo à Xangai<span class="flux-supscript"><a href="https://www.icao.int/environmental-protection/Carbonoffset/Pages/default.aspx" target="_blank">[5]</a></span>, porém, sem direito à volta.'
+  conclusion:
+    - 'Criamos memórias em máquinas e descobrimos o tele-abraço.<br><br>Porém, cada uma de nós consumiu aproximadamente 2.830 kWh de energia'
+    - ', liberando 900 kg de CO2'
+    - ' para o efeito estufa.<br><br>Ou seja, o equivalente a uma viagem de São Paulo à Xangai'
+    - ', porém, sem direito à volta.'
 
 en:
   stats:
@@ -16,4 +20,8 @@ en:
       content: '1,887 packets of audio,<br>518 packets of video.'
     - title: 'But we also exchanged:'
       content: '3.45 GBytes of screen shares,<br>7.48 GBytes of audio,<br>555.94 GBytes of video.'
-  conclusion: 'We created memories in machines and discovered the telematic hug.<br><br>However, each of us consumed approximately 2,830 kWh of energy<span class="flux-supscript"><a href="https://www.emergeinteractive.com/insights/detail/does-irresponsible-web-development-contribute-to-global-warming/#:~:text=According%20to%20the%20American%20Council,dioxide%20for%20every%20kWh%20generated" target="_blank">[1]</a><a href="https://www.aceee.org/files/proceedings/2012/data/papers/0193-000409.pdf" target="_blank">[2]</a></span>, contributing 900 kg of CO2<span class="flux-supscript"><a href="https://www.rensmart.com/Calculators/KWH-to-CO2" target="_blank">[3]</a><a href="https://www.eia.gov/tools/faqs/faq.php?id=74&t=11" target="_blank">[4]</a></span> to the atmosphere.<br><br>That is the equivalent of a trip from São Paulo to Shangai<span class="flux-supscript"><a href="https://www.icao.int/environmental-protection/Carbonoffset/Pages/default.aspx" target="_blank">[5]</a></span>, but only as a one-way journey.'
+  conclusion:
+    - 'We created memories in machines and discovered the telematic hug.<br><br>However, each of us consumed approximately 2,830 kWh of energy'
+    - ', contributing 900 kg of CO2'
+    - ' to the atmosphere.<br><br>That is the equivalent of a trip from São Paulo to Shangai'
+    - ', but only as a one-way journey.'

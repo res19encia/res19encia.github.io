@@ -30,7 +30,12 @@
               {% endfor %}
             </div>
             <div class="flux-conclusion-container">
-              {{ site.data.flux[PAGE_LANGUAGE].conclusion }}
+              {% assign conclusion = '' %}
+              {% for c in site.data.flux[PAGE_LANGUAGE].conclusion %}
+                {% capture part %}{{ c }}{{ site.data.links.flux[forloop.index0] }}{% endcapture %}
+                {% assign conclusion = conclusion | append: part %}
+              {% endfor %}
+              {{ conclusion }}
             </div>
           </div>
         </div>
