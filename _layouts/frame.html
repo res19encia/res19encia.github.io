@@ -35,7 +35,7 @@
             </div>
 
             <div class="frame-showcase-container">
-              {% assign mslug = site.data.slugslug[a.slug] %}
+              {% assign mslug = site.data.fixed.frame.slug[a.slug] %}
               {% include frame/{{ mslug }}.html medium=amedium %}
             </div>
 
@@ -49,8 +49,9 @@
             </div>
 
             {% if a.note %}
+              {% capture noteimage %}media/images/notes/{{ site.data.fixed.frame.slug[a.slug] }}.jpg{% endcapture %}
               <div class="curators-note-container">
-                <div class="curators-note-image frame-lightbox-thumbnail" style="background-image: url({{ site.baseurl }}/{{ a.note.image }})"></div>
+                <div class="curators-note-image frame-lightbox-thumbnail" style="background-image: url({{ site.baseurl }}/{{ noteimage }})"></div>
                 <div class="curators-note-title">{{ cnotes }} {{ a.note.minutes }} {{ minutes }}</div>
               </div>
             {% endif %}
@@ -85,7 +86,7 @@
 
           <div class="frame-showcase-container">
             {% assign cmedium = c.title[PAGE_LANGUAGE] | append: ' | ' | append: c.medium[PAGE_LANGUAGE] %}
-            {% assign mslug = site.data.slugslug[c.slug] %}
+            {% assign mslug = site.data.fixed.frame.slug[c.slug] %}
             {% include frame/{{ mslug }}.html medium=cmedium %}
           </div>
 

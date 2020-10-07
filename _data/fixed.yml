@@ -47,3 +47,15 @@ flux:
     - '<span class="flux-supscript"><a href="https://www.rensmart.com/Calculators/KWH-to-CO2" target="_blank">[3]</a><a href="https://www.eia.gov/tools/faqs/faq.php?id=74&t=11" target="_blank">[4]</a></span>'
     - '<span class="flux-supscript"><a href="https://www.icao.int/environmental-protection/Carbonoffset/Pages/default.aspx" target="_blank">[5]</a></span>'
     - ''
+
+frame:
+  slug:
+    'nis': 'anais-karenin'
+    'thio': 'thiago-hersan'
+    'mringem': 'mari-nagem'
+    'lin': 'lina-lopes'
+    'plin': 'paulina-cho'
+    'rtr': 'artur-ched'
+    'edrdo': 'eduardo-padilha'
+    'ls': 'luccas-morais'
+    'fernndo': 'fernando-tome'

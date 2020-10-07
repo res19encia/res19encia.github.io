@@ -13,8 +13,8 @@
 
         {% for a in artists %}
           {% if a.slug == 'lin' or a.slug == 'mringem' %}
-            {% assign murl = site.data.links.embody[a.slug].url %}
-            {% assign mimage = site.data.links.embody[a.slug].image %}
+            {% assign murl = site.data.fixed.embody[a.slug].url %}
+            {% assign mimage = site.data.fixed.embody[a.slug].image %}
 
             <div class="artist">
               <div class="artist-name pink-style">{{ a.name }}</div>
@@ -31,8 +31,8 @@
 
         {% for a in artists %}
           {% unless a.slug == 'lin' or a.slug == 'mringem' %}
-            {% assign murl = site.data.links.embody[a.slug].url %}
-            {% assign mimage = site.data.links.embody[a.slug].image %}
+            {% assign murl = site.data.fixed.embody[a.slug].url %}
+            {% assign mimage = site.data.fixed.embody[a.slug].image %}
 
             <div class="artist">
               <div class="artist-name pink-style">{{ a.name }}</div>
