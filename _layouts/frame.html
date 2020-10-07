@@ -42,7 +42,7 @@
             <div class="art-description">
               {% if a.link %}
                 <div class="art-link-container">
-                  <a class="art-link" href="{{ a.link.url }}" target="_blank">{{ a.link.text[PAGE_LANGUAGE] }}</a>
+                  <a class="art-link" href="{{ site.data.fixed.frame.url[a.slug] }}" target="_blank">{{ a.link.text[PAGE_LANGUAGE] }}</a>
                 </div>
               {% endif %}
               {{ a.description[PAGE_LANGUAGE] }}
