@@ -12,9 +12,9 @@
         {% assign artists = site.data.embody | sort: "name" %}
 
         {% for a in artists %}
-          {% if a.name contains 'opes' or a.name contains 'agem' %}
-            {% assign murl = site.data.links.embody[a.name].url %}
-            {% assign mimage = site.data.links.embody[a.name].image %}
+          {% if a.slug == 'lin' or a.slug == 'mringem' %}
+            {% assign murl = site.data.links.embody[a.slug].url %}
+            {% assign mimage = site.data.links.embody[a.slug].image %}
 
             <div class="artist">
               <div class="artist-name pink-style">{{ a.name }}</div>
@@ -22,7 +22,7 @@
                 <div class="artist-image" style="background-image: url({{ site.baseurl }}/{{ mimage }})"></div>
                 <div class="artist-bio-wrapper">
                   <div class="artist-bio">{{ a.bio[PAGE_LANGUAGE] }}</div>
-                  <a class="artist-link" href="{{ a.url }}" target="_blank">{{ murl }}</a>
+                  <a class="artist-link" href="{{ murl }}" target="_blank">{{ a.url }}</a>
                 </div>
               </div>
             </div>
@@ -30,9 +30,9 @@
         {% endfor %}
 
         {% for a in artists %}
-          {% unless a.name contains 'opes' or a.name contains 'agem' %}
-            {% assign murl = site.data.links.embody[a.name].url %}
-            {% assign mimage = site.data.links.embody[a.name].image %}
+          {% unless a.slug == 'lin' or a.slug == 'mringem' %}
+            {% assign murl = site.data.links.embody[a.slug].url %}
+            {% assign mimage = site.data.links.embody[a.slug].image %}
 
             <div class="artist">
               <div class="artist-name pink-style">{{ a.name }}</div>
@@ -40,7 +40,7 @@
                 <div class="artist-image" style="background-image: url({{ site.baseurl }}/{{ mimage }})"></div>
                 <div class="artist-bio-wrapper">
                   <div class="artist-bio">{{ a.bio[PAGE_LANGUAGE] }}</div>
-                  <a class="artist-link" href="{{ a.url }}" target="_blank">{{ murl }}</a>
+                  <a class="artist-link" href="{{ murl }}" target="_blank">{{ a.url }}</a>
                 </div>
               </div>
             </div>

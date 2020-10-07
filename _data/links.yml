@@ -1,44 +1,44 @@
 embody:
-  'Anais-Karenin':
+  'nnis':
     url: 'http://anaiskarenin.com'
     image: 'media/images/embody/anais-karenin.jpg'
-  'Thiago Hersan':
+  'thio':
     url: 'https://thiagohersan.com'
     image: 'media/images/embody/thiago-hersan.jpg'
-  'Mari Nagem':
+  'mringem':
     url: 'https://marinagem.com'
     image: 'media/images/embody/mari-nagem.jpg'
-  'Lina Lopes':
+  'lin':
     url: 'https://www.linalopes.info'
     image: 'media/images/embody/lina-lopes.jpg'
-  'Paulina Yeal Cho':
+  'plin':
     url: ''
     image: 'media/images/embody/paulina-cho.jpg'
-  'Artur Ched':
+  'rtr':
     url: ''
     image: 'media/images/embody/artur-ched.jpg'
-  'Eduardo Padilha':
+  'edrdo':
     url: ''
     image: 'media/images/embody/eduardo-padilha.jpg'
-  'Luccas Morais':
+  'ls':
     url: 'https://lumorais.hotglue.me/'
     image: 'media/images/embody/luccas-morais.jpg'
-  'Fernando Tomé':
+  'fernndo':
     url: ''
     image: 'media/images/embody/fernando-tome.jpg'
-  'Nichollas Alem':
+  'niholls':
     url: ''
     image: 'media/images/embody/nichollas-alem.jpg'
-  'Rafael Nepô':
+  'rfel':
     url: ''
     image: 'media/images/embody/rafael-nepo.jpg'
-  'Giovanna Graziosi Casimiro':
+  'giovnna':
     url: 'https://ggcasimiro.com'
     image: 'media/images/embody/giovanna-casimiro.jpg'
-  'Marcele Guerra':
+  'mrcele':
     url: ''
     image: 'media/images/embody/marcele-guerra.jpg'
-  'Cesar Baio':
+  'cesr':
     url: ''
     image: 'media/images/embody/cesar-baio.jpg'
 

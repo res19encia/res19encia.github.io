@@ -1,70 +1,1306 @@
-- name: 'Anais-Karenin'
+- slug: 'nnis'
+  name: <span class="agcu-a">A</span>n<span class="agcu-a">a</span>is-K<span
+    class="agcu-a">a</span>renin
+  url: http://<span class="agcu-a">a</span>n<span class="agcu-a">a</span>isk<span
+    class="agcu-a">a</span>renin.<span class="agcu-c">c</span>om
   bio:
-    en: 'Artist and researcher. The main subject of her work is the symbiotic relationship between nature and artificial materials. She mainly creates installations, objects, sculptures and videos. Holds a master''s degree in Contemporary Art and Culture from PPGArtes / UERJ, has studied medicinal plants for 8 years and is a doctoral student in Visual Poetics at PPGAV / USP. Has exhibited at several institutions, including an individual in Tokyo, at the HPop Gallery in 2019.'
-    pt: 'Artista e pesquisadora. O principal assunto de seu trabalho é a relação simbiótica entre natureza e materiais artificiais. Cria principalmente instalações, objetos, esculturas e vídeos. É  mestre em Arte e Cultura Contemporânea pelo PPGArtes/UERJ, estuda plantas medicinais há 8 anos e é doutoranda em Poéticas Visuais na PPGAV/USP. Já expôs em diversas instituições, incluindo uma individual em Tóquio, na HPop Gallery, em 2019.'
-
-- name: 'Thiago Hersan'
+    en: <span class="agcu-a">A</span>rtist <span class="agcu-a">a</span>nd rese<span
+      class="agcu-a">a</span>r<span class="agcu-c">c</span>her. The m<span
+      class="agcu-a">a</span>in s<span class="agcu-u">u</span>bje<span
+      class="agcu-c">c</span>t of her work is the symbioti<span
+      class="agcu-c">c</span> rel<span class="agcu-a">a</span>tionship between
+      n<span class="agcu-a">a</span>t<span class="agcu-u">u</span>re <span
+      class="agcu-a">a</span>nd <span class="agcu-a">a</span>rtifi<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>l m<span
+      class="agcu-a">a</span>teri<span class="agcu-a">a</span>ls. She m<span
+      class="agcu-a">a</span>inly <span class="agcu-c">c</span>re<span
+      class="agcu-a">a</span>tes inst<span class="agcu-a">a</span>ll<span
+      class="agcu-a">a</span>tions, obje<span class="agcu-c">c</span>ts, s<span
+      class="agcu-c">c</span><span class="agcu-u">u</span>lpt<span
+      class="agcu-u">u</span>res <span class="agcu-a">a</span>nd videos. Holds
+      <span class="agcu-a">a</span> m<span class="agcu-a">a</span>ster's de<span
+      class="agcu-g">g</span>ree in <span class="agcu-c">C</span>ontempor<span
+      class="agcu-a">a</span>ry <span class="agcu-a">A</span>rt <span
+      class="agcu-a">a</span>nd <span class="agcu-c">C</span><span
+      class="agcu-u">u</span>lt<span class="agcu-u">u</span>re from PP<span
+      class="agcu-g">G</span><span class="agcu-a">A</span>rtes / <span
+      class="agcu-u">U</span>ERJ, h<span class="agcu-a">a</span>s st<span
+      class="agcu-u">u</span>died medi<span class="agcu-c">c</span>in<span
+      class="agcu-a">a</span>l pl<span class="agcu-a">a</span>nts for 8 ye<span
+      class="agcu-a">a</span>rs <span class="agcu-a">a</span>nd is <span
+      class="agcu-a">a</span> do<span class="agcu-c">c</span>tor<span
+      class="agcu-a">a</span>l st<span class="agcu-u">u</span>dent in Vis<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>l Poeti<span
+      class="agcu-c">c</span>s <span class="agcu-a">a</span>t PP<span
+      class="agcu-g">G</span><span class="agcu-a">A</span>V / <span
+      class="agcu-u">U</span>SP. H<span class="agcu-a">a</span>s exhibited <span
+      class="agcu-a">a</span>t sever<span class="agcu-a">a</span>l instit<span
+      class="agcu-u">u</span>tions, in<span class="agcu-c">c</span>l<span
+      class="agcu-u">u</span>din<span class="agcu-g">g</span> <span
+      class="agcu-a">a</span>n individ<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>l in Tokyo, <span class="agcu-a">a</span>t the HPop
+      <span class="agcu-g">G</span><span class="agcu-a">a</span>llery in 2019.
+    pt: <span class="agcu-a">A</span>rtist<span class="agcu-a">a</span> e pesq<span
+      class="agcu-u">u</span>is<span class="agcu-a">a</span>dor<span
+      class="agcu-a">a</span>. O prin<span class="agcu-c">c</span>ip<span
+      class="agcu-a">a</span>l <span class="agcu-a">a</span>ss<span
+      class="agcu-u">u</span>nto de se<span class="agcu-u">u</span> tr<span
+      class="agcu-a">a</span>b<span class="agcu-a">a</span>lho é <span
+      class="agcu-a">a</span> rel<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span><span class="agcu-a">ã</span>o simbióti<span
+      class="agcu-c">c</span><span class="agcu-a">a</span> entre n<span
+      class="agcu-a">a</span>t<span class="agcu-u">u</span>rez<span
+      class="agcu-a">a</span> e m<span class="agcu-a">a</span>teri<span
+      class="agcu-a">a</span>is <span class="agcu-a">a</span>rtifi<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>is. <span
+      class="agcu-c">C</span>ri<span class="agcu-a">a</span> prin<span
+      class="agcu-c">c</span>ip<span class="agcu-a">a</span>lmente inst<span
+      class="agcu-a">a</span>l<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span>ões, objetos, es<span class="agcu-c">c</span><span
+      class="agcu-u">u</span>lt<span class="agcu-u">u</span>r<span
+      class="agcu-a">a</span>s e vídeos. É  mestre em <span
+      class="agcu-a">A</span>rte e <span class="agcu-c">C</span><span
+      class="agcu-u">u</span>lt<span class="agcu-u">u</span>r<span
+      class="agcu-a">a</span> <span class="agcu-c">C</span>ontempor<span
+      class="agcu-a">â</span>ne<span class="agcu-a">a</span> pelo PP<span
+      class="agcu-g">G</span><span class="agcu-a">A</span>rtes/<span
+      class="agcu-u">U</span>ERJ, est<span class="agcu-u">u</span>d<span
+      class="agcu-a">a</span> pl<span class="agcu-a">a</span>nt<span
+      class="agcu-a">a</span>s medi<span class="agcu-c">c</span>in<span
+      class="agcu-a">a</span>is h<span class="agcu-a">á</span> 8 <span
+      class="agcu-a">a</span>nos e é do<span class="agcu-u">u</span>tor<span
+      class="agcu-a">a</span>nd<span class="agcu-a">a</span> em Poéti<span
+      class="agcu-c">c</span><span class="agcu-a">a</span>s Vis<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>is n<span
+      class="agcu-a">a</span> PP<span class="agcu-g">G</span><span
+      class="agcu-a">A</span>V/<span class="agcu-u">U</span>SP. J<span
+      class="agcu-a">á</span> expôs em divers<span class="agcu-a">a</span>s
+      instit<span class="agcu-u">u</span>i<span class="agcu-c">ç</span>ões,
+      in<span class="agcu-c">c</span>l<span class="agcu-u">u</span>indo <span
+      class="agcu-u">u</span>m<span class="agcu-a">a</span> individ<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>l em Tóq<span
+      class="agcu-u">u</span>io, n<span class="agcu-a">a</span> HPop <span
+      class="agcu-g">G</span><span class="agcu-a">a</span>llery, em 2019.
+- slug: 'thio'
+  name: Thi<span class="agcu-a">a</span><span class="agcu-g">g</span>o Hers<span
+    class="agcu-a">a</span>n
+  url: https://thi<span class="agcu-a">a</span><span
+    class="agcu-g">g</span>ohers<span class="agcu-a">a</span>n.<span
+    class="agcu-c">c</span>om
   bio:
-    en: 'Used to be an integrated circuit designer. Today he works with art, education, digital culture and other things. He is a member of the <a href="https://astrovandalistas.cc" target="_blank">Astrovandalistas</a> collective, a group that explores the use of technology, art, activism and design to expand the possibilities of affective communication. In 2013 he received a VIDA15.0 award to develop the art and artificial intelligence project <a href="https://memememememememe.me" target="_blank">memememe</a>.<br><br>Was creative technical consultant for this site.'
-
-    pt: 'Foi designer de circuitos integrados. Hoje trabalha com arte, educação, cultura digital entre outras coisas. É integrante do coletivo <a href="https://astrovandalistas.cc" target="_blank">Astrovandalistas</a>, um grupo que explora o uso de tecnologia, arte, ativismo e design para ampliar as possibilidades da comunicação afetiva. Recebeu o prêmio VIDA15.0 em 2013 para desenvolver o projeto de arte e inteligência artificial <a href="https://memememememememe.me" target="_blank">memememe</a>.<br><br>Foi consultor técnico criativo deste site.'
-
-- name: 'Mari Nagem'
+    en: <span class="agcu-u">U</span>sed to be <span class="agcu-a">a</span>n
+      inte<span class="agcu-g">g</span>r<span class="agcu-a">a</span>ted <span
+      class="agcu-c">c</span>ir<span class="agcu-c">c</span><span
+      class="agcu-u">u</span>it desi<span class="agcu-g">g</span>ner. Tod<span
+      class="agcu-a">a</span>y he works with <span class="agcu-a">a</span>rt,
+      ed<span class="agcu-u">u</span><span class="agcu-c">c</span><span
+      class="agcu-a">a</span>tion, di<span class="agcu-g">g</span>it<span
+      class="agcu-a">a</span>l <span class="agcu-c">c</span><span
+      class="agcu-u">u</span>lt<span class="agcu-u">u</span>re <span
+      class="agcu-a">a</span>nd other thin<span class="agcu-g">g</span>s. He is
+      <span class="agcu-a">a</span> member of the  <a
+      href="https://astrovandalistas.cc" target="_blank"> <span
+      class="agcu-a">A</span>strov<span class="agcu-a">a</span>nd<span
+      class="agcu-a">a</span>list<span class="agcu-a">a</span>s </a>  <span
+      class="agcu-c">c</span>olle<span class="agcu-c">c</span>tive, <span
+      class="agcu-a">a</span> <span class="agcu-g">g</span>ro<span
+      class="agcu-u">u</span>p th<span class="agcu-a">a</span>t explores the
+      <span class="agcu-u">u</span>se of te<span
+      class="agcu-c">c</span>hnolo<span class="agcu-g">g</span>y, <span
+      class="agcu-a">a</span>rt, <span class="agcu-a">a</span><span
+      class="agcu-c">c</span>tivism <span class="agcu-a">a</span>nd desi<span
+      class="agcu-g">g</span>n to exp<span class="agcu-a">a</span>nd the
+      possibilities of <span class="agcu-a">a</span>ffe<span
+      class="agcu-c">c</span>tive <span class="agcu-c">c</span>omm<span
+      class="agcu-u">u</span>ni<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>tion. In 2013 he re<span
+      class="agcu-c">c</span>eived <span class="agcu-a">a</span> VID<span
+      class="agcu-a">A</span>15.0 <span class="agcu-a">a</span>w<span
+      class="agcu-a">a</span>rd to develop the <span class="agcu-a">a</span>rt
+      <span class="agcu-a">a</span>nd <span class="agcu-a">a</span>rtifi<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>l intelli<span
+      class="agcu-g">g</span>en<span class="agcu-c">c</span>e proje<span
+      class="agcu-c">c</span>t  <a href="https://memememememememe.me"
+      target="_blank"> memememe </a> . <br>  <br> W<span
+      class="agcu-a">a</span>s <span class="agcu-c">c</span>re<span
+      class="agcu-a">a</span>tive te<span class="agcu-c">c</span>hni<span
+      class="agcu-c">c</span><span class="agcu-a">a</span>l <span
+      class="agcu-c">c</span>ons<span class="agcu-u">u</span>lt<span
+      class="agcu-a">a</span>nt for this site.
+    pt: Foi desi<span class="agcu-g">g</span>ner de <span
+      class="agcu-c">c</span>ir<span class="agcu-c">c</span><span
+      class="agcu-u">u</span>itos inte<span class="agcu-g">g</span>r<span
+      class="agcu-a">a</span>dos. Hoje tr<span class="agcu-a">a</span>b<span
+      class="agcu-a">a</span>lh<span class="agcu-a">a</span> <span
+      class="agcu-c">c</span>om <span class="agcu-a">a</span>rte, ed<span
+      class="agcu-u">u</span><span class="agcu-c">c</span><span
+      class="agcu-a">a</span><span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o, <span class="agcu-c">c</span><span
+      class="agcu-u">u</span>lt<span class="agcu-u">u</span>r<span
+      class="agcu-a">a</span> di<span class="agcu-g">g</span>it<span
+      class="agcu-a">a</span>l entre o<span class="agcu-u">u</span>tr<span
+      class="agcu-a">a</span>s <span class="agcu-c">c</span>ois<span
+      class="agcu-a">a</span>s. É inte<span class="agcu-g">g</span>r<span
+      class="agcu-a">a</span>nte do <span class="agcu-c">c</span>oletivo  <a
+      href="https://astrovandalistas.cc" target="_blank"> <span
+      class="agcu-a">A</span>strov<span class="agcu-a">a</span>nd<span
+      class="agcu-a">a</span>list<span class="agcu-a">a</span>s </a> , <span
+      class="agcu-u">u</span>m <span class="agcu-g">g</span>r<span
+      class="agcu-u">u</span>po q<span class="agcu-u">u</span>e explor<span
+      class="agcu-a">a</span> o <span class="agcu-u">u</span>so de te<span
+      class="agcu-c">c</span>nolo<span class="agcu-g">g</span>i<span
+      class="agcu-a">a</span>, <span class="agcu-a">a</span>rte, <span
+      class="agcu-a">a</span>tivismo e desi<span class="agcu-g">g</span>n p<span
+      class="agcu-a">a</span>r<span class="agcu-a">a</span> <span
+      class="agcu-a">a</span>mpli<span class="agcu-a">a</span>r <span
+      class="agcu-a">a</span>s possibilid<span class="agcu-a">a</span>des d<span
+      class="agcu-a">a</span> <span class="agcu-c">c</span>om<span
+      class="agcu-u">u</span>ni<span class="agcu-c">c</span><span
+      class="agcu-a">a</span><span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o <span class="agcu-a">a</span>fetiv<span
+      class="agcu-a">a</span>. Re<span class="agcu-c">c</span>ebe<span
+      class="agcu-u">u</span> o prêmio VID<span class="agcu-a">A</span>15.0 em
+      2013 p<span class="agcu-a">a</span>r<span class="agcu-a">a</span>
+      desenvolver o projeto de <span class="agcu-a">a</span>rte e inteli<span
+      class="agcu-g">g</span>ên<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span> <span class="agcu-a">a</span>rtifi<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>l  <a
+      href="https://memememememememe.me" target="_blank"> memememe </a> .
+      <br>  <br> Foi <span class="agcu-c">c</span>ons<span
+      class="agcu-u">u</span>ltor té<span class="agcu-c">c</span>ni<span
+      class="agcu-c">c</span>o <span class="agcu-c">c</span>ri<span
+      class="agcu-a">a</span>tivo deste site.
+- slug: 'mringem'
+  name: M<span class="agcu-a">a</span>ri N<span class="agcu-a">a</span><span
+    class="agcu-g">g</span>em
+  url: https://m<span class="agcu-a">a</span>rin<span class="agcu-a">a</span><span
+    class="agcu-g">g</span>em.<span class="agcu-c">c</span>om
   bio:
-    en: 'Multimedia artist interested in the artificiality of the contemporary world, in the current notions of <a href="https://thehappyapp.art" target="_blank">happiness</a>, she investigates emotional states in the digital age and the tensions between humans and technology. Master in Visual Arts by Haute École d''Art et Design de Genéve, has exhibited at The Wrong Digital Art Biennale, at the Museum of Image and Sound of São Paulo, and participated in festivals such as File, Artmov, Cineop and Athens Digital Arts Festival. Mari also works as a creative coordinator at international events.<br><br>She was co-founder, curator and designer of this residency.'
-    pt: 'Artista multimedia interessada na artificialidade do mundo contemporâneo, nos pressupostos atuais de <a href="https://thehappyapp.art" target="_blank">felicidade</a>, explora os estados emocionais na era digital e questões existenciais entre homem e tecnologia. Mestre em Artes Visuais pela Haute École d''Art et Design de Genéve, expôs na The Wrong Digital Art Biennale, no Museu da Imagem e do Som de São Paulo, além de de festivais como o File, Artmov, Cineop, Athens Digital Arts Festival. Além de artista, atua como coordenadora criativa em eventos internacionais.<br><br>Foi co-fundadora, curadora e designer da residência aqui situada.'
-
-- name: 'Lina Lopes'
+    en: M<span class="agcu-u">u</span>ltimedi<span class="agcu-a">a</span> <span
+      class="agcu-a">a</span>rtist interested in the <span
+      class="agcu-a">a</span>rtifi<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span>lity of the <span
+      class="agcu-c">c</span>ontempor<span class="agcu-a">a</span>ry world, in
+      the <span class="agcu-c">c</span><span class="agcu-u">u</span>rrent
+      notions of  <a href="https://thehappyapp.art" target="_blank"> h<span
+      class="agcu-a">a</span>ppiness </a> , she investi<span
+      class="agcu-g">g</span><span class="agcu-a">a</span>tes emotion<span
+      class="agcu-a">a</span>l st<span class="agcu-a">a</span>tes in the di<span
+      class="agcu-g">g</span>it<span class="agcu-a">a</span>l <span
+      class="agcu-a">a</span><span class="agcu-g">g</span>e <span
+      class="agcu-a">a</span>nd the tensions between h<span
+      class="agcu-u">u</span>m<span class="agcu-a">a</span>ns <span
+      class="agcu-a">a</span>nd te<span class="agcu-c">c</span>hnolo<span
+      class="agcu-g">g</span>y. M<span class="agcu-a">a</span>ster in Vis<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>l <span
+      class="agcu-a">A</span>rts by H<span class="agcu-a">a</span><span
+      class="agcu-u">u</span>te É<span class="agcu-c">c</span>ole d'<span
+      class="agcu-a">A</span>rt et Desi<span class="agcu-g">g</span>n de <span
+      class="agcu-g">G</span>enéve, h<span class="agcu-a">a</span>s exhibited
+      <span class="agcu-a">a</span>t The Wron<span class="agcu-g">g</span>
+      Di<span class="agcu-g">g</span>it<span class="agcu-a">a</span>l <span
+      class="agcu-a">A</span>rt Bienn<span class="agcu-a">a</span>le, <span
+      class="agcu-a">a</span>t the M<span class="agcu-u">u</span>se<span
+      class="agcu-u">u</span>m of Im<span class="agcu-a">a</span><span
+      class="agcu-g">g</span>e <span class="agcu-a">a</span>nd So<span
+      class="agcu-u">u</span>nd of S<span class="agcu-a">ã</span>o P<span
+      class="agcu-a">a</span><span class="agcu-u">u</span>lo, <span
+      class="agcu-a">a</span>nd p<span class="agcu-a">a</span>rti<span
+      class="agcu-c">c</span>ip<span class="agcu-a">a</span>ted in festiv<span
+      class="agcu-a">a</span>ls s<span class="agcu-u">u</span><span
+      class="agcu-c">c</span>h <span class="agcu-a">a</span>s File, <span
+      class="agcu-a">A</span>rtmov, <span class="agcu-c">C</span>ineop <span
+      class="agcu-a">a</span>nd <span class="agcu-a">A</span>thens Di<span
+      class="agcu-g">g</span>it<span class="agcu-a">a</span>l <span
+      class="agcu-a">A</span>rts Festiv<span class="agcu-a">a</span>l. M<span
+      class="agcu-a">a</span>ri <span class="agcu-a">a</span>lso works <span
+      class="agcu-a">a</span>s <span class="agcu-a">a</span> <span
+      class="agcu-c">c</span>re<span class="agcu-a">a</span>tive <span
+      class="agcu-c">c</span>oordin<span class="agcu-a">a</span>tor <span
+      class="agcu-a">a</span>t intern<span class="agcu-a">a</span>tion<span
+      class="agcu-a">a</span>l events. <br>  <br> She w<span
+      class="agcu-a">a</span>s <span class="agcu-c">c</span>o-fo<span
+      class="agcu-u">u</span>nder, <span class="agcu-c">c</span><span
+      class="agcu-u">u</span>r<span class="agcu-a">a</span>tor <span
+      class="agcu-a">a</span>nd desi<span class="agcu-g">g</span>ner of this
+      residen<span class="agcu-c">c</span>y.
+    pt: <span class="agcu-a">A</span>rtist<span class="agcu-a">a</span> m<span
+      class="agcu-u">u</span>ltimedi<span class="agcu-a">a</span> interess<span
+      class="agcu-a">a</span>d<span class="agcu-a">a</span> n<span
+      class="agcu-a">a</span> <span class="agcu-a">a</span>rtifi<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>lid<span
+      class="agcu-a">a</span>de do m<span class="agcu-u">u</span>ndo <span
+      class="agcu-c">c</span>ontempor<span class="agcu-a">â</span>neo, nos
+      press<span class="agcu-u">u</span>postos <span
+      class="agcu-a">a</span>t<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>is de  <a href="https://thehappyapp.art"
+      target="_blank"> feli<span class="agcu-c">c</span>id<span
+      class="agcu-a">a</span>de </a> , explor<span class="agcu-a">a</span> os
+      est<span class="agcu-a">a</span>dos emo<span
+      class="agcu-c">c</span>ion<span class="agcu-a">a</span>is n<span
+      class="agcu-a">a</span> er<span class="agcu-a">a</span> di<span
+      class="agcu-g">g</span>it<span class="agcu-a">a</span>l e q<span
+      class="agcu-u">u</span>estões existen<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span>is entre homem e te<span
+      class="agcu-c">c</span>nolo<span class="agcu-g">g</span>i<span
+      class="agcu-a">a</span>. Mestre em <span class="agcu-a">A</span>rtes
+      Vis<span class="agcu-u">u</span><span class="agcu-a">a</span>is pel<span
+      class="agcu-a">a</span> H<span class="agcu-a">a</span><span
+      class="agcu-u">u</span>te É<span class="agcu-c">c</span>ole d'<span
+      class="agcu-a">A</span>rt et Desi<span class="agcu-g">g</span>n de <span
+      class="agcu-g">G</span>enéve, expôs n<span class="agcu-a">a</span> The
+      Wron<span class="agcu-g">g</span> Di<span class="agcu-g">g</span>it<span
+      class="agcu-a">a</span>l <span class="agcu-a">A</span>rt Bienn<span
+      class="agcu-a">a</span>le, no M<span class="agcu-u">u</span>se<span
+      class="agcu-u">u</span> d<span class="agcu-a">a</span> Im<span
+      class="agcu-a">a</span><span class="agcu-g">g</span>em e do Som de S<span
+      class="agcu-a">ã</span>o P<span class="agcu-a">a</span><span
+      class="agcu-u">u</span>lo, <span class="agcu-a">a</span>lém de de
+      festiv<span class="agcu-a">a</span>is <span class="agcu-c">c</span>omo o
+      File, <span class="agcu-a">A</span>rtmov, <span
+      class="agcu-c">C</span>ineop, <span class="agcu-a">A</span>thens Di<span
+      class="agcu-g">g</span>it<span class="agcu-a">a</span>l <span
+      class="agcu-a">A</span>rts Festiv<span class="agcu-a">a</span>l. <span
+      class="agcu-a">A</span>lém de <span class="agcu-a">a</span>rtist<span
+      class="agcu-a">a</span>, <span class="agcu-a">a</span>t<span
+      class="agcu-u">u</span><span class="agcu-a">a</span> <span
+      class="agcu-c">c</span>omo <span class="agcu-c">c</span>oorden<span
+      class="agcu-a">a</span>dor<span class="agcu-a">a</span> <span
+      class="agcu-c">c</span>ri<span class="agcu-a">a</span>tiv<span
+      class="agcu-a">a</span> em eventos intern<span
+      class="agcu-a">a</span><span class="agcu-c">c</span>ion<span
+      class="agcu-a">a</span>is. <br>  <br> Foi <span
+      class="agcu-c">c</span>o-f<span class="agcu-u">u</span>nd<span
+      class="agcu-a">a</span>dor<span class="agcu-a">a</span>, <span
+      class="agcu-c">c</span><span class="agcu-u">u</span>r<span
+      class="agcu-a">a</span>dor<span class="agcu-a">a</span> e desi<span
+      class="agcu-g">g</span>ner d<span class="agcu-a">a</span> residên<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span> <span
+      class="agcu-a">a</span>q<span class="agcu-u">u</span>i sit<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>d<span
+      class="agcu-a">a</span>.
+- slug: 'lin'
+  name: Lin<span class="agcu-a">a</span> Lopes
+  url: https://www.lin<span class="agcu-a">a</span>lopes.info
   bio:
-    en: 'An enthusiast for experimentation, collaboration and improvisation. She finds it strange to write about herself in the third person. She has extensive experience in projects, working with parametric and generative design, video mapping, interactivity, programming with Arduino, wearables, internet of things, biomaterials, among others. Is a speaker on innovation and mentors bootcamps. She also runs <a href="https://www.lilo.zone" target="_blank">LILO.ZONE</a>, a space dedicated to the creative use of technology and is at the forefront of the LILO.THINK initiative, a methodology focused on immersive processes.<br><br>She was the founder and mediator of this residency.'
-    pt: 'É entusiasta da experimentação, da colaboração e da improvisação. Acha estranho escrever sobre si mesma em terceira pessoa. Possui ampla experiência em projetos, trabalhando nas temáticas de design paramétrico e generativo, video mapping, interatividade, programação com Arduino, wearables, internet das coisas, biomateriais, entre outros. É palestrante sobre inovação e mentora de bootcamps. Dirige o <a href="https://www.lilo.zone" target="_blank">LILO.ZONE</a>, espaço voltado ao uso criativo de tecnologia e está à frente da iniciativa LILO.THINK, uma metodologia voltada à processos imersivos.<br><br>Foi fundadora e mediadora da residência aqui situada.'
-
-- name: 'Paulina Yeal Cho'
+    en: <span class="agcu-a">A</span>n enth<span class="agcu-u">u</span>si<span
+      class="agcu-a">a</span>st for experiment<span class="agcu-a">a</span>tion,
+      <span class="agcu-c">c</span>oll<span class="agcu-a">a</span>bor<span
+      class="agcu-a">a</span>tion <span class="agcu-a">a</span>nd improvis<span
+      class="agcu-a">a</span>tion. She finds it str<span
+      class="agcu-a">a</span>n<span class="agcu-g">g</span>e to write <span
+      class="agcu-a">a</span>bo<span class="agcu-u">u</span>t herself in the
+      third person. She h<span class="agcu-a">a</span>s extensive experien<span
+      class="agcu-c">c</span>e in proje<span class="agcu-c">c</span>ts,
+      workin<span class="agcu-g">g</span> with p<span
+      class="agcu-a">a</span>r<span class="agcu-a">a</span>metri<span
+      class="agcu-c">c</span> <span class="agcu-a">a</span>nd <span
+      class="agcu-g">g</span>ener<span class="agcu-a">a</span>tive desi<span
+      class="agcu-g">g</span>n, video m<span class="agcu-a">a</span>ppin<span
+      class="agcu-g">g</span>, inter<span class="agcu-a">a</span><span
+      class="agcu-c">c</span>tivity, pro<span class="agcu-g">g</span>r<span
+      class="agcu-a">a</span>mmin<span class="agcu-g">g</span> with <span
+      class="agcu-a">A</span>rd<span class="agcu-u">u</span>ino, we<span
+      class="agcu-a">a</span>r<span class="agcu-a">a</span>bles, internet of
+      thin<span class="agcu-g">g</span>s, biom<span
+      class="agcu-a">a</span>teri<span class="agcu-a">a</span>ls, <span
+      class="agcu-a">a</span>mon<span class="agcu-g">g</span> others. Is <span
+      class="agcu-a">a</span> spe<span class="agcu-a">a</span>ker on innov<span
+      class="agcu-a">a</span>tion <span class="agcu-a">a</span>nd mentors
+      boot<span class="agcu-c">c</span><span class="agcu-a">a</span>mps. She
+      <span class="agcu-a">a</span>lso r<span class="agcu-u">u</span>ns  <a
+      href="https://www.lilo.zone" target="_blank"> LILO.ZONE </a> , <span
+      class="agcu-a">a</span> sp<span class="agcu-a">a</span><span
+      class="agcu-c">c</span>e dedi<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>ted to the <span class="agcu-c">c</span>re<span
+      class="agcu-a">a</span>tive <span class="agcu-u">u</span>se of te<span
+      class="agcu-c">c</span>hnolo<span class="agcu-g">g</span>y <span
+      class="agcu-a">a</span>nd is <span class="agcu-a">a</span>t the forefront
+      of the LILO.THINK initi<span class="agcu-a">a</span>tive, <span
+      class="agcu-a">a</span> methodolo<span class="agcu-g">g</span>y fo<span
+      class="agcu-c">c</span><span class="agcu-u">u</span>sed on immersive
+      pro<span class="agcu-c">c</span>esses. <br>  <br> She w<span
+      class="agcu-a">a</span>s the fo<span class="agcu-u">u</span>nder <span
+      class="agcu-a">a</span>nd medi<span class="agcu-a">a</span>tor of this
+      residen<span class="agcu-c">c</span>y.
+    pt: É ent<span class="agcu-u">u</span>si<span class="agcu-a">a</span>st<span
+      class="agcu-a">a</span> d<span class="agcu-a">a</span> experiment<span
+      class="agcu-a">a</span><span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o, d<span class="agcu-a">a</span> <span
+      class="agcu-c">c</span>ol<span class="agcu-a">a</span>bor<span
+      class="agcu-a">a</span><span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o e d<span class="agcu-a">a</span> improvis<span
+      class="agcu-a">a</span><span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o. <span class="agcu-a">A</span><span
+      class="agcu-c">c</span>h<span class="agcu-a">a</span> estr<span
+      class="agcu-a">a</span>nho es<span class="agcu-c">c</span>rever sobre si
+      mesm<span class="agcu-a">a</span> em ter<span
+      class="agcu-c">c</span>eir<span class="agcu-a">a</span> pesso<span
+      class="agcu-a">a</span>. Poss<span class="agcu-u">u</span>i <span
+      class="agcu-a">a</span>mpl<span class="agcu-a">a</span> experiên<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span> em projetos, tr<span
+      class="agcu-a">a</span>b<span class="agcu-a">a</span>lh<span
+      class="agcu-a">a</span>ndo n<span class="agcu-a">a</span>s tem<span
+      class="agcu-a">á</span>ti<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>s de desi<span class="agcu-g">g</span>n p<span
+      class="agcu-a">a</span>r<span class="agcu-a">a</span>métri<span
+      class="agcu-c">c</span>o e <span class="agcu-g">g</span>ener<span
+      class="agcu-a">a</span>tivo, video m<span class="agcu-a">a</span>ppin<span
+      class="agcu-g">g</span>, inter<span class="agcu-a">a</span>tivid<span
+      class="agcu-a">a</span>de, pro<span class="agcu-g">g</span>r<span
+      class="agcu-a">a</span>m<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span><span class="agcu-a">ã</span>o <span
+      class="agcu-c">c</span>om <span class="agcu-a">A</span>rd<span
+      class="agcu-u">u</span>ino, we<span class="agcu-a">a</span>r<span
+      class="agcu-a">a</span>bles, internet d<span class="agcu-a">a</span>s
+      <span class="agcu-c">c</span>ois<span class="agcu-a">a</span>s, biom<span
+      class="agcu-a">a</span>teri<span class="agcu-a">a</span>is, entre o<span
+      class="agcu-u">u</span>tros. É p<span class="agcu-a">a</span>lestr<span
+      class="agcu-a">a</span>nte sobre inov<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span><span class="agcu-a">ã</span>o e mentor<span
+      class="agcu-a">a</span> de boot<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>mps. Diri<span class="agcu-g">g</span>e o  <a
+      href="https://www.lilo.zone" target="_blank"> LILO.ZONE </a> , esp<span
+      class="agcu-a">a</span><span class="agcu-c">ç</span>o volt<span
+      class="agcu-a">a</span>do <span class="agcu-a">a</span>o <span
+      class="agcu-u">u</span>so <span class="agcu-c">c</span>ri<span
+      class="agcu-a">a</span>tivo de te<span class="agcu-c">c</span>nolo<span
+      class="agcu-g">g</span>i<span class="agcu-a">a</span> e est<span
+      class="agcu-a">á</span> <span class="agcu-a">à</span> frente d<span
+      class="agcu-a">a</span> ini<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span>tiv<span class="agcu-a">a</span> LILO.THINK, <span
+      class="agcu-u">u</span>m<span class="agcu-a">a</span> metodolo<span
+      class="agcu-g">g</span>i<span class="agcu-a">a</span> volt<span
+      class="agcu-a">a</span>d<span class="agcu-a">a</span> <span
+      class="agcu-a">à</span> pro<span class="agcu-c">c</span>essos imersivos.
+      <br>  <br> Foi f<span class="agcu-u">u</span>nd<span
+      class="agcu-a">a</span>dor<span class="agcu-a">a</span> e medi<span
+      class="agcu-a">a</span>dor<span class="agcu-a">a</span> d<span
+      class="agcu-a">a</span> residên<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span> <span class="agcu-a">a</span>q<span
+      class="agcu-u">u</span>i sit<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>d<span class="agcu-a">a</span>.
+- slug: 'plin'
+  name: P<span class="agcu-a">a</span><span class="agcu-u">u</span>lin<span
+    class="agcu-a">a</span> Ye<span class="agcu-a">a</span>l <span
+    class="agcu-c">C</span>ho
   bio:
-    en: 'Currently lost in the world. Presently in South Korea and with plans to move to Turkey later this year. If she could have a superpower it would be time travel, revealing the past and understanding the possible futures of humanity.'
-    pt: 'Costumava estar perdida entre a Faria Lima e a Vila Buarque, mas atualmente está perdida no mundo. Atualmente na Coreia do Sul e com planos de se mudar para Turquia no fim do ano. Se pudesse ter um super poder seria viajar no tempo, revelar passados e entender os possíveis futuros da humanidade. Não sabe falar de si e não sabe como terminar essa mini-bio. Então beijos de luz!'
-
-- name: 'Artur Ched'
+    en: <span class="agcu-c">C</span><span class="agcu-u">u</span>rrently lost in
+      the world. Presently in So<span class="agcu-u">u</span>th Kore<span
+      class="agcu-a">a</span> <span class="agcu-a">a</span>nd with pl<span
+      class="agcu-a">a</span>ns to move to T<span class="agcu-u">u</span>rkey
+      l<span class="agcu-a">a</span>ter this ye<span class="agcu-a">a</span>r.
+      If she <span class="agcu-c">c</span>o<span class="agcu-u">u</span>ld
+      h<span class="agcu-a">a</span>ve <span class="agcu-a">a</span> s<span
+      class="agcu-u">u</span>perpower it wo<span class="agcu-u">u</span>ld be
+      time tr<span class="agcu-a">a</span>vel, reve<span
+      class="agcu-a">a</span>lin<span class="agcu-g">g</span> the p<span
+      class="agcu-a">a</span>st <span class="agcu-a">a</span>nd <span
+      class="agcu-u">u</span>nderst<span class="agcu-a">a</span>ndin<span
+      class="agcu-g">g</span> the possible f<span class="agcu-u">u</span>t<span
+      class="agcu-u">u</span>res of h<span class="agcu-u">u</span>m<span
+      class="agcu-a">a</span>nity.
+    pt: <span class="agcu-c">C</span>ost<span class="agcu-u">u</span>m<span
+      class="agcu-a">a</span>v<span class="agcu-a">a</span> est<span
+      class="agcu-a">a</span>r perdid<span class="agcu-a">a</span> entre <span
+      class="agcu-a">a</span> F<span class="agcu-a">a</span>ri<span
+      class="agcu-a">a</span> Lim<span class="agcu-a">a</span> e <span
+      class="agcu-a">a</span> Vil<span class="agcu-a">a</span> B<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>rq<span
+      class="agcu-u">u</span>e, m<span class="agcu-a">a</span>s <span
+      class="agcu-a">a</span>t<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>lmente est<span class="agcu-a">á</span> perdid<span
+      class="agcu-a">a</span> no m<span class="agcu-u">u</span>ndo. <span
+      class="agcu-a">A</span>t<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>lmente n<span class="agcu-a">a</span> <span
+      class="agcu-c">C</span>orei<span class="agcu-a">a</span> do S<span
+      class="agcu-u">u</span>l e <span class="agcu-c">c</span>om pl<span
+      class="agcu-a">a</span>nos de se m<span class="agcu-u">u</span>d<span
+      class="agcu-a">a</span>r p<span class="agcu-a">a</span>r<span
+      class="agcu-a">a</span> T<span class="agcu-u">u</span>rq<span
+      class="agcu-u">u</span>i<span class="agcu-a">a</span> no fim do <span
+      class="agcu-a">a</span>no. Se p<span class="agcu-u">u</span>desse ter
+      <span class="agcu-u">u</span>m s<span class="agcu-u">u</span>per poder
+      seri<span class="agcu-a">a</span> vi<span class="agcu-a">a</span>j<span
+      class="agcu-a">a</span>r no tempo, revel<span class="agcu-a">a</span>r
+      p<span class="agcu-a">a</span>ss<span class="agcu-a">a</span>dos e
+      entender os possíveis f<span class="agcu-u">u</span>t<span
+      class="agcu-u">u</span>ros d<span class="agcu-a">a</span> h<span
+      class="agcu-u">u</span>m<span class="agcu-a">a</span>nid<span
+      class="agcu-a">a</span>de. N<span class="agcu-a">ã</span>o s<span
+      class="agcu-a">a</span>be f<span class="agcu-a">a</span>l<span
+      class="agcu-a">a</span>r de si e n<span class="agcu-a">ã</span>o s<span
+      class="agcu-a">a</span>be <span class="agcu-c">c</span>omo termin<span
+      class="agcu-a">a</span>r ess<span class="agcu-a">a</span> mini-bio.
+      Ent<span class="agcu-a">ã</span>o beijos de l<span
+      class="agcu-u">u</span>z!
+- slug: 'rtr'
+  name: <span class="agcu-a">A</span>rt<span class="agcu-u">u</span>r <span
+    class="agcu-c">C</span>hed
   bio:
-    en: 'Between art and advertising the need has always been communication. With that he never stopped researching and experimenting with different languages of graphic designe, ceramics ... mixing materials and concepts. He has participated in group exhibitions in Brazil and China. Currently researching the relations of memory and its physical and emotional interferences in the creative process and in the exploration of the appearance of the image through the analysis of biometric data.'
-    pt: 'Entre a arte e a publicidade a necessidade sempre foi a comunicação, com isso nunca parou de pesquisar e experimentar diversas linguagens do designer gráfico a cerâmica...  misturando materiais e conceitos. Participou de algumas exposições coletivas no Brasil e na China. Atualmente "TCC" pesquisando as relações da memória e suas interferências físicas e emocionais em seu processo criativo e na exploração do surgimento da imagem através da análise de dados biométricos.'
-
-- name: 'Eduardo Padilha'
+    en: Between <span class="agcu-a">a</span>rt <span class="agcu-a">a</span>nd
+      <span class="agcu-a">a</span>dvertisin<span class="agcu-g">g</span> the
+      need h<span class="agcu-a">a</span>s <span class="agcu-a">a</span>lw<span
+      class="agcu-a">a</span>ys been <span class="agcu-c">c</span>omm<span
+      class="agcu-u">u</span>ni<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>tion. With th<span class="agcu-a">a</span>t he
+      never stopped rese<span class="agcu-a">a</span>r<span
+      class="agcu-c">c</span>hin<span class="agcu-g">g</span> <span
+      class="agcu-a">a</span>nd experimentin<span class="agcu-g">g</span> with
+      different l<span class="agcu-a">a</span>n<span
+      class="agcu-g">g</span><span class="agcu-u">u</span><span
+      class="agcu-a">a</span><span class="agcu-g">g</span>es of <span
+      class="agcu-g">g</span>r<span class="agcu-a">a</span>phi<span
+      class="agcu-c">c</span> desi<span class="agcu-g">g</span>ne, <span
+      class="agcu-c">c</span>er<span class="agcu-a">a</span>mi<span
+      class="agcu-c">c</span>s ... mixin<span class="agcu-g">g</span> m<span
+      class="agcu-a">a</span>teri<span class="agcu-a">a</span>ls <span
+      class="agcu-a">a</span>nd <span class="agcu-c">c</span>on<span
+      class="agcu-c">c</span>epts. He h<span class="agcu-a">a</span>s p<span
+      class="agcu-a">a</span>rti<span class="agcu-c">c</span>ip<span
+      class="agcu-a">a</span>ted in <span class="agcu-g">g</span>ro<span
+      class="agcu-u">u</span>p exhibitions in Br<span class="agcu-a">a</span>zil
+      <span class="agcu-a">a</span>nd <span class="agcu-c">C</span>hin<span
+      class="agcu-a">a</span>. <span class="agcu-c">C</span><span
+      class="agcu-u">u</span>rrently rese<span class="agcu-a">a</span>r<span
+      class="agcu-c">c</span>hin<span class="agcu-g">g</span> the rel<span
+      class="agcu-a">a</span>tions of memory <span class="agcu-a">a</span>nd its
+      physi<span class="agcu-c">c</span><span class="agcu-a">a</span>l <span
+      class="agcu-a">a</span>nd emotion<span class="agcu-a">a</span>l
+      interferen<span class="agcu-c">c</span>es in the <span
+      class="agcu-c">c</span>re<span class="agcu-a">a</span>tive pro<span
+      class="agcu-c">c</span>ess <span class="agcu-a">a</span>nd in the
+      explor<span class="agcu-a">a</span>tion of the <span
+      class="agcu-a">a</span>ppe<span class="agcu-a">a</span>r<span
+      class="agcu-a">a</span>n<span class="agcu-c">c</span>e of the im<span
+      class="agcu-a">a</span><span class="agcu-g">g</span>e thro<span
+      class="agcu-u">u</span><span class="agcu-g">g</span>h the <span
+      class="agcu-a">a</span>n<span class="agcu-a">a</span>lysis of
+      biometri<span class="agcu-c">c</span> d<span class="agcu-a">a</span>t<span
+      class="agcu-a">a</span>.
+    pt: Entre <span class="agcu-a">a</span> <span class="agcu-a">a</span>rte e <span
+      class="agcu-a">a</span> p<span class="agcu-u">u</span>bli<span
+      class="agcu-c">c</span>id<span class="agcu-a">a</span>de <span
+      class="agcu-a">a</span> ne<span class="agcu-c">c</span>essid<span
+      class="agcu-a">a</span>de sempre foi <span class="agcu-a">a</span> <span
+      class="agcu-c">c</span>om<span class="agcu-u">u</span>ni<span
+      class="agcu-c">c</span><span class="agcu-a">a</span><span
+      class="agcu-c">ç</span><span class="agcu-a">ã</span>o, <span
+      class="agcu-c">c</span>om isso n<span class="agcu-u">u</span>n<span
+      class="agcu-c">c</span><span class="agcu-a">a</span> p<span
+      class="agcu-a">a</span>ro<span class="agcu-u">u</span> de pesq<span
+      class="agcu-u">u</span>is<span class="agcu-a">a</span>r e experiment<span
+      class="agcu-a">a</span>r divers<span class="agcu-a">a</span>s lin<span
+      class="agcu-g">g</span><span class="agcu-u">u</span><span
+      class="agcu-a">a</span><span class="agcu-g">g</span>ens do desi<span
+      class="agcu-g">g</span>ner <span class="agcu-g">g</span>r<span
+      class="agcu-a">á</span>fi<span class="agcu-c">c</span>o <span
+      class="agcu-a">a</span> <span class="agcu-c">c</span>er<span
+      class="agcu-a">â</span>mi<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>...  mist<span class="agcu-u">u</span>r<span
+      class="agcu-a">a</span>ndo m<span class="agcu-a">a</span>teri<span
+      class="agcu-a">a</span>is e <span class="agcu-c">c</span>on<span
+      class="agcu-c">c</span>eitos. P<span class="agcu-a">a</span>rti<span
+      class="agcu-c">c</span>ipo<span class="agcu-u">u</span> de <span
+      class="agcu-a">a</span>l<span class="agcu-g">g</span><span
+      class="agcu-u">u</span>m<span class="agcu-a">a</span>s exposi<span
+      class="agcu-c">ç</span>ões <span class="agcu-c">c</span>oletiv<span
+      class="agcu-a">a</span>s no Br<span class="agcu-a">a</span>sil e n<span
+      class="agcu-a">a</span> <span class="agcu-c">C</span>hin<span
+      class="agcu-a">a</span>. <span class="agcu-a">A</span>t<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>lmente "T<span
+      class="agcu-c">C</span><span class="agcu-c">C</span>" pesq<span
+      class="agcu-u">u</span>is<span class="agcu-a">a</span>ndo <span
+      class="agcu-a">a</span>s rel<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span>ões d<span class="agcu-a">a</span> memóri<span
+      class="agcu-a">a</span> e s<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>s interferên<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span>s físi<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>s e emo<span class="agcu-c">c</span>ion<span
+      class="agcu-a">a</span>is em se<span class="agcu-u">u</span> pro<span
+      class="agcu-c">c</span>esso <span class="agcu-c">c</span>ri<span
+      class="agcu-a">a</span>tivo e n<span class="agcu-a">a</span> explor<span
+      class="agcu-a">a</span><span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o do s<span class="agcu-u">u</span>r<span
+      class="agcu-g">g</span>imento d<span class="agcu-a">a</span> im<span
+      class="agcu-a">a</span><span class="agcu-g">g</span>em <span
+      class="agcu-a">a</span>tr<span class="agcu-a">a</span>vés d<span
+      class="agcu-a">a</span> <span class="agcu-a">a</span>n<span
+      class="agcu-a">á</span>lise de d<span class="agcu-a">a</span>dos
+      biométri<span class="agcu-c">c</span>os.
+- slug: 'edrdo'
+  name: Ed<span class="agcu-u">u</span><span class="agcu-a">a</span>rdo P<span
+    class="agcu-a">a</span>dilh<span class="agcu-a">a</span>
   bio:
-    en: 'Pharmacy-Biochemistry researcher, initially researching DNA repair and cancer, today also explores the relationships between science, art, design and philosophy. He has lectured and presented his work in Brazil, Chile, China and the United States, and won Estudar Foundation''s Outstanding Youth Award in 2014.'
-    pt: 'Acadêmico de Farmácia-Bioquímica, inicialmente pesquisando Reparo de DNA e câncer, hoje explora também as relações entre ciência, arte, design e filosofia. Já palestrou e apresentou seu trabalho no Brasil, Chile, China e Estados Unidos, e ganhou o Prêmio Jovens Fora de Série da Fundação Estudar em 2014.'
-
-- name: 'Luccas Morais'
+    en: Ph<span class="agcu-a">a</span>rm<span class="agcu-a">a</span><span
+      class="agcu-c">c</span>y-Bio<span class="agcu-c">c</span>hemistry
+      rese<span class="agcu-a">a</span>r<span class="agcu-c">c</span>her,
+      initi<span class="agcu-a">a</span>lly rese<span
+      class="agcu-a">a</span>r<span class="agcu-c">c</span>hin<span
+      class="agcu-g">g</span> DN<span class="agcu-a">A</span> rep<span
+      class="agcu-a">a</span>ir <span class="agcu-a">a</span>nd <span
+      class="agcu-c">c</span><span class="agcu-a">a</span>n<span
+      class="agcu-c">c</span>er, tod<span class="agcu-a">a</span>y <span
+      class="agcu-a">a</span>lso explores the rel<span
+      class="agcu-a">a</span>tionships between s<span
+      class="agcu-c">c</span>ien<span class="agcu-c">c</span>e, <span
+      class="agcu-a">a</span>rt, desi<span class="agcu-g">g</span>n <span
+      class="agcu-a">a</span>nd philosophy. He h<span class="agcu-a">a</span>s
+      le<span class="agcu-c">c</span>t<span class="agcu-u">u</span>red <span
+      class="agcu-a">a</span>nd presented his work in Br<span
+      class="agcu-a">a</span>zil, <span class="agcu-c">C</span>hile, <span
+      class="agcu-c">C</span>hin<span class="agcu-a">a</span> <span
+      class="agcu-a">a</span>nd the <span class="agcu-u">U</span>nited St<span
+      class="agcu-a">a</span>tes, <span class="agcu-a">a</span>nd won Est<span
+      class="agcu-u">u</span>d<span class="agcu-a">a</span>r Fo<span
+      class="agcu-u">u</span>nd<span class="agcu-a">a</span>tion's O<span
+      class="agcu-u">u</span>tst<span class="agcu-a">a</span>ndin<span
+      class="agcu-g">g</span> Yo<span class="agcu-u">u</span>th <span
+      class="agcu-a">A</span>w<span class="agcu-a">a</span>rd in 2014.
+    pt: <span class="agcu-a">A</span><span class="agcu-c">c</span><span
+      class="agcu-a">a</span>dêmi<span class="agcu-c">c</span>o de F<span
+      class="agcu-a">a</span>rm<span class="agcu-a">á</span><span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>-Bioq<span
+      class="agcu-u">u</span>ími<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>, ini<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span>lmente pesq<span class="agcu-u">u</span>is<span
+      class="agcu-a">a</span>ndo Rep<span class="agcu-a">a</span>ro de DN<span
+      class="agcu-a">A</span> e <span class="agcu-c">c</span><span
+      class="agcu-a">â</span>n<span class="agcu-c">c</span>er, hoje explor<span
+      class="agcu-a">a</span> t<span class="agcu-a">a</span>mbém <span
+      class="agcu-a">a</span>s rel<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span>ões entre <span class="agcu-c">c</span>iên<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>, <span
+      class="agcu-a">a</span>rte, desi<span class="agcu-g">g</span>n e
+      filosofi<span class="agcu-a">a</span>. J<span class="agcu-a">á</span>
+      p<span class="agcu-a">a</span>lestro<span class="agcu-u">u</span> e <span
+      class="agcu-a">a</span>presento<span class="agcu-u">u</span> se<span
+      class="agcu-u">u</span> tr<span class="agcu-a">a</span>b<span
+      class="agcu-a">a</span>lho no Br<span class="agcu-a">a</span>sil, <span
+      class="agcu-c">C</span>hile, <span class="agcu-c">C</span>hin<span
+      class="agcu-a">a</span> e Est<span class="agcu-a">a</span>dos <span
+      class="agcu-u">U</span>nidos, e <span class="agcu-g">g</span><span
+      class="agcu-a">a</span>nho<span class="agcu-u">u</span> o Prêmio Jovens
+      For<span class="agcu-a">a</span> de Série d<span class="agcu-a">a</span>
+      F<span class="agcu-u">u</span>nd<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span><span class="agcu-a">ã</span>o Est<span
+      class="agcu-u">u</span>d<span class="agcu-a">a</span>r em 2014.
+- slug: 'ls'
+  name: L<span class="agcu-u">u</span><span class="agcu-c">c</span><span
+    class="agcu-c">c</span><span class="agcu-a">a</span>s Mor<span
+    class="agcu-a">a</span>is
+  url: https://l<span class="agcu-u">u</span>mor<span
+    class="agcu-a">a</span>is.hot<span class="agcu-g">g</span>l<span
+    class="agcu-u">u</span>e.me/
   bio:
-    en: 'Transdisciplinary artist. Bringing a post-internet aesthetic where it merges digital languages, seeking a new interpretation of the memories acquired during the empirical process of locomotion, either physically, or through the internet. Member of the INSERTO collective that unites art, design and fashion. Invited by Centro Cultural SP in the project Trama Affetiva, to rethink the use of textile waste in industries. At this moment, seeking self-care, in a process of family understanding.'
-    pt: 'Artista transdisciplinar. Trazendo uma estética pós internet onde mescla a linguagem digital, buscando uma nova interpretação das memórias adquiridas durante o processo empírico da locomoção, seja fisicamente, ou através da internet.  Membro do coletivo INSERTO que une a arte, design e moda. Convidado pelo Centro Cultural SP no projeto Trama afetiva, para repensar o uso de resíduos têxteis nas indústrias. Nesse momento buscando o autocuidado, em um processo de entendimento familiar.'
-
-- name: 'Fernando Tomé'
+    en: Tr<span class="agcu-a">a</span>nsdis<span class="agcu-c">c</span>iplin<span
+      class="agcu-a">a</span>ry <span class="agcu-a">a</span>rtist. Brin<span
+      class="agcu-g">g</span>in<span class="agcu-g">g</span> <span
+      class="agcu-a">a</span> post-internet <span
+      class="agcu-a">a</span>estheti<span class="agcu-c">c</span> where it
+      mer<span class="agcu-g">g</span>es di<span class="agcu-g">g</span>it<span
+      class="agcu-a">a</span>l l<span class="agcu-a">a</span>n<span
+      class="agcu-g">g</span><span class="agcu-u">u</span><span
+      class="agcu-a">a</span><span class="agcu-g">g</span>es, seekin<span
+      class="agcu-g">g</span> <span class="agcu-a">a</span> new interpret<span
+      class="agcu-a">a</span>tion of the memories <span
+      class="agcu-a">a</span><span class="agcu-c">c</span>q<span
+      class="agcu-u">u</span>ired d<span class="agcu-u">u</span>rin<span
+      class="agcu-g">g</span> the empiri<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>l pro<span class="agcu-c">c</span>ess of lo<span
+      class="agcu-c">c</span>omotion, either physi<span
+      class="agcu-c">c</span><span class="agcu-a">a</span>lly, or thro<span
+      class="agcu-u">u</span><span class="agcu-g">g</span>h the internet. Member
+      of the INSERTO <span class="agcu-c">c</span>olle<span
+      class="agcu-c">c</span>tive th<span class="agcu-a">a</span>t <span
+      class="agcu-u">u</span>nites <span class="agcu-a">a</span>rt, desi<span
+      class="agcu-g">g</span>n <span class="agcu-a">a</span>nd f<span
+      class="agcu-a">a</span>shion. Invited by <span
+      class="agcu-c">C</span>entro <span class="agcu-c">C</span><span
+      class="agcu-u">u</span>lt<span class="agcu-u">u</span>r<span
+      class="agcu-a">a</span>l SP in the proje<span class="agcu-c">c</span>t
+      Tr<span class="agcu-a">a</span>m<span class="agcu-a">a</span> <span
+      class="agcu-a">A</span>ffetiv<span class="agcu-a">a</span>, to rethink the
+      <span class="agcu-u">u</span>se of textile w<span
+      class="agcu-a">a</span>ste in ind<span class="agcu-u">u</span>stries.
+      <span class="agcu-a">A</span>t this moment, seekin<span
+      class="agcu-g">g</span> self-<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>re, in <span class="agcu-a">a</span> pro<span
+      class="agcu-c">c</span>ess of f<span class="agcu-a">a</span>mily <span
+      class="agcu-u">u</span>nderst<span class="agcu-a">a</span>ndin<span
+      class="agcu-g">g</span>.
+    pt: <span class="agcu-a">A</span>rtist<span class="agcu-a">a</span> tr<span
+      class="agcu-a">a</span>nsdis<span class="agcu-c">c</span>iplin<span
+      class="agcu-a">a</span>r. Tr<span class="agcu-a">a</span>zendo <span
+      class="agcu-u">u</span>m<span class="agcu-a">a</span> estéti<span
+      class="agcu-c">c</span><span class="agcu-a">a</span> pós internet onde
+      mes<span class="agcu-c">c</span>l<span class="agcu-a">a</span> <span
+      class="agcu-a">a</span> lin<span class="agcu-g">g</span><span
+      class="agcu-u">u</span><span class="agcu-a">a</span><span
+      class="agcu-g">g</span>em di<span class="agcu-g">g</span>it<span
+      class="agcu-a">a</span>l, b<span class="agcu-u">u</span>s<span
+      class="agcu-c">c</span><span class="agcu-a">a</span>ndo <span
+      class="agcu-u">u</span>m<span class="agcu-a">a</span> nov<span
+      class="agcu-a">a</span> interpret<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span><span class="agcu-a">ã</span>o d<span
+      class="agcu-a">a</span>s memóri<span class="agcu-a">a</span>s <span
+      class="agcu-a">a</span>dq<span class="agcu-u">u</span>irid<span
+      class="agcu-a">a</span>s d<span class="agcu-u">u</span>r<span
+      class="agcu-a">a</span>nte o pro<span class="agcu-c">c</span>esso
+      empíri<span class="agcu-c">c</span>o d<span class="agcu-a">a</span>
+      lo<span class="agcu-c">c</span>omo<span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o, sej<span class="agcu-a">a</span> fisi<span
+      class="agcu-c">c</span><span class="agcu-a">a</span>mente, o<span
+      class="agcu-u">u</span> <span class="agcu-a">a</span>tr<span
+      class="agcu-a">a</span>vés d<span class="agcu-a">a</span>
+      internet.  Membro do <span class="agcu-c">c</span>oletivo INSERTO q<span
+      class="agcu-u">u</span>e <span class="agcu-u">u</span>ne <span
+      class="agcu-a">a</span> <span class="agcu-a">a</span>rte, desi<span
+      class="agcu-g">g</span>n e mod<span class="agcu-a">a</span>. <span
+      class="agcu-c">C</span>onvid<span class="agcu-a">a</span>do pelo <span
+      class="agcu-c">C</span>entro <span class="agcu-c">C</span><span
+      class="agcu-u">u</span>lt<span class="agcu-u">u</span>r<span
+      class="agcu-a">a</span>l SP no projeto Tr<span
+      class="agcu-a">a</span>m<span class="agcu-a">a</span> <span
+      class="agcu-a">a</span>fetiv<span class="agcu-a">a</span>, p<span
+      class="agcu-a">a</span>r<span class="agcu-a">a</span> repens<span
+      class="agcu-a">a</span>r o <span class="agcu-u">u</span>so de resíd<span
+      class="agcu-u">u</span>os têxteis n<span class="agcu-a">a</span>s ind<span
+      class="agcu-u">ú</span>stri<span class="agcu-a">a</span>s. Nesse momento
+      b<span class="agcu-u">u</span>s<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>ndo o <span class="agcu-a">a</span><span
+      class="agcu-u">u</span>to<span class="agcu-c">c</span><span
+      class="agcu-u">u</span>id<span class="agcu-a">a</span>do, em <span
+      class="agcu-u">u</span>m pro<span class="agcu-c">c</span>esso de
+      entendimento f<span class="agcu-a">a</span>mili<span
+      class="agcu-a">a</span>r.
+- slug: 'fernndo'
+  name: Fern<span class="agcu-a">a</span>ndo Tomé
   bio:
-    en: 'Has loved books since before he learned to read. Hundreds of books later he has been a consultant for foreign trade, innovation, event design, idea modeling and business planning for startups, and will probably continue to consult in different areas, including some that may not yet exist. During the pandemic, decided to dust off a supposed artist''s soul and take his first startup idea out of the drawer: digital books of contemporary and urban stories for people who don''t read or want to learn to enjoy reading.'
-    pt: 'Ama livros desde antes de aprender a ler. Centenas de leituras depois foi consultor de comércio exterior, inovação, design de eventos  modelagem de ideia e negócios para startups e provavelmente continuará sendo em áreas que talvez ainda nem existam. Veio a pandemia e resolveu desempoeirar uma suposta alma de artista e tirar da gaveta, ainda que pontualmente, a sua primeira ideia de startup: livros digitais de histórias contemporâneas e urbanas para pessoas que nunca leram ou que querem aprender a gostar de ler.'
-
-- name: 'Nichollas Alem'
+    en: "H<span class=\"agcu-a\">a</span>s loved books sin<span
+      class=\"agcu-c\">c</span>e before he le<span class=\"agcu-a\">a</span>rned
+      to re<span class=\"agcu-a\">a</span>d. H<span
+      class=\"agcu-u\">u</span>ndreds of books l<span
+      class=\"agcu-a\">a</span>ter he h<span class=\"agcu-a\">a</span>s been
+      <span class=\"agcu-a\">a</span> <span class=\"agcu-c\">c</span>ons<span
+      class=\"agcu-u\">u</span>lt<span class=\"agcu-a\">a</span>nt for
+      forei<span class=\"agcu-g\">g</span>n tr<span class=\"agcu-a\">a</span>de,
+      innov<span class=\"agcu-a\">a</span>tion, event desi<span
+      class=\"agcu-g\">g</span>n, ide<span class=\"agcu-a\">a</span>
+      modelin<span class=\"agcu-g\">g</span> <span class=\"agcu-a\">a</span>nd
+      b<span class=\"agcu-u\">u</span>siness pl<span
+      class=\"agcu-a\">a</span>nnin<span class=\"agcu-g\">g</span> for st<span
+      class=\"agcu-a\">a</span>rt<span class=\"agcu-u\">u</span>ps, <span
+      class=\"agcu-a\">a</span>nd will prob<span class=\"agcu-a\">a</span>bly
+      <span class=\"agcu-c\">c</span>ontin<span class=\"agcu-u\">u</span>e to
+      <span class=\"agcu-c\">c</span>ons<span class=\"agcu-u\">u</span>lt in
+      different <span class=\"agcu-a\">a</span>re<span
+      class=\"agcu-a\">a</span>s, in<span class=\"agcu-c\">c</span>l<span
+      class=\"agcu-u\">u</span>din<span class=\"agcu-g\">g</span> some th<span
+      class=\"agcu-a\">a</span>t m<span class=\"agcu-a\">a</span>y not yet
+      exist. D<span class=\"agcu-u\">u</span>rin<span class=\"agcu-g\">g</span>
+      the p<span class=\"agcu-a\">a</span>ndemi<span class=\"agcu-c\">c</span>,
+      de<span class=\"agcu-c\">c</span>ided to d<span
+      class=\"agcu-u\">u</span>st off <span class=\"agcu-a\">a</span> s<span
+      class=\"agcu-u\">u</span>pposed <span class=\"agcu-a\">a</span>rtist's
+      so<span class=\"agcu-u\">u</span>l <span class=\"agcu-a\">a</span>nd
+      t<span class=\"agcu-a\">a</span>ke his first st<span
+      class=\"agcu-a\">a</span>rt<span class=\"agcu-u\">u</span>p ide<span
+      class=\"agcu-a\">a</span> o<span class=\"agcu-u\">u</span>t of the dr<span
+      class=\"agcu-a\">a</span>wer: di<span class=\"agcu-g\">g</span>it<span
+      class=\"agcu-a\">a</span>l books of <span
+      class=\"agcu-c\">c</span>ontempor<span class=\"agcu-a\">a</span>ry <span
+      class=\"agcu-a\">a</span>nd <span class=\"agcu-u\">u</span>rb<span
+      class=\"agcu-a\">a</span>n stories for people who don't re<span
+      class=\"agcu-a\">a</span>d or w<span class=\"agcu-a\">a</span>nt to
+      le<span class=\"agcu-a\">a</span>rn to enjoy re<span
+      class=\"agcu-a\">a</span>din<span class=\"agcu-g\">g</span>."
+    pt: '<span class="agcu-a">A</span>m<span class="agcu-a">a</span> livros desde
+      <span class="agcu-a">a</span>ntes de <span class="agcu-a">a</span>prender
+      <span class="agcu-a">a</span> ler. <span class="agcu-c">C</span>enten<span
+      class="agcu-a">a</span>s de leit<span class="agcu-u">u</span>r<span
+      class="agcu-a">a</span>s depois foi <span class="agcu-c">c</span>ons<span
+      class="agcu-u">u</span>ltor de <span class="agcu-c">c</span>omér<span
+      class="agcu-c">c</span>io exterior, inov<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span><span class="agcu-a">ã</span>o, desi<span
+      class="agcu-g">g</span>n de eventos  model<span
+      class="agcu-a">a</span><span class="agcu-g">g</span>em de idei<span
+      class="agcu-a">a</span> e ne<span class="agcu-g">g</span>ó<span
+      class="agcu-c">c</span>ios p<span class="agcu-a">a</span>r<span
+      class="agcu-a">a</span> st<span class="agcu-a">a</span>rt<span
+      class="agcu-u">u</span>ps e prov<span class="agcu-a">a</span>velmente
+      <span class="agcu-c">c</span>ontin<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>r<span class="agcu-a">á</span> sendo em <span
+      class="agcu-a">á</span>re<span class="agcu-a">a</span>s q<span
+      class="agcu-u">u</span>e t<span class="agcu-a">a</span>lvez <span
+      class="agcu-a">a</span>ind<span class="agcu-a">a</span> nem exist<span
+      class="agcu-a">a</span>m. Veio <span class="agcu-a">a</span> p<span
+      class="agcu-a">a</span>ndemi<span class="agcu-a">a</span> e resolve<span
+      class="agcu-u">u</span> desempoeir<span class="agcu-a">a</span>r <span
+      class="agcu-u">u</span>m<span class="agcu-a">a</span> s<span
+      class="agcu-u">u</span>post<span class="agcu-a">a</span> <span
+      class="agcu-a">a</span>lm<span class="agcu-a">a</span> de <span
+      class="agcu-a">a</span>rtist<span class="agcu-a">a</span> e tir<span
+      class="agcu-a">a</span>r d<span class="agcu-a">a</span> <span
+      class="agcu-g">g</span><span class="agcu-a">a</span>vet<span
+      class="agcu-a">a</span>, <span class="agcu-a">a</span>ind<span
+      class="agcu-a">a</span> q<span class="agcu-u">u</span>e pont<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>lmente, <span
+      class="agcu-a">a</span> s<span class="agcu-u">u</span><span
+      class="agcu-a">a</span> primeir<span class="agcu-a">a</span> idei<span
+      class="agcu-a">a</span> de st<span class="agcu-a">a</span>rt<span
+      class="agcu-u">u</span>p: livros di<span class="agcu-g">g</span>it<span
+      class="agcu-a">a</span>is de históri<span class="agcu-a">a</span>s <span
+      class="agcu-c">c</span>ontempor<span class="agcu-a">â</span>ne<span
+      class="agcu-a">a</span>s e <span class="agcu-u">u</span>rb<span
+      class="agcu-a">a</span>n<span class="agcu-a">a</span>s p<span
+      class="agcu-a">a</span>r<span class="agcu-a">a</span> pesso<span
+      class="agcu-a">a</span>s q<span class="agcu-u">u</span>e n<span
+      class="agcu-u">u</span>n<span class="agcu-c">c</span><span
+      class="agcu-a">a</span> ler<span class="agcu-a">a</span>m o<span
+      class="agcu-u">u</span> q<span class="agcu-u">u</span>e q<span
+      class="agcu-u">u</span>erem <span class="agcu-a">a</span>prender <span
+      class="agcu-a">a</span> <span class="agcu-g">g</span>ost<span
+      class="agcu-a">a</span>r de ler.'
+- slug: 'niholls'
+  name: Ni<span class="agcu-c">c</span>holl<span class="agcu-a">a</span>s <span
+    class="agcu-a">A</span>lem
   bio:
-    en: 'Bachelor and PhD student in Economic Law at USP. Founder and President of the Institute of Law, Creative Economy and Arts. Specialist in Entertainment Law. UNESCO consultant on cultural equipment. Worked on the construction of the São Bernardo do Campo Municipal Creative Economy Program. Member of the Brazilian Intellectual Property Association (ABPI) and certified by Harvard''s CopyrightX.'
-    pt: 'Bacharel e Doutorando em Direito Econômico pela USP. Fundador e Presidente do Instituto de Direito, Economia Criativa e Artes. Especialista em Direito do Entretenimento. Consultor da UNESCO em equipamentos culturais. Atuou na construção do Programa Municipal de Economia Criativa de São Bernardo do Campo. Membro da Associação Brasileira de Propriedade Intelectual (ABPI) e certificado pelo CopyrightX de Harvard.<br><br>Convidado para discutir questões do direito digital em um dos encontros da residência.'
-
-- name: 'Rafael Nepô'
+    en: B<span class="agcu-a">a</span><span class="agcu-c">c</span>helor <span
+      class="agcu-a">a</span>nd PhD st<span class="agcu-u">u</span>dent in
+      E<span class="agcu-c">c</span>onomi<span class="agcu-c">c</span> L<span
+      class="agcu-a">a</span>w <span class="agcu-a">a</span>t <span
+      class="agcu-u">U</span>SP. Fo<span class="agcu-u">u</span>nder <span
+      class="agcu-a">a</span>nd President of the Instit<span
+      class="agcu-u">u</span>te of L<span class="agcu-a">a</span>w, <span
+      class="agcu-c">C</span>re<span class="agcu-a">a</span>tive E<span
+      class="agcu-c">c</span>onomy <span class="agcu-a">a</span>nd <span
+      class="agcu-a">A</span>rts. Spe<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span>list in Entert<span class="agcu-a">a</span>inment
+      L<span class="agcu-a">a</span>w. <span class="agcu-u">U</span>NES<span
+      class="agcu-c">C</span>O <span class="agcu-c">c</span>ons<span
+      class="agcu-u">u</span>lt<span class="agcu-a">a</span>nt on <span
+      class="agcu-c">c</span><span class="agcu-u">u</span>lt<span
+      class="agcu-u">u</span>r<span class="agcu-a">a</span>l eq<span
+      class="agcu-u">u</span>ipment. Worked on the <span
+      class="agcu-c">c</span>onstr<span class="agcu-u">u</span><span
+      class="agcu-c">c</span>tion of the S<span class="agcu-a">ã</span>o
+      Bern<span class="agcu-a">a</span>rdo do <span class="agcu-c">C</span><span
+      class="agcu-a">a</span>mpo M<span class="agcu-u">u</span>ni<span
+      class="agcu-c">c</span>ip<span class="agcu-a">a</span>l <span
+      class="agcu-c">C</span>re<span class="agcu-a">a</span>tive E<span
+      class="agcu-c">c</span>onomy Pro<span class="agcu-g">g</span>r<span
+      class="agcu-a">a</span>m. Member of the Br<span
+      class="agcu-a">a</span>zili<span class="agcu-a">a</span>n Intelle<span
+      class="agcu-c">c</span>t<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>l Property <span class="agcu-a">A</span>sso<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>tion (<span
+      class="agcu-a">A</span>BPI) <span class="agcu-a">a</span>nd <span
+      class="agcu-c">c</span>ertified by H<span class="agcu-a">a</span>rv<span
+      class="agcu-a">a</span>rd's <span class="agcu-c">C</span>opyri<span
+      class="agcu-g">g</span>htX.
+    pt: B<span class="agcu-a">a</span><span class="agcu-c">c</span>h<span
+      class="agcu-a">a</span>rel e Do<span class="agcu-u">u</span>tor<span
+      class="agcu-a">a</span>ndo em Direito E<span
+      class="agcu-c">c</span>onômi<span class="agcu-c">c</span>o pel<span
+      class="agcu-a">a</span> <span class="agcu-u">U</span>SP. F<span
+      class="agcu-u">u</span>nd<span class="agcu-a">a</span>dor e Presidente do
+      Instit<span class="agcu-u">u</span>to de Direito, E<span
+      class="agcu-c">c</span>onomi<span class="agcu-a">a</span> <span
+      class="agcu-c">C</span>ri<span class="agcu-a">a</span>tiv<span
+      class="agcu-a">a</span> e <span class="agcu-a">A</span>rtes. Espe<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>list<span
+      class="agcu-a">a</span> em Direito do Entretenimento. <span
+      class="agcu-c">C</span>ons<span class="agcu-u">u</span>ltor d<span
+      class="agcu-a">a</span> <span class="agcu-u">U</span>NES<span
+      class="agcu-c">C</span>O em eq<span class="agcu-u">u</span>ip<span
+      class="agcu-a">a</span>mentos <span class="agcu-c">c</span><span
+      class="agcu-u">u</span>lt<span class="agcu-u">u</span>r<span
+      class="agcu-a">a</span>is. <span class="agcu-a">A</span>t<span
+      class="agcu-u">u</span>o<span class="agcu-u">u</span> n<span
+      class="agcu-a">a</span> <span class="agcu-c">c</span>onstr<span
+      class="agcu-u">u</span><span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o do Pro<span class="agcu-g">g</span>r<span
+      class="agcu-a">a</span>m<span class="agcu-a">a</span> M<span
+      class="agcu-u">u</span>ni<span class="agcu-c">c</span>ip<span
+      class="agcu-a">a</span>l de E<span class="agcu-c">c</span>onomi<span
+      class="agcu-a">a</span> <span class="agcu-c">C</span>ri<span
+      class="agcu-a">a</span>tiv<span class="agcu-a">a</span> de S<span
+      class="agcu-a">ã</span>o Bern<span class="agcu-a">a</span>rdo do <span
+      class="agcu-c">C</span><span class="agcu-a">a</span>mpo. Membro d<span
+      class="agcu-a">a</span> <span class="agcu-a">A</span>sso<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span><span class="agcu-a">ã</span>o Br<span
+      class="agcu-a">a</span>sileir<span class="agcu-a">a</span> de
+      Propried<span class="agcu-a">a</span>de Intele<span
+      class="agcu-c">c</span>t<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>l (<span class="agcu-a">A</span>BPI) e <span
+      class="agcu-c">c</span>ertifi<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>do pelo <span class="agcu-c">C</span>opyri<span
+      class="agcu-g">g</span>htX de H<span class="agcu-a">a</span>rv<span
+      class="agcu-a">a</span>rd. <br>  <br> <span
+      class="agcu-c">C</span>onvid<span class="agcu-a">a</span>do p<span
+      class="agcu-a">a</span>r<span class="agcu-a">a</span> dis<span
+      class="agcu-c">c</span><span class="agcu-u">u</span>tir q<span
+      class="agcu-u">u</span>estões do direito di<span
+      class="agcu-g">g</span>it<span class="agcu-a">a</span>l em <span
+      class="agcu-u">u</span>m dos en<span class="agcu-c">c</span>ontros d<span
+      class="agcu-a">a</span> residên<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span>.
+- slug: 'rfel'
+  name: R<span class="agcu-a">a</span>f<span class="agcu-a">a</span>el Nepô
   bio:
-    en: 'An unschooled questioner whose favorite word is modularity. He discovered that the past is much more interesting than the present and is frustrated that his vision of the future is not yet a reality. He founded Mee to rethink the way we research and transmit knowledge. Organization, curation, communication and presentation are everyday things. Reading, cooking and playing video games complement life. He has worked with major companies such as Gartner, GVT, Blizzard Entertainment at international events either producing them or as a speaker.<br><br>Invited to speak about information architecture in one of the meetings of the residency.'
-    pt: 'Um desescolarizado questionador em que modularidade é sua palavra favorita. Descobriu que o passado é muito mais interessante que o presente e fica frustrado que sua visão de futuro ainda não é uma realidade. Fundou o Mee para repensar a forma como pesquisamos e transmitimos conhecimento. Organização, curadoria, comunicação e apresentação são coisas do dia a dia. Ler, cozinhar e jogar video game complementam a vida. Já trabalhou com grandes empresas como Gartner, GVT, Blizzard Entertainment em eventos internacionais na produção e/ou como palestrante.<br><br>Convidado para falar sobre arquitetura de informação em um dos encontros da residência.'
-
-- name: 'Giovanna Graziosi Casimiro'
+    en: <span class="agcu-a">A</span>n <span class="agcu-u">u</span>ns<span
+      class="agcu-c">c</span>hooled q<span class="agcu-u">u</span>estioner whose
+      f<span class="agcu-a">a</span>vorite word is mod<span
+      class="agcu-u">u</span>l<span class="agcu-a">a</span>rity. He dis<span
+      class="agcu-c">c</span>overed th<span class="agcu-a">a</span>t the p<span
+      class="agcu-a">a</span>st is m<span class="agcu-u">u</span><span
+      class="agcu-c">c</span>h more interestin<span class="agcu-g">g</span>
+      th<span class="agcu-a">a</span>n the present <span
+      class="agcu-a">a</span>nd is fr<span class="agcu-u">u</span>str<span
+      class="agcu-a">a</span>ted th<span class="agcu-a">a</span>t his vision of
+      the f<span class="agcu-u">u</span>t<span class="agcu-u">u</span>re is not
+      yet <span class="agcu-a">a</span> re<span class="agcu-a">a</span>lity. He
+      fo<span class="agcu-u">u</span>nded Mee to rethink the w<span
+      class="agcu-a">a</span>y we rese<span class="agcu-a">a</span>r<span
+      class="agcu-c">c</span>h <span class="agcu-a">a</span>nd tr<span
+      class="agcu-a">a</span>nsmit knowled<span class="agcu-g">g</span>e.
+      Or<span class="agcu-g">g</span><span class="agcu-a">a</span>niz<span
+      class="agcu-a">a</span>tion, <span class="agcu-c">c</span><span
+      class="agcu-u">u</span>r<span class="agcu-a">a</span>tion, <span
+      class="agcu-c">c</span>omm<span class="agcu-u">u</span>ni<span
+      class="agcu-c">c</span><span class="agcu-a">a</span>tion <span
+      class="agcu-a">a</span>nd present<span class="agcu-a">a</span>tion <span
+      class="agcu-a">a</span>re everyd<span class="agcu-a">a</span>y thin<span
+      class="agcu-g">g</span>s. Re<span class="agcu-a">a</span>din<span
+      class="agcu-g">g</span>, <span class="agcu-c">c</span>ookin<span
+      class="agcu-g">g</span> <span class="agcu-a">a</span>nd pl<span
+      class="agcu-a">a</span>yin<span class="agcu-g">g</span> video <span
+      class="agcu-g">g</span><span class="agcu-a">a</span>mes <span
+      class="agcu-c">c</span>omplement life. He h<span class="agcu-a">a</span>s
+      worked with m<span class="agcu-a">a</span>jor <span
+      class="agcu-c">c</span>omp<span class="agcu-a">a</span>nies s<span
+      class="agcu-u">u</span><span class="agcu-c">c</span>h <span
+      class="agcu-a">a</span>s <span class="agcu-g">G</span><span
+      class="agcu-a">a</span>rtner, <span class="agcu-g">G</span>VT, Blizz<span
+      class="agcu-a">a</span>rd Entert<span class="agcu-a">a</span>inment <span
+      class="agcu-a">a</span>t intern<span class="agcu-a">a</span>tion<span
+      class="agcu-a">a</span>l events either prod<span
+      class="agcu-u">u</span><span class="agcu-c">c</span>in<span
+      class="agcu-g">g</span> them or <span class="agcu-a">a</span>s <span
+      class="agcu-a">a</span> spe<span class="agcu-a">a</span>ker. <br>  <br>
+      Invited to spe<span class="agcu-a">a</span>k <span
+      class="agcu-a">a</span>bo<span class="agcu-u">u</span>t inform<span
+      class="agcu-a">a</span>tion <span class="agcu-a">a</span>r<span
+      class="agcu-c">c</span>hite<span class="agcu-c">c</span>t<span
+      class="agcu-u">u</span>re in one of the meetin<span
+      class="agcu-g">g</span>s of the residen<span class="agcu-c">c</span>y.
+    pt: <span class="agcu-u">U</span>m deses<span class="agcu-c">c</span>ol<span
+      class="agcu-a">a</span>riz<span class="agcu-a">a</span>do q<span
+      class="agcu-u">u</span>estion<span class="agcu-a">a</span>dor em q<span
+      class="agcu-u">u</span>e mod<span class="agcu-u">u</span>l<span
+      class="agcu-a">a</span>rid<span class="agcu-a">a</span>de é s<span
+      class="agcu-u">u</span><span class="agcu-a">a</span> p<span
+      class="agcu-a">a</span>l<span class="agcu-a">a</span>vr<span
+      class="agcu-a">a</span> f<span class="agcu-a">a</span>vorit<span
+      class="agcu-a">a</span>. Des<span class="agcu-c">c</span>obri<span
+      class="agcu-u">u</span> q<span class="agcu-u">u</span>e o p<span
+      class="agcu-a">a</span>ss<span class="agcu-a">a</span>do é m<span
+      class="agcu-u">u</span>ito m<span class="agcu-a">a</span>is interess<span
+      class="agcu-a">a</span>nte q<span class="agcu-u">u</span>e o presente e
+      fi<span class="agcu-c">c</span><span class="agcu-a">a</span> fr<span
+      class="agcu-u">u</span>str<span class="agcu-a">a</span>do q<span
+      class="agcu-u">u</span>e s<span class="agcu-u">u</span><span
+      class="agcu-a">a</span> vis<span class="agcu-a">ã</span>o de f<span
+      class="agcu-u">u</span>t<span class="agcu-u">u</span>ro <span
+      class="agcu-a">a</span>ind<span class="agcu-a">a</span> n<span
+      class="agcu-a">ã</span>o é <span class="agcu-u">u</span>m<span
+      class="agcu-a">a</span> re<span class="agcu-a">a</span>lid<span
+      class="agcu-a">a</span>de. F<span class="agcu-u">u</span>ndo<span
+      class="agcu-u">u</span> o Mee p<span class="agcu-a">a</span>r<span
+      class="agcu-a">a</span> repens<span class="agcu-a">a</span>r <span
+      class="agcu-a">a</span> form<span class="agcu-a">a</span> <span
+      class="agcu-c">c</span>omo pesq<span class="agcu-u">u</span>is<span
+      class="agcu-a">a</span>mos e tr<span class="agcu-a">a</span>nsmitimos
+      <span class="agcu-c">c</span>onhe<span class="agcu-c">c</span>imento.
+      Or<span class="agcu-g">g</span><span class="agcu-a">a</span>niz<span
+      class="agcu-a">a</span><span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o, <span class="agcu-c">c</span><span
+      class="agcu-u">u</span>r<span class="agcu-a">a</span>dori<span
+      class="agcu-a">a</span>, <span class="agcu-c">c</span>om<span
+      class="agcu-u">u</span>ni<span class="agcu-c">c</span><span
+      class="agcu-a">a</span><span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o e <span class="agcu-a">a</span>present<span
+      class="agcu-a">a</span><span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o s<span class="agcu-a">ã</span>o <span
+      class="agcu-c">c</span>ois<span class="agcu-a">a</span>s do di<span
+      class="agcu-a">a</span> <span class="agcu-a">a</span> di<span
+      class="agcu-a">a</span>. Ler, <span class="agcu-c">c</span>ozinh<span
+      class="agcu-a">a</span>r e jo<span class="agcu-g">g</span><span
+      class="agcu-a">a</span>r video <span class="agcu-g">g</span><span
+      class="agcu-a">a</span>me <span class="agcu-c">c</span>omplement<span
+      class="agcu-a">a</span>m <span class="agcu-a">a</span> vid<span
+      class="agcu-a">a</span>. J<span class="agcu-a">á</span> tr<span
+      class="agcu-a">a</span>b<span class="agcu-a">a</span>lho<span
+      class="agcu-u">u</span> <span class="agcu-c">c</span>om <span
+      class="agcu-g">g</span>r<span class="agcu-a">a</span>ndes empres<span
+      class="agcu-a">a</span>s <span class="agcu-c">c</span>omo <span
+      class="agcu-g">G</span><span class="agcu-a">a</span>rtner, <span
+      class="agcu-g">G</span>VT, Blizz<span class="agcu-a">a</span>rd
+      Entert<span class="agcu-a">a</span>inment em eventos intern<span
+      class="agcu-a">a</span><span class="agcu-c">c</span>ion<span
+      class="agcu-a">a</span>is n<span class="agcu-a">a</span> prod<span
+      class="agcu-u">u</span><span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o e/o<span class="agcu-u">u</span> <span
+      class="agcu-c">c</span>omo p<span class="agcu-a">a</span>lestr<span
+      class="agcu-a">a</span>nte. <br>  <br> <span
+      class="agcu-c">C</span>onvid<span class="agcu-a">a</span>do p<span
+      class="agcu-a">a</span>r<span class="agcu-a">a</span> f<span
+      class="agcu-a">a</span>l<span class="agcu-a">a</span>r sobre <span
+      class="agcu-a">a</span>rq<span class="agcu-u">u</span>itet<span
+      class="agcu-u">u</span>r<span class="agcu-a">a</span> de inform<span
+      class="agcu-a">a</span><span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o em <span class="agcu-u">u</span>m dos en<span
+      class="agcu-c">c</span>ontros d<span class="agcu-a">a</span> residên<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>.
+- slug: 'giovnna'
+  name: <span class="agcu-g">G</span>iov<span class="agcu-a">a</span>nn<span
+    class="agcu-a">a</span> <span class="agcu-g">G</span>r<span
+    class="agcu-a">a</span>ziosi <span class="agcu-c">C</span><span
+    class="agcu-a">a</span>simiro
+  url: https://<span class="agcu-g">g</span><span class="agcu-g">g</span><span
+    class="agcu-c">c</span><span class="agcu-a">a</span>simiro.<span
+    class="agcu-c">c</span>om
   bio:
-    pt: 'Profissional multitarefa, com experiência como gerente e produtora de projetos digitais. Atuando na área de design digital, com experiência em múltiplas plataformas e indústria de XR. Tive experiências de trabalho e ensino em vários locais, incluindo Ásia, América do Norte, América do Sul e Europa. Pretendo ser sempre uma pensadora inovadora, comprometida, dedicada e solidária dos processos coletivos.<br><br>Sou doutoranda na Faculdade de Arquitetura e Urbanismo da Universidade de São Paulo, com pesquisas sobre memória digital e patrimônio contemporâneo. Minha principal contribuição é o conceito de Open Source Heritage.<br><br>Convidada para apresentar projetos de realidade mista em um dos encontros da residência.'
-    en: 'Multi task professional, with experience as digital project manager and producer. Working in the digital design, with experience in multiple platforms and XR industry. I have had experiences working and teaching in several locations, including Asia, North America, South America and Europe. I aim to be always a forward thinker, committed, dedicated and a supportive of collective processes.<br><br>I am a PhD candidate at the Faculty of Architecture and Urbanism of the University of São Paulo, with research on digital memory and contemporary heritage. My main contribution is the concept of Open Source Heritage.<br><br>Invited to present about mixed reality projects in one of the meetings of the residency.'
-
-- name: 'Marcele Guerra'
+    pt: Profission<span class="agcu-a">a</span>l m<span
+      class="agcu-u">u</span>ltit<span class="agcu-a">a</span>ref<span
+      class="agcu-a">a</span>, <span class="agcu-c">c</span>om experiên<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span> <span
+      class="agcu-c">c</span>omo <span class="agcu-g">g</span>erente e prod<span
+      class="agcu-u">u</span>tor<span class="agcu-a">a</span> de projetos
+      di<span class="agcu-g">g</span>it<span class="agcu-a">a</span>is. <span
+      class="agcu-a">A</span>t<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>ndo n<span class="agcu-a">a</span> <span
+      class="agcu-a">á</span>re<span class="agcu-a">a</span> de desi<span
+      class="agcu-g">g</span>n di<span class="agcu-g">g</span>it<span
+      class="agcu-a">a</span>l, <span class="agcu-c">c</span>om experiên<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span> em m<span
+      class="agcu-u">ú</span>ltipl<span class="agcu-a">a</span>s pl<span
+      class="agcu-a">a</span>t<span class="agcu-a">a</span>form<span
+      class="agcu-a">a</span>s e ind<span class="agcu-u">ú</span>stri<span
+      class="agcu-a">a</span> de XR. Tive experiên<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>s de tr<span
+      class="agcu-a">a</span>b<span class="agcu-a">a</span>lho e ensino em
+      v<span class="agcu-a">á</span>rios lo<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>is, in<span class="agcu-c">c</span>l<span
+      class="agcu-u">u</span>indo <span class="agcu-a">Á</span>si<span
+      class="agcu-a">a</span>, <span class="agcu-a">A</span>méri<span
+      class="agcu-c">c</span><span class="agcu-a">a</span> do Norte, <span
+      class="agcu-a">A</span>méri<span class="agcu-c">c</span><span
+      class="agcu-a">a</span> do S<span class="agcu-u">u</span>l e E<span
+      class="agcu-u">u</span>rop<span class="agcu-a">a</span>. Pretendo ser
+      sempre <span class="agcu-u">u</span>m<span class="agcu-a">a</span>
+      pens<span class="agcu-a">a</span>dor<span class="agcu-a">a</span>
+      inov<span class="agcu-a">a</span>dor<span class="agcu-a">a</span>, <span
+      class="agcu-c">c</span>omprometid<span class="agcu-a">a</span>, dedi<span
+      class="agcu-c">c</span><span class="agcu-a">a</span>d<span
+      class="agcu-a">a</span> e solid<span class="agcu-a">á</span>ri<span
+      class="agcu-a">a</span> dos pro<span class="agcu-c">c</span>essos <span
+      class="agcu-c">c</span>oletivos. <br>  <br> So<span
+      class="agcu-u">u</span> do<span class="agcu-u">u</span>tor<span
+      class="agcu-a">a</span>nd<span class="agcu-a">a</span> n<span
+      class="agcu-a">a</span> F<span class="agcu-a">a</span><span
+      class="agcu-c">c</span><span class="agcu-u">u</span>ld<span
+      class="agcu-a">a</span>de de <span class="agcu-a">A</span>rq<span
+      class="agcu-u">u</span>itet<span class="agcu-u">u</span>r<span
+      class="agcu-a">a</span> e <span class="agcu-u">U</span>rb<span
+      class="agcu-a">a</span>nismo d<span class="agcu-a">a</span> <span
+      class="agcu-u">U</span>niversid<span class="agcu-a">a</span>de de S<span
+      class="agcu-a">ã</span>o P<span class="agcu-a">a</span><span
+      class="agcu-u">u</span>lo, <span class="agcu-c">c</span>om pesq<span
+      class="agcu-u">u</span>is<span class="agcu-a">a</span>s sobre memóri<span
+      class="agcu-a">a</span> di<span class="agcu-g">g</span>it<span
+      class="agcu-a">a</span>l e p<span class="agcu-a">a</span>trimônio <span
+      class="agcu-c">c</span>ontempor<span class="agcu-a">â</span>neo. Minh<span
+      class="agcu-a">a</span> prin<span class="agcu-c">c</span>ip<span
+      class="agcu-a">a</span>l <span class="agcu-c">c</span>ontrib<span
+      class="agcu-u">u</span>i<span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o é o <span class="agcu-c">c</span>on<span
+      class="agcu-c">c</span>eito de Open So<span class="agcu-u">u</span>r<span
+      class="agcu-c">c</span>e Herit<span class="agcu-a">a</span><span
+      class="agcu-g">g</span>e. <br>  <br> <span
+      class="agcu-c">C</span>onvid<span class="agcu-a">a</span>d<span
+      class="agcu-a">a</span> p<span class="agcu-a">a</span>r<span
+      class="agcu-a">a</span> <span class="agcu-a">a</span>present<span
+      class="agcu-a">a</span>r projetos de re<span
+      class="agcu-a">a</span>lid<span class="agcu-a">a</span>de mist<span
+      class="agcu-a">a</span> em <span class="agcu-u">u</span>m dos en<span
+      class="agcu-c">c</span>ontros d<span class="agcu-a">a</span> residên<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>.
+    en: M<span class="agcu-u">u</span>lti t<span class="agcu-a">a</span>sk
+      profession<span class="agcu-a">a</span>l, with experien<span
+      class="agcu-c">c</span>e <span class="agcu-a">a</span>s di<span
+      class="agcu-g">g</span>it<span class="agcu-a">a</span>l proje<span
+      class="agcu-c">c</span>t m<span class="agcu-a">a</span>n<span
+      class="agcu-a">a</span><span class="agcu-g">g</span>er <span
+      class="agcu-a">a</span>nd prod<span class="agcu-u">u</span><span
+      class="agcu-c">c</span>er. Workin<span class="agcu-g">g</span> in the
+      di<span class="agcu-g">g</span>it<span class="agcu-a">a</span>l desi<span
+      class="agcu-g">g</span>n, with experien<span class="agcu-c">c</span>e in
+      m<span class="agcu-u">u</span>ltiple pl<span class="agcu-a">a</span>tforms
+      <span class="agcu-a">a</span>nd XR ind<span class="agcu-u">u</span>stry. I
+      h<span class="agcu-a">a</span>ve h<span class="agcu-a">a</span>d
+      experien<span class="agcu-c">c</span>es workin<span
+      class="agcu-g">g</span> <span class="agcu-a">a</span>nd te<span
+      class="agcu-a">a</span><span class="agcu-c">c</span>hin<span
+      class="agcu-g">g</span> in sever<span class="agcu-a">a</span>l lo<span
+      class="agcu-c">c</span><span class="agcu-a">a</span>tions, in<span
+      class="agcu-c">c</span>l<span class="agcu-u">u</span>din<span
+      class="agcu-g">g</span> <span class="agcu-a">A</span>si<span
+      class="agcu-a">a</span>, North <span class="agcu-a">A</span>meri<span
+      class="agcu-c">c</span><span class="agcu-a">a</span>, So<span
+      class="agcu-u">u</span>th <span class="agcu-a">A</span>meri<span
+      class="agcu-c">c</span><span class="agcu-a">a</span> <span
+      class="agcu-a">a</span>nd E<span class="agcu-u">u</span>rope. I <span
+      class="agcu-a">a</span>im to be <span class="agcu-a">a</span>lw<span
+      class="agcu-a">a</span>ys <span class="agcu-a">a</span> forw<span
+      class="agcu-a">a</span>rd thinker, <span class="agcu-c">c</span>ommitted,
+      dedi<span class="agcu-c">c</span><span class="agcu-a">a</span>ted <span
+      class="agcu-a">a</span>nd <span class="agcu-a">a</span> s<span
+      class="agcu-u">u</span>pportive of <span class="agcu-c">c</span>olle<span
+      class="agcu-c">c</span>tive pro<span class="agcu-c">c</span>esses.
+      <br>  <br> I <span class="agcu-a">a</span>m <span class="agcu-a">a</span>
+      PhD <span class="agcu-c">c</span><span class="agcu-a">a</span>ndid<span
+      class="agcu-a">a</span>te <span class="agcu-a">a</span>t the F<span
+      class="agcu-a">a</span><span class="agcu-c">c</span><span
+      class="agcu-u">u</span>lty of <span class="agcu-a">A</span>r<span
+      class="agcu-c">c</span>hite<span class="agcu-c">c</span>t<span
+      class="agcu-u">u</span>re <span class="agcu-a">a</span>nd <span
+      class="agcu-u">U</span>rb<span class="agcu-a">a</span>nism of the <span
+      class="agcu-u">U</span>niversity of S<span class="agcu-a">ã</span>o P<span
+      class="agcu-a">a</span><span class="agcu-u">u</span>lo, with rese<span
+      class="agcu-a">a</span>r<span class="agcu-c">c</span>h on di<span
+      class="agcu-g">g</span>it<span class="agcu-a">a</span>l memory <span
+      class="agcu-a">a</span>nd <span class="agcu-c">c</span>ontempor<span
+      class="agcu-a">a</span>ry herit<span class="agcu-a">a</span><span
+      class="agcu-g">g</span>e. My m<span class="agcu-a">a</span>in <span
+      class="agcu-c">c</span>ontrib<span class="agcu-u">u</span>tion is the
+      <span class="agcu-c">c</span>on<span class="agcu-c">c</span>ept of Open
+      So<span class="agcu-u">u</span>r<span class="agcu-c">c</span>e Herit<span
+      class="agcu-a">a</span><span class="agcu-g">g</span>e. <br>  <br> Invited
+      to present <span class="agcu-a">a</span>bo<span class="agcu-u">u</span>t
+      mixed re<span class="agcu-a">a</span>lity proje<span
+      class="agcu-c">c</span>ts in one of the meetin<span
+      class="agcu-g">g</span>s of the residen<span class="agcu-c">c</span>y.
+- slug: 'mrcele'
+  name: M<span class="agcu-a">a</span>r<span class="agcu-c">c</span>ele <span
+    class="agcu-g">G</span><span class="agcu-u">u</span>err<span
+    class="agcu-a">a</span>
   bio:
-    en: 'I am a Facilitator, realizing group potential. Mediator and moderator in processes for giving meaning and making sense(s). Tour guide of internal landscapes, I work with path design (or even actual steep trails, I like to climb mountains) interior design (human, especially the heart) and interethnic and diversity design (currently including machines as an ethnic group too).<br><br>Invited to discuss and propose dinamics for online engagements during one of the meetings of the residency.'
-    pt: 'Sou Facilitadora, guiando liberdades e potenciais de grupos. Mediadora e moderadora em processos de dar sentidos e de fazer sentir(es). Guia turística de paisagens internas, atuo com design de caminhos (ou trilhas mesmo, do tipo íngremes, gosto de subir uma montanha) design de interiores (humanos, especialmente o coração) e design interétnico e diversidade (atualmente incluindo máquinas como uma etnia também).<br><br>Convidada para discutir e propor dinâmicas de engajamento online em um dos encontros da residência.'
-
-- name: 'Cesar Baio'
+    en: I <span class="agcu-a">a</span>m <span class="agcu-a">a</span> F<span
+      class="agcu-a">a</span><span class="agcu-c">c</span>ilit<span
+      class="agcu-a">a</span>tor, re<span class="agcu-a">a</span>lizin<span
+      class="agcu-g">g</span> <span class="agcu-g">g</span>ro<span
+      class="agcu-u">u</span>p potenti<span class="agcu-a">a</span>l. Medi<span
+      class="agcu-a">a</span>tor <span class="agcu-a">a</span>nd moder<span
+      class="agcu-a">a</span>tor in pro<span class="agcu-c">c</span>esses for
+      <span class="agcu-g">g</span>ivin<span class="agcu-g">g</span> me<span
+      class="agcu-a">a</span>nin<span class="agcu-g">g</span> <span
+      class="agcu-a">a</span>nd m<span class="agcu-a">a</span>kin<span
+      class="agcu-g">g</span> sense(s). To<span class="agcu-u">u</span>r <span
+      class="agcu-g">g</span><span class="agcu-u">u</span>ide of intern<span
+      class="agcu-a">a</span>l l<span class="agcu-a">a</span>nds<span
+      class="agcu-c">c</span><span class="agcu-a">a</span>pes, I work with
+      p<span class="agcu-a">a</span>th desi<span class="agcu-g">g</span>n (or
+      even <span class="agcu-a">a</span><span class="agcu-c">c</span>t<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>l steep tr<span
+      class="agcu-a">a</span>ils, I like to <span class="agcu-c">c</span>limb
+      mo<span class="agcu-u">u</span>nt<span class="agcu-a">a</span>ins)
+      interior desi<span class="agcu-g">g</span>n (h<span
+      class="agcu-u">u</span>m<span class="agcu-a">a</span>n, espe<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>lly the he<span
+      class="agcu-a">a</span>rt) <span class="agcu-a">a</span>nd interethni<span
+      class="agcu-c">c</span> <span class="agcu-a">a</span>nd diversity
+      desi<span class="agcu-g">g</span>n (<span class="agcu-c">c</span><span
+      class="agcu-u">u</span>rrently in<span class="agcu-c">c</span>l<span
+      class="agcu-u">u</span>din<span class="agcu-g">g</span> m<span
+      class="agcu-a">a</span><span class="agcu-c">c</span>hines <span
+      class="agcu-a">a</span>s <span class="agcu-a">a</span>n ethni<span
+      class="agcu-c">c</span> <span class="agcu-g">g</span>ro<span
+      class="agcu-u">u</span>p too). <br>  <br> Invited to dis<span
+      class="agcu-c">c</span><span class="agcu-u">u</span>ss <span
+      class="agcu-a">a</span>nd propose din<span class="agcu-a">a</span>mi<span
+      class="agcu-c">c</span>s for online en<span class="agcu-g">g</span><span
+      class="agcu-a">a</span><span class="agcu-g">g</span>ements d<span
+      class="agcu-u">u</span>rin<span class="agcu-g">g</span> one of the
+      meetin<span class="agcu-g">g</span>s of the residen<span
+      class="agcu-c">c</span>y.
+    pt: So<span class="agcu-u">u</span> F<span class="agcu-a">a</span><span
+      class="agcu-c">c</span>ilit<span class="agcu-a">a</span>dor<span
+      class="agcu-a">a</span>, <span class="agcu-g">g</span><span
+      class="agcu-u">u</span>i<span class="agcu-a">a</span>ndo liberd<span
+      class="agcu-a">a</span>des e poten<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span>is de <span class="agcu-g">g</span>r<span
+      class="agcu-u">u</span>pos. Medi<span class="agcu-a">a</span>dor<span
+      class="agcu-a">a</span> e moder<span class="agcu-a">a</span>dor<span
+      class="agcu-a">a</span> em pro<span class="agcu-c">c</span>essos de d<span
+      class="agcu-a">a</span>r sentidos e de f<span class="agcu-a">a</span>zer
+      sentir(es). <span class="agcu-g">G</span><span
+      class="agcu-u">u</span>i<span class="agcu-a">a</span> t<span
+      class="agcu-u">u</span>rísti<span class="agcu-c">c</span><span
+      class="agcu-a">a</span> de p<span class="agcu-a">a</span>is<span
+      class="agcu-a">a</span><span class="agcu-g">g</span>ens intern<span
+      class="agcu-a">a</span>s, <span class="agcu-a">a</span>t<span
+      class="agcu-u">u</span>o <span class="agcu-c">c</span>om desi<span
+      class="agcu-g">g</span>n de <span class="agcu-c">c</span><span
+      class="agcu-a">a</span>minhos (o<span class="agcu-u">u</span> trilh<span
+      class="agcu-a">a</span>s mesmo, do tipo ín<span
+      class="agcu-g">g</span>remes, <span class="agcu-g">g</span>osto de s<span
+      class="agcu-u">u</span>bir <span class="agcu-u">u</span>m<span
+      class="agcu-a">a</span> mont<span class="agcu-a">a</span>nh<span
+      class="agcu-a">a</span>) desi<span class="agcu-g">g</span>n de interiores
+      (h<span class="agcu-u">u</span>m<span class="agcu-a">a</span>nos,
+      espe<span class="agcu-c">c</span>i<span class="agcu-a">a</span>lmente o
+      <span class="agcu-c">c</span>or<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span><span class="agcu-a">ã</span>o) e desi<span
+      class="agcu-g">g</span>n interétni<span class="agcu-c">c</span>o e
+      diversid<span class="agcu-a">a</span>de (<span
+      class="agcu-a">a</span>t<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>lmente in<span class="agcu-c">c</span>l<span
+      class="agcu-u">u</span>indo m<span class="agcu-a">á</span>q<span
+      class="agcu-u">u</span>in<span class="agcu-a">a</span>s <span
+      class="agcu-c">c</span>omo <span class="agcu-u">u</span>m<span
+      class="agcu-a">a</span> etni<span class="agcu-a">a</span> t<span
+      class="agcu-a">a</span>mbém). <br>  <br> <span
+      class="agcu-c">C</span>onvid<span class="agcu-a">a</span>d<span
+      class="agcu-a">a</span> p<span class="agcu-a">a</span>r<span
+      class="agcu-a">a</span> dis<span class="agcu-c">c</span><span
+      class="agcu-u">u</span>tir e propor din<span
+      class="agcu-a">â</span>mi<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>s de en<span class="agcu-g">g</span><span
+      class="agcu-a">a</span>j<span class="agcu-a">a</span>mento online em <span
+      class="agcu-u">u</span>m dos en<span class="agcu-c">c</span>ontros d<span
+      class="agcu-a">a</span> residên<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span>.
+- slug: 'cesr'
+  name: <span class="agcu-c">C</span>es<span class="agcu-a">a</span>r B<span
+    class="agcu-a">a</span>io
   bio:
-    en: 'Cesar Baio has a Doctor''s and a Master''s degree in Communication and Semiotics from PUC/SP, with research in the areas of cinema, video, digital media and visual arts. In his artistic work he is interested in the logic disruption of the functioning of systems of power and control through procedures of subversion of autonomous systems of surveillance, personal data cquisition and social control. Through the collective Cesar & Lois, he has worked on the creation of "biohybrid" works (biological and computational) formed by the integration of living microorganisms, digital networks and artificial intelligence.<br><br>Invited to present projects about bioart and fungi in one of the meetings of the residency.'
-    pt: 'Doutor e mestre em Comunicação e Semiótica pela PUC/SP, com pesquisas nas áreas de cinema, vídeo, mídias digitais e artes visuais. Em seu trabalho artístico se interessa pela disrupção da lógica de funcionamento dos sistemas de poder e controle através de procedimentos de subversão de sistemas autônomos de vigilância, de aquisição de dados pessoais e de controle social. Através do coletivo Cesar & Lois, tem atuado na criação de obras "biohíbridas" (biológicas e computacionais) formados pela integração de micro-organismos vivos, redes digitais e inteligência artificial.<br><br>Convidado para apresentar projetos de bioarte e fungos em um dos encontros da residência.'
+    en: <span class="agcu-c">C</span>es<span class="agcu-a">a</span>r B<span
+      class="agcu-a">a</span>io h<span class="agcu-a">a</span>s <span
+      class="agcu-a">a</span> Do<span class="agcu-c">c</span>tor's <span
+      class="agcu-a">a</span>nd <span class="agcu-a">a</span> M<span
+      class="agcu-a">a</span>ster's de<span class="agcu-g">g</span>ree in <span
+      class="agcu-c">C</span>omm<span class="agcu-u">u</span>ni<span
+      class="agcu-c">c</span><span class="agcu-a">a</span>tion <span
+      class="agcu-a">a</span>nd Semioti<span class="agcu-c">c</span>s from
+      P<span class="agcu-u">U</span><span class="agcu-c">C</span>/SP, with
+      rese<span class="agcu-a">a</span>r<span class="agcu-c">c</span>h in the
+      <span class="agcu-a">a</span>re<span class="agcu-a">a</span>s of <span
+      class="agcu-c">c</span>inem<span class="agcu-a">a</span>, video, di<span
+      class="agcu-g">g</span>it<span class="agcu-a">a</span>l medi<span
+      class="agcu-a">a</span> <span class="agcu-a">a</span>nd vis<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>l <span
+      class="agcu-a">a</span>rts. In his <span
+      class="agcu-a">a</span>rtisti<span class="agcu-c">c</span> work he is
+      interested in the lo<span class="agcu-g">g</span>i<span
+      class="agcu-c">c</span> disr<span class="agcu-u">u</span>ption of the
+      f<span class="agcu-u">u</span>n<span class="agcu-c">c</span>tionin<span
+      class="agcu-g">g</span> of systems of power <span
+      class="agcu-a">a</span>nd <span class="agcu-c">c</span>ontrol thro<span
+      class="agcu-u">u</span><span class="agcu-g">g</span>h pro<span
+      class="agcu-c">c</span>ed<span class="agcu-u">u</span>res of s<span
+      class="agcu-u">u</span>bversion of <span class="agcu-a">a</span><span
+      class="agcu-u">u</span>tonomo<span class="agcu-u">u</span>s systems of
+      s<span class="agcu-u">u</span>rveill<span class="agcu-a">a</span>n<span
+      class="agcu-c">c</span>e, person<span class="agcu-a">a</span>l d<span
+      class="agcu-a">a</span>t<span class="agcu-a">a</span> <span
+      class="agcu-c">c</span>q<span class="agcu-u">u</span>isition <span
+      class="agcu-a">a</span>nd so<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span>l <span class="agcu-c">c</span>ontrol. Thro<span
+      class="agcu-u">u</span><span class="agcu-g">g</span>h the <span
+      class="agcu-c">c</span>olle<span class="agcu-c">c</span>tive <span
+      class="agcu-c">C</span>es<span class="agcu-a">a</span>r & Lois, he h<span
+      class="agcu-a">a</span>s worked on the <span
+      class="agcu-c">c</span>re<span class="agcu-a">a</span>tion of "biohybrid"
+      works (biolo<span class="agcu-g">g</span>i<span
+      class="agcu-c">c</span><span class="agcu-a">a</span>l <span
+      class="agcu-a">a</span>nd <span class="agcu-c">c</span>omp<span
+      class="agcu-u">u</span>t<span class="agcu-a">a</span>tion<span
+      class="agcu-a">a</span>l) formed by the inte<span
+      class="agcu-g">g</span>r<span class="agcu-a">a</span>tion of livin<span
+      class="agcu-g">g</span> mi<span class="agcu-c">c</span>roor<span
+      class="agcu-g">g</span><span class="agcu-a">a</span>nisms, di<span
+      class="agcu-g">g</span>it<span class="agcu-a">a</span>l networks <span
+      class="agcu-a">a</span>nd <span class="agcu-a">a</span>rtifi<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>l intelli<span
+      class="agcu-g">g</span>en<span class="agcu-c">c</span>e. <br>  <br>
+      Invited to present proje<span class="agcu-c">c</span>ts <span
+      class="agcu-a">a</span>bo<span class="agcu-u">u</span>t bio<span
+      class="agcu-a">a</span>rt <span class="agcu-a">a</span>nd f<span
+      class="agcu-u">u</span>n<span class="agcu-g">g</span>i in one of the
+      meetin<span class="agcu-g">g</span>s of the residen<span
+      class="agcu-c">c</span>y.
+    pt: Do<span class="agcu-u">u</span>tor e mestre em <span
+      class="agcu-c">C</span>om<span class="agcu-u">u</span>ni<span
+      class="agcu-c">c</span><span class="agcu-a">a</span><span
+      class="agcu-c">ç</span><span class="agcu-a">ã</span>o e Semióti<span
+      class="agcu-c">c</span><span class="agcu-a">a</span> pel<span
+      class="agcu-a">a</span> P<span class="agcu-u">U</span><span
+      class="agcu-c">C</span>/SP, <span class="agcu-c">c</span>om pesq<span
+      class="agcu-u">u</span>is<span class="agcu-a">a</span>s n<span
+      class="agcu-a">a</span>s <span class="agcu-a">á</span>re<span
+      class="agcu-a">a</span>s de <span class="agcu-c">c</span>inem<span
+      class="agcu-a">a</span>, vídeo, mídi<span class="agcu-a">a</span>s di<span
+      class="agcu-g">g</span>it<span class="agcu-a">a</span>is e <span
+      class="agcu-a">a</span>rtes vis<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>is. Em se<span class="agcu-u">u</span> tr<span
+      class="agcu-a">a</span>b<span class="agcu-a">a</span>lho <span
+      class="agcu-a">a</span>rtísti<span class="agcu-c">c</span>o se
+      interess<span class="agcu-a">a</span> pel<span class="agcu-a">a</span>
+      disr<span class="agcu-u">u</span>p<span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o d<span class="agcu-a">a</span> ló<span
+      class="agcu-g">g</span>i<span class="agcu-c">c</span><span
+      class="agcu-a">a</span> de f<span class="agcu-u">u</span>n<span
+      class="agcu-c">c</span>ion<span class="agcu-a">a</span>mento dos
+      sistem<span class="agcu-a">a</span>s de poder e <span
+      class="agcu-c">c</span>ontrole <span class="agcu-a">a</span>tr<span
+      class="agcu-a">a</span>vés de pro<span class="agcu-c">c</span>edimentos de
+      s<span class="agcu-u">u</span>bvers<span class="agcu-a">ã</span>o de
+      sistem<span class="agcu-a">a</span>s <span class="agcu-a">a</span><span
+      class="agcu-u">u</span>tônomos de vi<span class="agcu-g">g</span>il<span
+      class="agcu-a">â</span>n<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span>, de <span class="agcu-a">a</span>q<span
+      class="agcu-u">u</span>isi<span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o de d<span class="agcu-a">a</span>dos pesso<span
+      class="agcu-a">a</span>is e de <span class="agcu-c">c</span>ontrole
+      so<span class="agcu-c">c</span>i<span class="agcu-a">a</span>l. <span
+      class="agcu-a">A</span>tr<span class="agcu-a">a</span>vés do <span
+      class="agcu-c">c</span>oletivo <span class="agcu-c">C</span>es<span
+      class="agcu-a">a</span>r & Lois, tem <span class="agcu-a">a</span>t<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>do n<span
+      class="agcu-a">a</span> <span class="agcu-c">c</span>ri<span
+      class="agcu-a">a</span><span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o de obr<span class="agcu-a">a</span>s
+      "biohíbrid<span class="agcu-a">a</span>s" (bioló<span
+      class="agcu-g">g</span>i<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>s e <span class="agcu-c">c</span>omp<span
+      class="agcu-u">u</span>t<span class="agcu-a">a</span><span
+      class="agcu-c">c</span>ion<span class="agcu-a">a</span>is) form<span
+      class="agcu-a">a</span>dos pel<span class="agcu-a">a</span> inte<span
+      class="agcu-g">g</span>r<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span><span class="agcu-a">ã</span>o de mi<span
+      class="agcu-c">c</span>ro-or<span class="agcu-g">g</span><span
+      class="agcu-a">a</span>nismos vivos, redes di<span
+      class="agcu-g">g</span>it<span class="agcu-a">a</span>is e inteli<span
+      class="agcu-g">g</span>ên<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span> <span class="agcu-a">a</span>rtifi<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>l. <br>  <br> <span
+      class="agcu-c">C</span>onvid<span class="agcu-a">a</span>do p<span
+      class="agcu-a">a</span>r<span class="agcu-a">a</span> <span
+      class="agcu-a">a</span>present<span class="agcu-a">a</span>r projetos de
+      bio<span class="agcu-a">a</span>rte e f<span class="agcu-u">u</span>n<span
+      class="agcu-g">g</span>os em <span class="agcu-u">u</span>m dos en<span
+      class="agcu-c">c</span>ontros d<span class="agcu-a">a</span> residên<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>.
