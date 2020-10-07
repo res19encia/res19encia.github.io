@@ -1,0 +1,49 @@
+embody:
+  'Anais-Karenin':
+    url: 'http://anaiskarenin.com'
+    image: 'media/images/embody/anais-karenin.jpg'
+  'Thiago Hersan':
+    url: 'https://thiagohersan.com'
+    image: 'media/images/embody/thiago-hersan.jpg'
+  'Mari Nagem':
+    url: 'https://marinagem.com'
+    image: 'media/images/embody/mari-nagem.jpg'
+  'Lina Lopes':
+    url: 'https://www.linalopes.info'
+    image: 'media/images/embody/lina-lopes.jpg'
+  'Paulina Yeal Cho':
+    url: ''
+    image: 'media/images/embody/paulina-cho.jpg'
+  'Artur Ched':
+    url: ''
+    image: 'media/images/embody/artur-ched.jpg'
+  'Eduardo Padilha':
+    url: ''
+    image: 'media/images/embody/eduardo-padilha.jpg'
+  'Luccas Morais':
+    url: 'https://lumorais.hotglue.me/'
+    image: 'media/images/embody/luccas-morais.jpg'
+  'Fernando Tomé':
+    url: ''
+    image: 'media/images/embody/fernando-tome.jpg'
+  'Nichollas Alem':
+    url: ''
+    image: 'media/images/embody/nichollas-alem.jpg'
+  'Rafael Nepô':
+    url: ''
+    image: 'media/images/embody/rafael-nepo.jpg'
+  'Giovanna Graziosi Casimiro':
+    url: 'https://ggcasimiro.com'
+    image: 'media/images/embody/giovanna-casimiro.jpg'
+  'Marcele Guerra':
+    url: ''
+    image: 'media/images/embody/marcele-guerra.jpg'
+  'Cesar Baio':
+    url: ''
+    image: 'media/images/embody/cesar-baio.jpg'
+
+flux:
+    - '<span class="flux-supscript"><a href="https://www.emergeinteractive.com/insights/detail/does-irresponsible-web-development-contribute-to-global-warming/#:~:text=According%20to%20the%20American%20Council,dioxide%20for%20every%20kWh%20generated" target="_blank">[1]</a><a href="https://www.aceee.org/files/proceedings/2012/data/papers/0193-000409.pdf" target="_blank">[2]</a></span>'
+    - '<span class="flux-supscript"><a href="https://www.rensmart.com/Calculators/KWH-to-CO2" target="_blank">[3]</a><a href="https://www.eia.gov/tools/faqs/faq.php?id=74&t=11" target="_blank">[4]</a></span>'
+    - '<span class="flux-supscript"><a href="https://www.icao.int/environmental-protection/Carbonoffset/Pages/default.aspx" target="_blank">[5]</a></span>'
+    - ''

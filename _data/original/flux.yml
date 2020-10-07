@@ -1,0 +1,27 @@
+pt:
+  stats:
+    - title: 'Nossa ausência presente em rede deixou sua pegada de carbono:'
+      content: 'Foram  40h 13m 12s de encontros durante 4 meses:<br>144.793 segundos de videochamadas,<br>136.086 segundos de audios trocados,<br>121.467 segundos de câmeras ligadas.'
+    - title: 'Nessas trocas perdemos:'
+      content: '1.887 pacotes de áudios,<br>518 pacotes de vídeo.'
+    - title: 'Mas também trocamos:'
+      content: '3,45 GBytes de compartilhamento de tela,<br>7,48 GBytes de áudio,<br>555,94 GBytes de vídeo.'
+  conclusion:
+    - 'Criamos memórias em máquinas e descobrimos o tele-abraço.<br><br>Porém, cada uma de nós consumiu aproximadamente 2.830 kWh de energia'
+    - ', liberando 900 kg de CO2'
+    - ' para o efeito estufa.<br><br>Ou seja, o equivalente a uma viagem de São Paulo à Xangai'
+    - ', porém, sem direito à volta.'
+
+en:
+  stats:
+    - title: 'Our present absence in the network left its carbon footprint:'
+      content: 'We had  40h 13m 12s of meetings during 4 months:<br>144,793 seconds of video calls,<br>136,086 seconds of audio,<br>121,467 seconds of camera recordings.'
+    - title: 'In these exchanges we lost:'
+      content: '1,887 packets of audio,<br>518 packets of video.'
+    - title: 'But we also exchanged:'
+      content: '3.45 GBytes of screen shares,<br>7.48 GBytes of audio,<br>555.94 GBytes of video.'
+  conclusion:
+    - 'We created memories in machines and discovered the telematic hug.<br><br>However, each of us consumed approximately 2,830 kWh of energy'
+    - ', contributing 900 kg of CO2'
+    - ' to the atmosphere.<br><br>That is the equivalent of a trip from São Paulo to Shangai'
+    - ', but only as a one-way journey.'
