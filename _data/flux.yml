@@ -1,27 +1,118 @@
 pt:
   stats:
-    - title: 'Nossa ausência presente em rede deixou sua pegada de carbono:'
-      content: 'Foram  40h 13m 12s de encontros durante 4 meses:<br>144.793 segundos de videochamadas,<br>136.086 segundos de audios trocados,<br>121.467 segundos de câmeras ligadas.'
-    - title: 'Nessas trocas perdemos:'
-      content: '1.887 pacotes de áudios,<br>518 pacotes de vídeo.'
-    - title: 'Mas também trocamos:'
-      content: '3,45 GBytes de compartilhamento de tela,<br>7,48 GBytes de áudio,<br>555,94 GBytes de vídeo.'
-  conclusion:
-    - 'Criamos memórias em máquinas e descobrimos o tele-abraço.<br><br>Porém, cada uma de nós consumiu aproximadamente 2.830 kWh de energia'
-    - ', liberando 900 kg de CO2'
-    - ' para o efeito estufa.<br><br>Ou seja, o equivalente a uma viagem de São Paulo à Xangai'
-    - ', porém, sem direito à volta.'
+    - title: 'Noss<span class="agcu-a">a</span> <span class="agcu-a">a</span><span
+        class="agcu-u">u</span>sên<span class="agcu-c">c</span>i<span
+        class="agcu-a">a</span> presente em rede deixo<span
+        class="agcu-u">u</span> s<span class="agcu-u">u</span><span
+        class="agcu-a">a</span> pe<span class="agcu-g">g</span><span
+        class="agcu-a">a</span>d<span class="agcu-a">a</span> de <span
+        class="agcu-c">c</span><span class="agcu-a">a</span>rbono:'
+      content: 'For<span class="agcu-a">a</span>m  40h 13m 12s de en<span
+        class="agcu-c">c</span>ontros d<span class="agcu-u">u</span>r<span
+        class="agcu-a">a</span>nte 4 meses: <br> 144.793 se<span
+        class="agcu-g">g</span><span class="agcu-u">u</span>ndos de video<span
+        class="agcu-c">c</span>h<span class="agcu-a">a</span>m<span
+        class="agcu-a">a</span>d<span class="agcu-a">a</span>s, <br> 136.086
+        se<span class="agcu-g">g</span><span class="agcu-u">u</span>ndos de
+        <span class="agcu-a">a</span><span class="agcu-u">u</span>dios tro<span
+        class="agcu-c">c</span><span class="agcu-a">a</span>dos, <br> 121.467
+        se<span class="agcu-g">g</span><span class="agcu-u">u</span>ndos de
+        <span class="agcu-c">c</span><span class="agcu-a">â</span>mer<span
+        class="agcu-a">a</span>s li<span class="agcu-g">g</span><span
+        class="agcu-a">a</span>d<span class="agcu-a">a</span>s.'
 
+    - title: 'Ness<span class="agcu-a">a</span>s tro<span class="agcu-c">c</span><span
+        class="agcu-a">a</span>s perdemos:'
+      content: 1.887 p<span class="agcu-a">a</span><span class="agcu-c">c</span>otes
+        de <span class="agcu-a">á</span><span class="agcu-u">u</span>dios, <br>
+        518 p<span class="agcu-a">a</span><span class="agcu-c">c</span>otes de
+        vídeo.
+
+    - title: 'M<span class="agcu-a">a</span>s t<span class="agcu-a">a</span>mbém
+        tro<span class="agcu-c">c</span><span class="agcu-a">a</span>mos:'
+      content: 3,45 <span class="agcu-g">G</span>Bytes de <span
+        class="agcu-c">c</span>omp<span class="agcu-a">a</span>rtilh<span
+        class="agcu-a">a</span>mento de tel<span class="agcu-a">a</span>, <br>
+        7,48 <span class="agcu-g">G</span>Bytes de <span
+        class="agcu-a">á</span><span class="agcu-u">u</span>dio, <br> 555,94
+        <span class="agcu-g">G</span>Bytes de vídeo.
+  conclusion:
+    - <span class="agcu-c">C</span>ri<span class="agcu-a">a</span>mos memóri<span
+      class="agcu-a">a</span>s em m<span class="agcu-a">á</span>q<span
+      class="agcu-u">u</span>in<span class="agcu-a">a</span>s e des<span
+      class="agcu-c">c</span>obrimos o tele-<span class="agcu-a">a</span>br<span
+      class="agcu-a">a</span><span class="agcu-c">ç</span>o. <br>  <br> Porém,
+      <span class="agcu-c">c</span><span class="agcu-a">a</span>d<span
+      class="agcu-a">a</span> <span class="agcu-u">u</span>m<span
+      class="agcu-a">a</span> de nós <span class="agcu-c">c</span>ons<span
+      class="agcu-u">u</span>mi<span class="agcu-u">u</span> <span
+      class="agcu-a">a</span>proxim<span class="agcu-a">a</span>d<span
+      class="agcu-a">a</span>mente 2.830 kWh de ener<span
+      class="agcu-g">g</span>i<span class="agcu-a">a</span>
+    - ', liber<span class="agcu-a">a</span>ndo 900 k<span class="agcu-g">g</span>
+      de <span class="agcu-c">C</span>O2'
+    - p<span class="agcu-a">a</span>r<span class="agcu-a">a</span> o efeito
+      est<span class="agcu-u">u</span>f<span class="agcu-a">a</span>. <br>  <br>
+      O<span class="agcu-u">u</span> sej<span class="agcu-a">a</span>, o eq<span
+      class="agcu-u">u</span>iv<span class="agcu-a">a</span>lente <span
+      class="agcu-a">a</span> <span class="agcu-u">u</span>m<span
+      class="agcu-a">a</span> vi<span class="agcu-a">a</span><span
+      class="agcu-g">g</span>em de S<span class="agcu-a">ã</span>o P<span
+      class="agcu-a">a</span><span class="agcu-u">u</span>lo <span
+      class="agcu-a">à</span> X<span class="agcu-a">a</span>n<span
+      class="agcu-g">g</span><span class="agcu-a">a</span>i
+    - ', porém, sem direito <span class="agcu-a">à</span> volt<span
+      class="agcu-a">a</span>.'
 en:
   stats:
-    - title: 'Our present absence in the network left its carbon footprint:'
-      content: 'We had  40h 13m 12s of meetings during 4 months:<br>144,793 seconds of video calls,<br>136,086 seconds of audio,<br>121,467 seconds of camera recordings.'
-    - title: 'In these exchanges we lost:'
-      content: '1,887 packets of audio,<br>518 packets of video.'
-    - title: 'But we also exchanged:'
-      content: '3.45 GBytes of screen shares,<br>7.48 GBytes of audio,<br>555.94 GBytes of video.'
+    - title: 'O<span class="agcu-u">u</span>r present <span
+        class="agcu-a">a</span>bsen<span class="agcu-c">c</span>e in the network
+        left its <span class="agcu-c">c</span><span class="agcu-a">a</span>rbon
+        footprint:'
+      content: 'We h<span class="agcu-a">a</span>d  40h 13m 12s of meetin<span
+        class="agcu-g">g</span>s d<span class="agcu-u">u</span>rin<span
+        class="agcu-g">g</span> 4 months: <br> 144,793 se<span
+        class="agcu-c">c</span>onds of video <span class="agcu-c">c</span><span
+        class="agcu-a">a</span>lls, <br> 136,086 se<span
+        class="agcu-c">c</span>onds of <span class="agcu-a">a</span><span
+        class="agcu-u">u</span>dio, <br> 121,467 se<span
+        class="agcu-c">c</span>onds of <span class="agcu-c">c</span><span
+        class="agcu-a">a</span>mer<span class="agcu-a">a</span> re<span
+        class="agcu-c">c</span>ordin<span class="agcu-g">g</span>s.'
+    - title: 'In these ex<span class="agcu-c">c</span>h<span
+        class="agcu-a">a</span>n<span class="agcu-g">g</span>es we lost:'
+      content: 1,887 p<span class="agcu-a">a</span><span class="agcu-c">c</span>kets
+        of <span class="agcu-a">a</span><span class="agcu-u">u</span>dio, <br>
+        518 p<span class="agcu-a">a</span><span class="agcu-c">c</span>kets of
+        video.
+    - title: 'B<span class="agcu-u">u</span>t we <span class="agcu-a">a</span>lso
+        ex<span class="agcu-c">c</span>h<span class="agcu-a">a</span>n<span
+        class="agcu-g">g</span>ed:'
+      content: 3.45 <span class="agcu-g">G</span>Bytes of s<span
+        class="agcu-c">c</span>reen sh<span class="agcu-a">a</span>res, <br>
+        7.48 <span class="agcu-g">G</span>Bytes of <span
+        class="agcu-a">a</span><span class="agcu-u">u</span>dio, <br> 555.94
+        <span class="agcu-g">G</span>Bytes of video.
   conclusion:
-    - 'We created memories in machines and discovered the telematic hug.<br><br>However, each of us consumed approximately 2,830 kWh of energy'
-    - ', contributing 900 kg of CO2'
-    - ' to the atmosphere.<br><br>That is the equivalent of a trip from São Paulo to Shangai'
-    - ', but only as a one-way journey.'
+    - We <span class="agcu-c">c</span>re<span class="agcu-a">a</span>ted memories
+      in m<span class="agcu-a">a</span><span class="agcu-c">c</span>hines <span
+      class="agcu-a">a</span>nd dis<span class="agcu-c">c</span>overed the
+      telem<span class="agcu-a">a</span>ti<span class="agcu-c">c</span> h<span
+      class="agcu-u">u</span><span class="agcu-g">g</span>. <br>  <br> However,
+      e<span class="agcu-a">a</span><span class="agcu-c">c</span>h of <span
+      class="agcu-u">u</span>s <span class="agcu-c">c</span>ons<span
+      class="agcu-u">u</span>med <span class="agcu-a">a</span>pproxim<span
+      class="agcu-a">a</span>tely 2,830 kWh of ener<span
+      class="agcu-g">g</span>y
+    - ', <span class="agcu-c">c</span>ontrib<span class="agcu-u">u</span>tin<span
+      class="agcu-g">g</span> 900 k<span class="agcu-g">g</span> of <span
+      class="agcu-c">C</span>O2'
+    - to the <span class="agcu-a">a</span>tmosphere. <br>  <br> Th<span
+      class="agcu-a">a</span>t is the eq<span class="agcu-u">u</span>iv<span
+      class="agcu-a">a</span>lent of <span class="agcu-a">a</span> trip from
+      S<span class="agcu-a">ã</span>o P<span class="agcu-a">a</span><span
+      class="agcu-u">u</span>lo to Sh<span class="agcu-a">a</span>n<span
+      class="agcu-g">g</span><span class="agcu-a">a</span>i
+    - ', b<span class="agcu-u">u</span>t only <span class="agcu-a">a</span>s
+      <span class="agcu-a">a</span> one-w<span class="agcu-a">a</span>y jo<span
+      class="agcu-u">u</span>rney.'
