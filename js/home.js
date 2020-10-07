@@ -207,14 +207,6 @@ function drawButtons() {
     be.classList.add('pink-style');
     be.innerHTML = bLabel;
 
-    const mLeft = Math.min(window.innerWidth,
-                           Math.max(10, button[i].x + width / 2 - (6 * bLabel.length)));
-    const mTop = Math.min(window.innerHeight,
-                          Math.max(10, button[i].y + height / 2 - 12));
-
-    be.style['left'] = `${mLeft}px`;
-    be.style['top'] = `${mTop}px`;
-
     be.addEventListener('click', () => {
       const lightboxOverlay = document.getElementById('my-home-lightbox-overlay');
       const lightboxTitle = document.getElementById('my-home-lightbox-title');
@@ -224,6 +216,14 @@ function drawButtons() {
       lightboxContent.innerHTML = bContent;
     });
     document.getElementById('my-home-buttons').appendChild(be);
+
+    const mLeft = Math.min(window.innerWidth,
+                           Math.max(10, button[i].x + width / 2 - (be.offsetWidth / 2)));
+    const mTop = Math.min(window.innerHeight,
+                          Math.max(10, button[i].y + height / 2 - (be.offsetHeight / 2)));
+
+    be.style['left'] = `${mLeft}px`;
+    be.style['top'] = `${mTop}px`;
   }
 }
 
