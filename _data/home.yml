@@ -1,42 +1,633 @@
 pt:
-  subtitle: 'Isto não é uma exposição.<br>Isto não é um processo.<br>Isto é uma situação.'
-  intro: 'A gente não achou que esta situação iria durar tanto. Março, 2020. Optamos por esperar juntas enquanto construíamos a residência criativa aqui situada.<br><br>Fizemos tudo isso digitalmente atravessando o virtual. Ao contrário do que imaginávamos, o virtual não é o oposto do real, e sim uma outra maneira de estar presente e construir uma identidade. Há linguagem, processos e formas próprias. Assim já dizia Pierre Lévy,  “A virtualização não é uma desrealização, mas uma mutação de identidade. (…) “A virtualização é um dos principais vetores da criação de realidade.”<br><br>Este é o nosso atual, tangível dentro do seu próprio sistema de possibilidades.<br><br>Mari e Lina | São Paulo, 2020'
-
+  subtitle: Isto n<span class="agcu-a">ã</span>o é <span
+    class="agcu-u">u</span>m<span class="agcu-a">a</span> exposi<span
+    class="agcu-c">ç</span><span class="agcu-a">ã</span>o. <br> Isto n<span
+    class="agcu-a">ã</span>o é <span class="agcu-u">u</span>m pro<span
+    class="agcu-c">c</span>esso. <br> Isto é <span class="agcu-u">u</span>m<span
+    class="agcu-a">a</span> sit<span class="agcu-u">u</span><span
+    class="agcu-a">a</span><span class="agcu-c">ç</span><span
+    class="agcu-a">ã</span>o.
+  intro: <span class="agcu-a">A</span> <span class="agcu-g">g</span>ente n<span
+    class="agcu-a">ã</span>o <span class="agcu-a">a</span><span
+    class="agcu-c">c</span>ho<span class="agcu-u">u</span> q<span
+    class="agcu-u">u</span>e est<span class="agcu-a">a</span> sit<span
+    class="agcu-u">u</span><span class="agcu-a">a</span><span
+    class="agcu-c">ç</span><span class="agcu-a">ã</span>o iri<span
+    class="agcu-a">a</span> d<span class="agcu-u">u</span>r<span
+    class="agcu-a">a</span>r t<span class="agcu-a">a</span>nto. M<span
+    class="agcu-a">a</span>r<span class="agcu-c">ç</span>o, 2020. Opt<span
+    class="agcu-a">a</span>mos por esper<span class="agcu-a">a</span>r j<span
+    class="agcu-u">u</span>nt<span class="agcu-a">a</span>s enq<span
+    class="agcu-u">u</span><span class="agcu-a">a</span>nto <span
+    class="agcu-c">c</span>onstr<span class="agcu-u">u</span>í<span
+    class="agcu-a">a</span>mos <span class="agcu-a">a</span> residên<span
+    class="agcu-c">c</span>i<span class="agcu-a">a</span> <span
+    class="agcu-c">c</span>ri<span class="agcu-a">a</span>tiv<span
+    class="agcu-a">a</span> <span class="agcu-a">a</span>q<span
+    class="agcu-u">u</span>i sit<span class="agcu-u">u</span><span
+    class="agcu-a">a</span>d<span class="agcu-a">a</span>. <br>  <br> Fizemos
+    t<span class="agcu-u">u</span>do isso di<span class="agcu-g">g</span>it<span
+    class="agcu-a">a</span>lmente <span class="agcu-a">a</span>tr<span
+    class="agcu-a">a</span>vess<span class="agcu-a">a</span>ndo o virt<span
+    class="agcu-u">u</span><span class="agcu-a">a</span>l. <span
+    class="agcu-a">A</span>o <span class="agcu-c">c</span>ontr<span
+    class="agcu-a">á</span>rio do q<span class="agcu-u">u</span>e im<span
+    class="agcu-a">a</span><span class="agcu-g">g</span>in<span
+    class="agcu-a">á</span>v<span class="agcu-a">a</span>mos, o virt<span
+    class="agcu-u">u</span><span class="agcu-a">a</span>l n<span
+    class="agcu-a">ã</span>o é o oposto do re<span class="agcu-a">a</span>l, e
+    sim <span class="agcu-u">u</span>m<span class="agcu-a">a</span> o<span
+    class="agcu-u">u</span>tr<span class="agcu-a">a</span> m<span
+    class="agcu-a">a</span>neir<span class="agcu-a">a</span> de est<span
+    class="agcu-a">a</span>r presente e <span class="agcu-c">c</span>onstr<span
+    class="agcu-u">u</span>ir <span class="agcu-u">u</span>m<span
+    class="agcu-a">a</span> identid<span class="agcu-a">a</span>de. H<span
+    class="agcu-a">á</span> lin<span class="agcu-g">g</span><span
+    class="agcu-u">u</span><span class="agcu-a">a</span><span
+    class="agcu-g">g</span>em, pro<span class="agcu-c">c</span>essos e form<span
+    class="agcu-a">a</span>s própri<span class="agcu-a">a</span>s. <span
+    class="agcu-a">A</span>ssim j<span class="agcu-a">á</span> dizi<span
+    class="agcu-a">a</span> Pierre Lévy,  “<span class="agcu-a">A</span>
+    virt<span class="agcu-u">u</span><span class="agcu-a">a</span>liz<span
+    class="agcu-a">a</span><span class="agcu-c">ç</span><span
+    class="agcu-a">ã</span>o n<span class="agcu-a">ã</span>o é <span
+    class="agcu-u">u</span>m<span class="agcu-a">a</span> desre<span
+    class="agcu-a">a</span>liz<span class="agcu-a">a</span><span
+    class="agcu-c">ç</span><span class="agcu-a">ã</span>o, m<span
+    class="agcu-a">a</span>s <span class="agcu-u">u</span>m<span
+    class="agcu-a">a</span> m<span class="agcu-u">u</span>t<span
+    class="agcu-a">a</span><span class="agcu-c">ç</span><span
+    class="agcu-a">ã</span>o de identid<span class="agcu-a">a</span>de. (…)
+    “<span class="agcu-a">A</span> virt<span class="agcu-u">u</span><span
+    class="agcu-a">a</span>liz<span class="agcu-a">a</span><span
+    class="agcu-c">ç</span><span class="agcu-a">ã</span>o é <span
+    class="agcu-u">u</span>m dos prin<span class="agcu-c">c</span>ip<span
+    class="agcu-a">a</span>is vetores d<span class="agcu-a">a</span> <span
+    class="agcu-c">c</span>ri<span class="agcu-a">a</span><span
+    class="agcu-c">ç</span><span class="agcu-a">ã</span>o de re<span
+    class="agcu-a">a</span>lid<span class="agcu-a">a</span>de.” <br>  <br> Este
+    é o nosso <span class="agcu-a">a</span>t<span class="agcu-u">u</span><span
+    class="agcu-a">a</span>l, t<span class="agcu-a">a</span>n<span
+    class="agcu-g">g</span>ível dentro do se<span class="agcu-u">u</span>
+    próprio sistem<span class="agcu-a">a</span> de possibilid<span
+    class="agcu-a">a</span>des. <br>  <br> M<span class="agcu-a">a</span>ri e
+    Lin<span class="agcu-a">a</span> | S<span class="agcu-a">ã</span>o P<span
+    class="agcu-a">a</span><span class="agcu-u">u</span>lo, 2020
   button-labels:
-    frame: 'molduras'
-    embody: 'vínculos'
-    flood: 'inundações'
-    flux: 'fluxos'
-
+    frame: mold<span class="agcu-u">u</span>r<span class="agcu-a">a</span>s
+    embody: vín<span class="agcu-c">c</span><span class="agcu-u">u</span>los
+    flood: in<span class="agcu-u">u</span>nd<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span>ões
+    flux: fl<span class="agcu-u">u</span>xos
   descriptions:
-    frame: 'Eric Kluitenberg começa o seu livro <i>Delusive Spaces</i> refletindo sobre a ideia de que "as imagens escondem mais do que revelam". Kluitenberg propõe que a impossibilidade de mostrar tudo de uma vez em uma imagem (ou até em um sistema visual) é o que nos deixa sensível às possibilidades infinitas das imagens. As imagens capturadas geram um desejo latente, e uma busca, pelas outras imagens que estão além da borda da imagem sendo vista. Ou seja, uma imagem contém em si suas infinitas possibilidades.<br><br>Pensando sobre espaços midiáticos híbridos, as redes também escondem mais do que revelam. Para além das questões sobre vigilância e as infra-estruturas invisíveis da internet, podemos pensar também sobre as molduras criadas pelas tecnologias que usamos para nos comunicar. Apresentados <a class="home-lightbox-link" href="./molduras/">aqui</a> digitalmente, os projetos criados durante a residência são produtos desses recortes que vão além das fronteiras impostas pelas trocas de textos e áudios, lives e zooms, e assim habitam esse espaço de possibilidades e desejo latente.'
-
-    systems: 'No dia 26 de fevereiro de 2020, o Brasil teve seu primeiro caso de COVID confirmado. Como um corpo infectado, este site está se transformando até esta mesma data de 2021. Enquanto há tempo, veja aqui os efeitos da residência criativa Virus-19.'
-
-    flood: 'Os contemporâneos meios de comunicação criaram novas maneiras de intoxicação. A quantidade de informação produzida, a velocidade de disseminação e o longo alcance transbordou a internet. Disputamos atenção. A psicologia e a neurociência já nos informaram que temos capacidades limitadas de armazenamento em nossas confusas memórias. Mas ainda assim, continuamos a nadar incansavelmente nesta enxurrada de dados.<br><br>A internet, entre tantas coisas, se tornou nossa biblioteca compartilhada.  Ao longo dos nossos encontros, trocamos imagens, vídeos, áudios, livros, mas acima de tudo, trocamos <a class="home-lightbox-link" href="./inundacoes/">links</a>.'
-
-    flux: 'Telepresença é a presença permitida a distância. Uma presença longe. Essa presença-ausência de 7 artistas, 2 curadores e 5 convidados foi dissimulada durante Virus-19 com 144.793 segundos, 1.642 kbps de banda de upload de video, 3.135 kbps de compartilhamento de tela, 613 pacotes de áudio recebidos. Dados são os novos fluídos. E, eles também necessitam máscaras e filtros para o convívio social.<br>Confira <a class="home-lightbox-link" href="./fluxos/">aqui</a> os números que nos mediaram.'
-
-    embody: 'A virtualização sem dúvida, atinge todas as modalidades de estar junto. Novas conexões neurais são feitas e re-sensibilizadas. O corpo da máquina é o corpo da natureza, os bugs, os vírus. Criamos mapas de zonas sensoriais e tentamos perceber a substância através da tela, por condição, o lugar da coexistência sem matéria.<br><br>A escolha dos participantes foi realizada por algoritmos. Uma seleção natural por meios artificiais. Vírus-19 se formou como moléculas que se atraem mutuamente. Nos nutrimos de tempos em tempos por substanciosos conhecimentos específicos proveniente de nossas redes. Relações simbióticas sem troncos presentes, onde órgãos circulam entre o virtual e o atual, diluindo as fronteiras do corpo.<br>Retratados <a class="home-lightbox-link" href="./vinculos/">aqui</a>, os envolvidos neste entrelaçado.'
-
+    frame: Eri<span class="agcu-c">c</span> Kl<span
+      class="agcu-u">u</span>itenber<span class="agcu-g">g</span> <span
+      class="agcu-c">c</span>ome<span class="agcu-c">ç</span><span
+      class="agcu-a">a</span> o se<span class="agcu-u">u</span> livro  <i>
+      Del<span class="agcu-u">u</span>sive Sp<span class="agcu-a">a</span><span
+      class="agcu-c">c</span>es </i>  refletindo sobre <span
+      class="agcu-a">a</span> idei<span class="agcu-a">a</span> de q<span
+      class="agcu-u">u</span>e "<span class="agcu-a">a</span>s im<span
+      class="agcu-a">a</span><span class="agcu-g">g</span>ens es<span
+      class="agcu-c">c</span>ondem m<span class="agcu-a">a</span>is do q<span
+      class="agcu-u">u</span>e revel<span class="agcu-a">a</span>m". Kl<span
+      class="agcu-u">u</span>itenber<span class="agcu-g">g</span> propõe q<span
+      class="agcu-u">u</span>e <span class="agcu-a">a</span> impossibilid<span
+      class="agcu-a">a</span>de de mostr<span class="agcu-a">a</span>r t<span
+      class="agcu-u">u</span>do de <span class="agcu-u">u</span>m<span
+      class="agcu-a">a</span> vez em <span class="agcu-u">u</span>m<span
+      class="agcu-a">a</span> im<span class="agcu-a">a</span><span
+      class="agcu-g">g</span>em (o<span class="agcu-u">u</span> <span
+      class="agcu-a">a</span>té em <span class="agcu-u">u</span>m sistem<span
+      class="agcu-a">a</span> vis<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>l) é o q<span class="agcu-u">u</span>e nos
+      deix<span class="agcu-a">a</span> sensível <span class="agcu-a">à</span>s
+      possibilid<span class="agcu-a">a</span>des infinit<span
+      class="agcu-a">a</span>s d<span class="agcu-a">a</span>s im<span
+      class="agcu-a">a</span><span class="agcu-g">g</span>ens. <span
+      class="agcu-a">A</span>s im<span class="agcu-a">a</span><span
+      class="agcu-g">g</span>ens <span class="agcu-c">c</span><span
+      class="agcu-a">a</span>pt<span class="agcu-u">u</span>r<span
+      class="agcu-a">a</span>d<span class="agcu-a">a</span>s <span
+      class="agcu-g">g</span>er<span class="agcu-a">a</span>m <span
+      class="agcu-u">u</span>m desejo l<span class="agcu-a">a</span>tente, e
+      <span class="agcu-u">u</span>m<span class="agcu-a">a</span> b<span
+      class="agcu-u">u</span>s<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>, pel<span class="agcu-a">a</span>s o<span
+      class="agcu-u">u</span>tr<span class="agcu-a">a</span>s im<span
+      class="agcu-a">a</span><span class="agcu-g">g</span>ens q<span
+      class="agcu-u">u</span>e est<span class="agcu-a">ã</span>o <span
+      class="agcu-a">a</span>lém d<span class="agcu-a">a</span> bord<span
+      class="agcu-a">a</span> d<span class="agcu-a">a</span> im<span
+      class="agcu-a">a</span><span class="agcu-g">g</span>em sendo vist<span
+      class="agcu-a">a</span>. O<span class="agcu-u">u</span> sej<span
+      class="agcu-a">a</span>, <span class="agcu-u">u</span>m<span
+      class="agcu-a">a</span> im<span class="agcu-a">a</span><span
+      class="agcu-g">g</span>em <span class="agcu-c">c</span>ontém em si s<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>s infinit<span
+      class="agcu-a">a</span>s possibilid<span class="agcu-a">a</span>des.
+      <br>  <br> Pens<span class="agcu-a">a</span>ndo sobre esp<span
+      class="agcu-a">a</span><span class="agcu-c">ç</span>os midi<span
+      class="agcu-a">á</span>ti<span class="agcu-c">c</span>os híbridos, <span
+      class="agcu-a">a</span>s redes t<span class="agcu-a">a</span>mbém es<span
+      class="agcu-c">c</span>ondem m<span class="agcu-a">a</span>is do q<span
+      class="agcu-u">u</span>e revel<span class="agcu-a">a</span>m. P<span
+      class="agcu-a">a</span>r<span class="agcu-a">a</span> <span
+      class="agcu-a">a</span>lém d<span class="agcu-a">a</span>s q<span
+      class="agcu-u">u</span>estões sobre vi<span class="agcu-g">g</span>il<span
+      class="agcu-a">â</span>n<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span> e <span class="agcu-a">a</span>s infr<span
+      class="agcu-a">a</span>-estr<span class="agcu-u">u</span>t<span
+      class="agcu-u">u</span>r<span class="agcu-a">a</span>s invisíveis d<span
+      class="agcu-a">a</span> internet, podemos pens<span
+      class="agcu-a">a</span>r t<span class="agcu-a">a</span>mbém sobre <span
+      class="agcu-a">a</span>s mold<span class="agcu-u">u</span>r<span
+      class="agcu-a">a</span>s <span class="agcu-c">c</span>ri<span
+      class="agcu-a">a</span>d<span class="agcu-a">a</span>s pel<span
+      class="agcu-a">a</span>s te<span class="agcu-c">c</span>nolo<span
+      class="agcu-g">g</span>i<span class="agcu-a">a</span>s q<span
+      class="agcu-u">u</span>e <span class="agcu-u">u</span>s<span
+      class="agcu-a">a</span>mos p<span class="agcu-a">a</span>r<span
+      class="agcu-a">a</span> nos <span class="agcu-c">c</span>om<span
+      class="agcu-u">u</span>ni<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>r. <span class="agcu-a">A</span>present<span
+      class="agcu-a">a</span>dos  <a class="home-lightbox-link"
+      href="./molduras/"> <span class="agcu-a">a</span>q<span
+      class="agcu-u">u</span>i </a>  di<span class="agcu-g">g</span>it<span
+      class="agcu-a">a</span>lmente, os projetos <span
+      class="agcu-c">c</span>ri<span class="agcu-a">a</span>dos d<span
+      class="agcu-u">u</span>r<span class="agcu-a">a</span>nte <span
+      class="agcu-a">a</span> residên<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span> s<span class="agcu-a">ã</span>o prod<span
+      class="agcu-u">u</span>tos desses re<span class="agcu-c">c</span>ortes
+      q<span class="agcu-u">u</span>e v<span class="agcu-a">ã</span>o <span
+      class="agcu-a">a</span>lém d<span class="agcu-a">a</span>s fronteir<span
+      class="agcu-a">a</span>s impost<span class="agcu-a">a</span>s pel<span
+      class="agcu-a">a</span>s tro<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>s de textos e <span class="agcu-a">á</span><span
+      class="agcu-u">u</span>dios, lives e zooms, e <span
+      class="agcu-a">a</span>ssim h<span class="agcu-a">a</span>bit<span
+      class="agcu-a">a</span>m esse esp<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span>o de possibilid<span class="agcu-a">a</span>des e
+      desejo l<span class="agcu-a">a</span>tente.
+    systems: No di<span class="agcu-a">a</span> 26 de fevereiro de 2020, o Br<span
+      class="agcu-a">a</span>sil teve se<span class="agcu-u">u</span> primeiro
+      <span class="agcu-c">c</span><span class="agcu-a">a</span>so de <span
+      class="agcu-c">C</span>OVID <span class="agcu-c">c</span>onfirm<span
+      class="agcu-a">a</span>do. <span class="agcu-c">C</span>omo <span
+      class="agcu-u">u</span>m <span class="agcu-c">c</span>orpo infe<span
+      class="agcu-c">c</span>t<span class="agcu-a">a</span>do, este site
+      est<span class="agcu-a">á</span> se tr<span
+      class="agcu-a">a</span>nsform<span class="agcu-a">a</span>ndo <span
+      class="agcu-a">a</span>té est<span class="agcu-a">a</span> mesm<span
+      class="agcu-a">a</span> d<span class="agcu-a">a</span>t<span
+      class="agcu-a">a</span> de 2021. Enq<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>nto h<span class="agcu-a">á</span> tempo, vej<span
+      class="agcu-a">a</span> <span class="agcu-a">a</span>q<span
+      class="agcu-u">u</span>i os efeitos d<span class="agcu-a">a</span>
+      residên<span class="agcu-c">c</span>i<span class="agcu-a">a</span> <span
+      class="agcu-c">c</span>ri<span class="agcu-a">a</span>tiv<span
+      class="agcu-a">a</span> Vir<span class="agcu-u">u</span>s-19.
+    flood: Os <span class="agcu-c">c</span>ontempor<span class="agcu-a">â</span>neos
+      meios de <span class="agcu-c">c</span>om<span
+      class="agcu-u">u</span>ni<span class="agcu-c">c</span><span
+      class="agcu-a">a</span><span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o <span class="agcu-c">c</span>ri<span
+      class="agcu-a">a</span>r<span class="agcu-a">a</span>m nov<span
+      class="agcu-a">a</span>s m<span class="agcu-a">a</span>neir<span
+      class="agcu-a">a</span>s de intoxi<span class="agcu-c">c</span><span
+      class="agcu-a">a</span><span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o. <span class="agcu-a">A</span> q<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>ntid<span
+      class="agcu-a">a</span>de de inform<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span><span class="agcu-a">ã</span>o prod<span
+      class="agcu-u">u</span>zid<span class="agcu-a">a</span>, <span
+      class="agcu-a">a</span> velo<span class="agcu-c">c</span>id<span
+      class="agcu-a">a</span>de de dissemin<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span><span class="agcu-a">ã</span>o e o lon<span
+      class="agcu-g">g</span>o <span class="agcu-a">a</span>l<span
+      class="agcu-c">c</span><span class="agcu-a">a</span>n<span
+      class="agcu-c">c</span>e tr<span class="agcu-a">a</span>nsbordo<span
+      class="agcu-u">u</span> <span class="agcu-a">a</span> internet. Disp<span
+      class="agcu-u">u</span>t<span class="agcu-a">a</span>mos <span
+      class="agcu-a">a</span>ten<span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o. <span class="agcu-a">A</span> psi<span
+      class="agcu-c">c</span>olo<span class="agcu-g">g</span>i<span
+      class="agcu-a">a</span> e <span class="agcu-a">a</span> ne<span
+      class="agcu-u">u</span>ro<span class="agcu-c">c</span>iên<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span> j<span
+      class="agcu-a">á</span> nos inform<span class="agcu-a">a</span>r<span
+      class="agcu-a">a</span>m q<span class="agcu-u">u</span>e temos <span
+      class="agcu-c">c</span><span class="agcu-a">a</span>p<span
+      class="agcu-a">a</span><span class="agcu-c">c</span>id<span
+      class="agcu-a">a</span>des limit<span class="agcu-a">a</span>d<span
+      class="agcu-a">a</span>s de <span class="agcu-a">a</span>rm<span
+      class="agcu-a">a</span>zen<span class="agcu-a">a</span>mento em noss<span
+      class="agcu-a">a</span>s <span class="agcu-c">c</span>onf<span
+      class="agcu-u">u</span>s<span class="agcu-a">a</span>s memóri<span
+      class="agcu-a">a</span>s. M<span class="agcu-a">a</span>s <span
+      class="agcu-a">a</span>ind<span class="agcu-a">a</span> <span
+      class="agcu-a">a</span>ssim, <span class="agcu-c">c</span>ontin<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>mos <span
+      class="agcu-a">a</span> n<span class="agcu-a">a</span>d<span
+      class="agcu-a">a</span>r in<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>ns<span class="agcu-a">a</span>velmente nest<span
+      class="agcu-a">a</span> enx<span class="agcu-u">u</span>rr<span
+      class="agcu-a">a</span>d<span class="agcu-a">a</span> de d<span
+      class="agcu-a">a</span>dos. <br>  <br> <span class="agcu-a">A</span>
+      internet, entre t<span class="agcu-a">a</span>nt<span
+      class="agcu-a">a</span>s <span class="agcu-c">c</span>ois<span
+      class="agcu-a">a</span>s, se torno<span class="agcu-u">u</span> noss<span
+      class="agcu-a">a</span> bibliote<span class="agcu-c">c</span><span
+      class="agcu-a">a</span> <span class="agcu-c">c</span>omp<span
+      class="agcu-a">a</span>rtilh<span class="agcu-a">a</span>d<span
+      class="agcu-a">a</span>.  <span class="agcu-a">A</span>o lon<span
+      class="agcu-g">g</span>o dos nossos en<span class="agcu-c">c</span>ontros,
+      tro<span class="agcu-c">c</span><span class="agcu-a">a</span>mos im<span
+      class="agcu-a">a</span><span class="agcu-g">g</span>ens, vídeos, <span
+      class="agcu-a">á</span><span class="agcu-u">u</span>dios, livros, m<span
+      class="agcu-a">a</span>s <span class="agcu-a">a</span><span
+      class="agcu-c">c</span>im<span class="agcu-a">a</span> de t<span
+      class="agcu-u">u</span>do, tro<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>mos  <a class="home-lightbox-link"
+      href="./inundacoes/"> links </a> .
+    flux: Telepresen<span class="agcu-c">ç</span><span class="agcu-a">a</span> é
+      <span class="agcu-a">a</span> presen<span class="agcu-c">ç</span><span
+      class="agcu-a">a</span> permitid<span class="agcu-a">a</span> <span
+      class="agcu-a">a</span> dist<span class="agcu-a">â</span>n<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>. <span
+      class="agcu-u">U</span>m<span class="agcu-a">a</span> presen<span
+      class="agcu-c">ç</span><span class="agcu-a">a</span> lon<span
+      class="agcu-g">g</span>e. Ess<span class="agcu-a">a</span> presen<span
+      class="agcu-c">ç</span><span class="agcu-a">a</span>-<span
+      class="agcu-a">a</span><span class="agcu-u">u</span>sên<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span> de 7 <span
+      class="agcu-a">a</span>rtist<span class="agcu-a">a</span>s, 2 <span
+      class="agcu-c">c</span><span class="agcu-u">u</span>r<span
+      class="agcu-a">a</span>dores e 5 <span class="agcu-c">c</span>onvid<span
+      class="agcu-a">a</span>dos foi dissim<span class="agcu-u">u</span>l<span
+      class="agcu-a">a</span>d<span class="agcu-a">a</span> d<span
+      class="agcu-u">u</span>r<span class="agcu-a">a</span>nte Vir<span
+      class="agcu-u">u</span>s-19 <span class="agcu-c">c</span>om 144.793
+      se<span class="agcu-g">g</span><span class="agcu-u">u</span>ndos, 1.642
+      kbps de b<span class="agcu-a">a</span>nd<span class="agcu-a">a</span> de
+      <span class="agcu-u">u</span>plo<span class="agcu-a">a</span>d de video,
+      3.135 kbps de <span class="agcu-c">c</span>omp<span
+      class="agcu-a">a</span>rtilh<span class="agcu-a">a</span>mento de tel<span
+      class="agcu-a">a</span>, 613 p<span class="agcu-a">a</span><span
+      class="agcu-c">c</span>otes de <span class="agcu-a">á</span><span
+      class="agcu-u">u</span>dio re<span class="agcu-c">c</span>ebidos. D<span
+      class="agcu-a">a</span>dos s<span class="agcu-a">ã</span>o os novos
+      fl<span class="agcu-u">u</span>ídos. E, eles t<span
+      class="agcu-a">a</span>mbém ne<span class="agcu-c">c</span>essit<span
+      class="agcu-a">a</span>m m<span class="agcu-a">á</span>s<span
+      class="agcu-c">c</span><span class="agcu-a">a</span>r<span
+      class="agcu-a">a</span>s e filtros p<span class="agcu-a">a</span>r<span
+      class="agcu-a">a</span> o <span class="agcu-c">c</span>onvívio so<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>l. <br> <span
+      class="agcu-c">C</span>onfir<span class="agcu-a">a</span>  <a
+      class="home-lightbox-link" href="./fluxos/"> <span
+      class="agcu-a">a</span>q<span class="agcu-u">u</span>i </a>  os n<span
+      class="agcu-u">ú</span>meros q<span class="agcu-u">u</span>e nos medi<span
+      class="agcu-a">a</span>r<span class="agcu-a">a</span>m.
+    embody: <span class="agcu-a">A</span> virt<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>liz<span class="agcu-a">a</span><span
+      class="agcu-c">ç</span><span class="agcu-a">ã</span>o sem d<span
+      class="agcu-u">ú</span>vid<span class="agcu-a">a</span>, <span
+      class="agcu-a">a</span>tin<span class="agcu-g">g</span>e tod<span
+      class="agcu-a">a</span>s <span class="agcu-a">a</span>s mod<span
+      class="agcu-a">a</span>lid<span class="agcu-a">a</span>des de est<span
+      class="agcu-a">a</span>r j<span class="agcu-u">u</span>nto. Nov<span
+      class="agcu-a">a</span>s <span class="agcu-c">c</span>onexões ne<span
+      class="agcu-u">u</span>r<span class="agcu-a">a</span>is s<span
+      class="agcu-a">ã</span>o feit<span class="agcu-a">a</span>s e
+      re-sensibiliz<span class="agcu-a">a</span>d<span class="agcu-a">a</span>s.
+      O <span class="agcu-c">c</span>orpo d<span class="agcu-a">a</span> m<span
+      class="agcu-a">á</span>q<span class="agcu-u">u</span>in<span
+      class="agcu-a">a</span> é o <span class="agcu-c">c</span>orpo d<span
+      class="agcu-a">a</span> n<span class="agcu-a">a</span>t<span
+      class="agcu-u">u</span>rez<span class="agcu-a">a</span>, os b<span
+      class="agcu-u">u</span><span class="agcu-g">g</span>s, os vír<span
+      class="agcu-u">u</span>s. <span class="agcu-c">C</span>ri<span
+      class="agcu-a">a</span>mos m<span class="agcu-a">a</span>p<span
+      class="agcu-a">a</span>s de zon<span class="agcu-a">a</span>s sensori<span
+      class="agcu-a">a</span>is e tent<span class="agcu-a">a</span>mos per<span
+      class="agcu-c">c</span>eber <span class="agcu-a">a</span> s<span
+      class="agcu-u">u</span>bst<span class="agcu-a">â</span>n<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span> <span
+      class="agcu-a">a</span>tr<span class="agcu-a">a</span>vés d<span
+      class="agcu-a">a</span> tel<span class="agcu-a">a</span>, por <span
+      class="agcu-c">c</span>ondi<span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o, o l<span class="agcu-u">u</span><span
+      class="agcu-g">g</span><span class="agcu-a">a</span>r d<span
+      class="agcu-a">a</span> <span class="agcu-c">c</span>oexistên<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span> sem m<span
+      class="agcu-a">a</span>téri<span class="agcu-a">a</span>. <br>  <br> <span
+      class="agcu-a">A</span> es<span class="agcu-c">c</span>olh<span
+      class="agcu-a">a</span> dos p<span class="agcu-a">a</span>rti<span
+      class="agcu-c">c</span>ip<span class="agcu-a">a</span>ntes foi re<span
+      class="agcu-a">a</span>liz<span class="agcu-a">a</span>d<span
+      class="agcu-a">a</span> por <span class="agcu-a">a</span>l<span
+      class="agcu-g">g</span>oritmos. <span class="agcu-u">U</span>m<span
+      class="agcu-a">a</span> sele<span class="agcu-c">ç</span><span
+      class="agcu-a">ã</span>o n<span class="agcu-a">a</span>t<span
+      class="agcu-u">u</span>r<span class="agcu-a">a</span>l por meios <span
+      class="agcu-a">a</span>rtifi<span class="agcu-c">c</span>i<span
+      class="agcu-a">a</span>is. Vír<span class="agcu-u">u</span>s-19 se
+      formo<span class="agcu-u">u</span> <span class="agcu-c">c</span>omo
+      molé<span class="agcu-c">c</span><span class="agcu-u">u</span>l<span
+      class="agcu-a">a</span>s q<span class="agcu-u">u</span>e se <span
+      class="agcu-a">a</span>tr<span class="agcu-a">a</span>em m<span
+      class="agcu-u">u</span>t<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>mente. Nos n<span class="agcu-u">u</span>trimos de
+      tempos em tempos por s<span class="agcu-u">u</span>bst<span
+      class="agcu-a">a</span>n<span class="agcu-c">c</span>iosos <span
+      class="agcu-c">c</span>onhe<span class="agcu-c">c</span>imentos espe<span
+      class="agcu-c">c</span>ífi<span class="agcu-c">c</span>os proveniente de
+      noss<span class="agcu-a">a</span>s redes. Rel<span
+      class="agcu-a">a</span><span class="agcu-c">ç</span>ões simbióti<span
+      class="agcu-c">c</span><span class="agcu-a">a</span>s sem tron<span
+      class="agcu-c">c</span>os presentes, onde ór<span
+      class="agcu-g">g</span><span class="agcu-a">ã</span>os <span
+      class="agcu-c">c</span>ir<span class="agcu-c">c</span><span
+      class="agcu-u">u</span>l<span class="agcu-a">a</span>m entre o virt<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>l e o <span
+      class="agcu-a">a</span>t<span class="agcu-u">u</span><span
+      class="agcu-a">a</span>l, dil<span class="agcu-u">u</span>indo <span
+      class="agcu-a">a</span>s fronteir<span class="agcu-a">a</span>s do <span
+      class="agcu-c">c</span>orpo. <br> Retr<span class="agcu-a">a</span>t<span
+      class="agcu-a">a</span>dos  <a class="home-lightbox-link"
+      href="./vinculos/"> <span class="agcu-a">a</span>q<span
+      class="agcu-u">u</span>i </a> , os envolvidos neste entrel<span
+      class="agcu-a">a</span><span class="agcu-c">ç</span><span
+      class="agcu-a">a</span>do.
 en:
-  subtitle: 'This is not an exhibition.<br>This is not a process.<br>This is a situation.'
-  intro: 'We didn''t think this situation would last this long. March, 2020. We chose to wait together while building the creative residency situated here.<br><br>We did this digitally across the virtual. Contrary to what we imagined, the virtual is not the opposite of the real, but another way of being present and building an identity. It has a language, processes and forms of its own. As Pierre Lévy said, “Virtualization is not a un-realization, but a mutation of identity. (…) “Virtualization is one of the main vectors of creating reality.”<br><br>This is our current situation, tangible within its own system of possibilities.<br><br>Mari and Lina | São Paulo, 2020'
-
+  subtitle: This is not <span class="agcu-a">a</span>n exhibition. <br> This is
+    not <span class="agcu-a">a</span> pro<span class="agcu-c">c</span>ess. <br>
+    This is <span class="agcu-a">a</span> sit<span class="agcu-u">u</span><span
+    class="agcu-a">a</span>tion.
+  intro: We didn't think this sit<span class="agcu-u">u</span><span
+    class="agcu-a">a</span>tion wo<span class="agcu-u">u</span>ld l<span
+    class="agcu-a">a</span>st this lon<span class="agcu-g">g</span>. M<span
+    class="agcu-a">a</span>r<span class="agcu-c">c</span>h, 2020. We <span
+    class="agcu-c">c</span>hose to w<span class="agcu-a">a</span>it to<span
+    class="agcu-g">g</span>ether while b<span class="agcu-u">u</span>ildin<span
+    class="agcu-g">g</span> the <span class="agcu-c">c</span>re<span
+    class="agcu-a">a</span>tive residen<span class="agcu-c">c</span>y sit<span
+    class="agcu-u">u</span><span class="agcu-a">a</span>ted here. <br>  <br> We
+    did this di<span class="agcu-g">g</span>it<span class="agcu-a">a</span>lly
+    <span class="agcu-a">a</span><span class="agcu-c">c</span>ross the virt<span
+    class="agcu-u">u</span><span class="agcu-a">a</span>l. <span
+    class="agcu-c">C</span>ontr<span class="agcu-a">a</span>ry to wh<span
+    class="agcu-a">a</span>t we im<span class="agcu-a">a</span><span
+    class="agcu-g">g</span>ined, the virt<span class="agcu-u">u</span><span
+    class="agcu-a">a</span>l is not the opposite of the re<span
+    class="agcu-a">a</span>l, b<span class="agcu-u">u</span>t <span
+    class="agcu-a">a</span>nother w<span class="agcu-a">a</span>y of bein<span
+    class="agcu-g">g</span> present <span class="agcu-a">a</span>nd b<span
+    class="agcu-u">u</span>ildin<span class="agcu-g">g</span> <span
+    class="agcu-a">a</span>n identity. It h<span class="agcu-a">a</span>s <span
+    class="agcu-a">a</span> l<span class="agcu-a">a</span>n<span
+    class="agcu-g">g</span><span class="agcu-u">u</span><span
+    class="agcu-a">a</span><span class="agcu-g">g</span>e, pro<span
+    class="agcu-c">c</span>esses <span class="agcu-a">a</span>nd forms of its
+    own. <span class="agcu-a">A</span>s Pierre Lévy s<span
+    class="agcu-a">a</span>id, “Virt<span class="agcu-u">u</span><span
+    class="agcu-a">a</span>liz<span class="agcu-a">a</span>tion is not <span
+    class="agcu-a">a</span> <span class="agcu-u">u</span>n-re<span
+    class="agcu-a">a</span>liz<span class="agcu-a">a</span>tion, b<span
+    class="agcu-u">u</span>t <span class="agcu-a">a</span> m<span
+    class="agcu-u">u</span>t<span class="agcu-a">a</span>tion of identity. (…)
+    “Virt<span class="agcu-u">u</span><span class="agcu-a">a</span>liz<span
+    class="agcu-a">a</span>tion is one of the m<span class="agcu-a">a</span>in
+    ve<span class="agcu-c">c</span>tors of <span class="agcu-c">c</span>re<span
+    class="agcu-a">a</span>tin<span class="agcu-g">g</span> re<span
+    class="agcu-a">a</span>lity.” <br>  <br> This is o<span
+    class="agcu-u">u</span>r <span class="agcu-c">c</span><span
+    class="agcu-u">u</span>rrent sit<span class="agcu-u">u</span><span
+    class="agcu-a">a</span>tion, t<span class="agcu-a">a</span>n<span
+    class="agcu-g">g</span>ible within its own system of possibilities.
+    <br>  <br> M<span class="agcu-a">a</span>ri <span class="agcu-a">a</span>nd
+    Lin<span class="agcu-a">a</span> | S<span class="agcu-a">ã</span>o P<span
+    class="agcu-a">a</span><span class="agcu-u">u</span>lo, 2020
   button-labels:
-    frame: 'frame'
-    embody: 'embody'
-    flood: 'flood'
-    flux: 'flux'
-
-  link: '<a href="https://pdfhost.io/v/hHig4aOXB_kluitenbergdelusivespacesintropdf.pdf" target="_blank">Delusive Spaces</a>'
+    frame: fr<span class="agcu-a">a</span>me
+    embody: embody
+    flood: flood
+    flux: fl<span class="agcu-u">u</span>x
+  link: <a
+    href="https://pdfhost.io/v/hHig4aOXB_kluitenbergdelusivespacesintropdf.pdf"
+    target="_blank"> Del<span class="agcu-u">u</span>sive Sp<span
+    class="agcu-a">a</span><span class="agcu-c">c</span>es </a>
   descriptions:
-    frame: 'At the beginning of his book <i>Delusive Spaces</i>, Eric Kluitenberg reflects on the idea that "every image conceals more than it reveals". Kluitenberg proposes that the impossibility of showing everything at once in an image (or in a visual system) is what makes us sensitive to the infinite possibilities of the image. The captured images generate a latent desire, and a search, for the other images that are beyond the edge of the image being seen. That is, an image contains in itself its infinite possibilities.<br><br>Thinking about hybrid mediatic spaces, networks also conceal more than they reveal. In addition to the issues related to surveillance and the invisible infrastructures of the internet, we can also think about the framing created by the technologies we use to communicate. Digitally presented <a class="home-lightbox-link" href="./frame/">here</a>, the projects created during the residency are products of these cuts that reach beyond the boundaries imposed by the exchange of texts and audios, lives and zooms, and thus inhabit this space of possibilities and latent desire.'
-
-    flood: 'Our contemporary means of communication have created new ways of intoxication. The amount of content produced, the speed of dissemination and the long reach of information overflowed the internet. They compete for our attention. Psychology and neuroscience have already informed us that we have limited storage capacities in our confused memories. But still, we continue to swim tirelessly in this flood of data.<br><br>The internet, among so many things, has become our shared library. During our meetings, we exchanged images, videos, audios, books, but above all, we exchanged <a class="home-lightbox-link" href="./flood/">links</a>.'
-
-    flux: 'Telepresence is the presence allowed at a distance. A presence far away. This presence-absence of 7 artists, 2 curators and 5 guests was composed during Virus-19 by 144,793 seconds, 1,642 kbps of bandwidth of video upload, 3,135 kbps of screen sharing, 613 audio packets received. Data is a new fluid that also needs masks and filters for social interaction.<br>Confirm <a class="home-lightbox-link" href="./flux/">here</a> the numbers that mediated us.'
-
-    embody: 'Virtualization undoubtedly affects all forms of being together. New neural connections are made and re-sensitized. The body of the machine is the body of gaia, with bugs, viruses... We create maps of sensory zones and try to perceive their substance through screens, the place where we coexist without matter.<br><br>Participants were chosen by algorithms. A natural selection by artificial means. Virus-19 formed like molecules that attract each other. We nourished ourselves from time to time with specific, substantial knowledge from our networks. Symbiotic relationships with no anatomy, where organs circulate between the virtual and the current, diluting the body\''s borders. Pictured <a class="home-lightbox-link" href="./embody/">here</a>, those involved in this mesh.'
-
-    systems: 'On February 26th 2020, Brazil had its first COVID case confirmed. As an infected body, this site is being transformed. While there is still time, see here the effects of the creative residency Virus-19.'
+    frame: <span class="agcu-a">A</span>t the be<span
+      class="agcu-g">g</span>innin<span class="agcu-g">g</span> of his book  <i>
+      Del<span class="agcu-u">u</span>sive Sp<span class="agcu-a">a</span><span
+      class="agcu-c">c</span>es </i> , Eri<span class="agcu-c">c</span> Kl<span
+      class="agcu-u">u</span>itenber<span class="agcu-g">g</span> refle<span
+      class="agcu-c">c</span>ts on the ide<span class="agcu-a">a</span> th<span
+      class="agcu-a">a</span>t "every im<span class="agcu-a">a</span><span
+      class="agcu-g">g</span>e <span class="agcu-c">c</span>on<span
+      class="agcu-c">c</span>e<span class="agcu-a">a</span>ls more th<span
+      class="agcu-a">a</span>n it reve<span class="agcu-a">a</span>ls". Kl<span
+      class="agcu-u">u</span>itenber<span class="agcu-g">g</span> proposes
+      th<span class="agcu-a">a</span>t the impossibility of showin<span
+      class="agcu-g">g</span> everythin<span class="agcu-g">g</span> <span
+      class="agcu-a">a</span>t on<span class="agcu-c">c</span>e in <span
+      class="agcu-a">a</span>n im<span class="agcu-a">a</span><span
+      class="agcu-g">g</span>e (or in <span class="agcu-a">a</span> vis<span
+      class="agcu-u">u</span><span class="agcu-a">a</span>l system) is wh<span
+      class="agcu-a">a</span>t m<span class="agcu-a">a</span>kes <span
+      class="agcu-u">u</span>s sensitive to the infinite possibilities of the
+      im<span class="agcu-a">a</span><span class="agcu-g">g</span>e. The <span
+      class="agcu-c">c</span><span class="agcu-a">a</span>pt<span
+      class="agcu-u">u</span>red im<span class="agcu-a">a</span><span
+      class="agcu-g">g</span>es <span class="agcu-g">g</span>ener<span
+      class="agcu-a">a</span>te <span class="agcu-a">a</span> l<span
+      class="agcu-a">a</span>tent desire, <span class="agcu-a">a</span>nd <span
+      class="agcu-a">a</span> se<span class="agcu-a">a</span>r<span
+      class="agcu-c">c</span>h, for the other im<span
+      class="agcu-a">a</span><span class="agcu-g">g</span>es th<span
+      class="agcu-a">a</span>t <span class="agcu-a">a</span>re beyond the
+      ed<span class="agcu-g">g</span>e of the im<span
+      class="agcu-a">a</span><span class="agcu-g">g</span>e bein<span
+      class="agcu-g">g</span> seen. Th<span class="agcu-a">a</span>t is, <span
+      class="agcu-a">a</span>n im<span class="agcu-a">a</span><span
+      class="agcu-g">g</span>e <span class="agcu-c">c</span>ont<span
+      class="agcu-a">a</span>ins in itself its infinite possibilities.
+      <br>  <br> Thinkin<span class="agcu-g">g</span> <span
+      class="agcu-a">a</span>bo<span class="agcu-u">u</span>t hybrid medi<span
+      class="agcu-a">a</span>ti<span class="agcu-c">c</span> sp<span
+      class="agcu-a">a</span><span class="agcu-c">c</span>es, networks <span
+      class="agcu-a">a</span>lso <span class="agcu-c">c</span>on<span
+      class="agcu-c">c</span>e<span class="agcu-a">a</span>l more th<span
+      class="agcu-a">a</span>n they reve<span class="agcu-a">a</span>l. In <span
+      class="agcu-a">a</span>ddition to the iss<span class="agcu-u">u</span>es
+      rel<span class="agcu-a">a</span>ted to s<span
+      class="agcu-u">u</span>rveill<span class="agcu-a">a</span>n<span
+      class="agcu-c">c</span>e <span class="agcu-a">a</span>nd the invisible
+      infr<span class="agcu-a">a</span>str<span class="agcu-u">u</span><span
+      class="agcu-c">c</span>t<span class="agcu-u">u</span>res of the internet,
+      we <span class="agcu-c">c</span><span class="agcu-a">a</span>n <span
+      class="agcu-a">a</span>lso think <span class="agcu-a">a</span>bo<span
+      class="agcu-u">u</span>t the fr<span class="agcu-a">a</span>min<span
+      class="agcu-g">g</span> <span class="agcu-c">c</span>re<span
+      class="agcu-a">a</span>ted by the te<span
+      class="agcu-c">c</span>hnolo<span class="agcu-g">g</span>ies we <span
+      class="agcu-u">u</span>se to <span class="agcu-c">c</span>omm<span
+      class="agcu-u">u</span>ni<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>te. Di<span class="agcu-g">g</span>it<span
+      class="agcu-a">a</span>lly presented  <a class="home-lightbox-link"
+      href="./frame/"> here </a> , the proje<span class="agcu-c">c</span>ts
+      <span class="agcu-c">c</span>re<span class="agcu-a">a</span>ted d<span
+      class="agcu-u">u</span>rin<span class="agcu-g">g</span> the residen<span
+      class="agcu-c">c</span>y <span class="agcu-a">a</span>re prod<span
+      class="agcu-u">u</span><span class="agcu-c">c</span>ts of these <span
+      class="agcu-c">c</span><span class="agcu-u">u</span>ts th<span
+      class="agcu-a">a</span>t re<span class="agcu-a">a</span><span
+      class="agcu-c">c</span>h beyond the bo<span class="agcu-u">u</span>nd<span
+      class="agcu-a">a</span>ries imposed by the ex<span
+      class="agcu-c">c</span>h<span class="agcu-a">a</span>n<span
+      class="agcu-g">g</span>e of texts <span class="agcu-a">a</span>nd <span
+      class="agcu-a">a</span><span class="agcu-u">u</span>dios, lives <span
+      class="agcu-a">a</span>nd zooms, <span class="agcu-a">a</span>nd th<span
+      class="agcu-u">u</span>s inh<span class="agcu-a">a</span>bit this sp<span
+      class="agcu-a">a</span><span class="agcu-c">c</span>e of possibilities
+      <span class="agcu-a">a</span>nd l<span class="agcu-a">a</span>tent desire.
+    flood: O<span class="agcu-u">u</span>r <span
+      class="agcu-c">c</span>ontempor<span class="agcu-a">a</span>ry me<span
+      class="agcu-a">a</span>ns of <span class="agcu-c">c</span>omm<span
+      class="agcu-u">u</span>ni<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>tion h<span class="agcu-a">a</span>ve <span
+      class="agcu-c">c</span>re<span class="agcu-a">a</span>ted new w<span
+      class="agcu-a">a</span>ys of intoxi<span class="agcu-c">c</span><span
+      class="agcu-a">a</span>tion. The <span class="agcu-a">a</span>mo<span
+      class="agcu-u">u</span>nt of <span class="agcu-c">c</span>ontent prod<span
+      class="agcu-u">u</span><span class="agcu-c">c</span>ed, the speed of
+      dissemin<span class="agcu-a">a</span>tion <span class="agcu-a">a</span>nd
+      the lon<span class="agcu-g">g</span> re<span class="agcu-a">a</span><span
+      class="agcu-c">c</span>h of inform<span class="agcu-a">a</span>tion
+      overflowed the internet. They <span class="agcu-c">c</span>ompete for
+      o<span class="agcu-u">u</span>r <span class="agcu-a">a</span>ttention.
+      Psy<span class="agcu-c">c</span>holo<span class="agcu-g">g</span>y <span
+      class="agcu-a">a</span>nd ne<span class="agcu-u">u</span>ros<span
+      class="agcu-c">c</span>ien<span class="agcu-c">c</span>e h<span
+      class="agcu-a">a</span>ve <span class="agcu-a">a</span>lre<span
+      class="agcu-a">a</span>dy informed <span class="agcu-u">u</span>s th<span
+      class="agcu-a">a</span>t we h<span class="agcu-a">a</span>ve limited
+      stor<span class="agcu-a">a</span><span class="agcu-g">g</span>e <span
+      class="agcu-c">c</span><span class="agcu-a">a</span>p<span
+      class="agcu-a">a</span><span class="agcu-c">c</span>ities in o<span
+      class="agcu-u">u</span>r <span class="agcu-c">c</span>onf<span
+      class="agcu-u">u</span>sed memories. B<span class="agcu-u">u</span>t
+      still, we <span class="agcu-c">c</span>ontin<span class="agcu-u">u</span>e
+      to swim tirelessly in this flood of d<span class="agcu-a">a</span>t<span
+      class="agcu-a">a</span>. <br>  <br> The internet, <span
+      class="agcu-a">a</span>mon<span class="agcu-g">g</span> so m<span
+      class="agcu-a">a</span>ny thin<span class="agcu-g">g</span>s, h<span
+      class="agcu-a">a</span>s be<span class="agcu-c">c</span>ome o<span
+      class="agcu-u">u</span>r sh<span class="agcu-a">a</span>red libr<span
+      class="agcu-a">a</span>ry. D<span class="agcu-u">u</span>rin<span
+      class="agcu-g">g</span> o<span class="agcu-u">u</span>r meetin<span
+      class="agcu-g">g</span>s, we ex<span class="agcu-c">c</span>h<span
+      class="agcu-a">a</span>n<span class="agcu-g">g</span>ed im<span
+      class="agcu-a">a</span><span class="agcu-g">g</span>es, videos, <span
+      class="agcu-a">a</span><span class="agcu-u">u</span>dios, books, b<span
+      class="agcu-u">u</span>t <span class="agcu-a">a</span>bove <span
+      class="agcu-a">a</span>ll, we ex<span class="agcu-c">c</span>h<span
+      class="agcu-a">a</span>n<span class="agcu-g">g</span>ed  <a
+      class="home-lightbox-link" href="./flood/"> links </a> .
+    flux: Telepresen<span class="agcu-c">c</span>e is the presen<span
+      class="agcu-c">c</span>e <span class="agcu-a">a</span>llowed <span
+      class="agcu-a">a</span>t <span class="agcu-a">a</span> dist<span
+      class="agcu-a">a</span>n<span class="agcu-c">c</span>e. <span
+      class="agcu-a">A</span> presen<span class="agcu-c">c</span>e f<span
+      class="agcu-a">a</span>r <span class="agcu-a">a</span>w<span
+      class="agcu-a">a</span>y. This presen<span class="agcu-c">c</span>e-<span
+      class="agcu-a">a</span>bsen<span class="agcu-c">c</span>e of 7 <span
+      class="agcu-a">a</span>rtists, 2 <span class="agcu-c">c</span><span
+      class="agcu-u">u</span>r<span class="agcu-a">a</span>tors <span
+      class="agcu-a">a</span>nd 5 <span class="agcu-g">g</span><span
+      class="agcu-u">u</span>ests w<span class="agcu-a">a</span>s <span
+      class="agcu-c">c</span>omposed d<span class="agcu-u">u</span>rin<span
+      class="agcu-g">g</span> Vir<span class="agcu-u">u</span>s-19 by 144,793
+      se<span class="agcu-c">c</span>onds, 1,642 kbps of b<span
+      class="agcu-a">a</span>ndwidth of video <span
+      class="agcu-u">u</span>plo<span class="agcu-a">a</span>d, 3,135 kbps of
+      s<span class="agcu-c">c</span>reen sh<span class="agcu-a">a</span>rin<span
+      class="agcu-g">g</span>, 613 <span class="agcu-a">a</span><span
+      class="agcu-u">u</span>dio p<span class="agcu-a">a</span><span
+      class="agcu-c">c</span>kets re<span class="agcu-c">c</span>eived. D<span
+      class="agcu-a">a</span>t<span class="agcu-a">a</span> is <span
+      class="agcu-a">a</span> new fl<span class="agcu-u">u</span>id th<span
+      class="agcu-a">a</span>t <span class="agcu-a">a</span>lso needs m<span
+      class="agcu-a">a</span>sks <span class="agcu-a">a</span>nd filters for
+      so<span class="agcu-c">c</span>i<span class="agcu-a">a</span>l inter<span
+      class="agcu-a">a</span><span class="agcu-c">c</span>tion. <br> <span
+      class="agcu-c">C</span>onfirm  <a class="home-lightbox-link"
+      href="./flux/"> here </a>  the n<span class="agcu-u">u</span>mbers th<span
+      class="agcu-a">a</span>t medi<span class="agcu-a">a</span>ted <span
+      class="agcu-u">u</span>s.
+    embody: Virt<span class="agcu-u">u</span><span class="agcu-a">a</span>liz<span
+      class="agcu-a">a</span>tion <span class="agcu-u">u</span>ndo<span
+      class="agcu-u">u</span>btedly <span class="agcu-a">a</span>ffe<span
+      class="agcu-c">c</span>ts <span class="agcu-a">a</span>ll forms of
+      bein<span class="agcu-g">g</span> to<span class="agcu-g">g</span>ether.
+      New ne<span class="agcu-u">u</span>r<span class="agcu-a">a</span>l <span
+      class="agcu-c">c</span>onne<span class="agcu-c">c</span>tions <span
+      class="agcu-a">a</span>re m<span class="agcu-a">a</span>de <span
+      class="agcu-a">a</span>nd re-sensitized. The body of the m<span
+      class="agcu-a">a</span><span class="agcu-c">c</span>hine is the body of
+      <span class="agcu-g">g</span><span class="agcu-a">a</span>i<span
+      class="agcu-a">a</span>, with b<span class="agcu-u">u</span><span
+      class="agcu-g">g</span>s, vir<span class="agcu-u">u</span>ses... We <span
+      class="agcu-c">c</span>re<span class="agcu-a">a</span>te m<span
+      class="agcu-a">a</span>ps of sensory zones <span class="agcu-a">a</span>nd
+      try to per<span class="agcu-c">c</span>eive their s<span
+      class="agcu-u">u</span>bst<span class="agcu-a">a</span>n<span
+      class="agcu-c">c</span>e thro<span class="agcu-u">u</span><span
+      class="agcu-g">g</span>h s<span class="agcu-c">c</span>reens, the pl<span
+      class="agcu-a">a</span><span class="agcu-c">c</span>e where we <span
+      class="agcu-c">c</span>oexist witho<span class="agcu-u">u</span>t m<span
+      class="agcu-a">a</span>tter. <br>  <br> P<span
+      class="agcu-a">a</span>rti<span class="agcu-c">c</span>ip<span
+      class="agcu-a">a</span>nts were <span class="agcu-c">c</span>hosen by
+      <span class="agcu-a">a</span>l<span class="agcu-g">g</span>orithms. <span
+      class="agcu-a">A</span> n<span class="agcu-a">a</span>t<span
+      class="agcu-u">u</span>r<span class="agcu-a">a</span>l sele<span
+      class="agcu-c">c</span>tion by <span class="agcu-a">a</span>rtifi<span
+      class="agcu-c">c</span>i<span class="agcu-a">a</span>l me<span
+      class="agcu-a">a</span>ns. Vir<span class="agcu-u">u</span>s-19 formed
+      like mole<span class="agcu-c">c</span><span class="agcu-u">u</span>les
+      th<span class="agcu-a">a</span>t <span class="agcu-a">a</span>ttr<span
+      class="agcu-a">a</span><span class="agcu-c">c</span>t e<span
+      class="agcu-a">a</span><span class="agcu-c">c</span>h other. We no<span
+      class="agcu-u">u</span>rished o<span class="agcu-u">u</span>rselves from
+      time to time with spe<span class="agcu-c">c</span>ifi<span
+      class="agcu-c">c</span>, s<span class="agcu-u">u</span>bst<span
+      class="agcu-a">a</span>nti<span class="agcu-a">a</span>l knowled<span
+      class="agcu-g">g</span>e from o<span class="agcu-u">u</span>r networks.
+      Symbioti<span class="agcu-c">c</span> rel<span
+      class="agcu-a">a</span>tionships with no <span
+      class="agcu-a">a</span>n<span class="agcu-a">a</span>tomy, where or<span
+      class="agcu-g">g</span><span class="agcu-a">a</span>ns <span
+      class="agcu-c">c</span>ir<span class="agcu-c">c</span><span
+      class="agcu-u">u</span>l<span class="agcu-a">a</span>te between the
+      virt<span class="agcu-u">u</span><span class="agcu-a">a</span>l <span
+      class="agcu-a">a</span>nd the <span class="agcu-c">c</span><span
+      class="agcu-u">u</span>rrent, dil<span class="agcu-u">u</span>tin<span
+      class="agcu-g">g</span> the body\'s borders. Pi<span
+      class="agcu-c">c</span>t<span class="agcu-u">u</span>red  <a
+      class="home-lightbox-link" href="./embody/"> here </a> , those involved in
+      this mesh.
+    systems: On Febr<span class="agcu-u">u</span><span class="agcu-a">a</span>ry
+      26th 2020, Br<span class="agcu-a">a</span>zil h<span
+      class="agcu-a">a</span>d its first <span class="agcu-c">C</span>OVID <span
+      class="agcu-c">c</span><span class="agcu-a">a</span>se <span
+      class="agcu-c">c</span>onfirmed. <span class="agcu-a">A</span>s <span
+      class="agcu-a">a</span>n infe<span class="agcu-c">c</span>ted body, this
+      site is bein<span class="agcu-g">g</span> tr<span
+      class="agcu-a">a</span>nsformed. While there is still time, see here the
+      effe<span class="agcu-c">c</span>ts of the <span
+      class="agcu-c">c</span>re<span class="agcu-a">a</span>tive residen<span
+      class="agcu-c">c</span>y Vir<span class="agcu-u">u</span>s-19.
