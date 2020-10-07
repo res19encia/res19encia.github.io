@@ -3,7 +3,7 @@ curators:
     title:
       en: 'Curator''s Note'
       pt: 'Notas do Curador'
-    slug: 'mari-nagem'
+    slug: 'mringem'
     medium:
       pt: 'Desenho digital por software customizado | 3568 x 2008 px'
       en: 'Digital drawing using custom software | 3568 x 2008 px'
@@ -22,7 +22,7 @@ curators:
       en:
         - 'artist''s face analyzed at curator''s screen'
         - 'curator''s face captured and analyzed by the camera'
-        - 'x = time of emotion analyses (in minutes) y = intensity of emotions (% of happiness)'
+        - 'X = time of emotion analyses (in minutes) Y = intensity of emotions (% of happiness)'
       pt:
         - 'Rosto do artista analizado na tela da curadora'
         - 'Rosto da curadora capturado e analizado pela camera'
@@ -42,7 +42,7 @@ artists:
     title:
       pt: 'O Grande Som'
       en: 'Great Rumble'
-    slug: 'anais-karenin'
+    slug: 'nis'
     medium:
       pt: 'Arte sonora / vídeo arte | 04m08s | 1080p | 2020'
       en: 'Sound art / video art | 04m08s | 1080p | 2020'
@@ -55,7 +55,7 @@ artists:
 
   - artist: 'Thiago Hersan'
     title: 'outra.s'
-    slug: 'thiago-hersan'
+    slug: 'thio'
     link:
       text:
         pt: 'clique aqui para acessar o site OUTRA.S'
@@ -74,7 +74,7 @@ artists:
 
   - artist: 'Artur Ched'
     title: 'a(eferente)'
-    slug: 'artur-ched'
+    slug: 'rtr'
     medium:
       pt: 'Planta baixa 1 | Desenho digital | 7547 passos | 2020'
       en: 'Blueprint 1 | Digital Drawing | 7547 steps | 2020'
@@ -89,7 +89,7 @@ artists:
     title:
       pt: 'Pesares Parasitas'
       en: 'Parasite Sorrows'
-    slug: 'eduardo-padilha'
+    slug: 'edrdo'
     medium:
       pt: 'Fotografia com celular | Vidrarias de laboratório, papel, arrependimentos, sequências proteicas do vírus Sars-Cov-2 | 2020'
       en: 'Cellphone photography | Laboratory glassware, paper, regrets, protein sequence of Sars-Cov-2 virus | 2020'
@@ -104,7 +104,7 @@ artists:
     title:
       pt: 'Entrevista com o morcego'
       en: 'The bat chronicles'
-    slug: 'fernando-tome'
+    slug: 'fernndo'
     link:
       text:
         pt: 'clique aqui para baixar o livro'
@@ -122,7 +122,7 @@ artists:
 
   - artist: 'Luccas Morais'
     title: 'LIVE2020'
-    slug: 'luccas-morais'
+    slug: 'ls'
     link:
       text:
         pt: 'clique aqui para acessar o site LIVE2020'
@@ -142,7 +142,7 @@ artists:
     title:
       pt: 'Se vírus falasse'
       en: 'If the virus could speak'
-    slug: 'paulina-cho'
+    slug: 'plin'
     medium:
       pt: '606 minutos de áudio | 10m16s de vídeo | Gravação e mix de áudio usando Google Meet e Zoom | 2020'
       en: '606 minutes of audio | 10m16s of video | Audio recorded and mixed using Google Meet and Zoom | 2020'
@@ -155,7 +155,7 @@ artists:
 
   - artist: 'Lina Lopes'
     title: 'e-ATable'
-    slug: 'lina-lopes'
+    slug: 'lin'
     medium:
       pt: 'Fungos, cúrcuma, carvão e intestino | 2020'
       en: 'Fungi, turmeric, coal and intestines | 2020'

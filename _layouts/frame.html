@@ -35,7 +35,8 @@
             </div>
 
             <div class="frame-showcase-container">
-              {% include frame/{{a.slug }}.html medium=amedium %}
+              {% assign mslug = site.data.slugslug[a.slug] %}
+              {% include frame/{{ mslug }}.html medium=amedium %}
             </div>
 
             <div class="art-description">
@@ -84,7 +85,8 @@
 
           <div class="frame-showcase-container">
             {% assign cmedium = c.title[PAGE_LANGUAGE] | append: ' | ' | append: c.medium[PAGE_LANGUAGE] %}
-            {% include frame/{{c.slug }}.html medium=cmedium %}
+            {% assign mslug = site.data.slugslug[c.slug] %}
+            {% include frame/{{ mslug }}.html medium=cmedium %}
           </div>
 
         </div>
