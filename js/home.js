@@ -310,10 +310,10 @@ $(document).ready(function() {
 
     if (window.location.href.includes('pt')) {
       lightboxTitle.innerHTML = 'sistemas';
-      lightboxContent.innerHTML = '{{ site.data.home["pt"]["descriptions"]["systems"] }}';
+      lightboxContent.innerHTML = '{{ site.data.fixed.systems["pt"] }}';
     } else {
       lightboxTitle.innerHTML = 'systems';
-      lightboxContent.innerHTML = '{{ site.data.home["en"]["descriptions"]["systems"] }}';
+      lightboxContent.innerHTML = '{{ site.data.fixed.systems["en"] }}';
     }
   });
 
@@ -324,10 +324,6 @@ $(document).ready(function() {
   lightboxContainer.addEventListener('click', (e) => {
     const event = e || window.event;
     event.stopPropagation();
-  });
-
-  introOverlay.addEventListener('click', () => {
-    //introOverlay.classList.remove('show');
   });
 
   introContainer.addEventListener('click', (e) => {
