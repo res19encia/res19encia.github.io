@@ -18,7 +18,7 @@
           <div class="frame-showcase-container">
             <div class="frame-showcase flood-showcase">
               {% assign imgs = site.static_files |
-                               where_exp:"file","file.path contains 'flood'" |
+                               where_exp:"file","file.path contains 'images/flood'" |
                                where_exp:"file","file.path contains 'flood_'" %}
 
               <div class="showcase-main-image-container">
