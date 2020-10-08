@@ -1,11 +1,11 @@
 <div class="frame-showcase mari-nagem-showcase">
   {% assign imgs = site.static_files |
-                   where_exp:"file","file.path contains 'frame'" |
+                   where_exp:"file","file.path contains 'images/frame'" |
                    where_exp:"file","file.path contains 'mari-nagem_'" |
                    where_exp:"file","file.path contains 'jpg'" %}
 
   {% assign movs = site.static_files |
-                   where_exp:"file","file.path contains 'frame'" |
+                   where_exp:"file","file.path contains 'images/frame'" |
                    where_exp:"file","file.path contains 'mari-nagem_'" |
                    where_exp:"file","file.path contains 'webm'" %}
 

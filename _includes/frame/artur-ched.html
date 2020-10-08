@@ -1,6 +1,6 @@
 <div class="frame-showcase artur-ched-showcase">
   {% assign imgs = site.static_files |
-                   where_exp:"file","file.path contains 'frame'" |
+                   where_exp:"file","file.path contains 'images/frame'" |
                    where_exp:"file","file.path contains 'artur-ched_'" %}
   {% assign msteps = '7547,0,0,0,20156,0,3756,0,16037,0,2507,0,12287,0' | split: ',' %}
 
